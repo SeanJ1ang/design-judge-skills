@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/readme-banner-en.png" alt="Design Judge Skills English banner" width="100%">
+
 # Design Judge Skills
 
 Evidence-driven Agent Skills for the design-award workflow: winner research, design evaluation, award matching, entry writing, and final submission review.
