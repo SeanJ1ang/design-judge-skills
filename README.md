@@ -4,12 +4,12 @@
 
 面向设计奖全流程的证据驱动 Agent Skills：从获奖案例检索、设计评价和奖项匹配，到申报文字准备与提交终检。
 
-[![Agent Skills](https://img.shields.io/badge/Agent-Skills-111827?style=flat-square)](https://agentskills.io/)
-[![Skills](https://img.shields.io/badge/skills-6-2563eb?style=flat-square)](#6-技能索引)
-[![GitHub stars](https://img.shields.io/github/stars/SeanJ1ang/design-judge-skills?style=flat-square)](https://github.com/SeanJ1ang/design-judge-skills/stargazers)
-[![Language](https://img.shields.io/badge/language-中文%20%7C%20English-16a34a?style=flat-square)](#)
+[![License](https://img.shields.io/badge/license-Apache--2.0-2ea44f)](LICENSE)
+[![Install](https://img.shields.io/badge/install-Claude%20Code%20%7C%20Codex%20%7C%20OpenClaw%20%7C%20OpenCode%20%7C%20Hermes-111827)](#5-安装)
+[![Skills](https://img.shields.io/badge/skills-5-0ea5e9)](#6-技能索引)
+[![Language](https://img.shields.io/badge/language-中文%20%7C%20English-1f6feb)](README_EN.md)
 
-[快速开始](#4-快速开始) · [安装](#5-安装) · [技能索引](#6-技能索引) · [贡献与开发](#7-贡献与开发) · [Star 历史](#8-star-历史)
+[快速开始](#4-快速开始) · [安装](#5-安装) · [技能索引](#6-技能索引) · [贡献与开发](#7-贡献与开发) · [Star 历史](#8-star-历史) · [English](README_EN.md)
 
 </div>
 
@@ -161,7 +161,14 @@ npx skills add SeanJ1ang/design-judge-skills --global --agent codex --skill '*' 
 
 ### 5.4 其他 Agent 场景
 
-对 OpenCode、Cursor、Cline、Gemini CLI 等受 `npx skills` 支持的 Agent，可以使用相应的 `--agent` 标识，或直接安装到全部 Agent：
+对 OpenClaw、OpenCode、Hermes Agent、Cursor、Cline、Gemini CLI 等受 `npx skills` 支持的 Agent，可以使用相应的 `--agent` 标识：
+
+```bash
+npx skills add SeanJ1ang/design-judge-skills --global --skill '*' --yes --copy \
+  --agent openclaw --agent opencode --agent hermes-agent
+```
+
+也可以直接安装到 CLI 支持的全部 Agent：
 
 ```bash
 npx skills add SeanJ1ang/design-judge-skills --all
