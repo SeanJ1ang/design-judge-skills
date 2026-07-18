@@ -13,7 +13,7 @@
 
 </div>
 
-`design-judge-skills` 将设计奖申报拆成边界清晰、可单独触发和验证的技能。它强调官方来源、证据定位和透明评分，不模拟官方评委，也不把适配度解释为获奖概率。
+`design-judge-skills` 将设计奖申报拆解为边界清晰、可独立触发与验证的技能模块，围绕官方来源、证据定位与透明评分构建可追溯的辅助决策流程，并依据公开标准比较申报路径、解释适配度与确定申报优先级。
 
 ## 目录
 
@@ -253,4 +253,4 @@ npx skills add . --list
 
 ## 8. Star 历史
 
-[![Star History Chart](https://api.star-history.com/svg?repos=SeanJ1ang/design-judge-skills&type=Date)](https://star-history.com/#SeanJ1ang/design-judge-skills&Date)
+[![Star History Chart](https://api.star-history.com/image?repos=SeanJ1ang/design-judge-skills&type=Date)](https://www.star-history.com/SeanJ1ang/design-judge-skills)

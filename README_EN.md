@@ -13,7 +13,7 @@ Evidence-driven Agent Skills for the design-award workflow: winner research, des
 
 </div>
 
-`design-judge-skills` breaks design-award work into focused skills that can be triggered and tested independently. It prioritizes official sources, traceable evidence, and transparent scoring. It does not simulate an official jury or present fit scores as probabilities of winning.
+`design-judge-skills` organizes the design-award journey into clearly bounded, independently triggerable, and testable skill modules. It builds traceable decision support around official sources, evidence anchors, and transparent scoring, using published criteria to compare submission routes, interpret fit, and set priorities.
 
 ## Contents
 
@@ -253,4 +253,4 @@ Issues that report rule changes, failing cases, or compatibility problems are we
 
 ## 8. Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=SeanJ1ang/design-judge-skills&type=Date)](https://star-history.com/#SeanJ1ang/design-judge-skills&Date)
+[![Star History Chart](https://api.star-history.com/image?repos=SeanJ1ang/design-judge-skills&type=Date)](https://www.star-history.com/SeanJ1ang/design-judge-skills)
