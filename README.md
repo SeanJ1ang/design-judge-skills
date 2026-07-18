@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/readme-banner-cn.png" alt="Design Judge Skills 中文横幅" width="100%">
+
 # Design Judge Skills
 
 面向设计奖全流程的证据驱动 Agent Skills：从获奖案例检索、设计评价和奖项匹配，到申报文字准备与提交终检。
