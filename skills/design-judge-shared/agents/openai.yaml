@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Judge Shared"
+  short_description: "Shared taxonomy and official award-source rules"
+  default_prompt: "Use $design-judge-shared only as supporting context for another Design Judge skill."

@@ -1,0 +1,496 @@
+{
+  "schema_version": 1,
+  "profile_scope": "if_student_sdg_theme",
+  "minimum_sample_size": 30,
+  "profile_count": 6,
+  "profiles": {
+    "Goodhealth + Well-Being": {
+      "profile_id": "if-student-sdg-03",
+      "profile_type": "observed_student_winner_category_context",
+      "allowed_maturity": "student_concept",
+      "normalized_category": "Goodhealth + Well-Being",
+      "sdg_number": 3,
+      "canonical_category": "Medical and Health",
+      "primary_sector": "healthcare",
+      "focus_tags": [
+        "social_impact_inclusion",
+        "safety_emergency"
+      ],
+      "discipline_inference": "not_allowed_from_sdg_category",
+      "observed_metrics": {
+        "sample_size": 123,
+        "year_counts": {
+          "2022": 21,
+          "2023": 26,
+          "2024": 18,
+          "2025": 32,
+          "2026": 26
+        },
+        "award_level_counts": {
+          "Gold": 15,
+          "Winner": 108
+        },
+        "country_region_count": 25,
+        "structured_field_coverage": {
+          "statement": 1.0,
+          "winner_statement": 0.9512,
+          "hashtags": 0.9756,
+          "professor": 0.0,
+          "target_groups": 0.0,
+          "date_of_launch": 0.0,
+          "development_time": 0.0
+        },
+        "image_count": {
+          "minimum": 2,
+          "median": 4,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 3.82
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "innovation_differentiation",
+          "solution_integrity",
+          "responsibility_sustainability"
+        ],
+        "evidence_prompts": [
+          "Show credible evidence that the problem exists and identify who is affected.",
+          "Explain the mechanism connecting the concept to the claimed outcome.",
+          "Identify stakeholders, dependencies, exclusion risks, and unintended harm.",
+          "Show a prototype, scenario test, or realistic validation plan appropriate to student-concept maturity.",
+          "Bound social and environmental impact claims to evidence that is actually supplied."
+        ],
+        "presentation_expectations": [
+          "problem_evidence",
+          "beneficiary_or_user_scenario",
+          "concept_principle",
+          "stakeholder_or_system_logic",
+          "prototype_or_scenario_test",
+          "validation_and_impact_plan"
+        ],
+        "theme_evidence": [
+          "health need and target population",
+          "safety and misuse risk",
+          "validation boundary for health claims"
+        ]
+      },
+      "confidence": "high",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Student-concept use only; reject Mature Work.",
+        "Winner-only sample; no non-winning comparison group.",
+        "The SDG category is a thematic context and must not determine design discipline.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Quality Education": {
+      "profile_id": "if-student-sdg-04",
+      "profile_type": "observed_student_winner_category_context",
+      "allowed_maturity": "student_concept",
+      "normalized_category": "Quality Education",
+      "sdg_number": 4,
+      "canonical_category": "Children and Education",
+      "primary_sector": "education",
+      "focus_tags": [
+        "social_impact_inclusion"
+      ],
+      "discipline_inference": "not_allowed_from_sdg_category",
+      "observed_metrics": {
+        "sample_size": 40,
+        "year_counts": {
+          "2022": 7,
+          "2023": 4,
+          "2024": 6,
+          "2025": 11,
+          "2026": 12
+        },
+        "award_level_counts": {
+          "Gold": 6,
+          "Winner": 34
+        },
+        "country_region_count": 13,
+        "structured_field_coverage": {
+          "statement": 1.0,
+          "winner_statement": 0.85,
+          "hashtags": 0.975,
+          "professor": 0.0,
+          "target_groups": 0.0,
+          "date_of_launch": 0.0,
+          "development_time": 0.0
+        },
+        "image_count": {
+          "minimum": 2,
+          "median": 4.0,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 3.85
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "innovation_differentiation",
+          "solution_integrity",
+          "responsibility_sustainability"
+        ],
+        "evidence_prompts": [
+          "Show credible evidence that the problem exists and identify who is affected.",
+          "Explain the mechanism connecting the concept to the claimed outcome.",
+          "Identify stakeholders, dependencies, exclusion risks, and unintended harm.",
+          "Show a prototype, scenario test, or realistic validation plan appropriate to student-concept maturity.",
+          "Bound social and environmental impact claims to evidence that is actually supplied."
+        ],
+        "presentation_expectations": [
+          "problem_evidence",
+          "beneficiary_or_user_scenario",
+          "concept_principle",
+          "stakeholder_or_system_logic",
+          "prototype_or_scenario_test",
+          "validation_and_impact_plan"
+        ],
+        "theme_evidence": [
+          "learner and context",
+          "learning mechanism",
+          "accessibility and safeguarding"
+        ]
+      },
+      "confidence": "medium",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Student-concept use only; reject Mature Work.",
+        "Winner-only sample; no non-winning comparison group.",
+        "The SDG category is a thematic context and must not determine design discipline.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Industry, Innovation + Infrastructure": {
+      "profile_id": "if-student-sdg-09",
+      "profile_type": "observed_student_winner_category_context",
+      "allowed_maturity": "student_concept",
+      "normalized_category": "Industry, Innovation + Infrastructure",
+      "sdg_number": 9,
+      "canonical_category": "Commercial and Industrial",
+      "primary_sector": "industrial",
+      "focus_tags": [
+        "sustainability_circularity"
+      ],
+      "discipline_inference": "not_allowed_from_sdg_category",
+      "observed_metrics": {
+        "sample_size": 46,
+        "year_counts": {
+          "2022": 15,
+          "2023": 10,
+          "2024": 4,
+          "2025": 13,
+          "2026": 4
+        },
+        "award_level_counts": {
+          "Gold": 3,
+          "Winner": 43
+        },
+        "country_region_count": 14,
+        "structured_field_coverage": {
+          "statement": 1.0,
+          "winner_statement": 0.9348,
+          "hashtags": 0.913,
+          "professor": 0.0,
+          "target_groups": 0.0,
+          "date_of_launch": 0.0,
+          "development_time": 0.0
+        },
+        "image_count": {
+          "minimum": 2,
+          "median": 4.0,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 3.57
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "innovation_differentiation",
+          "solution_integrity",
+          "responsibility_sustainability"
+        ],
+        "evidence_prompts": [
+          "Show credible evidence that the problem exists and identify who is affected.",
+          "Explain the mechanism connecting the concept to the claimed outcome.",
+          "Identify stakeholders, dependencies, exclusion risks, and unintended harm.",
+          "Show a prototype, scenario test, or realistic validation plan appropriate to student-concept maturity.",
+          "Bound social and environmental impact claims to evidence that is actually supplied."
+        ],
+        "presentation_expectations": [
+          "problem_evidence",
+          "beneficiary_or_user_scenario",
+          "concept_principle",
+          "stakeholder_or_system_logic",
+          "prototype_or_scenario_test",
+          "validation_and_impact_plan"
+        ],
+        "theme_evidence": [
+          "infrastructure or production bottleneck",
+          "technical mechanism",
+          "scale, maintenance, and resource assumptions"
+        ]
+      },
+      "confidence": "medium",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Student-concept use only; reject Mature Work.",
+        "Winner-only sample; no non-winning comparison group.",
+        "The SDG category is a thematic context and must not determine design discipline.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Reduced Inequalities": {
+      "profile_id": "if-student-sdg-10",
+      "profile_type": "observed_student_winner_category_context",
+      "allowed_maturity": "student_concept",
+      "normalized_category": "Reduced Inequalities",
+      "sdg_number": 10,
+      "canonical_category": "Accessibility and Inclusive Design",
+      "primary_sector": "public_service",
+      "focus_tags": [
+        "social_impact_inclusion"
+      ],
+      "discipline_inference": "not_allowed_from_sdg_category",
+      "observed_metrics": {
+        "sample_size": 33,
+        "year_counts": {
+          "2022": 9,
+          "2023": 6,
+          "2024": 7,
+          "2025": 4,
+          "2026": 7
+        },
+        "award_level_counts": {
+          "Gold": 4,
+          "Winner": 29
+        },
+        "country_region_count": 11,
+        "structured_field_coverage": {
+          "statement": 1.0,
+          "winner_statement": 0.9394,
+          "hashtags": 1.0,
+          "professor": 0.0,
+          "target_groups": 0.0,
+          "date_of_launch": 0.0,
+          "development_time": 0.0
+        },
+        "image_count": {
+          "minimum": 2,
+          "median": 4,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 3.76
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "innovation_differentiation",
+          "solution_integrity",
+          "responsibility_sustainability"
+        ],
+        "evidence_prompts": [
+          "Show credible evidence that the problem exists and identify who is affected.",
+          "Explain the mechanism connecting the concept to the claimed outcome.",
+          "Identify stakeholders, dependencies, exclusion risks, and unintended harm.",
+          "Show a prototype, scenario test, or realistic validation plan appropriate to student-concept maturity.",
+          "Bound social and environmental impact claims to evidence that is actually supplied."
+        ],
+        "presentation_expectations": [
+          "problem_evidence",
+          "beneficiary_or_user_scenario",
+          "concept_principle",
+          "stakeholder_or_system_logic",
+          "prototype_or_scenario_test",
+          "validation_and_impact_plan"
+        ],
+        "theme_evidence": [
+          "excluded population evidence",
+          "accessibility and affordability",
+          "power, fairness, and unintended exclusion"
+        ]
+      },
+      "confidence": "medium",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Student-concept use only; reject Mature Work.",
+        "Winner-only sample; no non-winning comparison group.",
+        "The SDG category is a thematic context and must not determine design discipline.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Sustainable Cities + Communities": {
+      "profile_id": "if-student-sdg-11",
+      "profile_type": "observed_student_winner_category_context",
+      "allowed_maturity": "student_concept",
+      "normalized_category": "Sustainable Cities + Communities",
+      "sdg_number": 11,
+      "canonical_category": "Environment and Spatial Design",
+      "primary_sector": "public_service",
+      "focus_tags": [
+        "social_impact_inclusion",
+        "sustainability_circularity"
+      ],
+      "discipline_inference": "not_allowed_from_sdg_category",
+      "observed_metrics": {
+        "sample_size": 32,
+        "year_counts": {
+          "2022": 3,
+          "2023": 5,
+          "2024": 8,
+          "2025": 9,
+          "2026": 7
+        },
+        "award_level_counts": {
+          "Gold": 4,
+          "Winner": 28
+        },
+        "country_region_count": 17,
+        "structured_field_coverage": {
+          "statement": 1.0,
+          "winner_statement": 0.875,
+          "hashtags": 0.9688,
+          "professor": 0.0,
+          "target_groups": 0.0,
+          "date_of_launch": 0.0,
+          "development_time": 0.0
+        },
+        "image_count": {
+          "minimum": 2,
+          "median": 4.0,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 3.81
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "innovation_differentiation",
+          "solution_integrity",
+          "responsibility_sustainability"
+        ],
+        "evidence_prompts": [
+          "Show credible evidence that the problem exists and identify who is affected.",
+          "Explain the mechanism connecting the concept to the claimed outcome.",
+          "Identify stakeholders, dependencies, exclusion risks, and unintended harm.",
+          "Show a prototype, scenario test, or realistic validation plan appropriate to student-concept maturity.",
+          "Bound social and environmental impact claims to evidence that is actually supplied."
+        ],
+        "presentation_expectations": [
+          "problem_evidence",
+          "beneficiary_or_user_scenario",
+          "concept_principle",
+          "stakeholder_or_system_logic",
+          "prototype_or_scenario_test",
+          "validation_and_impact_plan"
+        ],
+        "theme_evidence": [
+          "place and community context",
+          "stakeholder and system interaction",
+          "resilience, access, and long-term operation"
+        ]
+      },
+      "confidence": "medium",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Student-concept use only; reject Mature Work.",
+        "Winner-only sample; no non-winning comparison group.",
+        "The SDG category is a thematic context and must not determine design discipline.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Responsible Consumption + Production": {
+      "profile_id": "if-student-sdg-12",
+      "profile_type": "observed_student_winner_category_context",
+      "allowed_maturity": "student_concept",
+      "normalized_category": "Responsible Consumption + Production",
+      "sdg_number": 12,
+      "canonical_category": "Sustainability and Circular Design",
+      "primary_sector": "energy_environment",
+      "focus_tags": [
+        "sustainability_circularity"
+      ],
+      "discipline_inference": "not_allowed_from_sdg_category",
+      "observed_metrics": {
+        "sample_size": 53,
+        "year_counts": {
+          "2022": 10,
+          "2023": 9,
+          "2024": 9,
+          "2025": 13,
+          "2026": 12
+        },
+        "award_level_counts": {
+          "Gold": 1,
+          "Winner": 52
+        },
+        "country_region_count": 14,
+        "structured_field_coverage": {
+          "statement": 1.0,
+          "winner_statement": 0.8868,
+          "hashtags": 1.0,
+          "professor": 0.0,
+          "target_groups": 0.0,
+          "date_of_launch": 0.0,
+          "development_time": 0.0
+        },
+        "image_count": {
+          "minimum": 2,
+          "median": 4,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 3.85
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "innovation_differentiation",
+          "solution_integrity",
+          "responsibility_sustainability"
+        ],
+        "evidence_prompts": [
+          "Show credible evidence that the problem exists and identify who is affected.",
+          "Explain the mechanism connecting the concept to the claimed outcome.",
+          "Identify stakeholders, dependencies, exclusion risks, and unintended harm.",
+          "Show a prototype, scenario test, or realistic validation plan appropriate to student-concept maturity.",
+          "Bound social and environmental impact claims to evidence that is actually supplied."
+        ],
+        "presentation_expectations": [
+          "problem_evidence",
+          "beneficiary_or_user_scenario",
+          "concept_principle",
+          "stakeholder_or_system_logic",
+          "prototype_or_scenario_test",
+          "validation_and_impact_plan"
+        ],
+        "theme_evidence": [
+          "material or consumption baseline",
+          "lifecycle and circular mechanism",
+          "rebound, logistics, and end-of-life risks"
+        ]
+      },
+      "confidence": "high",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Student-concept use only; reject Mature Work.",
+        "Winner-only sample; no non-winning comparison group.",
+        "The SDG category is a thematic context and must not determine design discipline.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    }
+  }
+}

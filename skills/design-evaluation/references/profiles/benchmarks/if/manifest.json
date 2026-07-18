@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "profile_set_id": "if-observed-winner-benchmarks-v1",
+  "profile_type": "observed_winner_context",
+  "source_program": "iF DESIGN AWARD",
+  "generated_at": "2026-07-14T03:33:55.934769+00:00",
+  "source_snapshot_sha256": "0fdb229e6458cb8ea81cd9e937421c0d74036d7fd307db657317cb428dc83789",
+  "dataset": {
+    "row_count": 10644,
+    "year_counts": {
+      "2024": 3778,
+      "2025": 3409,
+      "2026": 3457
+    },
+    "award_level_counts": {
+      "Gold": 224,
+      "Winner": 10420
+    },
+    "normalized_category_count": 104,
+    "discipline_profile_count": 9,
+    "category_profile_count": 32,
+    "minimum_category_sample_size": 100,
+    "canonical_category_mapped_count": 104,
+    "sector_mapped_count": 70
+  },
+  "quality_gate": {
+    "row_count": 10644,
+    "duplicate_entry_keys": 0,
+    "missing_categories": 0,
+    "missing_disciplines": 0,
+    "source_discipline_counts": {
+      "Architecture": 241,
+      "Branding & Communication Design": 805,
+      "Concepts": 563,
+      "Interior Architecture": 1339,
+      "Packaging Design": 485,
+      "Product Design": 6275,
+      "Service, System & Process Design": 200,
+      "User Experience (UX)": 486,
+      "User Interface (UI)": 250
+    }
+  },
+  "load_order": [
+    "category_profile",
+    "discipline_profile",
+    "core"
+  ],
+  "score_effect": "none",
+  "privacy": {
+    "aggregate_only": true,
+    "raw_records_published": false,
+    "excluded_fields": [
+      "canonical_url",
+      "client",
+      "clients",
+      "company",
+      "description",
+      "designer",
+      "designers",
+      "entry_key",
+      "image_hash",
+      "name",
+      "raw_payload",
+      "sha256",
+      "source_url",
+      "title"
+    ]
+  },
+  "review_status": "machine_generated_needs_human_review",
+  "limitations": [
+    "Contains awarded works only.",
+    "Does not represent official iF weights or jury scoring.",
+    "Cannot estimate winning probability.",
+    "Automated sector and focus mappings require human review before being treated as stable taxonomy."
+  ],
+  "files": {
+    "category_crosswalk": "category-crosswalk.json",
+    "discipline_profiles": "discipline-profiles.json",
+    "category_profiles": "category-profiles.json"
+  }
+}

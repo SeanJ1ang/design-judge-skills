@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "profile_set_id": "idea-observed-recognized-benchmarks-v1",
+  "profile_type": "observed_recognized_context",
+  "source_program": "International Design Excellence Awards (IDEA)",
+  "generated_at": "2026-07-14T09:34:53.484031+00:00",
+  "source_snapshot_sha256": "2abdeef6e94990629210726ce6fa2e828377a6cca6af4724156084acb718ba35",
+  "dataset": {
+    "row_count": 1024,
+    "year_counts": {
+      "2022": 1,
+      "2023": 356,
+      "2024": 373,
+      "2025": 294
+    },
+    "award_level_counts": {
+      "Bronze": 204,
+      "Featured Finalist": 601,
+      "Gold": 72,
+      "Silver": 147
+    },
+    "source_category_count": 25,
+    "normalized_category_count": 24,
+    "program_profile_count": 1,
+    "discipline_profile_count": 9,
+    "category_profile_count": 12,
+    "minimum_category_sample_size": 30,
+    "student_category_count": 74
+  },
+  "quality_gate": {
+    "row_count": 1024,
+    "duplicate_entry_keys": 0,
+    "missing_categories": 0,
+    "missing_years": 0,
+    "missing_award_levels": 0,
+    "source_category_count": 25,
+    "normalized_category_count": 24,
+    "award_level_counts": {
+      "Bronze": 204,
+      "Featured Finalist": 601,
+      "Gold": 72,
+      "Silver": 147
+    },
+    "student_category_count": 74,
+    "student_category_discipline_inference": "disabled"
+  },
+  "maturity_gate": {
+    "category": "Student Designs",
+    "allowed": [
+      "student_concept"
+    ],
+    "rejected": [
+      "mature_work"
+    ],
+    "on_rejected": "raise_error"
+  },
+  "discipline_membership": {
+    "type": "multi_label_non_additive",
+    "student_category_excluded": true,
+    "reason": "Digital Interaction, Environments, Furniture & Lighting, and Social Impact Design span more than one internal evaluation discipline."
+  },
+  "load_order": [
+    "category_profile",
+    "discipline_profile",
+    "program_profile",
+    "core"
+  ],
+  "score_effect": "none",
+  "privacy": {
+    "aggregate_only": true,
+    "raw_records_published": false,
+    "excluded_fields": [
+      "canonical_url",
+      "client",
+      "clients",
+      "company",
+      "description",
+      "designer",
+      "designers",
+      "entry_key",
+      "image_hash",
+      "name",
+      "raw_payload",
+      "sha256",
+      "source_url",
+      "title"
+    ]
+  },
+  "review_status": "machine_generated_needs_human_review",
+  "limitations": [
+    "Contains awarded works and Featured Finalists only.",
+    "Does not represent official IDEA weights or jury scoring.",
+    "Cannot estimate winning probability.",
+    "Internal multi-label discipline, canonical-category, sector, and focus mappings are provisional.",
+    "Student Designs is a maturity grouping and never determines design discipline."
+  ],
+  "files": {
+    "category_crosswalk": "category-crosswalk.json",
+    "program_profile": "program-profile.json",
+    "discipline_profiles": "discipline-profiles.json",
+    "category_profiles": "category-profiles.json"
+  }
+}

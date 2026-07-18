@@ -1,0 +1,43 @@
+{
+  "candidates": [
+    {
+      "award": "Example Design Award",
+      "track": "Product Design",
+      "category": "Healthcare",
+      "eligibility": "eligible",
+      "confidence": "high",
+      "ratings": {
+        "category_track_fit": 5,
+        "criteria_alignment": 4,
+        "award_positioning_fit": 4,
+        "competitive_evidence": 3,
+        "entry_feasibility": 4
+      },
+      "evidence": {
+        "category_track_fit": "The published category explicitly includes the project's primary function.",
+        "criteria_alignment": "Four of five published criteria have project-specific evidence.",
+        "award_positioning_fit": "The project maturity matches the award program's stated scope.",
+        "competitive_evidence": "A small verified winner sample supports partial differentiation.",
+        "entry_feasibility": "The applicant can prepare the core material types before the deadline."
+      }
+    },
+    {
+      "award": "Example Concept Award",
+      "track": "Concept",
+      "category": "Social Impact",
+      "eligibility": "unknown",
+      "confidence": "medium",
+      "ratings": {
+        "category_track_fit": 4,
+        "criteria_alignment": 5,
+        "award_positioning_fit": 5,
+        "competitive_evidence": 4,
+        "entry_feasibility": 3
+      },
+      "unresolved_eligibility": [
+        "Confirm whether the project's first publication date falls inside the official entry window."
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,17 @@
+{
+  "project": {
+    "name": "Example wearable health device",
+    "canonical_category": "Medical and Health",
+    "adjacent_categories": ["Accessibility and Inclusive Design"],
+    "primary_function": "Monitor a health signal and provide a timely intervention",
+    "target_user": "Adults in daily-life use",
+    "project_state": "student_concept",
+    "applicant_type": "student",
+    "applicant_country_or_region": "China",
+    "student_or_graduation_status_date": "2026-06-30",
+    "sdg_alignment": "SDG 3 — Good Health and Well-being",
+    "functional_prototype_available_if_shortlisted": false,
+    "submission_language": "English",
+    "evidence_available": ["renderings", "use scenario", "mechanism diagram"]
+  }
+}

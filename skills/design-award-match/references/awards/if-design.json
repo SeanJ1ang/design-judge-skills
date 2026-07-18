@@ -1,0 +1,62 @@
+{
+  "award_id": "if-design",
+  "brand": "iF Design",
+  "program": "iF DESIGN AWARD",
+  "status": "supported",
+  "official_domains": ["ifdesign.com"],
+  "official_sources": {
+    "overview": "https://ifdesign.com/en/if-design-award-page-new",
+    "eligibility": "https://ifdesign.com/en/faqs",
+    "categories": "https://ifdesign.com/en/if-design-award-and-jury",
+    "criteria": "https://ifdesign.com/en/if-design-award-and-jury",
+    "submission": "https://ifdesign.com/en/faqs",
+    "winners": "https://ifdesign.com/en/winner-ranking/project-overview"
+  },
+  "routes": [
+    {
+      "route_id": "professional-realized",
+      "label": "Professional — Realized Entry",
+      "entrant_types": ["individual", "professional", "studio", "company", "university", "research_institution"],
+      "project_states": ["working_prototype", "ready_for_market", "launched_product", "service_or_system", "digital_product"],
+      "required_project_fields": ["project_completion_or_launch_date"],
+      "dynamic_gates": ["current_cycle_open", "current_entry_age_or_launch_window", "current_discipline_and_category", "current_final_jury_presentation_requirement"]
+    },
+    {
+      "route_id": "professional-concept",
+      "label": "Professional — Concept Discipline",
+      "entrant_types": ["individual", "professional", "studio", "company", "university", "research_institution"],
+      "project_states": ["professional_concept", "working_prototype"],
+      "required_project_fields": ["project_completion_date"],
+      "dynamic_gates": ["current_cycle_open", "current_concept_definition_and_age_window", "current_concept_category", "current_final_jury_presentation_requirement"]
+    }
+  ],
+  "category_hints": {
+    "Medical and Health": [
+      {"route_id": "professional-realized", "track": "Product Design", "category": "Health / Beauty", "relation": "adjacent"},
+      {"route_id": "professional-concept", "track": "Concept", "category": "Product Concepts", "relation": "broad"}
+    ],
+    "Consumer Technology": [{"route_id": "professional-realized", "track": "Product Design", "category": "Audio, Consumer Electronics, or Telecommunications", "relation": "adjacent"}],
+    "Home and Kitchen": [{"route_id": "professional-realized", "track": "Product Design", "category": "Kitchen or Household", "relation": "adjacent"}],
+    "Furniture": [{"route_id": "professional-realized", "track": "Product Design", "category": "Furniture", "relation": "exact"}],
+    "Lighting": [{"route_id": "professional-realized", "track": "Product Design", "category": "Lighting", "relation": "exact"}],
+    "Mobility and Transportation": [{"route_id": "professional-realized", "track": "Product Design", "category": "Automobiles / Vehicles or Bicycles", "relation": "adjacent"}],
+    "Commercial and Industrial": [{"route_id": "professional-realized", "track": "Product Design", "category": "Industry / Tools", "relation": "exact"}],
+    "Digital Interaction": [{"route_id": "professional-realized", "track": "User Experience or User Interface", "category": "Current UX/UI category", "relation": "broad"}],
+    "Service Design": [{"route_id": "professional-realized", "track": "Service, System & Process Design", "category": "Current service/system category", "relation": "broad"}],
+    "Communication and Branding": [{"route_id": "professional-realized", "track": "Branding & Communication Design", "category": "Current branding/communication category", "relation": "broad"}],
+    "Packaging": [{"route_id": "professional-realized", "track": "Packaging Design", "category": "Current packaging category", "relation": "broad"}],
+    "Environment and Spatial Design": [{"route_id": "professional-realized", "track": "Architecture or Interior Architecture", "category": "Current spatial category", "relation": "broad"}],
+    "Concept and Speculative Design": [{"route_id": "professional-concept", "track": "Concept", "category": "Current Concept category", "relation": "exact"}]
+  },
+  "criteria": [
+    {"official_name": "Idea", "normalized_dimension": "problem_relevance"},
+    {"official_name": "Form", "normalized_dimension": "form"},
+    {"official_name": "Function", "normalized_dimension": "function"},
+    {"official_name": "Differentiation", "normalized_dimension": "innovation"},
+    {"official_name": "Sustainability", "normalized_dimension": "responsibility"}
+  ],
+  "dynamic_fields": ["cycle", "dates", "fees", "entry_age_window", "disciplines", "categories", "jury_requirements", "winner_package"],
+  "winner_sources": ["https://ifdesign.com/en/winner-ranking/project-overview"],
+  "last_profile_reviewed": "2026-07-13",
+  "notes": ["Student concepts are not eligible for the professional iF DESIGN AWARD; route them to iF DESIGN STUDENT AWARD.", "Final category selection must use the current official discipline/category list."]
+}

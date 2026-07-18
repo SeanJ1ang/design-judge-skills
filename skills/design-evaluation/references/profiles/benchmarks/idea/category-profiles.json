@@ -1,0 +1,881 @@
+{
+  "schema_version": 1,
+  "source_program": "International Design Excellence Awards (IDEA)",
+  "minimum_sample_size": 30,
+  "profile_count": 12,
+  "profiles": {
+    "Automotive & Transportation": {
+      "profile_id": "idea-category-automotive-transportation",
+      "profile_type": "observed_recognized_category_context",
+      "source_program": "International Design Excellence Awards (IDEA)",
+      "normalized_category": "Automotive & Transportation",
+      "evaluation_disciplines": [
+        "physical_product"
+      ],
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_inference": "provisional_multilabel_mapping",
+      "canonical_category": "Mobility and Transportation",
+      "primary_sector": "mobility",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "allowed_maturity": "student_concept_or_mature_work",
+      "observed_metrics": {
+        "sample_size": 36,
+        "year_counts": {
+          "2023": 12,
+          "2024": 12,
+          "2025": 12
+        },
+        "award_level_counts": {
+          "Bronze": 12,
+          "Featured Finalist": 12,
+          "Gold": 6,
+          "Silver": 6
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 14,
+          "median": 17.0,
+          "p90": 18.0,
+          "maximum": 18,
+          "mean": 16.94
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "medium",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner and Featured Finalist sample only; no non-selected comparison group.",
+        "Observed IDEA context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Branding": {
+      "profile_id": "idea-category-branding",
+      "profile_type": "observed_recognized_category_context",
+      "source_program": "International Design Excellence Awards (IDEA)",
+      "normalized_category": "Branding",
+      "evaluation_disciplines": [
+        "brand_communication"
+      ],
+      "primary_evaluation_discipline": "brand_communication",
+      "discipline_inference": "provisional_multilabel_mapping",
+      "canonical_category": "Communication and Branding",
+      "primary_sector": null,
+      "sector_scope": "cross_sector",
+      "focus_tags": [],
+      "allowed_maturity": "student_concept_or_mature_work",
+      "observed_metrics": {
+        "sample_size": 33,
+        "year_counts": {
+          "2023": 12,
+          "2024": 11,
+          "2025": 10
+        },
+        "award_level_counts": {
+          "Bronze": 6,
+          "Featured Finalist": 19,
+          "Gold": 4,
+          "Silver": 4
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 16,
+          "median": 17,
+          "p90": 18.0,
+          "maximum": 18,
+          "mean": 17.21
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "innovation_differentiation",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the communication objective, audience, and response sought.",
+          "Show hierarchy, legibility, and consistency across relevant touchpoints.",
+          "Separate visual novelty from communication effectiveness."
+        ],
+        "presentation_expectations": [
+          "core_message",
+          "identity_system",
+          "touchpoint_range",
+          "real_context_application",
+          "legibility_detail"
+        ]
+      },
+      "confidence": "medium",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner and Featured Finalist sample only; no non-selected comparison group.",
+        "Observed IDEA context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Commercial & Industrial Products": {
+      "profile_id": "idea-category-commercial-industrial-products",
+      "profile_type": "observed_recognized_category_context",
+      "source_program": "International Design Excellence Awards (IDEA)",
+      "normalized_category": "Commercial & Industrial Products",
+      "evaluation_disciplines": [
+        "physical_product"
+      ],
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_inference": "provisional_multilabel_mapping",
+      "canonical_category": "Commercial and Industrial",
+      "primary_sector": "industrial",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "allowed_maturity": "student_concept_or_mature_work",
+      "observed_metrics": {
+        "sample_size": 74,
+        "year_counts": {
+          "2023": 30,
+          "2024": 24,
+          "2025": 20
+        },
+        "award_level_counts": {
+          "Bronze": 14,
+          "Featured Finalist": 47,
+          "Gold": 4,
+          "Silver": 9
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 15,
+          "median": 17.0,
+          "p90": 18.0,
+          "maximum": 18,
+          "mean": 17.3
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "medium",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner and Featured Finalist sample only; no non-selected comparison group.",
+        "Observed IDEA context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Concepts & Speculative Design": {
+      "profile_id": "idea-category-concepts-speculative-design",
+      "profile_type": "observed_recognized_category_context",
+      "source_program": "International Design Excellence Awards (IDEA)",
+      "normalized_category": "Concepts & Speculative Design",
+      "evaluation_disciplines": [
+        "design_strategy_research"
+      ],
+      "primary_evaluation_discipline": "design_strategy_research",
+      "discipline_inference": "provisional_multilabel_mapping",
+      "canonical_category": "Concept and Speculative Design",
+      "primary_sector": null,
+      "sector_scope": "cross_sector",
+      "focus_tags": [
+        "experimental_speculative"
+      ],
+      "allowed_maturity": "student_concept_or_mature_work",
+      "observed_metrics": {
+        "sample_size": 62,
+        "year_counts": {
+          "2023": 19,
+          "2024": 23,
+          "2025": 20
+        },
+        "award_level_counts": {
+          "Bronze": 11,
+          "Featured Finalist": 41,
+          "Gold": 5,
+          "Silver": 5
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 15,
+          "median": 18.0,
+          "p90": 18.0,
+          "maximum": 18,
+          "mean": 17.45
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "innovation_differentiation",
+          "solution_integrity"
+        ],
+        "evidence_prompts": [
+          "State assumptions, future conditions, and the mechanism connecting concept to outcome.",
+          "Show why the proposal is more than a styling exercise.",
+          "Show a validation plan, prototype, or scenario test appropriate to concept maturity."
+        ],
+        "presentation_expectations": [
+          "problem_and_future_context",
+          "concept_principle",
+          "scenario_sequence",
+          "system_logic",
+          "validation_plan_or_prototype"
+        ]
+      },
+      "confidence": "medium",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner and Featured Finalist sample only; no non-selected comparison group.",
+        "Observed IDEA context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Consumer Technology": {
+      "profile_id": "idea-category-consumer-technology",
+      "profile_type": "observed_recognized_category_context",
+      "source_program": "International Design Excellence Awards (IDEA)",
+      "normalized_category": "Consumer Technology",
+      "evaluation_disciplines": [
+        "physical_product"
+      ],
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_inference": "provisional_multilabel_mapping",
+      "canonical_category": "Consumer Technology",
+      "primary_sector": "consumer_electronics",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "allowed_maturity": "student_concept_or_mature_work",
+      "observed_metrics": {
+        "sample_size": 142,
+        "year_counts": {
+          "2023": 57,
+          "2024": 28,
+          "2025": 57
+        },
+        "award_level_counts": {
+          "Bronze": 24,
+          "Featured Finalist": 87,
+          "Gold": 10,
+          "Silver": 21
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 4,
+          "median": 17.0,
+          "p90": 18.0,
+          "maximum": 18,
+          "mean": 17.12
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "high",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner and Featured Finalist sample only; no non-selected comparison group.",
+        "Observed IDEA context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Digital Interaction": {
+      "profile_id": "idea-category-digital-interaction",
+      "profile_type": "observed_recognized_category_context",
+      "source_program": "International Design Excellence Awards (IDEA)",
+      "normalized_category": "Digital Interaction",
+      "evaluation_disciplines": [
+        "user_interface",
+        "user_experience"
+      ],
+      "primary_evaluation_discipline": "user_interface",
+      "discipline_inference": "provisional_multilabel_mapping",
+      "canonical_category": "Digital Interaction",
+      "primary_sector": null,
+      "sector_scope": "cross_sector",
+      "focus_tags": [],
+      "allowed_maturity": "student_concept_or_mature_work",
+      "observed_metrics": {
+        "sample_size": 42,
+        "year_counts": {
+          "2023": 12,
+          "2024": 18,
+          "2025": 12
+        },
+        "award_level_counts": {
+          "Bronze": 9,
+          "Featured Finalist": 24,
+          "Gold": 4,
+          "Silver": 5
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 15,
+          "median": 17.0,
+          "p90": 18.0,
+          "maximum": 18,
+          "mean": 17.02
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "form_interaction_quality",
+          "problem_value",
+          "responsibility_sustainability"
+        ],
+        "evidence_prompts": [
+          "Show key states, navigation hierarchy, feedback, and error recovery.",
+          "Show accessibility and legibility at the intended device scale.",
+          "Show a complete task flow instead of isolated polished screens.",
+          "Show the end-to-end journey, actors, transitions, and dependencies.",
+          "Show research or testing evidence for the claimed experience improvement.",
+          "Show failure, recovery, privacy, and exclusion risks where applicable."
+        ],
+        "presentation_expectations": [
+          "information_architecture",
+          "task_flow",
+          "key_interface_states",
+          "error_or_empty_state",
+          "device_context",
+          "user_journey",
+          "scenario_sequence",
+          "touchpoint_ecosystem",
+          "research_or_test_evidence",
+          "failure_recovery_state"
+        ]
+      },
+      "confidence": "medium",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner and Featured Finalist sample only; no non-selected comparison group.",
+        "Observed IDEA context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Environments": {
+      "profile_id": "idea-category-environments",
+      "profile_type": "observed_recognized_category_context",
+      "source_program": "International Design Excellence Awards (IDEA)",
+      "normalized_category": "Environments",
+      "evaluation_disciplines": [
+        "interior_spatial",
+        "architecture_landscape_urban"
+      ],
+      "primary_evaluation_discipline": "interior_spatial",
+      "discipline_inference": "provisional_multilabel_mapping",
+      "canonical_category": "Environment and Spatial Design",
+      "primary_sector": null,
+      "sector_scope": "cross_sector",
+      "focus_tags": [],
+      "allowed_maturity": "student_concept_or_mature_work",
+      "observed_metrics": {
+        "sample_size": 33,
+        "year_counts": {
+          "2023": 6,
+          "2024": 16,
+          "2025": 11
+        },
+        "award_level_counts": {
+          "Bronze": 3,
+          "Featured Finalist": 22,
+          "Gold": 3,
+          "Silver": 5
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 14,
+          "median": 17,
+          "p90": 18.0,
+          "maximum": 18,
+          "mean": 16.97
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality",
+          "problem_value",
+          "responsibility_sustainability"
+        ],
+        "evidence_prompts": [
+          "Show plan, circulation, zoning, scale, accessibility, and occupancy behavior.",
+          "Show material, lighting, construction, and maintenance decisions.",
+          "Show the relationship between atmosphere and functional performance.",
+          "Show site, program, users, circulation, structure, and environmental response.",
+          "Show accessibility, public impact, and long-term operation.",
+          "Show sections or systems that support the central spatial claim."
+        ],
+        "presentation_expectations": [
+          "spatial_overview",
+          "plan_and_circulation",
+          "human_scale_scenario",
+          "material_lighting_detail",
+          "construction_or_section",
+          "site_context",
+          "plan_section_diagram",
+          "program_and_circulation",
+          "environmental_strategy",
+          "human_scale_experience"
+        ]
+      },
+      "confidence": "medium",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner and Featured Finalist sample only; no non-selected comparison group.",
+        "Observed IDEA context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Home": {
+      "profile_id": "idea-category-home",
+      "profile_type": "observed_recognized_category_context",
+      "source_program": "International Design Excellence Awards (IDEA)",
+      "normalized_category": "Home",
+      "evaluation_disciplines": [
+        "physical_product"
+      ],
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_inference": "provisional_multilabel_mapping",
+      "canonical_category": "Home and Kitchen",
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "allowed_maturity": "student_concept_or_mature_work",
+      "observed_metrics": {
+        "sample_size": 177,
+        "year_counts": {
+          "2023": 77,
+          "2024": 49,
+          "2025": 51
+        },
+        "award_level_counts": {
+          "Bronze": 35,
+          "Featured Finalist": 118,
+          "Gold": 5,
+          "Silver": 19
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 3,
+          "median": 17,
+          "p90": 18.0,
+          "maximum": 18,
+          "mean": 17.05
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "high",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner and Featured Finalist sample only; no non-selected comparison group.",
+        "Observed IDEA context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Medical & Health": {
+      "profile_id": "idea-category-medical-health",
+      "profile_type": "observed_recognized_category_context",
+      "source_program": "International Design Excellence Awards (IDEA)",
+      "normalized_category": "Medical & Health",
+      "evaluation_disciplines": [
+        "physical_product"
+      ],
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_inference": "provisional_multilabel_mapping",
+      "canonical_category": "Medical and Health",
+      "primary_sector": "healthcare",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "allowed_maturity": "student_concept_or_mature_work",
+      "observed_metrics": {
+        "sample_size": 71,
+        "year_counts": {
+          "2023": 23,
+          "2024": 28,
+          "2025": 20
+        },
+        "award_level_counts": {
+          "Bronze": 8,
+          "Featured Finalist": 44,
+          "Gold": 6,
+          "Silver": 13
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 4,
+          "median": 17,
+          "p90": 18.0,
+          "maximum": 18,
+          "mean": 16.96
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "medium",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner and Featured Finalist sample only; no non-selected comparison group.",
+        "Observed IDEA context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Outdoor & Garden": {
+      "profile_id": "idea-category-outdoor-garden",
+      "profile_type": "observed_recognized_category_context",
+      "source_program": "International Design Excellence Awards (IDEA)",
+      "normalized_category": "Outdoor & Garden",
+      "evaluation_disciplines": [
+        "physical_product"
+      ],
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_inference": "provisional_multilabel_mapping",
+      "canonical_category": "Sports and Outdoor",
+      "primary_sector": "sports_outdoor",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "allowed_maturity": "student_concept_or_mature_work",
+      "observed_metrics": {
+        "sample_size": 32,
+        "year_counts": {
+          "2023": 11,
+          "2024": 8,
+          "2025": 13
+        },
+        "award_level_counts": {
+          "Bronze": 7,
+          "Featured Finalist": 15,
+          "Gold": 2,
+          "Silver": 8
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 15,
+          "median": 17.0,
+          "p90": 18.0,
+          "maximum": 18,
+          "mean": 17.25
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "medium",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner and Featured Finalist sample only; no non-selected comparison group.",
+        "Observed IDEA context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Sports, Leisure & Recreation": {
+      "profile_id": "idea-category-sports-leisure-recreation",
+      "profile_type": "observed_recognized_category_context",
+      "source_program": "International Design Excellence Awards (IDEA)",
+      "normalized_category": "Sports, Leisure & Recreation",
+      "evaluation_disciplines": [
+        "physical_product"
+      ],
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_inference": "provisional_multilabel_mapping",
+      "canonical_category": "Sports and Outdoor",
+      "primary_sector": "sports_outdoor",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "allowed_maturity": "student_concept_or_mature_work",
+      "observed_metrics": {
+        "sample_size": 33,
+        "year_counts": {
+          "2023": 12,
+          "2024": 13,
+          "2025": 8
+        },
+        "award_level_counts": {
+          "Bronze": 6,
+          "Featured Finalist": 18,
+          "Gold": 3,
+          "Silver": 6
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 16,
+          "median": 17,
+          "p90": 18.0,
+          "maximum": 18,
+          "mean": 17.18
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "medium",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner and Featured Finalist sample only; no non-selected comparison group.",
+        "Observed IDEA context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Student Designs": {
+      "profile_id": "idea-category-student-designs",
+      "profile_type": "observed_recognized_category_context",
+      "source_program": "International Design Excellence Awards (IDEA)",
+      "normalized_category": "Student Designs",
+      "evaluation_disciplines": [],
+      "primary_evaluation_discipline": null,
+      "discipline_inference": "not_allowed_from_student_category",
+      "canonical_category": "Concept and Speculative Design",
+      "primary_sector": null,
+      "sector_scope": "cross_sector",
+      "focus_tags": [],
+      "allowed_maturity": "student_concept",
+      "observed_metrics": {
+        "sample_size": 74,
+        "year_counts": {
+          "2022": 1,
+          "2023": 28,
+          "2024": 25,
+          "2025": 20
+        },
+        "award_level_counts": {
+          "Bronze": 23,
+          "Featured Finalist": 24,
+          "Gold": 9,
+          "Silver": 18
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 15,
+          "median": 17.0,
+          "p90": 18.0,
+          "maximum": 18,
+          "mean": 17.07
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "innovation_differentiation",
+          "solution_integrity",
+          "implementation_feasibility",
+          "responsibility_sustainability"
+        ],
+        "evidence_prompts": [
+          "State the student project context, user need, assumptions, and intended benefit.",
+          "Show the mechanism and system logic rather than relying on a polished render alone.",
+          "Provide a prototype, scenario test, or feasible validation plan appropriate to a student concept."
+        ],
+        "presentation_expectations": [
+          "problem_and_user_context",
+          "concept_principle",
+          "scenario_sequence",
+          "system_or_construction_logic",
+          "prototype_or_validation_plan"
+        ]
+      },
+      "confidence": "medium",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner and Featured Finalist sample only; no non-selected comparison group.",
+        "Observed IDEA context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    }
+  }
+}

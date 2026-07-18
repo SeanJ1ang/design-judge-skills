@@ -1,0 +1,16 @@
+{
+  "award_id": "idea",
+  "route_id": "general",
+  "cycle": "2026",
+  "fields": {
+    "overview": {"text":"PulsePatch is a reusable wearable for desk workers. It detects sustained upper-back posture, delivers directional haptic cues for a 30-second reset movement, and records completed sessions locally. A washable textile carrier, removable electronics pod, and no-camera sensing distinguish it from screen reminders and camera-based trackers.","used_fact_ids":["positioning","core_functions","key_features","competitive_difference"]},
+    "design-innovation": {"text":"Most posture reminders stop at an alert, which users can dismiss without knowing what to do next. PulsePatch pairs posture sensing with directional haptics that immediately guide a short corrective movement. Its removable sensing pod also separates long-life electronics from the washable, replaceable textile carrier. Together, these decisions turn a passive notification into an actionable private intervention while improving serviceability.","used_fact_ids":["problem","solution","innovation_points","competitive_difference"]},
+    "benefit-user": {"text":"Desk workers receive a specific movement cue without opening an app, leaving the current task, or enabling a camera. The discreet on-body interaction supports short posture resets during ordinary computer work.","used_fact_ids":["target_user","user_benefit"]},
+    "benefit-client-brand": {"text":"The modular architecture gives the client a serviceable wearable platform rather than a sealed product. Replaceable textile parts can address wear and fit while retaining the electronics pod, creating a concrete point of differentiation for the brand.","used_fact_ids":["client_brand_benefit","competitive_difference"]},
+    "benefit-society": {"text":"PulsePatch brings preventive movement guidance into routine desk work without recording video of users or workplaces. Separating the washable carrier from the longer-life electronics also avoids replacing the entire product when the textile component wears out.","used_fact_ids":["social_impact","sustainability"]},
+    "appropriate-aesthetics": {"text":"The low-profile pod follows the upper back and remains visually quiet under clothing. A neutral grey seamless knit softens the technical object, while silicone contact pads provide a gentle skin interface. Matte recycled polycarbonate supports the restrained appearance and protects the reusable electronics module.","used_fact_ids":["aesthetics_form","cmf","materials"]},
+    "primary-materials": {"text":["Recycled polycarbonate","Nylon-elastane knit","Medical-grade silicone"],"used_fact_ids":["materials"]},
+    "retail-price": {"text":"Target retail price: USD 129 (pre-launch estimate)","used_fact_ids":["retail_price"]},
+    "physical-dimensions": {"text":"Electronics pod: 72 × 38 × 9 mm; textile carrier: 180 × 95 mm","used_fact_ids":["physical_dimensions"]}
+  }
+}

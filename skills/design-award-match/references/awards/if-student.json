@@ -1,0 +1,45 @@
+{
+  "award_id": "if-student",
+  "brand": "iF Design",
+  "program": "iF DESIGN STUDENT AWARD",
+  "status": "supported",
+  "official_domains": ["ifdesign.com"],
+  "official_sources": {
+    "overview": "https://ifdesign.com/en/if-design-student-award",
+    "eligibility": "https://ifdesign.com/en/if-design-student-award",
+    "categories": "https://ifdesign.com/en/if-design-student-award",
+    "criteria": "https://ifdesign.com/en/if-design-student-award",
+    "submission": "https://ifdesign.com/en/if-design-student-award",
+    "winners": "https://ifdesign.com/en/if-design-student-award"
+  },
+  "routes": [
+    {
+      "route_id": "student-concept",
+      "label": "Student or Eligible Recent Graduate Concept",
+      "entrant_types": ["student", "recent_graduate"],
+      "project_states": ["student_concept", "working_prototype", "service_or_system", "digital_product"],
+      "required_project_fields": ["student_or_graduation_status_date", "sdg_alignment"],
+      "dynamic_gates": ["current_cycle_open", "current_student_or_recent_graduate_window", "current_project_age_rule", "current_sdg_categories", "current_submission_requirements"]
+    }
+  ],
+  "category_hints": {
+    "Medical and Health": [{"route_id": "student-concept", "track": "Student", "category": "SDG 3 — Good Health and Well-being", "relation": "exact"}],
+    "Accessibility and Inclusive Design": [{"route_id": "student-concept", "track": "Student", "category": "SDG 10 — Reduced Inequalities", "relation": "adjacent"}],
+    "Children and Education": [{"route_id": "student-concept", "track": "Student", "category": "SDG 4 — Quality Education", "relation": "exact"}],
+    "Environment and Spatial Design": [{"route_id": "student-concept", "track": "Student", "category": "SDG 11 — Sustainable Cities and Communities", "relation": "adjacent"}],
+    "Social Impact": [{"route_id": "student-concept", "track": "Student", "category": "Select the primary SDG 1–15", "relation": "broad"}],
+    "Sustainability and Circular Design": [{"route_id": "student-concept", "track": "Student", "category": "SDG 12 or 13 — verify primary outcome", "relation": "adjacent"}],
+    "Concept and Speculative Design": [{"route_id": "student-concept", "track": "Student", "category": "Select the primary SDG 1–15", "relation": "broad"}]
+  },
+  "criteria": [
+    {"official_name": "Problem-Solving", "normalized_dimension": "problem_relevance"},
+    {"official_name": "Moral-Ethic Standards", "normalized_dimension": "responsibility"},
+    {"official_name": "Solidarity", "normalized_dimension": "social_impact"},
+    {"official_name": "Economic Calculation", "normalized_dimension": "feasibility"},
+    {"official_name": "Beneficial Experiences", "normalized_dimension": "user_experience"}
+  ],
+  "dynamic_fields": ["cycle", "dates", "fees", "student_definition", "recent_graduate_window", "project_age_rule", "sdg_categories", "submission_requirements", "prize_amount"],
+  "winner_sources": ["https://ifdesign.com/en/if-design-student-award"],
+  "last_profile_reviewed": "2026-07-13",
+  "notes": ["The categories are SDGs, not product categories.", "Confirm the current student/recent-graduate definition every cycle."]
+}

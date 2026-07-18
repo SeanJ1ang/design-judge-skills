@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "award_id": "dia",
+  "program": "Design Intelligence Award (DIA)",
+  "cycle": "2026",
+  "checked_on": "2026-07-15",
+  "official_sources": ["https://cdn.di-award.org/data/article/file/2026/06/12/08_19_17_xkn3x2ouzewnqiaw.pdf", "https://www.di-award.org/en/rules.html?hash=1"],
+  "notes": ["Product and Concept routes have different required narrative fields."],
+  "routes": [
+    {
+      "route_id":"product","label":"Product Group","applies_when":"Launched or deployable product-group entry.",
+      "fields":[
+        {"field_id":"entry-name","label":"Entry name","required":true,"value_type":"string","language":"English","max_length":50,"length_unit":"words","source_facts":["project_name"],"essential_facts":["project_name"],"drafting_instructions":"Use the official entry name.","publicity":"public_if_awarded"},
+        {"field_id":"product-attribute","label":"Product attribute","required":true,"value_type":"string","language":"English","source_facts":["product_type"],"essential_facts":["product_type"],"drafting_instructions":"Name the functional product type, such as e-book reader, rather than the brand name.","publicity":"administrative"},
+        {"field_id":"entry-description","label":"Entry description","required":true,"value_type":"string","language":"English","max_length":50,"length_unit":"words","source_facts":["positioning","solution","core_functions"],"essential_facts":["solution"],"drafting_instructions":"Define the work in one sentence.","publicity":"public_if_awarded"},
+        {"field_id":"innovation-points","label":"Innovation points","required":true,"value_type":"list","language":"English","max_items":3,"max_length":300,"length_unit":"words","source_facts":["innovation_points","competitive_difference","core_technology"],"essential_facts":["innovation_points"],"drafting_instructions":"State no more than three core innovations; keep the combined content within the portal's 300-word allowance.","publicity":"jury_only","notes":"The official guide says no more than three points in principle and no more than 300 words."},
+        {"field_id":"demand-market-analysis","label":"Demand and market analysis","required":true,"value_type":"string","language":"English","max_length":300,"length_unit":"words","source_facts":["target_user","market_demand","market_size","existing_alternatives","competitive_difference","social_impact"],"essential_facts":["market_demand"],"drafting_instructions":"Describe user demand, market or social value, market scale where evidenced, and competitive context.","publicity":"jury_only"},
+        {"field_id":"core-technology-process","label":"Core technology and process","required":true,"value_type":"string","language":"English","max_length":300,"length_unit":"words","source_facts":["core_technology","manufacturing_process","materials","working_principle","testing_validation","competitive_difference"],"essential_facts":["core_technology"],"drafting_instructions":"Explain technical competitiveness, core technology, process, and relevant peer comparison.","publicity":"jury_only"}
+      ]
+    },
+    {
+      "route_id":"concept","label":"Concept Group","applies_when":"A concept with the required industrial feasibility and prototype readiness.",
+      "fields":[
+        {"field_id":"entry-name","label":"Entry name","required":true,"value_type":"string","language":"English","max_length":50,"length_unit":"words","source_facts":["project_name"],"essential_facts":["project_name"],"drafting_instructions":"Use the official entry name.","publicity":"public_if_awarded"},
+        {"field_id":"product-attribute","label":"Product attribute","required":true,"value_type":"string","language":"English","source_facts":["product_type"],"essential_facts":["product_type"],"drafting_instructions":"Name the functional product or service type.","publicity":"administrative"},
+        {"field_id":"entry-description","label":"Entry description","required":true,"value_type":"string","language":"English","max_length":50,"length_unit":"words","source_facts":["positioning","solution","core_functions"],"essential_facts":["solution"],"drafting_instructions":"Define the work in one sentence.","publicity":"public_if_awarded"},
+        {"field_id":"innovation-points","label":"Innovation points","required":true,"value_type":"list","language":"English","max_items":3,"max_length":300,"length_unit":"words","source_facts":["innovation_points","competitive_difference","core_technology"],"essential_facts":["innovation_points"],"drafting_instructions":"State no more than three core innovations; keep the combined content within the portal's 300-word allowance.","publicity":"jury_only"},
+        {"field_id":"pain-points","label":"Pain points","required":true,"value_type":"string","language":"English","max_length":300,"length_unit":"words","source_facts":["target_user","use_context","problem","pain_points","market_demand","existing_alternatives"],"essential_facts":["pain_points"],"drafting_instructions":"Explain the user-experience and market-demand pain points addressed by the concept.","publicity":"jury_only"},
+        {"field_id":"potentials","label":"Potentials","required":true,"value_type":"string","language":"English","max_length":300,"length_unit":"words","source_facts":["growth_potential","future_plans","core_technology","manufacturing_process","competitive_difference"],"essential_facts":["growth_potential"],"drafting_instructions":"Describe extensibility, technical or process potential, feasibility, and future development.","publicity":"jury_only"}
+      ]
+    }
+  ]
+}

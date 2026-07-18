@@ -1,0 +1,22 @@
+{
+  "profile_version": 1,
+  "scope_policy": "allowlist",
+  "supported_awards": [
+    {"award_id": "if-design", "file": "if-design.json", "aliases": ["iF", "iF DESIGN AWARD"]},
+    {"award_id": "if-student", "file": "if-student.json", "aliases": ["iF Student", "iF DESIGN STUDENT AWARD"]},
+    {"award_id": "red-dot-product", "file": "red-dot-product.json", "aliases": ["Red Dot Product", "Red Dot Award: Product Design"]},
+    {"award_id": "red-dot-design-concept", "file": "red-dot-design-concept.json", "aliases": ["Red Dot Concept", "Red Dot Award: Design Concept"]},
+    {"award_id": "idea", "file": "idea.json", "aliases": ["IDEA", "International Design Excellence Awards"]},
+    {"award_id": "dia", "file": "dia.json", "aliases": ["DIA", "Design Intelligence Award"]},
+    {"award_id": "k-design", "file": "k-design.json", "aliases": ["K-Design", "K-Design Award"]},
+    {"award_id": "good-design-japan", "file": "good-design-japan.json", "aliases": ["G Mark", "GOOD DESIGN AWARD Japan"]},
+    {"award_id": "core77", "file": "core77.json", "aliases": ["Core77", "Core77 Design Awards"]},
+    {"award_id": "james-dyson", "file": "james-dyson.json", "aliases": ["James Dyson", "James Dyson Award"]},
+    {"award_id": "epda", "file": "epda.json", "aliases": ["EPDA", "European Product Design Award"]}
+  ],
+  "unsupported_policy": {
+    "action": "report_unsupported",
+    "allow_ad_hoc_research": false
+  }
+}
+

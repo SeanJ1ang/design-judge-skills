@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "profile_set_id": "if-student-observed-winner-benchmarks-v1",
+  "profile_type": "observed_student_winner_context",
+  "source_programs": [
+    "iF DESIGN TALENT AWARD",
+    "iF DESIGN STUDENT AWARD"
+  ],
+  "generated_at": "2026-07-14T03:55:09.796995+00:00",
+  "source_snapshot_sha256": "6f01e60e05b4926282e63e3a2985baaa941b0e48053ef801e26d0f2f5ef2426f",
+  "maturity_gate": {
+    "allowed": [
+      "student_concept"
+    ],
+    "rejected": [
+      "mature_work"
+    ],
+    "on_rejected": "raise_error"
+  },
+  "dataset": {
+    "row_count": 427,
+    "year_counts": {
+      "2022": 85,
+      "2023": 76,
+      "2024": 76,
+      "2025": 100,
+      "2026": 90
+    },
+    "award_level_counts": {
+      "Gold": 43,
+      "Winner": 384
+    },
+    "normalized_category_count": 15,
+    "category_profile_count": 6,
+    "minimum_category_sample_size": 30
+  },
+  "quality_gate": {
+    "row_count": 427,
+    "duplicate_entry_keys": 0,
+    "missing_categories": 0,
+    "normalized_category_count": 15,
+    "discipline_field_nonempty": 0,
+    "source_program_counts": {
+      "iF DESIGN STUDENT AWARD": 342,
+      "iF DESIGN TALENT AWARD": 85
+    }
+  },
+  "load_order": [
+    "category_profile",
+    "competition_profile",
+    "core"
+  ],
+  "score_effect": "none",
+  "privacy": {
+    "aggregate_only": true,
+    "raw_records_published": false,
+    "excluded_fields": [
+      "canonical_url",
+      "client",
+      "clients",
+      "company",
+      "description",
+      "designer",
+      "designers",
+      "entry_key",
+      "image_hash",
+      "name",
+      "raw_payload",
+      "sha256",
+      "source_url",
+      "title"
+    ]
+  },
+  "review_status": "machine_generated_needs_human_review",
+  "limitations": [
+    "Student-concept use only; reject Mature Work.",
+    "Winner-only sample; no non-winning comparison group.",
+    "Observed iF Student context, not an official jury standard.",
+    "winnerStatement is a creator statement in this source, not a jury comment."
+  ],
+  "files": {
+    "category_crosswalk": "category-crosswalk.json",
+    "competition_profile": "competition-profile.json",
+    "category_profiles": "category-profiles.json"
+  }
+}

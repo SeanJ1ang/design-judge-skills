@@ -1,0 +1,115 @@
+{
+  "award_id": "epda",
+  "brand": "European Product Design Award",
+  "program": "European Product Design Award (EPDA)",
+  "status": "supported",
+  "official_domains": ["productdesignaward.eu"],
+  "official_sources": {
+    "overview": "https://www.productdesignaward.eu/",
+    "eligibility": "https://www.productdesignaward.eu/terms/",
+    "categories": "https://www.productdesignaward.eu/categories/",
+    "criteria": "https://www.productdesignaward.eu/submission-tips/",
+    "submission": "https://www.productdesignaward.eu/faqs/",
+    "winners": "https://www.productdesignaward.eu/winners/"
+  },
+  "routes": [
+    {
+      "route_id": "professional-product",
+      "label": "Professional Product",
+      "entrant_types": ["individual", "professional", "studio", "company", "university", "research_institution"],
+      "project_states": ["working_prototype", "ready_for_market", "launched_product", "service_or_system", "digital_product"],
+      "required_project_fields": ["completion_or_estimated_date", "original_work_and_publication_rights_confirmed"],
+      "stable_constraints": [{"field": "original_work_and_publication_rights_confirmed", "operator": "truthy", "message": "The entrant must hold all rights needed for participation and publication."}],
+      "dynamic_gates": ["current_cycle_open", "current_finished_project_rolling_age_window", "current_professional_categories", "current_submission_requirements"]
+    },
+    {
+      "route_id": "professional-concept",
+      "label": "Professional Conceptual",
+      "entrant_types": ["individual", "professional", "studio", "company", "university", "research_institution"],
+      "project_states": ["professional_concept", "working_prototype"],
+      "required_project_fields": ["not_produced_or_marketed_confirmed", "original_work_and_publication_rights_confirmed"],
+      "stable_constraints": [
+        {"field": "not_produced_or_marketed_confirmed", "operator": "truthy", "message": "The Conceptual route is for work not yet produced or placed on the market."},
+        {"field": "original_work_and_publication_rights_confirmed", "operator": "truthy", "message": "The entrant must hold all rights needed for participation and publication."}
+      ],
+      "dynamic_gates": ["current_cycle_open", "current_conceptual_subcategories", "current_submission_requirements"]
+    },
+    {
+      "route_id": "student",
+      "label": "Emerging European Product Design Award — Student",
+      "entrant_types": ["student", "university"],
+      "project_states": ["student_concept", "working_prototype", "ready_for_market", "launched_product", "service_or_system", "digital_product"],
+      "required_project_fields": ["current_student_status", "university_name", "original_work_and_publication_rights_confirmed"],
+      "stable_constraints": [
+        {"field": "current_student_status", "operator": "truthy", "message": "The Emerging student route requires current student status unless the current rules say otherwise."},
+        {"field": "original_work_and_publication_rights_confirmed", "operator": "truthy", "message": "The entrant must hold all rights needed for participation and publication."}
+      ],
+      "dynamic_gates": ["current_cycle_open", "current_student_program_rules", "current_finished_project_rolling_age_window", "current_categories", "current_submission_requirements"]
+    }
+  ],
+  "category_hints": {
+    "Medical and Health": [
+      {"route_id": "professional-product", "track": "Professional", "category": "Industrial / Healthcare / Medical Products", "relation": "exact"},
+      {"route_id": "professional-concept", "track": "Professional", "category": "Conceptual / Industrial Product Design", "relation": "broad"},
+      {"route_id": "student", "track": "Emerging", "category": "Industrial / Healthcare / Medical Products", "relation": "exact"}
+    ],
+    "Accessibility and Inclusive Design": [
+      {"route_id": "professional-product", "track": "Professional", "category": "Industrial / Healthcare / Inclusive Technology", "relation": "exact"},
+      {"route_id": "student", "track": "Emerging", "category": "Industrial / Healthcare / Inclusive Technology", "relation": "exact"}
+    ],
+    "Consumer Technology": [
+      {"route_id": "professional-product", "track": "Professional", "category": "Consumer Electronics", "relation": "exact"},
+      {"route_id": "professional-concept", "track": "Professional", "category": "Conceptual / Consumer Electronics Product Design", "relation": "exact"}
+    ],
+    "Home and Kitchen": [
+      {"route_id": "professional-product", "track": "Professional", "category": "Home / Household Products", "relation": "exact"},
+      {"route_id": "professional-concept", "track": "Professional", "category": "Conceptual / Home Product Design", "relation": "exact"}
+    ],
+    "Mobility and Transportation": [
+      {"route_id": "professional-product", "track": "Professional", "category": "Automotive & Transport", "relation": "exact"},
+      {"route_id": "professional-concept", "track": "Professional", "category": "Conceptual / Automotive & Transport Product Design", "relation": "exact"}
+    ],
+    "Commercial and Industrial": [
+      {"route_id": "professional-product", "track": "Professional", "category": "Industrial / Tools & Machines", "relation": "exact"},
+      {"route_id": "professional-concept", "track": "Professional", "category": "Conceptual / Industrial Product Design", "relation": "exact"}
+    ],
+    "Office and Productivity": [
+      {"route_id": "professional-product", "track": "Professional", "category": "Work / Office", "relation": "exact"},
+      {"route_id": "professional-concept", "track": "Professional", "category": "Conceptual / Work & Office Product Design", "relation": "exact"}
+    ],
+    "Digital Interaction": [
+      {"route_id": "professional-product", "track": "Professional", "category": "Interface Design", "relation": "exact"},
+      {"route_id": "professional-concept", "track": "Professional", "category": "Conceptual / Interface Product Design", "relation": "exact"}
+    ],
+    "Communication and Branding": [{"route_id": "professional-product", "track": "Professional", "category": "Communication Design", "relation": "exact"}],
+    "Packaging": [
+      {"route_id": "professional-product", "track": "Professional", "category": "Packaging Design", "relation": "exact"},
+      {"route_id": "professional-concept", "track": "Professional", "category": "Conceptual / Packaging Product Design", "relation": "exact"}
+    ],
+    "Children and Education": [{"route_id": "professional-product", "track": "Professional", "category": "Educational or Families & Kids", "relation": "adjacent"}],
+    "Sports and Outdoor": [{"route_id": "professional-product", "track": "Professional", "category": "Hobby & Sports or Outdoor", "relation": "adjacent"}],
+    "Lifestyle and Personal Accessories": [{"route_id": "professional-product", "track": "Professional", "category": "Personal", "relation": "exact"}],
+    "Social Impact": [{"route_id": "professional-product", "track": "Professional", "category": "Industrial / Social / Designs for Social Impact", "relation": "exact"}],
+    "Sustainability and Circular Design": [
+      {"route_id": "professional-product", "track": "Professional", "category": "Eco Design", "relation": "exact"},
+      {"route_id": "professional-concept", "track": "Professional", "category": "Conceptual / Eco-Design Products", "relation": "exact"}
+    ],
+    "Concept and Speculative Design": [{"route_id": "professional-concept", "track": "Professional", "category": "Conceptual — Design Only or Prototype", "relation": "exact"}]
+  },
+  "criteria": [
+    {"official_name": "Innovation", "normalized_dimension": "innovation"},
+    {"official_name": "Aesthetics", "normalized_dimension": "form"},
+    {"official_name": "Ergonomics", "normalized_dimension": "user_experience"},
+    {"official_name": "Durability", "normalized_dimension": "responsibility"},
+    {"official_name": "The Reality of Production", "normalized_dimension": "feasibility"},
+    {"official_name": "Functionality", "normalized_dimension": "function"},
+    {"official_name": "Impact", "normalized_dimension": "social_impact"},
+    {"official_name": "Utility", "normalized_dimension": "problem_relevance"},
+    {"official_name": "Ecological Compatibility", "normalized_dimension": "responsibility"},
+    {"official_name": "Emotional Quotient", "normalized_dimension": "user_experience"}
+  ],
+  "dynamic_fields": ["cycle", "deadlines", "fees", "finished_project_rolling_age_window", "professional_and_student_program_rules", "category_tree", "submission_materials_and_limits", "current_criteria_wording", "results_dates"],
+  "winner_sources": ["https://www.productdesignaward.eu/winners/"],
+  "last_profile_reviewed": "2026-07-13",
+  "notes": ["Recompute the rolling completion-age rule at runtime.", "The category tree is mutable; hints are routing aids only.", "Recent graduates are not automatically Student-track entrants."]
+}

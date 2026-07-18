@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "disciplines": {
+    "physical_product": "Physical Product Design",
+    "packaging": "Packaging Design",
+    "brand_communication": "Brand & Communication Design",
+    "user_interface": "User Interface Design",
+    "user_experience": "User Experience Design",
+    "service_system_process": "Service, System & Process Design",
+    "interior_spatial": "Interior & Spatial Design",
+    "architecture_landscape_urban": "Architecture, Landscape & Urban Environment",
+    "design_strategy_research": "Design Strategy & Research"
+  },
+  "sectors": {
+    "mobility": "Mobility & Transportation",
+    "healthcare": "Healthcare & Wellness",
+    "home": "Home, Kitchen & Bathroom",
+    "furniture_lighting": "Furniture, Lighting & Living",
+    "consumer_electronics": "Consumer Electronics & Computing",
+    "industrial": "Industrial Tools, Machinery & Production",
+    "office": "Office, Workplace & Productivity",
+    "retail": "Retail, Sales & Commercial Experience",
+    "education": "Education, Learning & Children",
+    "public_service": "Public Service, Government & Institutions",
+    "culture_tourism": "Culture, Tourism & Exhibition",
+    "finance_business": "Finance, Insurance & Business Services",
+    "sports_outdoor": "Sports, Outdoor & Leisure",
+    "beauty_fashion": "Beauty, Fashion & Lifestyle",
+    "food_beverage": "Food, Beverage & Tableware",
+    "energy_environment": "Energy & Environment",
+    "agriculture_rural": "Agriculture, Food Systems & Rural Development",
+    "media_entertainment": "Media & Entertainment"
+  },
+  "focus_tags": {
+    "experimental_speculative": "Experimental & Speculative",
+    "sustainability_circularity": "Sustainability & Circularity",
+    "social_impact_inclusion": "Social Impact & Inclusion",
+    "safety_emergency": "Safety, Security & Emergency",
+    "connected_iot": "Connected Ecosystem & IoT",
+    "data_visualization": "Data, Information & Visualization",
+    "typography_wayfinding": "Typography, Signage & Wayfinding",
+    "gaming_ar_vr": "Gaming, AR & VR"
+  },
+  "limits": {
+    "primary_disciplines": 1,
+    "secondary_disciplines": 2,
+    "primary_sectors": 1,
+    "secondary_sectors": 1
+  }
+}
+

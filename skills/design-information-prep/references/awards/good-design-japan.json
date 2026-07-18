@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "award_id": "good-design-japan",
+  "program": "Good Design Award Japan",
+  "cycle": "2026",
+  "checked_on": "2026-07-15",
+  "official_sources": ["https://www.g-mark.org/en/apply/gda/guide/steps/1-application/entries"],
+  "notes": ["Character limits and required status follow the English 2026 entry guide. Recheck the live entry screen before final submission."],
+  "routes": [
+    {
+      "route_id": "general",
+      "label": "General entry",
+      "applies_when": "Standard Good Design Award application.",
+      "fields": [
+        {"field_id":"general-name","label":"General name","required":true,"value_type":"string","language":"English","max_length":50,"length_unit":"characters","source_facts":["project_type","product_type"],"essential_facts":["product_type"],"drafting_instructions":"Use a plain generic term that identifies what the entry is.","publicity":"public_if_awarded"},
+        {"field_id":"proper-name","label":"Proper name","required":true,"value_type":"string","language":"English","max_length":150,"length_unit":"characters","source_facts":["project_name"],"essential_facts":["project_name"],"drafting_instructions":"Use the official product, service, or project name.","publicity":"public_if_awarded"},
+        {"field_id":"specification","label":"Specification","required":true,"value_type":"string","language":"English","max_length":300,"length_unit":"characters","source_facts":["specifications","physical_dimensions","materials","core_technology","launch_status","launch_date"],"essential_facts":["specifications"],"drafting_instructions":"List the decision-relevant specifications compactly.","publicity":"public_if_awarded"},
+        {"field_id":"overview","label":"Overview","required":true,"value_type":"string","language":"English","max_length":400,"length_unit":"characters","source_facts":["positioning","target_user","problem","solution","core_functions","user_benefit"],"essential_facts":["solution"],"drafting_instructions":"Define what the entry is, who it serves, and its principal value.","publicity":"public_if_awarded"},
+        {"field_id":"remarkable-points","label":"Most remarkable points","required":true,"value_type":"list","language":"English","max_items":3,"item_max_length":100,"item_length_unit":"characters","source_facts":["innovation_points","competitive_difference","user_benefit","social_impact","sustainability","aesthetics_form"],"essential_facts":["innovation_points"],"drafting_instructions":"State up to three distinct points in specific, evidence-grounded language.","publicity":"public_if_awarded"},
+        {"field_id":"background","label":"Background","required":true,"value_type":"string","language":"English","max_length":800,"length_unit":"characters","source_facts":["target_user","use_context","problem","pain_points","existing_alternatives","market_demand","social_impact"],"essential_facts":["problem"],"drafting_instructions":"Explain why the design was needed and the context that shaped the brief.","publicity":"jury_only"},
+        {"field_id":"realization-process-outcome","label":"Process and outcome of design realization","required":true,"value_type":"string","language":"English","max_length":800,"length_unit":"characters","source_facts":["development_process","research_methods","prototype_iterations","testing_validation","measured_outcomes","solution","innovation_points"],"essential_facts":["development_process"],"drafting_instructions":"Describe the design process, decisive iterations, validation, and resulting outcome.","publicity":"jury_only"},
+        {"field_id":"improvements-differences","label":"Improvements and differences","required":false,"value_type":"string","language":"English","max_length":800,"length_unit":"characters","source_facts":["existing_alternatives","competitive_difference","innovation_points","measured_outcomes"],"essential_facts":[],"drafting_instructions":"Compare only against evidenced prior or competing approaches.","publicity":"jury_only"},
+        {"field_id":"achievements","label":"Achievements","required":false,"value_type":"string","language":"English","max_length":800,"length_unit":"characters","source_facts":["measured_outcomes","business_value","social_impact","environmental_impact","previous_awards"],"essential_facts":[],"drafting_instructions":"Report verified outcomes and recognition; avoid projections presented as results.","publicity":"jury_only"},
+        {"field_id":"intellectual-property","label":"Intellectual property","required":false,"value_type":"string","language":"English","max_length":200,"length_unit":"characters","source_facts":["intellectual_property"],"essential_facts":[],"drafting_instructions":"State only filed, granted, registered, or otherwise confirmed rights.","publicity":"administrative"},
+        {"field_id":"marketing-information","label":"Marketing information","required":false,"value_type":"string","language":"English","max_length":100,"length_unit":"characters","source_facts":["launch_status","launch_date","market_region","retail_price","sales_channels"],"essential_facts":[],"drafting_instructions":"Give concise, verified market availability information.","publicity":"administrative"}
+      ]
+    }
+  ]
+}

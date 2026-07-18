@@ -1,0 +1,2313 @@
+{
+  "schema_version": 1,
+  "source_program": "iF DESIGN AWARD",
+  "minimum_sample_size": 100,
+  "profile_count": 32,
+  "profiles": {
+    "Audio": {
+      "profile_id": "if-category-audio",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "iF DESIGN AWARD",
+      "normalized_category": "Audio",
+      "source_disciplines": {
+        "Product Design": 232
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "primary_sector": "consumer_electronics",
+      "sector_scope": "specific",
+      "canonical_category": "Consumer Technology",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 232,
+        "year_counts": {
+          "2024": 86,
+          "2025": 61,
+          "2026": 85
+        },
+        "award_level_counts": {
+          "Gold": 5,
+          "Winner": 227
+        },
+        "country_region_count": 21,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 0.6336,
+          "statement": 0.0216,
+          "hashtags": 0.4052
+        },
+        "image_count": {
+          "minimum": 4,
+          "median": 4.0,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 4.0
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "high",
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Automobiles / Vehicles": {
+      "profile_id": "if-category-automobiles-vehicles",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "iF DESIGN AWARD",
+      "normalized_category": "Automobiles / Vehicles",
+      "source_disciplines": {
+        "Product Design": 318
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "primary_sector": "mobility",
+      "sector_scope": "specific",
+      "canonical_category": "Mobility and Transportation",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 318,
+        "year_counts": {
+          "2024": 163,
+          "2025": 61,
+          "2026": 94
+        },
+        "award_level_counts": {
+          "Gold": 7,
+          "Winner": 311
+        },
+        "country_region_count": 28,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 0.7044,
+          "statement": 0.022,
+          "hashtags": 0.544
+        },
+        "image_count": {
+          "minimum": 2,
+          "median": 4.0,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 3.98
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "high",
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Babies / Kids": {
+      "profile_id": "if-category-babies-kids",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "iF DESIGN AWARD",
+      "normalized_category": "Babies / Kids",
+      "source_disciplines": {
+        "Product Design": 216
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "primary_sector": "education",
+      "sector_scope": "specific",
+      "canonical_category": "Children and Education",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 216,
+        "year_counts": {
+          "2024": 65,
+          "2025": 69,
+          "2026": 82
+        },
+        "award_level_counts": {
+          "Gold": 4,
+          "Winner": 212
+        },
+        "country_region_count": 25,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 0.6204,
+          "statement": 0.0185,
+          "hashtags": 0.5231
+        },
+        "image_count": {
+          "minimum": 3,
+          "median": 4.0,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 3.99
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "high",
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Bathroom": {
+      "profile_id": "if-category-bathroom",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "iF DESIGN AWARD",
+      "normalized_category": "Bathroom",
+      "source_disciplines": {
+        "Product Design": 464
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "canonical_category": "Home and Kitchen",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 464,
+        "year_counts": {
+          "2024": 184,
+          "2025": 167,
+          "2026": 113
+        },
+        "award_level_counts": {
+          "Gold": 9,
+          "Winner": 455
+        },
+        "country_region_count": 23,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 0.7565,
+          "statement": 0.0194,
+          "hashtags": 0.4634
+        },
+        "image_count": {
+          "minimum": 2,
+          "median": 4.0,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 3.99
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "high",
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Beauty / Wellness": {
+      "profile_id": "if-category-beauty-wellness",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "iF DESIGN AWARD",
+      "normalized_category": "Beauty / Wellness",
+      "source_disciplines": {
+        "Product Design": 182
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "primary_sector": "beauty_fashion",
+      "sector_scope": "specific",
+      "canonical_category": "Lifestyle and Personal Accessories",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 182,
+        "year_counts": {
+          "2024": 53,
+          "2025": 63,
+          "2026": 66
+        },
+        "award_level_counts": {
+          "Gold": 2,
+          "Winner": 180
+        },
+        "country_region_count": 13,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 0.6374,
+          "statement": 0.011,
+          "hashtags": 0.4945
+        },
+        "image_count": {
+          "minimum": 4,
+          "median": 4.0,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 4.0
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "medium",
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Beverage Packaging": {
+      "profile_id": "if-category-beverage-packaging",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "iF DESIGN AWARD",
+      "normalized_category": "Beverage Packaging",
+      "source_disciplines": {
+        "Packaging Design": 225
+      },
+      "primary_evaluation_discipline": "packaging",
+      "discipline_purity": 1.0,
+      "primary_sector": "food_beverage",
+      "sector_scope": "specific",
+      "canonical_category": "Packaging",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 225,
+        "year_counts": {
+          "2024": 125,
+          "2025": 61,
+          "2026": 39
+        },
+        "award_level_counts": {
+          "Gold": 7,
+          "Winner": 218
+        },
+        "country_region_count": 13,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 0.8267,
+          "statement": 0.0311,
+          "hashtags": 0.6
+        },
+        "image_count": {
+          "minimum": 2,
+          "median": 4,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 3.97
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "user_function_usability",
+          "form_interaction_quality",
+          "responsibility_sustainability"
+        ],
+        "evidence_prompts": [
+          "Show opening, dispensing, resealing, protection, and disposal behavior.",
+          "State material, logistics, and end-of-life boundaries.",
+          "Show hierarchy and legibility at the real viewing scale."
+        ],
+        "presentation_expectations": [
+          "pack_family",
+          "opening_sequence",
+          "material_detail",
+          "shelf_or_logistics_context",
+          "end_of_life_explanation"
+        ]
+      },
+      "confidence": "high",
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Bicycles": {
+      "profile_id": "if-category-bicycles",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "iF DESIGN AWARD",
+      "normalized_category": "Bicycles",
+      "source_disciplines": {
+        "Product Design": 140
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "primary_sector": "mobility",
+      "sector_scope": "specific",
+      "canonical_category": "Mobility and Transportation",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 140,
+        "year_counts": {
+          "2024": 39,
+          "2025": 45,
+          "2026": 56
+        },
+        "award_level_counts": {
+          "Gold": 6,
+          "Winner": 134
+        },
+        "country_region_count": 19,
+        "structured_field_coverage": {
+          "target_groups": 0.9929,
+          "date_of_launch": 1.0,
+          "development_time": 0.6,
+          "statement": 0.0429,
+          "hashtags": 0.5214
+        },
+        "image_count": {
+          "minimum": 3,
+          "median": 4.0,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 3.99
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "medium",
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Building Technology": {
+      "profile_id": "if-category-building-technology",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "iF DESIGN AWARD",
+      "normalized_category": "Building Technology",
+      "source_disciplines": {
+        "Product Design": 364
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "primary_sector": "industrial",
+      "sector_scope": "specific",
+      "canonical_category": "Commercial and Industrial",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 364,
+        "year_counts": {
+          "2024": 123,
+          "2025": 121,
+          "2026": 120
+        },
+        "award_level_counts": {
+          "Gold": 10,
+          "Winner": 354
+        },
+        "country_region_count": 32,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 0.6703,
+          "statement": 0.0275,
+          "hashtags": 0.5247
+        },
+        "image_count": {
+          "minimum": 3,
+          "median": 4.0,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 4.0
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "high",
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Company Branding": {
+      "profile_id": "if-category-company-branding",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "iF DESIGN AWARD",
+      "normalized_category": "Company Branding",
+      "source_disciplines": {
+        "Branding & Communication Design": 143
+      },
+      "primary_evaluation_discipline": "brand_communication",
+      "discipline_purity": 1.0,
+      "primary_sector": null,
+      "sector_scope": "cross_sector",
+      "canonical_category": "Communication and Branding",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 143,
+        "year_counts": {
+          "2024": 56,
+          "2025": 38,
+          "2026": 49
+        },
+        "award_level_counts": {
+          "Gold": 2,
+          "Winner": 141
+        },
+        "country_region_count": 19,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 0.6573,
+          "statement": 0.014,
+          "hashtags": 0.5944
+        },
+        "image_count": {
+          "minimum": 2,
+          "median": 4,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 3.99
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "innovation_differentiation",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the communication objective, audience, and response sought.",
+          "Show hierarchy, legibility, and consistency across relevant touchpoints.",
+          "Separate visual novelty from communication effectiveness."
+        ],
+        "presentation_expectations": [
+          "core_message",
+          "identity_system",
+          "touchpoint_range",
+          "real_context_application",
+          "legibility_detail"
+        ]
+      },
+      "confidence": "medium",
+      "mapping_method": "explicit_cross_sector",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Computer": {
+      "profile_id": "if-category-computer",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "iF DESIGN AWARD",
+      "normalized_category": "Computer",
+      "source_disciplines": {
+        "Product Design": 389
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "primary_sector": "consumer_electronics",
+      "sector_scope": "specific",
+      "canonical_category": "Consumer Technology",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 389,
+        "year_counts": {
+          "2024": 92,
+          "2025": 135,
+          "2026": 162
+        },
+        "award_level_counts": {
+          "Gold": 6,
+          "Winner": 383
+        },
+        "country_region_count": 15,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 0.5835,
+          "statement": 0.0154,
+          "hashtags": 0.4165
+        },
+        "image_count": {
+          "minimum": 2,
+          "median": 4,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 3.98
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "high",
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Corporate / Office Interiors": {
+      "profile_id": "if-category-corporate-office-interiors",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "iF DESIGN AWARD",
+      "normalized_category": "Corporate / Office Interiors",
+      "source_disciplines": {
+        "Interior Architecture": 184
+      },
+      "primary_evaluation_discipline": "interior_spatial",
+      "discipline_purity": 1.0,
+      "primary_sector": "office",
+      "sector_scope": "specific",
+      "canonical_category": "Office and Productivity",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 184,
+        "year_counts": {
+          "2024": 45,
+          "2025": 74,
+          "2026": 65
+        },
+        "award_level_counts": {
+          "Gold": 3,
+          "Winner": 181
+        },
+        "country_region_count": 14,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 0.6467,
+          "statement": 0.0163,
+          "hashtags": 0.5761
+        },
+        "image_count": {
+          "minimum": 2,
+          "median": 4.0,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 3.97
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show plan, circulation, zoning, scale, accessibility, and occupancy behavior.",
+          "Show material, lighting, construction, and maintenance decisions.",
+          "Show the relationship between atmosphere and functional performance."
+        ],
+        "presentation_expectations": [
+          "spatial_overview",
+          "plan_and_circulation",
+          "human_scale_scenario",
+          "material_lighting_detail",
+          "construction_or_section"
+        ]
+      },
+      "confidence": "medium",
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Digital Media Interfaces": {
+      "profile_id": "if-category-digital-media-interfaces",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "iF DESIGN AWARD",
+      "normalized_category": "Digital Media Interfaces",
+      "source_disciplines": {
+        "User Interface (UI)": 153
+      },
+      "primary_evaluation_discipline": "user_interface",
+      "discipline_purity": 1.0,
+      "primary_sector": "media_entertainment",
+      "sector_scope": "specific",
+      "canonical_category": "Digital Interaction",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 153,
+        "year_counts": {
+          "2024": 51,
+          "2025": 36,
+          "2026": 66
+        },
+        "award_level_counts": {
+          "Gold": 4,
+          "Winner": 149
+        },
+        "country_region_count": 24,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 0.5686,
+          "statement": 0.0327,
+          "hashtags": 0.4837
+        },
+        "image_count": {
+          "minimum": 3,
+          "median": 4,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 3.99
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show key states, navigation hierarchy, feedback, and error recovery.",
+          "Show accessibility and legibility at the intended device scale.",
+          "Show a complete task flow instead of isolated polished screens."
+        ],
+        "presentation_expectations": [
+          "information_architecture",
+          "task_flow",
+          "key_interface_states",
+          "error_or_empty_state",
+          "device_context"
+        ]
+      },
+      "confidence": "medium",
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Furniture / Home Decoration": {
+      "profile_id": "if-category-furniture-home-decoration",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "iF DESIGN AWARD",
+      "normalized_category": "Furniture / Home Decoration",
+      "source_disciplines": {
+        "Product Design": 210
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "primary_sector": "furniture_lighting",
+      "sector_scope": "specific",
+      "canonical_category": "Furniture",
+      "focus_tags": [
+        "sustainability_circularity"
+      ],
+      "observed_metrics": {
+        "sample_size": 210,
+        "year_counts": {
+          "2024": 49,
+          "2025": 71,
+          "2026": 90
+        },
+        "award_level_counts": {
+          "Gold": 5,
+          "Winner": 205
+        },
+        "country_region_count": 22,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 0.5714,
+          "statement": 0.0238,
+          "hashtags": 0.5095
+        },
+        "image_count": {
+          "minimum": 4,
+          "median": 4.0,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 4.0
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "high",
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Gaming Hardware / VR / AR": {
+      "profile_id": "if-category-gaming-hardware-vr-ar",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "iF DESIGN AWARD",
+      "normalized_category": "Gaming Hardware / VR / AR",
+      "source_disciplines": {
+        "Product Design": 149
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "primary_sector": "media_entertainment",
+      "sector_scope": "specific",
+      "canonical_category": "Consumer Technology",
+      "focus_tags": [
+        "gaming_ar_vr"
+      ],
+      "observed_metrics": {
+        "sample_size": 149,
+        "year_counts": {
+          "2024": 72,
+          "2025": 33,
+          "2026": 44
+        },
+        "award_level_counts": {
+          "Gold": 3,
+          "Winner": 146
+        },
+        "country_region_count": 11,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 0.7047,
+          "statement": 0.0201,
+          "hashtags": 0.5638
+        },
+        "image_count": {
+          "minimum": 2,
+          "median": 4,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 3.99
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "medium",
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Garden / Outdoor Living": {
+      "profile_id": "if-category-garden-outdoor-living",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "iF DESIGN AWARD",
+      "normalized_category": "Garden / Outdoor Living",
+      "source_disciplines": {
+        "Product Design": 146
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "canonical_category": "Home and Kitchen",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 146,
+        "year_counts": {
+          "2024": 53,
+          "2025": 46,
+          "2026": 47
+        },
+        "award_level_counts": {
+          "Gold": 3,
+          "Winner": 143
+        },
+        "country_region_count": 20,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 0.6781,
+          "statement": 0.0205,
+          "hashtags": 0.5959
+        },
+        "image_count": {
+          "minimum": 2,
+          "median": 4.0,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 3.97
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "medium",
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Household / Tableware": {
+      "profile_id": "if-category-household-tableware",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "iF DESIGN AWARD",
+      "normalized_category": "Household / Tableware",
+      "source_disciplines": {
+        "Product Design": 256
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "canonical_category": "Home and Kitchen",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 256,
+        "year_counts": {
+          "2024": 149,
+          "2025": 107
+        },
+        "award_level_counts": {
+          "Gold": 5,
+          "Winner": 251
+        },
+        "country_region_count": 25,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 1.0,
+          "statement": 0.0195,
+          "hashtags": 0.7305
+        },
+        "image_count": {
+          "minimum": 3,
+          "median": 4.0,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 4.0
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "high",
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Household Tools & Appliances": {
+      "profile_id": "if-category-household-tools-appliances",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "iF DESIGN AWARD",
+      "normalized_category": "Household Tools & Appliances",
+      "source_disciplines": {
+        "Product Design": 135
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "canonical_category": "Home and Kitchen",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 135,
+        "year_counts": {
+          "2026": 135
+        },
+        "award_level_counts": {
+          "Gold": 3,
+          "Winner": 132
+        },
+        "country_region_count": 16,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 0.0,
+          "statement": 0.0222,
+          "hashtags": 0.0
+        },
+        "image_count": {
+          "minimum": 4,
+          "median": 4,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 4.0
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "medium",
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Industry / Tools / Machinery": {
+      "profile_id": "if-category-industry-tools-machinery",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "iF DESIGN AWARD",
+      "normalized_category": "Industry / Tools / Machinery",
+      "source_disciplines": {
+        "Product Design": 332
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "primary_sector": "industrial",
+      "sector_scope": "specific",
+      "canonical_category": "Commercial and Industrial",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 332,
+        "year_counts": {
+          "2024": 101,
+          "2025": 107,
+          "2026": 124
+        },
+        "award_level_counts": {
+          "Gold": 7,
+          "Winner": 325
+        },
+        "country_region_count": 22,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 0.6265,
+          "statement": 0.0211,
+          "hashtags": 0.5663
+        },
+        "image_count": {
+          "minimum": 3,
+          "median": 4.0,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 3.99
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "high",
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Kitchen": {
+      "profile_id": "if-category-kitchen",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "iF DESIGN AWARD",
+      "normalized_category": "Kitchen",
+      "source_disciplines": {
+        "Product Design": 553
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "canonical_category": "Home and Kitchen",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 553,
+        "year_counts": {
+          "2024": 211,
+          "2025": 160,
+          "2026": 182
+        },
+        "award_level_counts": {
+          "Gold": 13,
+          "Winner": 540
+        },
+        "country_region_count": 30,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 0.6709,
+          "statement": 0.0235,
+          "hashtags": 0.4973
+        },
+        "image_count": {
+          "minimum": 3,
+          "median": 4,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 4.0
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "high",
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Leisure / Lifestyle": {
+      "profile_id": "if-category-leisure-lifestyle",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "iF DESIGN AWARD",
+      "normalized_category": "Leisure / Lifestyle",
+      "source_disciplines": {
+        "Product Design": 251
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "primary_sector": "sports_outdoor",
+      "sector_scope": "specific",
+      "canonical_category": "Sports and Outdoor",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 251,
+        "year_counts": {
+          "2024": 86,
+          "2025": 94,
+          "2026": 71
+        },
+        "award_level_counts": {
+          "Gold": 4,
+          "Winner": 247
+        },
+        "country_region_count": 25,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 0.7171,
+          "statement": 0.0159,
+          "hashtags": 0.5777
+        },
+        "image_count": {
+          "minimum": 3,
+          "median": 4,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 4.0
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "high",
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Lighting": {
+      "profile_id": "if-category-lighting",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "iF DESIGN AWARD",
+      "normalized_category": "Lighting",
+      "source_disciplines": {
+        "Product Design": 321
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "primary_sector": "furniture_lighting",
+      "sector_scope": "specific",
+      "canonical_category": "Lighting",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 321,
+        "year_counts": {
+          "2024": 74,
+          "2025": 149,
+          "2026": 98
+        },
+        "award_level_counts": {
+          "Gold": 6,
+          "Winner": 315
+        },
+        "country_region_count": 27,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 0.6947,
+          "statement": 0.0187,
+          "hashtags": 0.5981
+        },
+        "image_count": {
+          "minimum": 3,
+          "median": 4,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 3.99
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "high",
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Medicine / Health": {
+      "profile_id": "if-category-medicine-health",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "iF DESIGN AWARD",
+      "normalized_category": "Medicine / Health",
+      "source_disciplines": {
+        "Product Design": 313
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "primary_sector": "healthcare",
+      "sector_scope": "specific",
+      "canonical_category": "Medical and Health",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 313,
+        "year_counts": {
+          "2024": 118,
+          "2025": 117,
+          "2026": 78
+        },
+        "award_level_counts": {
+          "Gold": 7,
+          "Winner": 306
+        },
+        "country_region_count": 27,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 0.7508,
+          "statement": 0.0224,
+          "hashtags": 0.5751
+        },
+        "image_count": {
+          "minimum": 2,
+          "median": 4,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 3.99
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "high",
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Office": {
+      "profile_id": "if-category-office",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "iF DESIGN AWARD",
+      "normalized_category": "Office",
+      "source_disciplines": {
+        "Product Design": 136
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "primary_sector": "office",
+      "sector_scope": "specific",
+      "canonical_category": "Office and Productivity",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 136,
+        "year_counts": {
+          "2024": 56,
+          "2025": 45,
+          "2026": 35
+        },
+        "award_level_counts": {
+          "Gold": 5,
+          "Winner": 131
+        },
+        "country_region_count": 25,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 0.7426,
+          "statement": 0.0368,
+          "hashtags": 0.6544
+        },
+        "image_count": {
+          "minimum": 4,
+          "median": 4.0,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 4.0
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "medium",
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Product & Service Branding": {
+      "profile_id": "if-category-product-service-branding",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "iF DESIGN AWARD",
+      "normalized_category": "Product & Service Branding",
+      "source_disciplines": {
+        "Branding & Communication Design": 141
+      },
+      "primary_evaluation_discipline": "brand_communication",
+      "discipline_purity": 1.0,
+      "primary_sector": null,
+      "sector_scope": "cross_sector",
+      "canonical_category": "Communication and Branding",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 141,
+        "year_counts": {
+          "2024": 69,
+          "2025": 40,
+          "2026": 32
+        },
+        "award_level_counts": {
+          "Gold": 3,
+          "Winner": 138
+        },
+        "country_region_count": 14,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 0.773,
+          "statement": 0.0213,
+          "hashtags": 0.6879
+        },
+        "image_count": {
+          "minimum": 4,
+          "median": 4,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 4.0
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "innovation_differentiation",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the communication objective, audience, and response sought.",
+          "Show hierarchy, legibility, and consistency across relevant touchpoints.",
+          "Separate visual novelty from communication effectiveness."
+        ],
+        "presentation_expectations": [
+          "core_message",
+          "identity_system",
+          "touchpoint_range",
+          "real_context_application",
+          "legibility_detail"
+        ]
+      },
+      "confidence": "medium",
+      "mapping_method": "explicit_cross_sector",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Product Concepts": {
+      "profile_id": "if-category-product-concepts",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "iF DESIGN AWARD",
+      "normalized_category": "Product Concepts",
+      "source_disciplines": {
+        "Concepts": 440
+      },
+      "primary_evaluation_discipline": "design_strategy_research",
+      "discipline_purity": 1.0,
+      "primary_sector": null,
+      "sector_scope": "cross_sector",
+      "canonical_category": "Concept and Speculative Design",
+      "focus_tags": [
+        "experimental_speculative"
+      ],
+      "observed_metrics": {
+        "sample_size": 440,
+        "year_counts": {
+          "2024": 113,
+          "2025": 237,
+          "2026": 90
+        },
+        "award_level_counts": {
+          "Gold": 8,
+          "Winner": 432
+        },
+        "country_region_count": 19,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 0.8818,
+          "development_time": 0.7955,
+          "statement": 0.0182,
+          "hashtags": 0.5659
+        },
+        "image_count": {
+          "minimum": 3,
+          "median": 4.0,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 4.0
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "innovation_differentiation",
+          "solution_integrity"
+        ],
+        "evidence_prompts": [
+          "State assumptions, future conditions, and the mechanism connecting concept to outcome.",
+          "Show why the proposal is more than a styling exercise.",
+          "Show a validation plan, prototype, or scenario test appropriate to concept maturity."
+        ],
+        "presentation_expectations": [
+          "problem_and_future_context",
+          "concept_principle",
+          "scenario_sequence",
+          "system_logic",
+          "validation_plan_or_prototype"
+        ]
+      },
+      "confidence": "high",
+      "mapping_method": "explicit_cross_sector",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Product UX": {
+      "profile_id": "if-category-product-ux",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "iF DESIGN AWARD",
+      "normalized_category": "Product UX",
+      "source_disciplines": {
+        "User Experience (UX)": 270
+      },
+      "primary_evaluation_discipline": "user_experience",
+      "discipline_purity": 1.0,
+      "primary_sector": null,
+      "sector_scope": "cross_sector",
+      "canonical_category": "Digital Interaction",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 270,
+        "year_counts": {
+          "2024": 98,
+          "2025": 102,
+          "2026": 70
+        },
+        "award_level_counts": {
+          "Gold": 3,
+          "Winner": 267
+        },
+        "country_region_count": 27,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 0.7407,
+          "statement": 0.0111,
+          "hashtags": 0.6111
+        },
+        "image_count": {
+          "minimum": 2,
+          "median": 4.0,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 3.99
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "user_function_usability",
+          "solution_integrity",
+          "responsibility_sustainability"
+        ],
+        "evidence_prompts": [
+          "Show the end-to-end journey, actors, transitions, and dependencies.",
+          "Show research or testing evidence for the claimed experience improvement.",
+          "Show failure, recovery, privacy, and exclusion risks where applicable."
+        ],
+        "presentation_expectations": [
+          "user_journey",
+          "scenario_sequence",
+          "touchpoint_ecosystem",
+          "research_or_test_evidence",
+          "failure_recovery_state"
+        ]
+      },
+      "confidence": "high",
+      "mapping_method": "explicit_cross_sector",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Public Use / Retail": {
+      "profile_id": "if-category-public-use-retail",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "iF DESIGN AWARD",
+      "normalized_category": "Public Use / Retail",
+      "source_disciplines": {
+        "Product Design": 179
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "primary_sector": "retail",
+      "sector_scope": "specific",
+      "canonical_category": "Commercial and Industrial",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 179,
+        "year_counts": {
+          "2024": 106,
+          "2025": 28,
+          "2026": 45
+        },
+        "award_level_counts": {
+          "Gold": 3,
+          "Winner": 176
+        },
+        "country_region_count": 19,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 0.7486,
+          "statement": 0.0168,
+          "hashtags": 0.6201
+        },
+        "image_count": {
+          "minimum": 2,
+          "median": 4,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 3.99
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "medium",
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Residential Interiors": {
+      "profile_id": "if-category-residential-interiors",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "iF DESIGN AWARD",
+      "normalized_category": "Residential Interiors",
+      "source_disciplines": {
+        "Interior Architecture": 671
+      },
+      "primary_evaluation_discipline": "interior_spatial",
+      "discipline_purity": 1.0,
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "canonical_category": "Environment and Spatial Design",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 671,
+        "year_counts": {
+          "2024": 295,
+          "2025": 188,
+          "2026": 188
+        },
+        "award_level_counts": {
+          "Gold": 5,
+          "Winner": 666
+        },
+        "country_region_count": 18,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 0.7198,
+          "statement": 0.0075,
+          "hashtags": 0.6051
+        },
+        "image_count": {
+          "minimum": 2,
+          "median": 4,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 3.97
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show plan, circulation, zoning, scale, accessibility, and occupancy behavior.",
+          "Show material, lighting, construction, and maintenance decisions.",
+          "Show the relationship between atmosphere and functional performance."
+        ],
+        "presentation_expectations": [
+          "spatial_overview",
+          "plan_and_circulation",
+          "human_scale_scenario",
+          "material_lighting_detail",
+          "construction_or_section"
+        ]
+      },
+      "confidence": "high",
+      "mapping_method": "explicit_override_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Sports / Outdoor": {
+      "profile_id": "if-category-sports-outdoor",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "iF DESIGN AWARD",
+      "normalized_category": "Sports / Outdoor",
+      "source_disciplines": {
+        "Product Design": 201
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "primary_sector": "sports_outdoor",
+      "sector_scope": "specific",
+      "canonical_category": "Sports and Outdoor",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 201,
+        "year_counts": {
+          "2024": 53,
+          "2025": 49,
+          "2026": 99
+        },
+        "award_level_counts": {
+          "Gold": 3,
+          "Winner": 198
+        },
+        "country_region_count": 17,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 0.5075,
+          "statement": 0.0149,
+          "hashtags": 0.4129
+        },
+        "image_count": {
+          "minimum": 4,
+          "median": 4,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 4.0
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "high",
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "TV / Cameras": {
+      "profile_id": "if-category-tv-cameras",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "iF DESIGN AWARD",
+      "normalized_category": "TV / Cameras",
+      "source_disciplines": {
+        "Product Design": 292
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "primary_sector": "consumer_electronics",
+      "sector_scope": "specific",
+      "canonical_category": "Consumer Technology",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 292,
+        "year_counts": {
+          "2024": 118,
+          "2025": 94,
+          "2026": 80
+        },
+        "award_level_counts": {
+          "Gold": 6,
+          "Winner": 286
+        },
+        "country_region_count": 16,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 0.726,
+          "statement": 0.0205,
+          "hashtags": 0.4486
+        },
+        "image_count": {
+          "minimum": 2,
+          "median": 4.0,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 3.99
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "high",
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Telecommunication": {
+      "profile_id": "if-category-telecommunication",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "iF DESIGN AWARD",
+      "normalized_category": "Telecommunication",
+      "source_disciplines": {
+        "Product Design": 264
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "primary_sector": "consumer_electronics",
+      "sector_scope": "specific",
+      "canonical_category": "Consumer Technology",
+      "focus_tags": [
+        "sustainability_circularity"
+      ],
+      "observed_metrics": {
+        "sample_size": 264,
+        "year_counts": {
+          "2024": 77,
+          "2025": 94,
+          "2026": 93
+        },
+        "award_level_counts": {
+          "Gold": 6,
+          "Winner": 258
+        },
+        "country_region_count": 18,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 0.6477,
+          "statement": 0.0227,
+          "hashtags": 0.3447
+        },
+        "image_count": {
+          "minimum": 3,
+          "median": 4.0,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 4.0
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "high",
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Watches / Jewelry": {
+      "profile_id": "if-category-watches-jewelry",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "iF DESIGN AWARD",
+      "normalized_category": "Watches / Jewelry",
+      "source_disciplines": {
+        "Product Design": 105
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "primary_sector": "beauty_fashion",
+      "sector_scope": "specific",
+      "canonical_category": "Lifestyle and Personal Accessories",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 105,
+        "year_counts": {
+          "2024": 48,
+          "2025": 30,
+          "2026": 27
+        },
+        "award_level_counts": {
+          "Gold": 3,
+          "Winner": 102
+        },
+        "country_region_count": 18,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 0.7429,
+          "statement": 0.0286,
+          "hashtags": 0.5048
+        },
+        "image_count": {
+          "minimum": 3,
+          "median": 4,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 3.99
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "medium",
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    }
+  }
+}

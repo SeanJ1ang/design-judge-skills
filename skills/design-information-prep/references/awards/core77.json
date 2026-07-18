@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "award_id": "core77",
+  "program": "Core77 Design Awards",
+  "cycle": "2026",
+  "checked_on": "2026-07-15",
+  "official_sources": ["https://designawards.core77.com/how-to-enter"],
+  "notes": ["The published entry guide states that Overview and Details may be shared publicly if the entry is selected."],
+  "routes": [
+    {
+      "route_id": "general",
+      "label": "General entry",
+      "applies_when": "Professional or student entry using the standard written submission structure.",
+      "fields": [
+        {"field_id":"title","label":"Title","required":true,"value_type":"string","language":"English","source_facts":["project_name"],"essential_facts":["project_name"],"drafting_instructions":"Use the official project title.","publicity":"public_if_awarded"},
+        {"field_id":"designer","label":"Designer","required":true,"value_type":"string","language":"English","source_facts":["lead_designer","team_members","design_company"],"essential_facts":["lead_designer"],"drafting_instructions":"Use confirmed designer credit exactly as it should appear publicly.","publicity":"public_if_awarded"},
+        {"field_id":"client","label":"Client","required":true,"value_type":"string","language":"English","source_facts":["client_manufacturer"],"essential_facts":["client_manufacturer"],"drafting_instructions":"Use the confirmed commissioning client or manufacturer name.","publicity":"public_if_awarded"},
+        {"field_id":"overview","label":"Overview","required":true,"value_type":"string","language":"English","max_length":500,"length_unit":"words","source_facts":["positioning","target_user","use_context","problem","solution","core_functions","innovation_points","user_benefit","social_impact"],"essential_facts":["problem","solution"],"drafting_instructions":"Provide a self-contained public overview of the problem, design response, and value.","publicity":"public_if_awarded"},
+        {"field_id":"details","label":"Details","required":true,"value_type":"string","language":"English","max_length":1500,"length_unit":"words","source_facts":["problem","pain_points","research_methods","development_process","prototype_iterations","solution","working_principle","core_functions","innovation_points","competitive_difference","materials","manufacturing_process","testing_validation","measured_outcomes","user_benefit","business_value","social_impact","environmental_impact","sustainability"],"essential_facts":["development_process","innovation_points"],"drafting_instructions":"Explain the process, design decisions, innovations, execution, and verified outcomes in enough depth for jury review.","publicity":"public_if_awarded"},
+        {"field_id":"team-credits","label":"Team credits","required":false,"value_type":"list","language":"English","max_items":50,"source_facts":["team_members"],"essential_facts":[],"drafting_instructions":"List confirmed names and roles exactly as authorized.","publicity":"public_if_awarded"},
+        {"field_id":"external-link","label":"External link","required":false,"value_type":"string","language":"URL","source_facts":["urls"],"essential_facts":[],"drafting_instructions":"Use a stable, accessible project or video URL.","publicity":"not_stated"}
+      ]
+    }
+  ]
+}

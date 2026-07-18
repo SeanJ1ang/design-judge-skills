@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "award_id": "k-design",
+  "program": "K-Design Award",
+  "cycle": "2026",
+  "checked_on": "2026-07-15",
+  "official_sources": ["https://kdesignaward.com/index.php?category=145294&mid=rules_en"],
+  "notes": ["The public image-and-text guideline specifies separate English and native-language boxes. English is treated as the submission baseline; confirm native-language requirements in the live portal."],
+  "routes": [
+    {
+      "route_id": "general",
+      "label": "General entry",
+      "applies_when": "Any K-Design Award entry using the published online text guideline.",
+      "fields": [
+        {"field_id":"project-name","label":"Project name","required":true,"value_type":"string","language":"English","source_facts":["project_name"],"essential_facts":["project_name"],"drafting_instructions":"Use the same official name as the visual submission.","publicity":"public_if_awarded"},
+        {"field_id":"english-summary","label":"English summary","required":true,"value_type":"string","language":"English","max_length":300,"length_unit":"characters","source_facts":["positioning","problem","solution","core_functions","user_benefit"],"essential_facts":["solution"],"drafting_instructions":"Give a compact project definition and principal benefit.","publicity":"public_if_awarded"},
+        {"field_id":"english-description","label":"English description","required":true,"value_type":"string","language":"English","max_length":650,"length_unit":"characters","source_facts":["problem","target_user","use_context","solution","working_principle","core_functions","innovation_points","competitive_difference","user_benefit","sustainability","materials","testing_validation"],"essential_facts":["problem","solution","innovation_points"],"drafting_instructions":"Explain the problem, solution, use, innovation, and evidenced outcome in one coherent description.","publicity":"public_if_awarded"},
+        {"field_id":"native-summary","label":"Native-language summary","required":false,"value_type":"string","language":"Applicant native language","max_length":250,"length_unit":"characters","source_facts":["positioning","problem","solution","core_functions","user_benefit"],"essential_facts":[],"drafting_instructions":"Translate the approved English summary faithfully; do not introduce new claims.","publicity":"not_stated"},
+        {"field_id":"native-description","label":"Native-language description","required":false,"value_type":"string","language":"Applicant native language","max_length":600,"length_unit":"characters","source_facts":["problem","target_user","use_context","solution","working_principle","core_functions","innovation_points","competitive_difference","user_benefit","sustainability","materials","testing_validation"],"essential_facts":[],"drafting_instructions":"Translate the approved English description faithfully; do not introduce new claims.","publicity":"not_stated"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,933 @@
+{
+  "schema_version": 1,
+  "source_program": "iF DESIGN AWARD",
+  "profile_count": 9,
+  "profiles": {
+    "architecture_landscape_urban": {
+      "profile_id": "if-discipline-architecture_landscape_urban",
+      "profile_type": "observed_winner_discipline_context",
+      "source_program": "iF DESIGN AWARD",
+      "source_discipline": "Architecture",
+      "evaluation_discipline": "architecture_landscape_urban",
+      "observed_metrics": {
+        "sample_size": 241,
+        "year_counts": {
+          "2024": 95,
+          "2025": 67,
+          "2026": 79
+        },
+        "award_level_counts": {
+          "Gold": 9,
+          "Winner": 232
+        },
+        "country_region_count": 14,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 0.6722,
+          "statement": 0.0373,
+          "hashtags": 0.6183
+        },
+        "image_count": {
+          "minimum": 2,
+          "median": 4,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 3.98
+        },
+        "normalized_category_count": 10,
+        "top_categories": [
+          {
+            "category": "Residential Architecture",
+            "sample_size": 80
+          },
+          {
+            "category": "Public Architecture / Master Planning",
+            "sample_size": 58
+          },
+          {
+            "category": "Commercial Architecture",
+            "sample_size": 44
+          },
+          {
+            "category": "Retail / Hospitality Architecture",
+            "sample_size": 21
+          },
+          {
+            "category": "Mixed Use Architecture",
+            "sample_size": 19
+          },
+          {
+            "category": "Hospitality Architecture",
+            "sample_size": 6
+          },
+          {
+            "category": "Educational / Institutional Architecture",
+            "sample_size": 5
+          },
+          {
+            "category": "Landscape Architecture",
+            "sample_size": 5
+          },
+          {
+            "category": "Retail Architecture",
+            "sample_size": 2
+          },
+          {
+            "category": "Sports Facilities / Arena Architecture",
+            "sample_size": 1
+          }
+        ]
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "solution_integrity",
+          "implementation_feasibility",
+          "responsibility_sustainability"
+        ],
+        "evidence_prompts": [
+          "Show site, program, users, circulation, structure, and environmental response.",
+          "Show accessibility, public impact, and long-term operation.",
+          "Show sections or systems that support the central spatial claim."
+        ],
+        "presentation_expectations": [
+          "site_context",
+          "plan_section_diagram",
+          "program_and_circulation",
+          "environmental_strategy",
+          "human_scale_experience"
+        ]
+      },
+      "confidence": "high",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Guidance is an expert seed aligned to the source taxonomy, not a learned weight."
+      ]
+    },
+    "brand_communication": {
+      "profile_id": "if-discipline-brand_communication",
+      "profile_type": "observed_winner_discipline_context",
+      "source_program": "iF DESIGN AWARD",
+      "source_discipline": "Branding & Communication Design",
+      "evaluation_discipline": "brand_communication",
+      "observed_metrics": {
+        "sample_size": 805,
+        "year_counts": {
+          "2024": 308,
+          "2025": 242,
+          "2026": 255
+        },
+        "award_level_counts": {
+          "Gold": 21,
+          "Winner": 784
+        },
+        "country_region_count": 32,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 0.6832,
+          "statement": 0.0261,
+          "hashtags": 0.5925
+        },
+        "image_count": {
+          "minimum": 0,
+          "median": 4,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 3.99
+        },
+        "normalized_category_count": 14,
+        "top_categories": [
+          {
+            "category": "Company Branding",
+            "sample_size": 143
+          },
+          {
+            "category": "Product & Service Branding",
+            "sample_size": 141
+          },
+          {
+            "category": "Apps / Software",
+            "sample_size": 91
+          },
+          {
+            "category": "Digital & Print Publications",
+            "sample_size": 86
+          },
+          {
+            "category": "Campaigns / Advertising",
+            "sample_size": 85
+          },
+          {
+            "category": "Websites",
+            "sample_size": 67
+          },
+          {
+            "category": "Public & Cause Branding",
+            "sample_size": 63
+          },
+          {
+            "category": "Typography / Signage / Illustration",
+            "sample_size": 57
+          },
+          {
+            "category": "Film / Video / Animation",
+            "sample_size": 29
+          },
+          {
+            "category": "Live Event & Exhibition Branding",
+            "sample_size": 20
+          },
+          {
+            "category": "Sound / Music Use",
+            "sample_size": 11
+          },
+          {
+            "category": "Employer Branding",
+            "sample_size": 8
+          }
+        ]
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "innovation_differentiation",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the communication objective, audience, and response sought.",
+          "Show hierarchy, legibility, and consistency across relevant touchpoints.",
+          "Separate visual novelty from communication effectiveness."
+        ],
+        "presentation_expectations": [
+          "core_message",
+          "identity_system",
+          "touchpoint_range",
+          "real_context_application",
+          "legibility_detail"
+        ]
+      },
+      "confidence": "high",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Guidance is an expert seed aligned to the source taxonomy, not a learned weight."
+      ]
+    },
+    "design_strategy_research": {
+      "profile_id": "if-discipline-design_strategy_research",
+      "profile_type": "observed_winner_discipline_context",
+      "source_program": "iF DESIGN AWARD",
+      "source_discipline": "Concepts",
+      "evaluation_discipline": "design_strategy_research",
+      "observed_metrics": {
+        "sample_size": 563,
+        "year_counts": {
+          "2024": 149,
+          "2025": 279,
+          "2026": 135
+        },
+        "award_level_counts": {
+          "Gold": 13,
+          "Winner": 550
+        },
+        "country_region_count": 25,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 0.9041,
+          "development_time": 0.7602,
+          "statement": 0.0231,
+          "hashtags": 0.5648
+        },
+        "image_count": {
+          "minimum": 3,
+          "median": 4,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 4.0
+        },
+        "normalized_category_count": 8,
+        "top_categories": [
+          {
+            "category": "Product Concepts",
+            "sample_size": 440
+          },
+          {
+            "category": "User Experience Concepts",
+            "sample_size": 49
+          },
+          {
+            "category": "Service, System & Process Concepts",
+            "sample_size": 32
+          },
+          {
+            "category": "Packaging Concepts",
+            "sample_size": 13
+          },
+          {
+            "category": "User Interface Concepts",
+            "sample_size": 10
+          },
+          {
+            "category": "Interior Architecture Concepts",
+            "sample_size": 9
+          },
+          {
+            "category": "Branding & Communication Concepts",
+            "sample_size": 8
+          },
+          {
+            "category": "Architecture Concepts",
+            "sample_size": 2
+          }
+        ]
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "innovation_differentiation",
+          "solution_integrity"
+        ],
+        "evidence_prompts": [
+          "State assumptions, future conditions, and the mechanism connecting concept to outcome.",
+          "Show why the proposal is more than a styling exercise.",
+          "Show a validation plan, prototype, or scenario test appropriate to concept maturity."
+        ],
+        "presentation_expectations": [
+          "problem_and_future_context",
+          "concept_principle",
+          "scenario_sequence",
+          "system_logic",
+          "validation_plan_or_prototype"
+        ]
+      },
+      "confidence": "high",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Guidance is an expert seed aligned to the source taxonomy, not a learned weight."
+      ]
+    },
+    "interior_spatial": {
+      "profile_id": "if-discipline-interior_spatial",
+      "profile_type": "observed_winner_discipline_context",
+      "source_program": "iF DESIGN AWARD",
+      "source_discipline": "Interior Architecture",
+      "evaluation_discipline": "interior_spatial",
+      "observed_metrics": {
+        "sample_size": 1339,
+        "year_counts": {
+          "2024": 481,
+          "2025": 423,
+          "2026": 435
+        },
+        "award_level_counts": {
+          "Gold": 18,
+          "Winner": 1321
+        },
+        "country_region_count": 33,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 0.6751,
+          "statement": 0.0134,
+          "hashtags": 0.581
+        },
+        "image_count": {
+          "minimum": 2,
+          "median": 4,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 3.98
+        },
+        "normalized_category_count": 12,
+        "top_categories": [
+          {
+            "category": "Residential Interiors",
+            "sample_size": 671
+          },
+          {
+            "category": "Corporate / Office Interiors",
+            "sample_size": 184
+          },
+          {
+            "category": "Trade Fairs / Temporary Exhibitions",
+            "sample_size": 86
+          },
+          {
+            "category": "Art & Cultural Exhibitions / Installations",
+            "sample_size": 80
+          },
+          {
+            "category": "Retail / Service Interiors",
+            "sample_size": 76
+          },
+          {
+            "category": "Hotel / Restaurant / Hospitality Interiors",
+            "sample_size": 72
+          },
+          {
+            "category": "Cultural Exhibitions",
+            "sample_size": 67
+          },
+          {
+            "category": "Public Space / Mixed Use Interiors",
+            "sample_size": 64
+          },
+          {
+            "category": "Installations",
+            "sample_size": 24
+          },
+          {
+            "category": "Health / Medical / Scientific Interiors",
+            "sample_size": 9
+          },
+          {
+            "category": "Sports / Special Use Interiors",
+            "sample_size": 3
+          },
+          {
+            "category": "Educational / Institutional Interiors",
+            "sample_size": 3
+          }
+        ]
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show plan, circulation, zoning, scale, accessibility, and occupancy behavior.",
+          "Show material, lighting, construction, and maintenance decisions.",
+          "Show the relationship between atmosphere and functional performance."
+        ],
+        "presentation_expectations": [
+          "spatial_overview",
+          "plan_and_circulation",
+          "human_scale_scenario",
+          "material_lighting_detail",
+          "construction_or_section"
+        ]
+      },
+      "confidence": "high",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Guidance is an expert seed aligned to the source taxonomy, not a learned weight."
+      ]
+    },
+    "packaging": {
+      "profile_id": "if-discipline-packaging",
+      "profile_type": "observed_winner_discipline_context",
+      "source_program": "iF DESIGN AWARD",
+      "source_discipline": "Packaging Design",
+      "evaluation_discipline": "packaging",
+      "observed_metrics": {
+        "sample_size": 485,
+        "year_counts": {
+          "2024": 228,
+          "2025": 130,
+          "2026": 127
+        },
+        "award_level_counts": {
+          "Gold": 13,
+          "Winner": 472
+        },
+        "country_region_count": 21,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 0.7381,
+          "statement": 0.0268,
+          "hashtags": 0.5897
+        },
+        "image_count": {
+          "minimum": 2,
+          "median": 4,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 3.97
+        },
+        "normalized_category_count": 10,
+        "top_categories": [
+          {
+            "category": "Beverage Packaging",
+            "sample_size": 225
+          },
+          {
+            "category": "Beauty / Health / Wellness Packaging",
+            "sample_size": 73
+          },
+          {
+            "category": "Food Packaging",
+            "sample_size": 70
+          },
+          {
+            "category": "Consumer Product Packaging",
+            "sample_size": 67
+          },
+          {
+            "category": "Electronics Packaging",
+            "sample_size": 17
+          },
+          {
+            "category": "Household",
+            "sample_size": 11
+          },
+          {
+            "category": "Non-branded packaging",
+            "sample_size": 6
+          },
+          {
+            "category": "Industry / B2B",
+            "sample_size": 6
+          },
+          {
+            "category": "Medicine / Pharmaceutical Packaging",
+            "sample_size": 6
+          },
+          {
+            "category": "Unbranded / B2B Packaging",
+            "sample_size": 4
+          }
+        ]
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "user_function_usability",
+          "form_interaction_quality",
+          "responsibility_sustainability"
+        ],
+        "evidence_prompts": [
+          "Show opening, dispensing, resealing, protection, and disposal behavior.",
+          "State material, logistics, and end-of-life boundaries.",
+          "Show hierarchy and legibility at the real viewing scale."
+        ],
+        "presentation_expectations": [
+          "pack_family",
+          "opening_sequence",
+          "material_detail",
+          "shelf_or_logistics_context",
+          "end_of_life_explanation"
+        ]
+      },
+      "confidence": "high",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Guidance is an expert seed aligned to the source taxonomy, not a learned weight."
+      ]
+    },
+    "physical_product": {
+      "profile_id": "if-discipline-physical_product",
+      "profile_type": "observed_winner_discipline_context",
+      "source_program": "iF DESIGN AWARD",
+      "source_discipline": "Product Design",
+      "evaluation_discipline": "physical_product",
+      "observed_metrics": {
+        "sample_size": 6275,
+        "year_counts": {
+          "2024": 2218,
+          "2025": 1976,
+          "2026": 2081
+        },
+        "award_level_counts": {
+          "Gold": 133,
+          "Winner": 6142
+        },
+        "country_region_count": 54,
+        "structured_field_coverage": {
+          "target_groups": 0.9998,
+          "date_of_launch": 1.0,
+          "development_time": 0.6684,
+          "statement": 0.0212,
+          "hashtags": 0.5052
+        },
+        "image_count": {
+          "minimum": 2,
+          "median": 4,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 3.99
+        },
+        "normalized_category_count": 28,
+        "top_categories": [
+          {
+            "category": "Kitchen",
+            "sample_size": 553
+          },
+          {
+            "category": "Bathroom",
+            "sample_size": 464
+          },
+          {
+            "category": "Computer",
+            "sample_size": 389
+          },
+          {
+            "category": "Building Technology",
+            "sample_size": 364
+          },
+          {
+            "category": "Industry / Tools / Machinery",
+            "sample_size": 332
+          },
+          {
+            "category": "Lighting",
+            "sample_size": 321
+          },
+          {
+            "category": "Automobiles / Vehicles",
+            "sample_size": 318
+          },
+          {
+            "category": "Medicine / Health",
+            "sample_size": 313
+          },
+          {
+            "category": "TV / Cameras",
+            "sample_size": 292
+          },
+          {
+            "category": "Telecommunication",
+            "sample_size": 264
+          },
+          {
+            "category": "Household / Tableware",
+            "sample_size": 256
+          },
+          {
+            "category": "Leisure / Lifestyle",
+            "sample_size": 251
+          }
+        ]
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "high",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Guidance is an expert seed aligned to the source taxonomy, not a learned weight."
+      ]
+    },
+    "service_system_process": {
+      "profile_id": "if-discipline-service_system_process",
+      "profile_type": "observed_winner_discipline_context",
+      "source_program": "iF DESIGN AWARD",
+      "source_discipline": "Service, System & Process Design",
+      "evaluation_discipline": "service_system_process",
+      "observed_metrics": {
+        "sample_size": 200,
+        "year_counts": {
+          "2024": 64,
+          "2025": 60,
+          "2026": 76
+        },
+        "award_level_counts": {
+          "Gold": 3,
+          "Winner": 197
+        },
+        "country_region_count": 23,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 0.62,
+          "statement": 0.015,
+          "hashtags": 0.55
+        },
+        "image_count": {
+          "minimum": 3,
+          "median": 4.0,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 3.99
+        },
+        "normalized_category_count": 9,
+        "top_categories": [
+          {
+            "category": "Industry Productivity / Maintenance Systems",
+            "sample_size": 47
+          },
+          {
+            "category": "Healthcare / Wellness",
+            "sample_size": 31
+          },
+          {
+            "category": "Education / Learning",
+            "sample_size": 26
+          },
+          {
+            "category": "Social Behavior / Responsibility",
+            "sample_size": 25
+          },
+          {
+            "category": "Financial Services / Insurance",
+            "sample_size": 18
+          },
+          {
+            "category": "Retail / Sales",
+            "sample_size": 17
+          },
+          {
+            "category": "Government / Institutions",
+            "sample_size": 16
+          },
+          {
+            "category": "Culture / Tourism",
+            "sample_size": 11
+          },
+          {
+            "category": "Transportation / Logistics",
+            "sample_size": 9
+          }
+        ]
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "user_function_usability",
+          "solution_integrity",
+          "responsibility_sustainability"
+        ],
+        "evidence_prompts": [
+          "Show stakeholders, frontstage, backstage, handoffs, and governance.",
+          "Show implementation ownership and operational failure recovery.",
+          "Show evidence that the service changes outcomes, not only touchpoints."
+        ],
+        "presentation_expectations": [
+          "stakeholder_map",
+          "service_blueprint",
+          "journey_and_handoffs",
+          "implementation_model",
+          "outcome_evidence"
+        ]
+      },
+      "confidence": "high",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Guidance is an expert seed aligned to the source taxonomy, not a learned weight."
+      ]
+    },
+    "user_experience": {
+      "profile_id": "if-discipline-user_experience",
+      "profile_type": "observed_winner_discipline_context",
+      "source_program": "iF DESIGN AWARD",
+      "source_discipline": "User Experience (UX)",
+      "evaluation_discipline": "user_experience",
+      "observed_metrics": {
+        "sample_size": 486,
+        "year_counts": {
+          "2024": 144,
+          "2025": 165,
+          "2026": 177
+        },
+        "award_level_counts": {
+          "Gold": 7,
+          "Winner": 479
+        },
+        "country_region_count": 31,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 0.6358,
+          "statement": 0.0144,
+          "hashtags": 0.537
+        },
+        "image_count": {
+          "minimum": 2,
+          "median": 4.0,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 3.99
+        },
+        "normalized_category_count": 11,
+        "top_categories": [
+          {
+            "category": "Product UX",
+            "sample_size": 270
+          },
+          {
+            "category": "Communication UX",
+            "sample_size": 76
+          },
+          {
+            "category": "Health / Wellness UX",
+            "sample_size": 30
+          },
+          {
+            "category": "Workplace / Production UX",
+            "sample_size": 29
+          },
+          {
+            "category": "Mixed Media UX",
+            "sample_size": 23
+          },
+          {
+            "category": "Vehicle / Mobility UX",
+            "sample_size": 16
+          },
+          {
+            "category": "Retail / Banking UX",
+            "sample_size": 15
+          },
+          {
+            "category": "Education / Creative Tools UX",
+            "sample_size": 14
+          },
+          {
+            "category": "Interior / Architecture UX",
+            "sample_size": 8
+          },
+          {
+            "category": "Entertainment / Gaming UX",
+            "sample_size": 3
+          },
+          {
+            "category": "Packaging UX",
+            "sample_size": 2
+          }
+        ]
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "user_function_usability",
+          "solution_integrity",
+          "responsibility_sustainability"
+        ],
+        "evidence_prompts": [
+          "Show the end-to-end journey, actors, transitions, and dependencies.",
+          "Show research or testing evidence for the claimed experience improvement.",
+          "Show failure, recovery, privacy, and exclusion risks where applicable."
+        ],
+        "presentation_expectations": [
+          "user_journey",
+          "scenario_sequence",
+          "touchpoint_ecosystem",
+          "research_or_test_evidence",
+          "failure_recovery_state"
+        ]
+      },
+      "confidence": "high",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Guidance is an expert seed aligned to the source taxonomy, not a learned weight."
+      ]
+    },
+    "user_interface": {
+      "profile_id": "if-discipline-user_interface",
+      "profile_type": "observed_winner_discipline_context",
+      "source_program": "iF DESIGN AWARD",
+      "source_discipline": "User Interface (UI)",
+      "evaluation_discipline": "user_interface",
+      "observed_metrics": {
+        "sample_size": 250,
+        "year_counts": {
+          "2024": 91,
+          "2025": 67,
+          "2026": 92
+        },
+        "award_level_counts": {
+          "Gold": 7,
+          "Winner": 243
+        },
+        "country_region_count": 27,
+        "structured_field_coverage": {
+          "target_groups": 1.0,
+          "date_of_launch": 1.0,
+          "development_time": 0.632,
+          "statement": 0.032,
+          "hashtags": 0.516
+        },
+        "image_count": {
+          "minimum": 3,
+          "median": 4.0,
+          "p90": 4.0,
+          "maximum": 4,
+          "mean": 4.0
+        },
+        "normalized_category_count": 2,
+        "top_categories": [
+          {
+            "category": "Digital Media Interfaces",
+            "sample_size": 153
+          },
+          {
+            "category": "Product Interfaces",
+            "sample_size": 97
+          }
+        ]
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show key states, navigation hierarchy, feedback, and error recovery.",
+          "Show accessibility and legibility at the intended device scale.",
+          "Show a complete task flow instead of isolated polished screens."
+        ],
+        "presentation_expectations": [
+          "information_architecture",
+          "task_flow",
+          "key_interface_states",
+          "error_or_empty_state",
+          "device_context"
+        ]
+      },
+      "confidence": "high",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed iF context, not an official jury standard.",
+        "Guidance is an expert seed aligned to the source taxonomy, not a learned weight."
+      ]
+    }
+  }
+}

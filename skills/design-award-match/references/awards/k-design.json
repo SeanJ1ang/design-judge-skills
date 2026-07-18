@@ -1,0 +1,76 @@
+{
+  "award_id": "k-design",
+  "brand": "K-Design Award",
+  "program": "K-Design Award",
+  "status": "supported",
+  "official_domains": ["kdesignaward.com"],
+  "official_sources": {
+    "overview": "https://kdesignaward.com/",
+    "eligibility": "https://kdesignaward.com/index.php?category=145294&mid=rules_en",
+    "categories": "https://kdesignaward.com/index.php?category=145294&mid=rules_en",
+    "criteria": "https://kdesignaward.com/index.php?category=145294&mid=rules_en",
+    "submission": "https://kdesignaward.com/index.php?category=145294&mid=rules_en",
+    "winners": "https://kdesignaward.com/index.php?l=en&mid=exhibition"
+  },
+  "routes": [
+    {
+      "route_id": "general",
+      "label": "General Entry",
+      "entrant_types": ["individual", "professional", "studio", "company"],
+      "project_states": ["professional_concept", "working_prototype", "ready_for_market", "launched_product", "service_or_system", "digital_product"],
+      "required_project_fields": [],
+      "dynamic_gates": ["current_cycle_open", "current_general_entrant_definition", "current_project_age_or_status_rule", "current_category_and_subcategory", "current_team_and_credit_rules"]
+    },
+    {
+      "route_id": "student",
+      "label": "Student Entry",
+      "entrant_types": ["student", "recent_graduate"],
+      "project_states": ["student_concept", "working_prototype", "ready_for_market", "digital_product"],
+      "required_project_fields": ["student_or_graduation_status_date"],
+      "dynamic_gates": ["current_cycle_open", "current_student_or_graduate_window", "current_category_and_subcategory", "current_team_and_credit_rules"]
+    }
+  ],
+  "category_hints": {
+    "Medical and Health": [
+      {"route_id": "general", "track": "Industrial", "category": "Current Industrial subcategory — live lookup", "relation": "broad"},
+      {"route_id": "student", "track": "Industrial", "category": "Current Industrial subcategory — live lookup", "relation": "broad"}
+    ],
+    "Consumer Technology": [
+      {"route_id": "general", "track": "Industrial", "category": "Current Industrial subcategory — live lookup", "relation": "broad"},
+      {"route_id": "student", "track": "Industrial", "category": "Current Industrial subcategory — live lookup", "relation": "broad"}
+    ],
+    "Furniture": [
+      {"route_id": "general", "track": "Industrial", "category": "Current Industrial subcategory — live lookup", "relation": "broad"},
+      {"route_id": "student", "track": "Industrial", "category": "Current Industrial subcategory — live lookup", "relation": "broad"}
+    ],
+    "Environment and Spatial Design": [
+      {"route_id": "general", "track": "Space", "category": "Current Space subcategory — live lookup", "relation": "broad"},
+      {"route_id": "student", "track": "Space", "category": "Current Space subcategory — live lookup", "relation": "broad"}
+    ],
+    "Digital Interaction": [
+      {"route_id": "general", "track": "Communication", "category": "Current Communication subcategory — live lookup", "relation": "broad"},
+      {"route_id": "student", "track": "Communication", "category": "Current Communication subcategory — live lookup", "relation": "broad"}
+    ],
+    "Service Design": [
+      {"route_id": "general", "track": "Communication", "category": "Current Communication subcategory — live lookup", "relation": "broad"},
+      {"route_id": "student", "track": "Communication", "category": "Current Communication subcategory — live lookup", "relation": "broad"}
+    ],
+    "Communication and Branding": [
+      {"route_id": "general", "track": "Communication", "category": "Current Communication subcategory — live lookup", "relation": "broad"},
+      {"route_id": "student", "track": "Communication", "category": "Current Communication subcategory — live lookup", "relation": "broad"}
+    ],
+    "Packaging": [
+      {"route_id": "general", "track": "Communication", "category": "Current Communication subcategory — live lookup", "relation": "broad"},
+      {"route_id": "student", "track": "Communication", "category": "Current Communication subcategory — live lookup", "relation": "broad"}
+    ]
+  },
+  "criteria": [
+    {"official_name": "Aesthetics", "normalized_dimension": "form"},
+    {"official_name": "Originality", "normalized_dimension": "innovation"},
+    {"official_name": "Practicality", "normalized_dimension": "function"}
+  ],
+  "dynamic_fields": ["cycle", "dates", "fees", "entrant_definitions", "student_graduation_window", "category_labels", "subcategories", "team_limits", "submission_requirements", "award_obligations"],
+  "winner_sources": ["https://kdesignaward.com/index.php?l=en&mid=exhibition"],
+  "last_profile_reviewed": "2026-07-13",
+  "notes": ["Persist only the stable Industrial, Space, and Communication top-level tracks; resolve current subcategories live."]
+}

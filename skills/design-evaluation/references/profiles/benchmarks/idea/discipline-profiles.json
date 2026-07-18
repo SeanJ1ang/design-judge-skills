@@ -1,0 +1,695 @@
+{
+  "schema_version": 1,
+  "source_program": "International Design Excellence Awards (IDEA)",
+  "membership_rule": "multi_label_non_additive",
+  "profile_count": 9,
+  "profiles": {
+    "architecture_landscape_urban": {
+      "profile_id": "idea-discipline-architecture_landscape_urban",
+      "profile_type": "observed_recognized_discipline_context",
+      "source_program": "International Design Excellence Awards (IDEA)",
+      "evaluation_discipline": "architecture_landscape_urban",
+      "membership_rule": "multi_label_non_additive",
+      "observed_metrics": {
+        "sample_size": 33,
+        "year_counts": {
+          "2023": 6,
+          "2024": 16,
+          "2025": 11
+        },
+        "award_level_counts": {
+          "Bronze": 3,
+          "Featured Finalist": 22,
+          "Gold": 3,
+          "Silver": 5
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 14,
+          "median": 17,
+          "p90": 18.0,
+          "maximum": 18,
+          "mean": 16.97
+        },
+        "normalized_category_count": 1,
+        "top_categories": [
+          {
+            "category": "Environments",
+            "sample_size": 33
+          }
+        ]
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "solution_integrity",
+          "implementation_feasibility",
+          "responsibility_sustainability"
+        ],
+        "evidence_prompts": [
+          "Show site, program, users, circulation, structure, and environmental response.",
+          "Show accessibility, public impact, and long-term operation.",
+          "Show sections or systems that support the central spatial claim."
+        ],
+        "presentation_expectations": [
+          "site_context",
+          "plan_section_diagram",
+          "program_and_circulation",
+          "environmental_strategy",
+          "human_scale_experience"
+        ]
+      },
+      "confidence": "medium",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner and Featured Finalist sample only; no non-selected comparison group.",
+        "Multi-label internal mapping is provisional and is not an official IDEA taxonomy.",
+        "Discipline sample sizes overlap and must not be added together.",
+        "Student Designs is excluded because it does not identify a design discipline."
+      ]
+    },
+    "brand_communication": {
+      "profile_id": "idea-discipline-brand_communication",
+      "profile_type": "observed_recognized_discipline_context",
+      "source_program": "International Design Excellence Awards (IDEA)",
+      "evaluation_discipline": "brand_communication",
+      "membership_rule": "multi_label_non_additive",
+      "observed_metrics": {
+        "sample_size": 33,
+        "year_counts": {
+          "2023": 12,
+          "2024": 11,
+          "2025": 10
+        },
+        "award_level_counts": {
+          "Bronze": 6,
+          "Featured Finalist": 19,
+          "Gold": 4,
+          "Silver": 4
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 16,
+          "median": 17,
+          "p90": 18.0,
+          "maximum": 18,
+          "mean": 17.21
+        },
+        "normalized_category_count": 1,
+        "top_categories": [
+          {
+            "category": "Branding",
+            "sample_size": 33
+          }
+        ]
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "innovation_differentiation",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the communication objective, audience, and response sought.",
+          "Show hierarchy, legibility, and consistency across relevant touchpoints.",
+          "Separate visual novelty from communication effectiveness."
+        ],
+        "presentation_expectations": [
+          "core_message",
+          "identity_system",
+          "touchpoint_range",
+          "real_context_application",
+          "legibility_detail"
+        ]
+      },
+      "confidence": "medium",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner and Featured Finalist sample only; no non-selected comparison group.",
+        "Multi-label internal mapping is provisional and is not an official IDEA taxonomy.",
+        "Discipline sample sizes overlap and must not be added together.",
+        "Student Designs is excluded because it does not identify a design discipline."
+      ]
+    },
+    "design_strategy_research": {
+      "profile_id": "idea-discipline-design_strategy_research",
+      "profile_type": "observed_recognized_discipline_context",
+      "source_program": "International Design Excellence Awards (IDEA)",
+      "evaluation_discipline": "design_strategy_research",
+      "membership_rule": "multi_label_non_additive",
+      "observed_metrics": {
+        "sample_size": 85,
+        "year_counts": {
+          "2023": 28,
+          "2024": 31,
+          "2025": 26
+        },
+        "award_level_counts": {
+          "Bronze": 18,
+          "Featured Finalist": 48,
+          "Gold": 8,
+          "Silver": 11
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 15,
+          "median": 17,
+          "p90": 18.0,
+          "maximum": 18,
+          "mean": 17.35
+        },
+        "normalized_category_count": 3,
+        "top_categories": [
+          {
+            "category": "Concepts & Speculative Design",
+            "sample_size": 62
+          },
+          {
+            "category": "Social Impact Design",
+            "sample_size": 15
+          },
+          {
+            "category": "Design Strategy",
+            "sample_size": 8
+          }
+        ]
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "innovation_differentiation",
+          "solution_integrity"
+        ],
+        "evidence_prompts": [
+          "State assumptions, future conditions, and the mechanism connecting concept to outcome.",
+          "Show why the proposal is more than a styling exercise.",
+          "Show a validation plan, prototype, or scenario test appropriate to concept maturity."
+        ],
+        "presentation_expectations": [
+          "problem_and_future_context",
+          "concept_principle",
+          "scenario_sequence",
+          "system_logic",
+          "validation_plan_or_prototype"
+        ]
+      },
+      "confidence": "medium",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner and Featured Finalist sample only; no non-selected comparison group.",
+        "Multi-label internal mapping is provisional and is not an official IDEA taxonomy.",
+        "Discipline sample sizes overlap and must not be added together.",
+        "Student Designs is excluded because it does not identify a design discipline."
+      ]
+    },
+    "interior_spatial": {
+      "profile_id": "idea-discipline-interior_spatial",
+      "profile_type": "observed_recognized_discipline_context",
+      "source_program": "International Design Excellence Awards (IDEA)",
+      "evaluation_discipline": "interior_spatial",
+      "membership_rule": "multi_label_non_additive",
+      "observed_metrics": {
+        "sample_size": 56,
+        "year_counts": {
+          "2023": 14,
+          "2024": 25,
+          "2025": 17
+        },
+        "award_level_counts": {
+          "Bronze": 9,
+          "Featured Finalist": 35,
+          "Gold": 4,
+          "Silver": 8
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 14,
+          "median": 17.0,
+          "p90": 18.0,
+          "maximum": 18,
+          "mean": 17.04
+        },
+        "normalized_category_count": 2,
+        "top_categories": [
+          {
+            "category": "Environments",
+            "sample_size": 33
+          },
+          {
+            "category": "Furniture & Lighting",
+            "sample_size": 23
+          }
+        ]
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show plan, circulation, zoning, scale, accessibility, and occupancy behavior.",
+          "Show material, lighting, construction, and maintenance decisions.",
+          "Show the relationship between atmosphere and functional performance."
+        ],
+        "presentation_expectations": [
+          "spatial_overview",
+          "plan_and_circulation",
+          "human_scale_scenario",
+          "material_lighting_detail",
+          "construction_or_section"
+        ]
+      },
+      "confidence": "medium",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner and Featured Finalist sample only; no non-selected comparison group.",
+        "Multi-label internal mapping is provisional and is not an official IDEA taxonomy.",
+        "Discipline sample sizes overlap and must not be added together.",
+        "Student Designs is excluded because it does not identify a design discipline."
+      ]
+    },
+    "packaging": {
+      "profile_id": "idea-discipline-packaging",
+      "profile_type": "observed_recognized_discipline_context",
+      "source_program": "International Design Excellence Awards (IDEA)",
+      "evaluation_discipline": "packaging",
+      "membership_rule": "multi_label_non_additive",
+      "observed_metrics": {
+        "sample_size": 24,
+        "year_counts": {
+          "2023": 9,
+          "2024": 11,
+          "2025": 4
+        },
+        "award_level_counts": {
+          "Bronze": 6,
+          "Featured Finalist": 9,
+          "Gold": 3,
+          "Silver": 6
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 16,
+          "median": 17.0,
+          "p90": 18.0,
+          "maximum": 18,
+          "mean": 17.08
+        },
+        "normalized_category_count": 1,
+        "top_categories": [
+          {
+            "category": "Packaging",
+            "sample_size": 24
+          }
+        ]
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "user_function_usability",
+          "form_interaction_quality",
+          "responsibility_sustainability"
+        ],
+        "evidence_prompts": [
+          "Show opening, dispensing, resealing, protection, and disposal behavior.",
+          "State material, logistics, and end-of-life boundaries.",
+          "Show hierarchy and legibility at the real viewing scale."
+        ],
+        "presentation_expectations": [
+          "pack_family",
+          "opening_sequence",
+          "material_detail",
+          "shelf_or_logistics_context",
+          "end_of_life_explanation"
+        ]
+      },
+      "confidence": "low",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner and Featured Finalist sample only; no non-selected comparison group.",
+        "Multi-label internal mapping is provisional and is not an official IDEA taxonomy.",
+        "Discipline sample sizes overlap and must not be added together.",
+        "Student Designs is excluded because it does not identify a design discipline."
+      ]
+    },
+    "physical_product": {
+      "profile_id": "idea-discipline-physical_product",
+      "profile_type": "observed_recognized_discipline_context",
+      "source_program": "International Design Excellence Awards (IDEA)",
+      "evaluation_discipline": "physical_product",
+      "membership_rule": "multi_label_non_additive",
+      "observed_metrics": {
+        "sample_size": 725,
+        "year_counts": {
+          "2023": 257,
+          "2024": 259,
+          "2025": 209
+        },
+        "award_level_counts": {
+          "Bronze": 138,
+          "Featured Finalist": 450,
+          "Gold": 40,
+          "Silver": 97
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 1,
+          "median": 17,
+          "p90": 18.0,
+          "maximum": 18,
+          "mean": 17.04
+        },
+        "normalized_category_count": 15,
+        "top_categories": [
+          {
+            "category": "Home",
+            "sample_size": 177
+          },
+          {
+            "category": "Consumer Technology",
+            "sample_size": 142
+          },
+          {
+            "category": "Commercial & Industrial Products",
+            "sample_size": 74
+          },
+          {
+            "category": "Medical & Health",
+            "sample_size": 71
+          },
+          {
+            "category": "Automotive & Transportation",
+            "sample_size": 36
+          },
+          {
+            "category": "Sports, Leisure & Recreation",
+            "sample_size": 33
+          },
+          {
+            "category": "Outdoor & Garden",
+            "sample_size": 32
+          },
+          {
+            "category": "Lifestyle & Accessories",
+            "sample_size": 29
+          },
+          {
+            "category": "Children's Products",
+            "sample_size": 26
+          },
+          {
+            "category": "Furniture & Lighting",
+            "sample_size": 23
+          },
+          {
+            "category": "Bath, Air Filtration and Humidifiers",
+            "sample_size": 19
+          },
+          {
+            "category": "Computer Equipment",
+            "sample_size": 17
+          }
+        ]
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "high",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner and Featured Finalist sample only; no non-selected comparison group.",
+        "Multi-label internal mapping is provisional and is not an official IDEA taxonomy.",
+        "Discipline sample sizes overlap and must not be added together.",
+        "Student Designs is excluded because it does not identify a design discipline."
+      ]
+    },
+    "service_system_process": {
+      "profile_id": "idea-discipline-service_system_process",
+      "profile_type": "observed_recognized_discipline_context",
+      "source_program": "International Design Excellence Awards (IDEA)",
+      "evaluation_discipline": "service_system_process",
+      "membership_rule": "multi_label_non_additive",
+      "observed_metrics": {
+        "sample_size": 23,
+        "year_counts": {
+          "2023": 8,
+          "2024": 9,
+          "2025": 6
+        },
+        "award_level_counts": {
+          "Bronze": 5,
+          "Featured Finalist": 10,
+          "Gold": 3,
+          "Silver": 5
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 15,
+          "median": 17,
+          "p90": 17.8,
+          "maximum": 18,
+          "mean": 17.0
+        },
+        "normalized_category_count": 2,
+        "top_categories": [
+          {
+            "category": "Social Impact Design",
+            "sample_size": 15
+          },
+          {
+            "category": "Service Design",
+            "sample_size": 8
+          }
+        ]
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "user_function_usability",
+          "solution_integrity",
+          "responsibility_sustainability"
+        ],
+        "evidence_prompts": [
+          "Show stakeholders, frontstage, backstage, handoffs, and governance.",
+          "Show implementation ownership and operational failure recovery.",
+          "Show evidence that the service changes outcomes, not only touchpoints."
+        ],
+        "presentation_expectations": [
+          "stakeholder_map",
+          "service_blueprint",
+          "journey_and_handoffs",
+          "implementation_model",
+          "outcome_evidence"
+        ]
+      },
+      "confidence": "low",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner and Featured Finalist sample only; no non-selected comparison group.",
+        "Multi-label internal mapping is provisional and is not an official IDEA taxonomy.",
+        "Discipline sample sizes overlap and must not be added together.",
+        "Student Designs is excluded because it does not identify a design discipline."
+      ]
+    },
+    "user_experience": {
+      "profile_id": "idea-discipline-user_experience",
+      "profile_type": "observed_recognized_discipline_context",
+      "source_program": "International Design Excellence Awards (IDEA)",
+      "evaluation_discipline": "user_experience",
+      "membership_rule": "multi_label_non_additive",
+      "observed_metrics": {
+        "sample_size": 42,
+        "year_counts": {
+          "2023": 12,
+          "2024": 18,
+          "2025": 12
+        },
+        "award_level_counts": {
+          "Bronze": 9,
+          "Featured Finalist": 24,
+          "Gold": 4,
+          "Silver": 5
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 15,
+          "median": 17.0,
+          "p90": 18.0,
+          "maximum": 18,
+          "mean": 17.02
+        },
+        "normalized_category_count": 1,
+        "top_categories": [
+          {
+            "category": "Digital Interaction",
+            "sample_size": 42
+          }
+        ]
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "user_function_usability",
+          "solution_integrity",
+          "responsibility_sustainability"
+        ],
+        "evidence_prompts": [
+          "Show the end-to-end journey, actors, transitions, and dependencies.",
+          "Show research or testing evidence for the claimed experience improvement.",
+          "Show failure, recovery, privacy, and exclusion risks where applicable."
+        ],
+        "presentation_expectations": [
+          "user_journey",
+          "scenario_sequence",
+          "touchpoint_ecosystem",
+          "research_or_test_evidence",
+          "failure_recovery_state"
+        ]
+      },
+      "confidence": "medium",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner and Featured Finalist sample only; no non-selected comparison group.",
+        "Multi-label internal mapping is provisional and is not an official IDEA taxonomy.",
+        "Discipline sample sizes overlap and must not be added together.",
+        "Student Designs is excluded because it does not identify a design discipline."
+      ]
+    },
+    "user_interface": {
+      "profile_id": "idea-discipline-user_interface",
+      "profile_type": "observed_recognized_discipline_context",
+      "source_program": "International Design Excellence Awards (IDEA)",
+      "evaluation_discipline": "user_interface",
+      "membership_rule": "multi_label_non_additive",
+      "observed_metrics": {
+        "sample_size": 42,
+        "year_counts": {
+          "2023": 12,
+          "2024": 18,
+          "2025": 12
+        },
+        "award_level_counts": {
+          "Bronze": 9,
+          "Featured Finalist": 24,
+          "Gold": 4,
+          "Silver": 5
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 15,
+          "median": 17.0,
+          "p90": 18.0,
+          "maximum": 18,
+          "mean": 17.02
+        },
+        "normalized_category_count": 1,
+        "top_categories": [
+          {
+            "category": "Digital Interaction",
+            "sample_size": 42
+          }
+        ]
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show key states, navigation hierarchy, feedback, and error recovery.",
+          "Show accessibility and legibility at the intended device scale.",
+          "Show a complete task flow instead of isolated polished screens."
+        ],
+        "presentation_expectations": [
+          "information_architecture",
+          "task_flow",
+          "key_interface_states",
+          "error_or_empty_state",
+          "device_context"
+        ]
+      },
+      "confidence": "medium",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner and Featured Finalist sample only; no non-selected comparison group.",
+        "Multi-label internal mapping is provisional and is not an official IDEA taxonomy.",
+        "Discipline sample sizes overlap and must not be added together.",
+        "Student Designs is excluded because it does not identify a design discipline."
+      ]
+    }
+  }
+}

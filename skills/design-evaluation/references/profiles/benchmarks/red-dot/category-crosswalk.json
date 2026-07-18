@@ -1,0 +1,2920 @@
+{
+  "schema_version": 1,
+  "source_program": "Red Dot Award",
+  "normalization_rule": "normalize whitespace, remove Junior Award suffix, and apply explicit multilingual or historical aliases",
+  "category_count": 106,
+  "categories": {
+    "Advertising": {
+      "normalized_category": "Advertising",
+      "source_category_variants": {
+        "Advertising": 48,
+        "Advertising / Red Dot: Junior Award": 11
+      },
+      "competition_counts": {
+        "Brands & Communication Design": 59
+      },
+      "evaluation_disciplines": {
+        "brand_communication": 59
+      },
+      "primary_evaluation_discipline": "brand_communication",
+      "discipline_purity": 1.0,
+      "canonical_category": "Communication and Branding",
+      "primary_sector": "media_entertainment",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 59,
+      "year_counts": {
+        "2024": 27,
+        "2025": 32
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Ageing and Geriatrics": {
+      "normalized_category": "Ageing and Geriatrics",
+      "source_category_variants": {
+        "Ageing and Geriatrics": 13
+      },
+      "competition_counts": {
+        "Design Concept": 13
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 13
+      },
+      "primary_evaluation_discipline": "design_strategy_research",
+      "discipline_purity": 1.0,
+      "canonical_category": "Concept and Speculative Design",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 13,
+      "year_counts": {
+        "2024": 10,
+        "2025": 3
+      },
+      "canonical_mapping_method": "discipline_fallback_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Annual Reports": {
+      "normalized_category": "Annual Reports",
+      "source_category_variants": {
+        "Annual Reports": 21
+      },
+      "competition_counts": {
+        "Brands & Communication Design": 21
+      },
+      "evaluation_disciplines": {
+        "brand_communication": 21
+      },
+      "primary_evaluation_discipline": "brand_communication",
+      "discipline_purity": 1.0,
+      "canonical_category": "Communication and Branding",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 21,
+      "year_counts": {
+        "2024": 13,
+        "2025": 8
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Apps": {
+      "normalized_category": "Apps",
+      "source_category_variants": {
+        "Apps": 89,
+        "Apps / Red Dot: Junior Award": 16
+      },
+      "competition_counts": {
+        "Brands & Communication Design": 105
+      },
+      "evaluation_disciplines": {
+        "user_interface": 105
+      },
+      "primary_evaluation_discipline": "user_interface",
+      "discipline_purity": 1.0,
+      "canonical_category": "Digital Interaction",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 105,
+      "year_counts": {
+        "2024": 50,
+        "2025": 55
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Architecture": {
+      "normalized_category": "Architecture",
+      "source_category_variants": {
+        "Architecture": 25
+      },
+      "competition_counts": {
+        "Design Concept": 25
+      },
+      "evaluation_disciplines": {
+        "architecture_landscape_urban": 25
+      },
+      "primary_evaluation_discipline": "architecture_landscape_urban",
+      "discipline_purity": 1.0,
+      "canonical_category": "Environment and Spatial Design",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 25,
+      "year_counts": {
+        "2024": 9,
+        "2025": 16
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Artificial Intelligence": {
+      "normalized_category": "Artificial Intelligence",
+      "source_category_variants": {
+        "Artificial Intelligence": 22
+      },
+      "competition_counts": {
+        "Design Concept": 22
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 22
+      },
+      "primary_evaluation_discipline": "design_strategy_research",
+      "discipline_purity": 1.0,
+      "canonical_category": "Concept and Speculative Design",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [
+        "artificial_intelligence"
+      ],
+      "sample_size": 22,
+      "year_counts": {
+        "2024": 13,
+        "2025": 9
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Audio": {
+      "normalized_category": "Audio",
+      "source_category_variants": {
+        "Audio": 279
+      },
+      "competition_counts": {
+        "Product Design": 279
+      },
+      "evaluation_disciplines": {
+        "physical_product": 279
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "canonical_category": "Consumer Technology",
+      "primary_sector": "consumer_electronics",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 279,
+      "year_counts": {
+        "2024": 96,
+        "2025": 83,
+        "2026": 100
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Autonomous": {
+      "normalized_category": "Autonomous",
+      "source_category_variants": {
+        "Autonomous": 10
+      },
+      "competition_counts": {
+        "Design Concept": 10
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 10
+      },
+      "primary_evaluation_discipline": "design_strategy_research",
+      "discipline_purity": 1.0,
+      "canonical_category": "Concept and Speculative Design",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 10,
+      "year_counts": {
+        "2024": 8,
+        "2025": 2
+      },
+      "canonical_mapping_method": "discipline_fallback_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Babies and Children": {
+      "normalized_category": "Babies and Children",
+      "source_category_variants": {
+        "Babies and Children": 235
+      },
+      "competition_counts": {
+        "Design Concept": 36,
+        "Product Design": 199
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 36,
+        "physical_product": 199
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.8468,
+      "canonical_category": "Children and Education",
+      "primary_sector": "education",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 235,
+      "year_counts": {
+        "2024": 70,
+        "2025": 66,
+        "2026": 99
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Bathroom Taps and Shower Heads": {
+      "normalized_category": "Bathroom Taps and Shower Heads",
+      "source_category_variants": {
+        "Bathroom Taps and Shower Heads": 139,
+        "Bathroom Taps, Shower Heads and Equipment": 15
+      },
+      "competition_counts": {
+        "Design Concept": 15,
+        "Product Design": 139
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 15,
+        "physical_product": 139
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.9026,
+      "canonical_category": "Home and Kitchen",
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 154,
+      "year_counts": {
+        "2024": 58,
+        "2025": 51,
+        "2026": 45
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Bathroom and Sanitary Equipment": {
+      "normalized_category": "Bathroom and Sanitary Equipment",
+      "source_category_variants": {
+        "Bathroom and Sanitary Equipment": 215
+      },
+      "competition_counts": {
+        "Product Design": 215
+      },
+      "evaluation_disciplines": {
+        "physical_product": 215
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "canonical_category": "Home and Kitchen",
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 215,
+      "year_counts": {
+        "2024": 89,
+        "2025": 57,
+        "2026": 69
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Bedroom Furniture and Beds": {
+      "normalized_category": "Bedroom Furniture and Beds",
+      "source_category_variants": {
+        "Bedroom Furniture and Beds": 36
+      },
+      "competition_counts": {
+        "Design Concept": 5,
+        "Product Design": 31
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 5,
+        "physical_product": 31
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.8611,
+      "canonical_category": "Furniture",
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 36,
+      "year_counts": {
+        "2024": 10,
+        "2025": 16,
+        "2026": 10
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Bicycles and Bicycle Accessories": {
+      "normalized_category": "Bicycles and Bicycle Accessories",
+      "source_category_variants": {
+        "Bicycles and Bicycle Accessories": 81
+      },
+      "competition_counts": {
+        "Product Design": 81
+      },
+      "evaluation_disciplines": {
+        "physical_product": 81
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "canonical_category": "Mobility and Transportation",
+      "primary_sector": "mobility",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 81,
+      "year_counts": {
+        "2024": 24,
+        "2025": 32,
+        "2026": 25
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Bicycles and Personal Mobility Devices": {
+      "normalized_category": "Bicycles and Personal Mobility Devices",
+      "source_category_variants": {
+        "Bicycles and Personal Mobility Devices": 31
+      },
+      "competition_counts": {
+        "Design Concept": 31
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 31
+      },
+      "primary_evaluation_discipline": "design_strategy_research",
+      "discipline_purity": 1.0,
+      "canonical_category": "Mobility and Transportation",
+      "primary_sector": "mobility",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 31,
+      "year_counts": {
+        "2024": 13,
+        "2025": 18
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Book": {
+      "normalized_category": "Book",
+      "source_category_variants": {
+        "Book": 1
+      },
+      "competition_counts": {
+        "Brands & Communication Design": 1
+      },
+      "evaluation_disciplines": {
+        "brand_communication": 1
+      },
+      "primary_evaluation_discipline": "brand_communication",
+      "discipline_purity": 1.0,
+      "canonical_category": "Communication and Branding",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 1,
+      "year_counts": {
+        "2025": 1
+      },
+      "canonical_mapping_method": "discipline_fallback_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Brand Design and Identity": {
+      "normalized_category": "Brand Design and Identity",
+      "source_category_variants": {
+        "Brand Design & Identity": 188,
+        "Brand Design & Identity / Red Dot: Junior Award": 57,
+        "Brand Design and Identity": 10
+      },
+      "competition_counts": {
+        "Brands & Communication Design": 245,
+        "Design Concept": 10
+      },
+      "evaluation_disciplines": {
+        "brand_communication": 245,
+        "design_strategy_research": 10
+      },
+      "primary_evaluation_discipline": "brand_communication",
+      "discipline_purity": 0.9608,
+      "canonical_category": "Communication and Branding",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 255,
+      "year_counts": {
+        "2024": 65,
+        "2025": 190
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Brands": {
+      "normalized_category": "Brands",
+      "source_category_variants": {
+        "Brands": 8
+      },
+      "competition_counts": {
+        "Brands & Communication Design": 8
+      },
+      "evaluation_disciplines": {
+        "brand_communication": 8
+      },
+      "primary_evaluation_discipline": "brand_communication",
+      "discipline_purity": 1.0,
+      "canonical_category": "Communication and Branding",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 8,
+      "year_counts": {
+        "2024": 8
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Cameras and Camera Equipment": {
+      "normalized_category": "Cameras and Camera Equipment",
+      "source_category_variants": {
+        "Cameras and Camera Equipment": 188,
+        "Cameras, Drones and Camera Equipment": 17
+      },
+      "competition_counts": {
+        "Design Concept": 17,
+        "Product Design": 188
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 17,
+        "physical_product": 188
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.9171,
+      "canonical_category": "Consumer Technology",
+      "primary_sector": "consumer_electronics",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 205,
+      "year_counts": {
+        "2024": 67,
+        "2025": 65,
+        "2026": 73
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Cars and Motorcycles": {
+      "normalized_category": "Cars and Motorcycles",
+      "source_category_variants": {
+        "Cars and Motorcycles": 154
+      },
+      "competition_counts": {
+        "Design Concept": 44,
+        "Product Design": 110
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 44,
+        "physical_product": 110
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.7143,
+      "canonical_category": "Mobility and Transportation",
+      "primary_sector": "mobility",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 154,
+      "year_counts": {
+        "2024": 56,
+        "2025": 61,
+        "2026": 37
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Commercial Furniture": {
+      "normalized_category": "Commercial Furniture",
+      "source_category_variants": {
+        "Commercial Furniture": 6
+      },
+      "competition_counts": {
+        "Design Concept": 6
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 6
+      },
+      "primary_evaluation_discipline": "design_strategy_research",
+      "discipline_purity": 1.0,
+      "canonical_category": "Furniture",
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 6,
+      "year_counts": {
+        "2024": 1,
+        "2025": 5
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Commercial Vehicles": {
+      "normalized_category": "Commercial Vehicles",
+      "source_category_variants": {
+        "Commercial Vehicles": 66
+      },
+      "competition_counts": {
+        "Design Concept": 23,
+        "Product Design": 43
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 23,
+        "physical_product": 43
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.6515,
+      "canonical_category": "Mobility and Transportation",
+      "primary_sector": "mobility",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 66,
+      "year_counts": {
+        "2024": 25,
+        "2025": 30,
+        "2026": 11
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Communication Technology": {
+      "normalized_category": "Communication Technology",
+      "source_category_variants": {
+        "Communication Technology": 180
+      },
+      "competition_counts": {
+        "Design Concept": 8,
+        "Product Design": 172
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 8,
+        "physical_product": 172
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.9556,
+      "canonical_category": "Consumer Technology",
+      "primary_sector": "consumer_electronics",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 180,
+      "year_counts": {
+        "2024": 62,
+        "2025": 53,
+        "2026": 65
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Computer and Information Technology": {
+      "normalized_category": "Computer and Information Technology",
+      "source_category_variants": {
+        "Computer and Information Technology": 541
+      },
+      "competition_counts": {
+        "Design Concept": 19,
+        "Product Design": 522
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 19,
+        "physical_product": 522
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.9649,
+      "canonical_category": "Consumer Technology",
+      "primary_sector": "consumer_electronics",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 541,
+      "year_counts": {
+        "2024": 223,
+        "2025": 176,
+        "2026": 142
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Cookware and Cooking Utensils": {
+      "normalized_category": "Cookware and Cooking Utensils",
+      "source_category_variants": {
+        "Cookware and Cooking Utensils": 100
+      },
+      "competition_counts": {
+        "Design Concept": 6,
+        "Product Design": 94
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 6,
+        "physical_product": 94
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.94,
+      "canonical_category": "Home and Kitchen",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 100,
+      "year_counts": {
+        "2024": 28,
+        "2025": 34,
+        "2026": 38
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Corporate Design & Identity": {
+      "normalized_category": "Corporate Design & Identity",
+      "source_category_variants": {
+        "Corporate Design & Identity": 91
+      },
+      "competition_counts": {
+        "Brands & Communication Design": 91
+      },
+      "evaluation_disciplines": {
+        "brand_communication": 91
+      },
+      "primary_evaluation_discipline": "brand_communication",
+      "discipline_purity": 1.0,
+      "canonical_category": "Communication and Branding",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 91,
+      "year_counts": {
+        "2024": 53,
+        "2025": 38
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Digital Solutions": {
+      "normalized_category": "Digital Solutions",
+      "source_category_variants": {
+        "Digital Solutions": 39,
+        "Digital Solutions / Red Dot: Junior Award": 2
+      },
+      "competition_counts": {
+        "Brands & Communication Design": 41
+      },
+      "evaluation_disciplines": {
+        "user_interface": 41
+      },
+      "primary_evaluation_discipline": "user_interface",
+      "discipline_purity": 1.0,
+      "canonical_category": "Digital Interaction",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 41,
+      "year_counts": {
+        "2024": 11,
+        "2025": 30
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Digital Worlds": {
+      "normalized_category": "Digital Worlds",
+      "source_category_variants": {
+        "Digital Worlds": 7
+      },
+      "competition_counts": {
+        "Design Concept": 7
+      },
+      "evaluation_disciplines": {
+        "user_experience": 7
+      },
+      "primary_evaluation_discipline": "user_experience",
+      "discipline_purity": 1.0,
+      "canonical_category": "Digital Interaction",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 7,
+      "year_counts": {
+        "2024": 6,
+        "2025": 1
+      },
+      "canonical_mapping_method": "discipline_fallback_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Drones and Action Cameras": {
+      "normalized_category": "Drones and Action Cameras",
+      "source_category_variants": {
+        "Drones and Action Cameras": 18
+      },
+      "competition_counts": {
+        "Product Design": 18
+      },
+      "evaluation_disciplines": {
+        "physical_product": 18
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "canonical_category": "Consumer Technology",
+      "primary_sector": "consumer_electronics",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 18,
+      "year_counts": {
+        "2024": 12,
+        "2025": 2,
+        "2026": 4
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Education and Learning": {
+      "normalized_category": "Education and Learning",
+      "source_category_variants": {
+        "Education and Learning": 28
+      },
+      "competition_counts": {
+        "Design Concept": 28
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 28
+      },
+      "primary_evaluation_discipline": "design_strategy_research",
+      "discipline_purity": 1.0,
+      "canonical_category": "Children and Education",
+      "primary_sector": "education",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 28,
+      "year_counts": {
+        "2024": 7,
+        "2025": 21
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Electrification and Decarbonisation": {
+      "normalized_category": "Electrification and Decarbonisation",
+      "source_category_variants": {
+        "Electrification and Decarbonisation": 19
+      },
+      "competition_counts": {
+        "Design Concept": 19
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 19
+      },
+      "primary_evaluation_discipline": "design_strategy_research",
+      "discipline_purity": 1.0,
+      "canonical_category": "Concept and Speculative Design",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 19,
+      "year_counts": {
+        "2024": 11,
+        "2025": 8
+      },
+      "canonical_mapping_method": "discipline_fallback_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Exhibitions and Installations": {
+      "normalized_category": "Exhibitions and Installations",
+      "source_category_variants": {
+        "Exhibition and Installations": 12,
+        "Exhibitions and Installations": 1
+      },
+      "competition_counts": {
+        "Design Concept": 13
+      },
+      "evaluation_disciplines": {
+        "interior_spatial": 13
+      },
+      "primary_evaluation_discipline": "interior_spatial",
+      "discipline_purity": 1.0,
+      "canonical_category": "Environment and Spatial Design",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 13,
+      "year_counts": {
+        "2024": 6,
+        "2025": 7
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Eyewear": {
+      "normalized_category": "Eyewear",
+      "source_category_variants": {
+        "Eyewear": 28
+      },
+      "competition_counts": {
+        "Product Design": 28
+      },
+      "evaluation_disciplines": {
+        "physical_product": 28
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "canonical_category": "Commercial and Industrial",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 28,
+      "year_counts": {
+        "2024": 9,
+        "2025": 11,
+        "2026": 8
+      },
+      "canonical_mapping_method": "discipline_fallback_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Fair Stands": {
+      "normalized_category": "Fair Stands",
+      "source_category_variants": {
+        "Fair Stands": 43
+      },
+      "competition_counts": {
+        "Brands & Communication Design": 43
+      },
+      "evaluation_disciplines": {
+        "interior_spatial": 43
+      },
+      "primary_evaluation_discipline": "interior_spatial",
+      "discipline_purity": 1.0,
+      "canonical_category": "Environment and Spatial Design",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 43,
+      "year_counts": {
+        "2024": 17,
+        "2025": 26
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Fashion and Lifestyle Accessories": {
+      "normalized_category": "Fashion and Lifestyle Accessories",
+      "source_category_variants": {
+        "Fashion and Lifestyle Accessories": 94
+      },
+      "competition_counts": {
+        "Design Concept": 27,
+        "Product Design": 67
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 27,
+        "physical_product": 67
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.7128,
+      "canonical_category": "Lifestyle and Personal Accessories",
+      "primary_sector": "beauty_fashion",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 94,
+      "year_counts": {
+        "2024": 34,
+        "2025": 29,
+        "2026": 31
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Film & Animation": {
+      "normalized_category": "Film & Animation",
+      "source_category_variants": {
+        "Film & Animation": 36,
+        "Film & Animation / Red Dot: Junior Award": 10
+      },
+      "competition_counts": {
+        "Brands & Communication Design": 46
+      },
+      "evaluation_disciplines": {
+        "brand_communication": 46
+      },
+      "primary_evaluation_discipline": "brand_communication",
+      "discipline_purity": 1.0,
+      "canonical_category": "Communication and Branding",
+      "primary_sector": "media_entertainment",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 46,
+      "year_counts": {
+        "2024": 14,
+        "2025": 32
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Gaming and Streaming": {
+      "normalized_category": "Gaming and Streaming",
+      "source_category_variants": {
+        "Gaming and Streaming": 90
+      },
+      "competition_counts": {
+        "Product Design": 90
+      },
+      "evaluation_disciplines": {
+        "physical_product": 90
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "canonical_category": "Consumer Technology",
+      "primary_sector": "consumer_electronics",
+      "sector_scope": "specific",
+      "focus_tags": [
+        "gaming_ar_vr"
+      ],
+      "sample_size": 90,
+      "year_counts": {
+        "2026": 90
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Garden Appliances and Garden Equipment": {
+      "normalized_category": "Garden Appliances and Garden Equipment",
+      "source_category_variants": {
+        "Garden Appliances and Garden Equipment": 68
+      },
+      "competition_counts": {
+        "Design Concept": 10,
+        "Product Design": 58
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 10,
+        "physical_product": 58
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.8529,
+      "canonical_category": "Home and Kitchen",
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 68,
+      "year_counts": {
+        "2024": 23,
+        "2025": 22,
+        "2026": 23
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Garden Furniture": {
+      "normalized_category": "Garden Furniture",
+      "source_category_variants": {
+        "Garden Furniture": 58
+      },
+      "competition_counts": {
+        "Design Concept": 4,
+        "Product Design": 54
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 4,
+        "physical_product": 54
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.931,
+      "canonical_category": "Home and Kitchen",
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 58,
+      "year_counts": {
+        "2024": 19,
+        "2025": 23,
+        "2026": 16
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Healthcare": {
+      "normalized_category": "Healthcare",
+      "source_category_variants": {
+        "Healthcare": 188
+      },
+      "competition_counts": {
+        "Design Concept": 53,
+        "Product Design": 135
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 53,
+        "physical_product": 135
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.7181,
+      "canonical_category": "Medical and Health",
+      "primary_sector": "healthcare",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 188,
+      "year_counts": {
+        "2024": 74,
+        "2025": 58,
+        "2026": 56
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Heating and Air Conditioning Technology": {
+      "normalized_category": "Heating and Air Conditioning Technology",
+      "source_category_variants": {
+        "Heating and Air Conditioning": 28,
+        "Heating and Air Conditioning Technology": 285
+      },
+      "competition_counts": {
+        "Design Concept": 28,
+        "Product Design": 285
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 28,
+        "physical_product": 285
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.9105,
+      "canonical_category": "Commercial and Industrial",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 313,
+      "year_counts": {
+        "2024": 92,
+        "2025": 124,
+        "2026": 97
+      },
+      "canonical_mapping_method": "discipline_fallback_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Hobby and Leisure": {
+      "normalized_category": "Hobby and Leisure",
+      "source_category_variants": {
+        "Hobby and Leisure": 77
+      },
+      "competition_counts": {
+        "Product Design": 77
+      },
+      "evaluation_disciplines": {
+        "physical_product": 77
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "canonical_category": "Commercial and Industrial",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 77,
+      "year_counts": {
+        "2024": 35,
+        "2025": 12,
+        "2026": 30
+      },
+      "canonical_mapping_method": "discipline_fallback_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Hobby, Leisure and Games": {
+      "normalized_category": "Hobby, Leisure and Games",
+      "source_category_variants": {
+        "Hobby, Leisure and Games": 16
+      },
+      "competition_counts": {
+        "Design Concept": 16
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 16
+      },
+      "primary_evaluation_discipline": "design_strategy_research",
+      "discipline_purity": 1.0,
+      "canonical_category": "Concept and Speculative Design",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 16,
+      "year_counts": {
+        "2024": 8,
+        "2025": 8
+      },
+      "canonical_mapping_method": "discipline_fallback_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Home and Seating Furniture": {
+      "normalized_category": "Home and Seating Furniture",
+      "source_category_variants": {
+        "Home and Seating Furniture": 111
+      },
+      "competition_counts": {
+        "Design Concept": 25,
+        "Product Design": 86
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 25,
+        "physical_product": 86
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.7748,
+      "canonical_category": "Furniture",
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 111,
+      "year_counts": {
+        "2024": 44,
+        "2025": 45,
+        "2026": 22
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Household Appliances and Household Accessories": {
+      "normalized_category": "Household Appliances and Household Accessories",
+      "source_category_variants": {
+        "Haushaltsgeräte und Haushaltszubehör": 3,
+        "Household Appliances and Accessories": 33,
+        "Household Appliances and Household Accessories": 196
+      },
+      "competition_counts": {
+        "Design Concept": 33,
+        "Product Design": 199
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 33,
+        "physical_product": 199
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.8578,
+      "canonical_category": "Home and Kitchen",
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 232,
+      "year_counts": {
+        "2024": 75,
+        "2025": 69,
+        "2026": 88
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Illustrations": {
+      "normalized_category": "Illustrations",
+      "source_category_variants": {
+        "Illustrations": 16,
+        "Illustrations / Red Dot: Junior Award": 32
+      },
+      "competition_counts": {
+        "Brands & Communication Design": 48
+      },
+      "evaluation_disciplines": {
+        "brand_communication": 48
+      },
+      "primary_evaluation_discipline": "brand_communication",
+      "discipline_purity": 1.0,
+      "canonical_category": "Communication and Branding",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 48,
+      "year_counts": {
+        "2024": 33,
+        "2025": 15
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Inclusive Design": {
+      "normalized_category": "Inclusive Design",
+      "source_category_variants": {
+        "Inclusive Design": 14
+      },
+      "competition_counts": {
+        "Design Concept": 14
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 14
+      },
+      "primary_evaluation_discipline": "design_strategy_research",
+      "discipline_purity": 1.0,
+      "canonical_category": "Concept and Speculative Design",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [
+        "social_impact_inclusion"
+      ],
+      "sample_size": 14,
+      "year_counts": {
+        "2025": 14
+      },
+      "canonical_mapping_method": "discipline_fallback_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Industrial Equipment, Machinery and Automation": {
+      "normalized_category": "Industrial Equipment, Machinery and Automation",
+      "source_category_variants": {
+        "Industrial Equipment, Machinery and Automation": 427,
+        "Tools, Industrial Equipment and Machinery": 35
+      },
+      "competition_counts": {
+        "Design Concept": 35,
+        "Product Design": 427
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 35,
+        "physical_product": 427
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.9242,
+      "canonical_category": "Commercial and Industrial",
+      "primary_sector": "industrial",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 462,
+      "year_counts": {
+        "2024": 174,
+        "2025": 147,
+        "2026": 141
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Innovative Design": {
+      "normalized_category": "Innovative Design",
+      "source_category_variants": {
+        "Innovative Design": 92
+      },
+      "competition_counts": {
+        "Product Design": 92
+      },
+      "evaluation_disciplines": {
+        "physical_product": 92
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "canonical_category": "Concept and Speculative Design",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 92,
+      "year_counts": {
+        "2025": 46,
+        "2026": 46
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Innovative Products": {
+      "normalized_category": "Innovative Products",
+      "source_category_variants": {
+        "Innovative Products": 41
+      },
+      "competition_counts": {
+        "Product Design": 41
+      },
+      "evaluation_disciplines": {
+        "physical_product": 41
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "canonical_category": "Concept and Speculative Design",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 41,
+      "year_counts": {
+        "2024": 41
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Interaction, UI and User Experience": {
+      "normalized_category": "Interaction, UI and User Experience",
+      "source_category_variants": {
+        "Interaction, UI and User Experience": 56
+      },
+      "competition_counts": {
+        "Design Concept": 56
+      },
+      "evaluation_disciplines": {
+        "user_experience": 56
+      },
+      "primary_evaluation_discipline": "user_experience",
+      "discipline_purity": 1.0,
+      "canonical_category": "Digital Interaction",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 56,
+      "year_counts": {
+        "2024": 30,
+        "2025": 26
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Interface & User Experience Design": {
+      "normalized_category": "Interface & User Experience Design",
+      "source_category_variants": {
+        "Interface & User Experience Design": 203,
+        "Interface & User Experience Design / Red Dot: Junior Award": 36
+      },
+      "competition_counts": {
+        "Brands & Communication Design": 239
+      },
+      "evaluation_disciplines": {
+        "user_interface": 239
+      },
+      "primary_evaluation_discipline": "user_interface",
+      "discipline_purity": 1.0,
+      "canonical_category": "Digital Interaction",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 239,
+      "year_counts": {
+        "2024": 104,
+        "2025": 135
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Interior Architecture": {
+      "normalized_category": "Interior Architecture",
+      "source_category_variants": {
+        "Interior Architecture": 6
+      },
+      "competition_counts": {
+        "Product Design": 6
+      },
+      "evaluation_disciplines": {
+        "interior_spatial": 6
+      },
+      "primary_evaluation_discipline": "interior_spatial",
+      "discipline_purity": 1.0,
+      "canonical_category": "Environment and Spatial Design",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 6,
+      "year_counts": {
+        "2026": 6
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Interior Architecture and Interior Design": {
+      "normalized_category": "Interior Architecture and Interior Design",
+      "source_category_variants": {
+        "Interior Architecture and Interior Design": 43
+      },
+      "competition_counts": {
+        "Design Concept": 18,
+        "Product Design": 25
+      },
+      "evaluation_disciplines": {
+        "interior_spatial": 43
+      },
+      "primary_evaluation_discipline": "interior_spatial",
+      "discipline_purity": 1.0,
+      "canonical_category": "Environment and Spatial Design",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 43,
+      "year_counts": {
+        "2024": 20,
+        "2025": 23
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Interior Design Elements": {
+      "normalized_category": "Interior Design Elements",
+      "source_category_variants": {
+        "Interior Design Elements": 213
+      },
+      "competition_counts": {
+        "Design Concept": 24,
+        "Product Design": 189
+      },
+      "evaluation_disciplines": {
+        "interior_spatial": 213
+      },
+      "primary_evaluation_discipline": "interior_spatial",
+      "discipline_purity": 1.0,
+      "canonical_category": "Environment and Spatial Design",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 213,
+      "year_counts": {
+        "2024": 74,
+        "2025": 77,
+        "2026": 62
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Jewellery": {
+      "normalized_category": "Jewellery",
+      "source_category_variants": {
+        "Jewellery": 7
+      },
+      "competition_counts": {
+        "Product Design": 7
+      },
+      "evaluation_disciplines": {
+        "physical_product": 7
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "canonical_category": "Lifestyle and Personal Accessories",
+      "primary_sector": "beauty_fashion",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 7,
+      "year_counts": {
+        "2024": 4,
+        "2025": 2,
+        "2026": 1
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Kitchen Appliances and Kitchen Accessories": {
+      "normalized_category": "Kitchen Appliances and Kitchen Accessories",
+      "source_category_variants": {
+        "Kitchen Appliances and Accessories": 57,
+        "Kitchen Appliances and Kitchen Accessories": 423
+      },
+      "competition_counts": {
+        "Design Concept": 57,
+        "Product Design": 423
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 57,
+        "physical_product": 423
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.8812,
+      "canonical_category": "Home and Kitchen",
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 480,
+      "year_counts": {
+        "2024": 151,
+        "2025": 170,
+        "2026": 159
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Kitchen Furniture": {
+      "normalized_category": "Kitchen Furniture",
+      "source_category_variants": {
+        "Kitchen Furniture": 2
+      },
+      "competition_counts": {
+        "Design Concept": 2
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 2
+      },
+      "primary_evaluation_discipline": "design_strategy_research",
+      "discipline_purity": 1.0,
+      "canonical_category": "Home and Kitchen",
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 2,
+      "year_counts": {
+        "2024": 1,
+        "2025": 1
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Kitchen Taps and Sinks": {
+      "normalized_category": "Kitchen Taps and Sinks",
+      "source_category_variants": {
+        "Kitchen Taps and Sinks": 58
+      },
+      "competition_counts": {
+        "Design Concept": 3,
+        "Product Design": 55
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 3,
+        "physical_product": 55
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.9483,
+      "canonical_category": "Home and Kitchen",
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 58,
+      "year_counts": {
+        "2024": 20,
+        "2025": 20,
+        "2026": 18
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Kitchens and Kitchen Furniture": {
+      "normalized_category": "Kitchens and Kitchen Furniture",
+      "source_category_variants": {
+        "Kitchens and Kitchen Furniture": 19
+      },
+      "competition_counts": {
+        "Product Design": 19
+      },
+      "evaluation_disciplines": {
+        "physical_product": 19
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "canonical_category": "Home and Kitchen",
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 19,
+      "year_counts": {
+        "2024": 7,
+        "2025": 6,
+        "2026": 6
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Lamps and Luminaires": {
+      "normalized_category": "Lamps and Luminaires",
+      "source_category_variants": {
+        "Lamps and Luminaires": 108,
+        "Lamps and luminaires": 26
+      },
+      "competition_counts": {
+        "Design Concept": 29,
+        "Product Design": 105
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 29,
+        "physical_product": 105
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.7836,
+      "canonical_category": "Lighting",
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 134,
+      "year_counts": {
+        "2024": 34,
+        "2025": 63,
+        "2026": 37
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Lighting Systems": {
+      "normalized_category": "Lighting Systems",
+      "source_category_variants": {
+        "Lichtsysteme": 1,
+        "Lighting Systems": 104
+      },
+      "competition_counts": {
+        "Design Concept": 9,
+        "Product Design": 96
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 9,
+        "physical_product": 96
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.9143,
+      "canonical_category": "Lighting",
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 105,
+      "year_counts": {
+        "2024": 36,
+        "2025": 41,
+        "2026": 28
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Luggage and Bags": {
+      "normalized_category": "Luggage and Bags",
+      "source_category_variants": {
+        "Luggage and Bags": 80,
+        "Luggage, Bags and Travel Accessories": 10
+      },
+      "competition_counts": {
+        "Design Concept": 10,
+        "Product Design": 80
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 10,
+        "physical_product": 80
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.8889,
+      "canonical_category": "Lifestyle and Personal Accessories",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 90,
+      "year_counts": {
+        "2024": 35,
+        "2025": 28,
+        "2026": 27
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Materials and Surfaces": {
+      "normalized_category": "Materials and Surfaces",
+      "source_category_variants": {
+        "Material and Surfaces": 12,
+        "Materials and Surfaces": 74
+      },
+      "competition_counts": {
+        "Design Concept": 23,
+        "Product Design": 63
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 23,
+        "physical_product": 63
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.7326,
+      "canonical_category": "Commercial and Industrial",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 86,
+      "year_counts": {
+        "2024": 32,
+        "2025": 38,
+        "2026": 16
+      },
+      "canonical_mapping_method": "discipline_fallback_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Medical Devices and Technology": {
+      "normalized_category": "Medical Devices and Technology",
+      "source_category_variants": {
+        "Medical Devices and Technology": 341
+      },
+      "competition_counts": {
+        "Design Concept": 102,
+        "Product Design": 239
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 102,
+        "physical_product": 239
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.7009,
+      "canonical_category": "Medical and Health",
+      "primary_sector": "healthcare",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 341,
+      "year_counts": {
+        "2024": 153,
+        "2025": 116,
+        "2026": 72
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Mobile Phones, Tablets and Wearables": {
+      "normalized_category": "Mobile Phones, Tablets and Wearables",
+      "source_category_variants": {
+        "Mobile Phones, Tablets and Wearables": 338,
+        "Smart Phones, Tablets and Wearable Technology": 28
+      },
+      "competition_counts": {
+        "Design Concept": 28,
+        "Product Design": 338
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 28,
+        "physical_product": 338
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.9235,
+      "canonical_category": "Consumer Technology",
+      "primary_sector": "consumer_electronics",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 366,
+      "year_counts": {
+        "2024": 85,
+        "2025": 128,
+        "2026": 153
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Motorhomes and Caravans": {
+      "normalized_category": "Motorhomes and Caravans",
+      "source_category_variants": {
+        "Motorhomes and Caravans": 23,
+        "Wohnmobile und Caravans": 2
+      },
+      "competition_counts": {
+        "Design Concept": 3,
+        "Product Design": 22
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 3,
+        "physical_product": 22
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.88,
+      "canonical_category": "Mobility and Transportation",
+      "primary_sector": "mobility",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 25,
+      "year_counts": {
+        "2024": 10,
+        "2025": 8,
+        "2026": 7
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Musical Instruments and Sound Technology": {
+      "normalized_category": "Musical Instruments and Sound Technology",
+      "source_category_variants": {
+        "Musical Instruments and Sound Technology": 11
+      },
+      "competition_counts": {
+        "Design Concept": 11
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 11
+      },
+      "primary_evaluation_discipline": "design_strategy_research",
+      "discipline_purity": 1.0,
+      "canonical_category": "Concept and Speculative Design",
+      "primary_sector": "media_entertainment",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 11,
+      "year_counts": {
+        "2024": 6,
+        "2025": 5
+      },
+      "canonical_mapping_method": "discipline_fallback_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Office Furniture and Office Chairs": {
+      "normalized_category": "Office Furniture and Office Chairs",
+      "source_category_variants": {
+        "Office Furniture and Office Chairs": 104
+      },
+      "competition_counts": {
+        "Design Concept": 5,
+        "Product Design": 99
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 5,
+        "physical_product": 99
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.9519,
+      "canonical_category": "Furniture",
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 104,
+      "year_counts": {
+        "2024": 20,
+        "2025": 42,
+        "2026": 42
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Office Supplies and Stationery": {
+      "normalized_category": "Office Supplies and Stationery",
+      "source_category_variants": {
+        "Office Supplies and Stationery": 48
+      },
+      "competition_counts": {
+        "Design Concept": 12,
+        "Product Design": 36
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 12,
+        "physical_product": 36
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.75,
+      "canonical_category": "Office and Productivity",
+      "primary_sector": "office",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 48,
+      "year_counts": {
+        "2024": 13,
+        "2025": 21,
+        "2026": 14
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Outdoor and Camping Equipment": {
+      "normalized_category": "Outdoor and Camping Equipment",
+      "source_category_variants": {
+        "Outdoor and Camping Equipment": 161
+      },
+      "competition_counts": {
+        "Design Concept": 27,
+        "Product Design": 134
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 27,
+        "physical_product": 134
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.8323,
+      "canonical_category": "Sports and Outdoor",
+      "primary_sector": "sports_outdoor",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 161,
+      "year_counts": {
+        "2024": 63,
+        "2025": 53,
+        "2026": 45
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Packaging": {
+      "normalized_category": "Packaging",
+      "source_category_variants": {
+        "Packaging": 127
+      },
+      "competition_counts": {
+        "Design Concept": 13,
+        "Product Design": 114
+      },
+      "evaluation_disciplines": {
+        "packaging": 127
+      },
+      "primary_evaluation_discipline": "packaging",
+      "discipline_purity": 1.0,
+      "canonical_category": "Packaging",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 127,
+      "year_counts": {
+        "2024": 28,
+        "2025": 58,
+        "2026": 41
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Packaging Design": {
+      "normalized_category": "Packaging Design",
+      "source_category_variants": {
+        "Packaging Design": 258,
+        "Packaging Design / Red Dot: Junior Award": 40
+      },
+      "competition_counts": {
+        "Brands & Communication Design": 298
+      },
+      "evaluation_disciplines": {
+        "packaging": 298
+      },
+      "primary_evaluation_discipline": "packaging",
+      "discipline_purity": 1.0,
+      "canonical_category": "Packaging",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 298,
+      "year_counts": {
+        "2024": 168,
+        "2025": 130
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Personal Care, Wellness and Beauty": {
+      "normalized_category": "Personal Care, Wellness and Beauty",
+      "source_category_variants": {
+        "Personal Care, Wellness and Beauty": 243,
+        "Personal Care, Wellness und Beauty": 3
+      },
+      "competition_counts": {
+        "Design Concept": 41,
+        "Product Design": 205
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 41,
+        "physical_product": 205
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.8333,
+      "canonical_category": "Lifestyle and Personal Accessories",
+      "primary_sector": "beauty_fashion",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 246,
+      "year_counts": {
+        "2024": 87,
+        "2025": 102,
+        "2026": 57
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Pet Care, Furniture and Accessories": {
+      "normalized_category": "Pet Care, Furniture and Accessories",
+      "source_category_variants": {
+        "Pet Care, Furniture and Accessories": 27
+      },
+      "competition_counts": {
+        "Design Concept": 27
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 27
+      },
+      "primary_evaluation_discipline": "design_strategy_research",
+      "discipline_purity": 1.0,
+      "canonical_category": "Furniture",
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 27,
+      "year_counts": {
+        "2024": 13,
+        "2025": 14
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Posters": {
+      "normalized_category": "Posters",
+      "source_category_variants": {
+        "Posters": 11,
+        "Posters / Red Dot: Junior Award": 2
+      },
+      "competition_counts": {
+        "Brands & Communication Design": 13
+      },
+      "evaluation_disciplines": {
+        "brand_communication": 13
+      },
+      "primary_evaluation_discipline": "brand_communication",
+      "discipline_purity": 1.0,
+      "canonical_category": "Communication and Branding",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 13,
+      "year_counts": {
+        "2024": 7,
+        "2025": 6
+      },
+      "canonical_mapping_method": "discipline_fallback_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Public Space and Urban Design": {
+      "normalized_category": "Public Space and Urban Design",
+      "source_category_variants": {
+        "Public Space and Urban Design": 17
+      },
+      "competition_counts": {
+        "Design Concept": 17
+      },
+      "evaluation_disciplines": {
+        "architecture_landscape_urban": 17
+      },
+      "primary_evaluation_discipline": "architecture_landscape_urban",
+      "discipline_purity": 1.0,
+      "canonical_category": "Environment and Spatial Design",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 17,
+      "year_counts": {
+        "2024": 5,
+        "2025": 12
+      },
+      "canonical_mapping_method": "discipline_fallback_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Publishing & Print Media": {
+      "normalized_category": "Publishing & Print Media",
+      "source_category_variants": {
+        "Publishing & Print Media": 65,
+        "Publishing & Print Media / Red Dot: Junior Award": 48
+      },
+      "competition_counts": {
+        "Brands & Communication Design": 113
+      },
+      "evaluation_disciplines": {
+        "brand_communication": 113
+      },
+      "primary_evaluation_discipline": "brand_communication",
+      "discipline_purity": 1.0,
+      "canonical_category": "Communication and Branding",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 113,
+      "year_counts": {
+        "2024": 61,
+        "2025": 52
+      },
+      "canonical_mapping_method": "discipline_fallback_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Retail Design": {
+      "normalized_category": "Retail Design",
+      "source_category_variants": {
+        "Retail Design": 28
+      },
+      "competition_counts": {
+        "Brands & Communication Design": 28
+      },
+      "evaluation_disciplines": {
+        "interior_spatial": 28
+      },
+      "primary_evaluation_discipline": "interior_spatial",
+      "discipline_purity": 1.0,
+      "canonical_category": "Environment and Spatial Design",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 28,
+      "year_counts": {
+        "2024": 16,
+        "2025": 12
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Robotics": {
+      "normalized_category": "Robotics",
+      "source_category_variants": {
+        "Robotics": 188
+      },
+      "competition_counts": {
+        "Design Concept": 33,
+        "Product Design": 155
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 33,
+        "physical_product": 155
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.8245,
+      "canonical_category": "Commercial and Industrial",
+      "primary_sector": "industrial",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 188,
+      "year_counts": {
+        "2024": 65,
+        "2025": 60,
+        "2026": 63
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Safety, Protection and Security": {
+      "normalized_category": "Safety, Protection and Security",
+      "source_category_variants": {
+        "Safety, Protection and Security": 28
+      },
+      "competition_counts": {
+        "Design Concept": 28
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 28
+      },
+      "primary_evaluation_discipline": "design_strategy_research",
+      "discipline_purity": 1.0,
+      "canonical_category": "Concept and Speculative Design",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 28,
+      "year_counts": {
+        "2024": 18,
+        "2025": 10
+      },
+      "canonical_mapping_method": "discipline_fallback_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Service Design": {
+      "normalized_category": "Service Design",
+      "source_category_variants": {
+        "Service Design": 40
+      },
+      "competition_counts": {
+        "Design Concept": 40
+      },
+      "evaluation_disciplines": {
+        "service_system_process": 40
+      },
+      "primary_evaluation_discipline": "service_system_process",
+      "discipline_purity": 1.0,
+      "canonical_category": "Service Design",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 40,
+      "year_counts": {
+        "2024": 24,
+        "2025": 16
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Smart Products": {
+      "normalized_category": "Smart Products",
+      "source_category_variants": {
+        "Smart Products": 10
+      },
+      "competition_counts": {
+        "Product Design": 10
+      },
+      "evaluation_disciplines": {
+        "physical_product": 10
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "canonical_category": "Commercial and Industrial",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [
+        "connected_iot"
+      ],
+      "sample_size": 10,
+      "year_counts": {
+        "2024": 10
+      },
+      "canonical_mapping_method": "discipline_fallback_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Social Design": {
+      "normalized_category": "Social Design",
+      "source_category_variants": {
+        "Social Design": 1
+      },
+      "competition_counts": {
+        "Design Concept": 1
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 1
+      },
+      "primary_evaluation_discipline": "design_strategy_research",
+      "discipline_purity": 1.0,
+      "canonical_category": "Social Impact",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [
+        "social_impact_inclusion"
+      ],
+      "sample_size": 1,
+      "year_counts": {
+        "2025": 1
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Sound Design": {
+      "normalized_category": "Sound Design",
+      "source_category_variants": {
+        "Sound Design": 9
+      },
+      "competition_counts": {
+        "Brands & Communication Design": 9
+      },
+      "evaluation_disciplines": {
+        "brand_communication": 9
+      },
+      "primary_evaluation_discipline": "brand_communication",
+      "discipline_purity": 1.0,
+      "canonical_category": "Communication and Branding",
+      "primary_sector": "media_entertainment",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 9,
+      "year_counts": {
+        "2024": 3,
+        "2025": 6
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Spatial Communication": {
+      "normalized_category": "Spatial Communication",
+      "source_category_variants": {
+        "Spatial Communication": 139,
+        "Spatial Communication / Red Dot: Junior Award": 2
+      },
+      "competition_counts": {
+        "Brands & Communication Design": 141
+      },
+      "evaluation_disciplines": {
+        "interior_spatial": 141
+      },
+      "primary_evaluation_discipline": "interior_spatial",
+      "discipline_purity": 1.0,
+      "canonical_category": "Environment and Spatial Design",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 141,
+      "year_counts": {
+        "2024": 74,
+        "2025": 67
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Special Publication": {
+      "normalized_category": "Special Publication",
+      "source_category_variants": {
+        "Special Publication / Red Dot: Junior Award": 1
+      },
+      "competition_counts": {
+        "Brands & Communication Design": 1
+      },
+      "evaluation_disciplines": {
+        "brand_communication": 1
+      },
+      "primary_evaluation_discipline": "brand_communication",
+      "discipline_purity": 1.0,
+      "canonical_category": "Communication and Branding",
+      "primary_sector": "media_entertainment",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 1,
+      "year_counts": {
+        "2025": 1
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Sports Equipment": {
+      "normalized_category": "Sports Equipment",
+      "source_category_variants": {
+        "Sports Equipment": 94
+      },
+      "competition_counts": {
+        "Product Design": 94
+      },
+      "evaluation_disciplines": {
+        "physical_product": 94
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "canonical_category": "Sports and Outdoor",
+      "primary_sector": "sports_outdoor",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 94,
+      "year_counts": {
+        "2024": 30,
+        "2025": 27,
+        "2026": 37
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Sports and Fitness Equipment": {
+      "normalized_category": "Sports and Fitness Equipment",
+      "source_category_variants": {
+        "Sports and Fitness Equipment": 22
+      },
+      "competition_counts": {
+        "Design Concept": 22
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 22
+      },
+      "primary_evaluation_discipline": "design_strategy_research",
+      "discipline_purity": 1.0,
+      "canonical_category": "Sports and Outdoor",
+      "primary_sector": "sports_outdoor",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 22,
+      "year_counts": {
+        "2024": 10,
+        "2025": 12
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Sustainability": {
+      "normalized_category": "Sustainability",
+      "source_category_variants": {
+        "Sustainability": 29
+      },
+      "competition_counts": {
+        "Design Concept": 29
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 29
+      },
+      "primary_evaluation_discipline": "design_strategy_research",
+      "discipline_purity": 1.0,
+      "canonical_category": "Sustainability and Circular Design",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [
+        "sustainability_circularity"
+      ],
+      "sample_size": 29,
+      "year_counts": {
+        "2024": 17,
+        "2025": 12
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Sustainable Design": {
+      "normalized_category": "Sustainable Design",
+      "source_category_variants": {
+        "Sustainable Design": 57
+      },
+      "competition_counts": {
+        "Product Design": 57
+      },
+      "evaluation_disciplines": {
+        "physical_product": 57
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "canonical_category": "Commercial and Industrial",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [
+        "sustainability_circularity"
+      ],
+      "sample_size": 57,
+      "year_counts": {
+        "2025": 31,
+        "2026": 26
+      },
+      "canonical_mapping_method": "discipline_fallback_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "TV Advertising": {
+      "normalized_category": "TV Advertising",
+      "source_category_variants": {
+        "TV Advertising": 1
+      },
+      "competition_counts": {
+        "Brands & Communication Design": 1
+      },
+      "evaluation_disciplines": {
+        "brand_communication": 1
+      },
+      "primary_evaluation_discipline": "brand_communication",
+      "discipline_purity": 1.0,
+      "canonical_category": "Communication and Branding",
+      "primary_sector": "media_entertainment",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 1,
+      "year_counts": {
+        "2025": 1
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "TV and Home Entertainment": {
+      "normalized_category": "TV and Home Entertainment",
+      "source_category_variants": {
+        "TV and Home Entertainment": 130,
+        "TV, Audio and Home Entertainment": 26
+      },
+      "competition_counts": {
+        "Design Concept": 26,
+        "Product Design": 130
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 26,
+        "physical_product": 130
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.8333,
+      "canonical_category": "Consumer Technology",
+      "primary_sector": "consumer_electronics",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 156,
+      "year_counts": {
+        "2024": 59,
+        "2025": 62,
+        "2026": 35
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Tableware": {
+      "normalized_category": "Tableware",
+      "source_category_variants": {
+        "Tableware": 142
+      },
+      "competition_counts": {
+        "Product Design": 142
+      },
+      "evaluation_disciplines": {
+        "physical_product": 142
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "canonical_category": "Home and Kitchen",
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 142,
+      "year_counts": {
+        "2024": 44,
+        "2025": 62,
+        "2026": 36
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Tableware and Cutlery": {
+      "normalized_category": "Tableware and Cutlery",
+      "source_category_variants": {
+        "Tableware and Cutlery": 10
+      },
+      "competition_counts": {
+        "Design Concept": 10
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 10
+      },
+      "primary_evaluation_discipline": "design_strategy_research",
+      "discipline_purity": 1.0,
+      "canonical_category": "Home and Kitchen",
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 10,
+      "year_counts": {
+        "2024": 5,
+        "2025": 5
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Tools": {
+      "normalized_category": "Tools",
+      "source_category_variants": {
+        "Tools": 167
+      },
+      "competition_counts": {
+        "Product Design": 167
+      },
+      "evaluation_disciplines": {
+        "physical_product": 167
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "canonical_category": "Commercial and Industrial",
+      "primary_sector": "industrial",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 167,
+      "year_counts": {
+        "2024": 48,
+        "2025": 69,
+        "2026": 50
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Trains and Planes": {
+      "normalized_category": "Trains and Planes",
+      "source_category_variants": {
+        "Trains and Planes": 17
+      },
+      "competition_counts": {
+        "Product Design": 17
+      },
+      "evaluation_disciplines": {
+        "physical_product": 17
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "canonical_category": "Mobility and Transportation",
+      "primary_sector": "mobility",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 17,
+      "year_counts": {
+        "2024": 4,
+        "2025": 8,
+        "2026": 5
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Trains, Planes and Watercraft": {
+      "normalized_category": "Trains, Planes and Watercraft",
+      "source_category_variants": {
+        "Trains, Planes and Watercraft": 19
+      },
+      "competition_counts": {
+        "Design Concept": 19
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 19
+      },
+      "primary_evaluation_discipline": "design_strategy_research",
+      "discipline_purity": 1.0,
+      "canonical_category": "Mobility and Transportation",
+      "primary_sector": "mobility",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 19,
+      "year_counts": {
+        "2024": 13,
+        "2025": 6
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Typography": {
+      "normalized_category": "Typography",
+      "source_category_variants": {
+        "Typography": 32,
+        "Typography / Red Dot: Junior Award": 3
+      },
+      "competition_counts": {
+        "Brands & Communication Design": 35
+      },
+      "evaluation_disciplines": {
+        "brand_communication": 35
+      },
+      "primary_evaluation_discipline": "brand_communication",
+      "discipline_purity": 1.0,
+      "canonical_category": "Communication and Branding",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [
+        "typography_wayfinding"
+      ],
+      "sample_size": 35,
+      "year_counts": {
+        "2024": 16,
+        "2025": 19
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Urban Design": {
+      "normalized_category": "Urban Design",
+      "source_category_variants": {
+        "Urban Design": 86
+      },
+      "competition_counts": {
+        "Product Design": 86
+      },
+      "evaluation_disciplines": {
+        "architecture_landscape_urban": 86
+      },
+      "primary_evaluation_discipline": "architecture_landscape_urban",
+      "discipline_purity": 1.0,
+      "canonical_category": "Environment and Spatial Design",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 86,
+      "year_counts": {
+        "2024": 42,
+        "2025": 14,
+        "2026": 30
+      },
+      "canonical_mapping_method": "discipline_fallback_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Vehicle Accessories": {
+      "normalized_category": "Vehicle Accessories",
+      "source_category_variants": {
+        "Vehicle Accessories": 158
+      },
+      "competition_counts": {
+        "Design Concept": 8,
+        "Product Design": 150
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 8,
+        "physical_product": 150
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.9494,
+      "canonical_category": "Mobility and Transportation",
+      "primary_sector": "mobility",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 158,
+      "year_counts": {
+        "2024": 61,
+        "2025": 51,
+        "2026": 46
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Visual Communication": {
+      "normalized_category": "Visual Communication",
+      "source_category_variants": {
+        "Visual Communication": 18
+      },
+      "competition_counts": {
+        "Design Concept": 18
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 18
+      },
+      "primary_evaluation_discipline": "design_strategy_research",
+      "discipline_purity": 1.0,
+      "canonical_category": "Communication and Branding",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 18,
+      "year_counts": {
+        "2024": 8,
+        "2025": 10
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Watches": {
+      "normalized_category": "Watches",
+      "source_category_variants": {
+        "Watches": 31
+      },
+      "competition_counts": {
+        "Product Design": 31
+      },
+      "evaluation_disciplines": {
+        "physical_product": 31
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "canonical_category": "Lifestyle and Personal Accessories",
+      "primary_sector": "beauty_fashion",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 31,
+      "year_counts": {
+        "2024": 13,
+        "2025": 6,
+        "2026": 12
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Watches, Jewellery and Eyewear": {
+      "normalized_category": "Watches, Jewellery and Eyewear",
+      "source_category_variants": {
+        "Watches, Jewellery and Eyewear": 8
+      },
+      "competition_counts": {
+        "Design Concept": 8
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 8
+      },
+      "primary_evaluation_discipline": "design_strategy_research",
+      "discipline_purity": 1.0,
+      "canonical_category": "Lifestyle and Personal Accessories",
+      "primary_sector": "beauty_fashion",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 8,
+      "year_counts": {
+        "2024": 4,
+        "2025": 4
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Watercraft": {
+      "normalized_category": "Watercraft",
+      "source_category_variants": {
+        "Watercraft": 7
+      },
+      "competition_counts": {
+        "Product Design": 7
+      },
+      "evaluation_disciplines": {
+        "physical_product": 7
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "canonical_category": "Mobility and Transportation",
+      "primary_sector": "mobility",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "sample_size": 7,
+      "year_counts": {
+        "2024": 4,
+        "2025": 2,
+        "2026": 1
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Website Relaunch": {
+      "normalized_category": "Website Relaunch",
+      "source_category_variants": {
+        "Website Relaunch": 1
+      },
+      "competition_counts": {
+        "Brands & Communication Design": 1
+      },
+      "evaluation_disciplines": {
+        "user_interface": 1
+      },
+      "primary_evaluation_discipline": "user_interface",
+      "discipline_purity": 1.0,
+      "canonical_category": "Digital Interaction",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 1,
+      "year_counts": {
+        "2025": 1
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Websites": {
+      "normalized_category": "Websites",
+      "source_category_variants": {
+        "Websites": 49,
+        "Websites / Red Dot: Junior Award": 2
+      },
+      "competition_counts": {
+        "Brands & Communication Design": 51
+      },
+      "evaluation_disciplines": {
+        "user_interface": 51
+      },
+      "primary_evaluation_discipline": "user_interface",
+      "discipline_purity": 1.0,
+      "canonical_category": "Digital Interaction",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "sample_size": 51,
+      "year_counts": {
+        "2024": 18,
+        "2025": 33
+      },
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "review_status": "machine_generated_needs_human_review"
+    }
+  }
+}

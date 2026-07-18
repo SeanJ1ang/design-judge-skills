@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "award_id": "idea",
+  "program": "International Design Excellence Awards (IDEA)",
+  "cycle": "2026",
+  "checked_on": "2026-07-15",
+  "official_sources": ["https://www.idsa.org/awards-recognitions/idea/idea-faqs/"],
+  "notes": ["Designer and firm credits are gathered in Round 2 and are not included in this initial narrative specification."],
+  "routes": [{
+    "route_id": "general",
+    "label": "General IDEA entry",
+    "fields": [
+      {"field_id":"overview","label":"Entry overview","required":true,"value_type":"string","language":"English","max_length":150,"length_unit":"words","source_facts":["positioning","core_functions","key_features","competitive_difference"],"essential_facts":["core_functions"],"drafting_instructions":"Explain what the entry is, its key features and functionality, and what makes it distinctive.","publicity":"jury_only"},
+      {"field_id":"design-innovation","label":"Design innovation","required":true,"value_type":"string","language":"English","max_length":250,"length_unit":"words","source_facts":["problem","pain_points","solution","innovation_points","competitive_difference"],"essential_facts":["problem","solution","innovation_points"],"drafting_instructions":"Explain how the entry is new, what critical problem it solves, and how the solution addresses it.","publicity":"jury_only"},
+      {"field_id":"benefit-user","label":"Benefit to user","required":true,"value_type":"string","language":"English","max_length":250,"length_unit":"words","source_facts":["target_user","use_context","user_benefit","accessibility","testing_validation","measured_outcomes"],"essential_facts":["target_user","user_benefit"],"drafting_instructions":"Describe concrete end-user benefits and tasks or daily-life improvements enabled by the design.","publicity":"jury_only"},
+      {"field_id":"benefit-client-brand","label":"Benefit to client or brand","required":true,"value_type":"string","language":"English","max_length":250,"length_unit":"words","source_facts":["client_brand_benefit","business_value","competitive_difference","measured_outcomes"],"essential_facts":["client_brand_benefit"],"drafting_instructions":"Explain evidenced business or brand impact and design's role as a differentiator.","publicity":"jury_only"},
+      {"field_id":"benefit-society","label":"Benefit to society","required":true,"value_type":"string","language":"English","max_length":250,"length_unit":"words","source_facts":["social_impact","cultural_impact","environmental_impact","sustainability","accessibility","measured_outcomes"],"essential_facts":["social_impact"],"drafting_instructions":"Explain supported social, cultural, or environmental impact without inflating intended benefits into measured outcomes.","publicity":"jury_only"},
+      {"field_id":"appropriate-aesthetics","label":"Appropriate aesthetics","required":true,"value_type":"string","language":"English","max_length":250,"length_unit":"words","source_facts":["aesthetics_form","cmf","materials","manufacturing_process","ergonomics"],"essential_facts":["aesthetics_form"],"drafting_instructions":"Explain how form, color, materials, finishes, manufacturing, and use are related.","publicity":"jury_only"},
+      {"field_id":"primary-materials","label":"Primary materials","required":true,"value_type":"list","language":"English","max_items":20,"source_facts":["materials"],"essential_facts":["materials"],"drafting_instructions":"List the primary manufacturing materials accurately.","publicity":"administrative"},
+      {"field_id":"retail-price","label":"Retail price","required":true,"value_type":"string","language":"English","source_facts":["retail_price"],"essential_facts":["retail_price"],"drafting_instructions":"State the verified retail price and currency, or the applicable official status.","publicity":"administrative"},
+      {"field_id":"physical-dimensions","label":"Physical dimensions","required":true,"value_type":"string","language":"English","source_facts":["physical_dimensions"],"essential_facts":["physical_dimensions"],"drafting_instructions":"State dimensions with units and order clearly labeled.","publicity":"administrative"}
+    ]
+  }]
+}
+

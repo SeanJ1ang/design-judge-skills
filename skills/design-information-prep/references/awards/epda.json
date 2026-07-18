@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "award_id": "epda",
+  "program": "European Product Design Award",
+  "cycle": "2026",
+  "checked_on": "2026-07-15",
+  "official_sources": ["https://www.productdesignaward.eu/docs/EPDA-InfoGuide-2026_EN.pdf"],
+  "notes": ["The public 2026 information guide lists mandatory form fields but does not state a public description limit. Verify the current portal before paste-in."],
+  "routes": [
+    {
+      "route_id": "professional",
+      "label": "Professional entry",
+      "applies_when": "Professional designer, studio, agency, brand, or company entry.",
+      "fields": [
+        {"field_id":"project-name","label":"Project name","required":true,"value_type":"string","language":"English","source_facts":["project_name"],"essential_facts":["project_name"],"drafting_instructions":"Use the official project name.","publicity":"public_if_awarded"},
+        {"field_id":"company-studio-agency","label":"Company / studio / agency","required":true,"value_type":"string","language":"English","source_facts":["design_company","client_manufacturer"],"essential_facts":["design_company"],"drafting_instructions":"Use the confirmed entrant organization name.","publicity":"public_if_awarded"},
+        {"field_id":"lead-designer","label":"Lead designer","required":true,"value_type":"string","language":"English","source_facts":["lead_designer"],"essential_facts":["lead_designer"],"drafting_instructions":"Use the confirmed public credit.","publicity":"public_if_awarded"},
+        {"field_id":"category","label":"Category","required":true,"value_type":"string","language":"English","source_facts":["category"],"essential_facts":["category"],"drafting_instructions":"Use the selected EPDA category exactly.","publicity":"administrative"},
+        {"field_id":"description","label":"Description","required":true,"value_type":"string","language":"English","source_facts":["positioning","target_user","problem","solution","working_principle","core_functions","innovation_points","competitive_difference","materials","development_process","testing_validation","user_benefit","business_value","social_impact","sustainability"],"essential_facts":["problem","solution","innovation_points"],"drafting_instructions":"Explain the design problem, solution, innovation, execution, and verified value without inventing results.","publicity":"public_if_awarded"},
+        {"field_id":"completion-date","label":"Completed / estimated completion date","required":true,"value_type":"string","language":"Date","source_facts":["launch_date","development_time","launch_status"],"essential_facts":["launch_status"],"drafting_instructions":"Use a verified completed or estimated date and label its status accurately.","publicity":"administrative"},
+        {"field_id":"team-members","label":"Team members","required":false,"value_type":"list","language":"English","max_items":50,"source_facts":["team_members"],"essential_facts":[],"drafting_instructions":"List confirmed names and roles.","publicity":"public_if_awarded"},
+        {"field_id":"urls","label":"Project URLs","required":false,"value_type":"list","language":"URL","max_items":10,"source_facts":["urls"],"essential_facts":[],"drafting_instructions":"Use stable, accessible project or video links.","publicity":"not_stated"}
+      ]
+    },
+    {
+      "route_id": "student",
+      "label": "Student entry",
+      "applies_when": "Eligible student entry.",
+      "fields": [
+        {"field_id":"project-name","label":"Project name","required":true,"value_type":"string","language":"English","source_facts":["project_name"],"essential_facts":["project_name"],"drafting_instructions":"Use the official project name.","publicity":"public_if_awarded"},
+        {"field_id":"university","label":"University","required":true,"value_type":"string","language":"English","source_facts":["university"],"essential_facts":["university"],"drafting_instructions":"Use the institution's official English name.","publicity":"public_if_awarded"},
+        {"field_id":"lead-designer","label":"Lead designer","required":true,"value_type":"string","language":"English","source_facts":["lead_designer"],"essential_facts":["lead_designer"],"drafting_instructions":"Use the confirmed public credit.","publicity":"public_if_awarded"},
+        {"field_id":"category","label":"Category","required":true,"value_type":"string","language":"English","source_facts":["category"],"essential_facts":["category"],"drafting_instructions":"Use the selected EPDA category exactly.","publicity":"administrative"},
+        {"field_id":"description","label":"Description","required":true,"value_type":"string","language":"English","source_facts":["positioning","target_user","problem","solution","working_principle","core_functions","innovation_points","competitive_difference","materials","development_process","testing_validation","user_benefit","social_impact","sustainability"],"essential_facts":["problem","solution","innovation_points"],"drafting_instructions":"Explain the design problem, solution, innovation, execution, and verified value without inventing results.","publicity":"public_if_awarded"},
+        {"field_id":"completion-date","label":"Completed / estimated completion date","required":true,"value_type":"string","language":"Date","source_facts":["launch_date","development_time","launch_status"],"essential_facts":["launch_status"],"drafting_instructions":"Use a verified completed or estimated date and label its status accurately.","publicity":"administrative"},
+        {"field_id":"team-members","label":"Team members","required":false,"value_type":"list","language":"English","max_items":50,"source_facts":["team_members"],"essential_facts":[],"drafting_instructions":"List confirmed names and roles.","publicity":"public_if_awarded"},
+        {"field_id":"urls","label":"Project URLs","required":false,"value_type":"list","language":"URL","max_items":10,"source_facts":["urls"],"essential_facts":[],"drafting_instructions":"Use stable, accessible project or video links.","publicity":"not_stated"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "policy": {
+    "classification_order": ["primary_function", "designed_object", "use_context", "target_user", "technology_and_form"],
+    "official_category_controls": true,
+    "unmapped_action": "live_lookup",
+    "warning": "Category hints are routing aids, not substitutes for the current official category list."
+  },
+  "canonical_categories": [
+    "Medical and Health",
+    "Accessibility and Inclusive Design",
+    "Consumer Technology",
+    "Home and Kitchen",
+    "Furniture",
+    "Lighting",
+    "Mobility and Transportation",
+    "Commercial and Industrial",
+    "Office and Productivity",
+    "Digital Interaction",
+    "Service Design",
+    "Communication and Branding",
+    "Packaging",
+    "Children and Education",
+    "Sports and Outdoor",
+    "Lifestyle and Personal Accessories",
+    "Environment and Spatial Design",
+    "Social Impact",
+    "Sustainability and Circular Design",
+    "Concept and Speculative Design"
+  ],
+  "project_states": [
+    "student_concept",
+    "professional_concept",
+    "working_prototype",
+    "ready_for_market",
+    "launched_product",
+    "service_or_system",
+    "digital_product"
+  ],
+  "entrant_types": [
+    "student",
+    "recent_graduate",
+    "individual",
+    "professional",
+    "studio",
+    "company",
+    "university",
+    "research_institution"
+  ]
+}

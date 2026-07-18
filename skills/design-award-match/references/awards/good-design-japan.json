@@ -1,0 +1,61 @@
+{
+  "award_id": "good-design-japan",
+  "brand": "GOOD DESIGN AWARD",
+  "program": "GOOD DESIGN AWARD Japan (G Mark)",
+  "status": "supported",
+  "official_domains": ["g-mark.org"],
+  "official_sources": {
+    "overview": "https://www.g-mark.org/en/apply/why-gda",
+    "eligibility": "https://www.g-mark.org/en/apply/gda/guide/requirements",
+    "categories": "https://www.g-mark.org/en/apply/gda/guide/categories",
+    "criteria": "https://www.g-mark.org/en/apply/gda/screening/perspective",
+    "submission": "https://www.g-mark.org/en/apply/gda/guide/steps/1-application",
+    "winners": "https://www.g-mark.org/gallery/winners?locale=en"
+  },
+  "routes": [
+    {
+      "route_id": "implemented-design",
+      "label": "Implemented Product, Service, System, Architecture, or Initiative",
+      "entrant_types": ["individual", "professional", "studio", "company", "university", "research_institution"],
+      "project_states": ["ready_for_market", "launched_product", "service_or_system", "digital_product"],
+      "required_project_fields": ["applicant_is_business_owner_or_authorized_design_contractor", "available_to_users_by_current_cutoff", "can_be_publicly_announced_on_award_date", "can_be_exhibited_if_awarded"],
+      "stable_constraints": [
+        {"field": "applicant_is_business_owner_or_authorized_design_contractor", "operator": "truthy", "message": "The applicant must be the business owner or an authorized design contractor under the current official rules."},
+        {"field": "available_to_users_by_current_cutoff", "operator": "truthy", "message": "The entry must be purchasable or usable by the current official cutoff."},
+        {"field": "can_be_publicly_announced_on_award_date", "operator": "truthy", "message": "The entry must be publishable on the current official award announcement date."},
+        {"field": "can_be_exhibited_if_awarded", "operator": "truthy", "message": "The entry must be capable of satisfying the current exhibition requirement if awarded."}
+      ],
+      "dynamic_gates": ["current_cycle_open", "current_availability_cutoff", "current_publication_date", "current_exhibition_requirements", "current_single_category_label", "current_local_law_and_prohibited_entry_rules"]
+    }
+  ],
+  "category_hints": {
+    "Medical and Health": [{"route_id": "implemented-design", "track": "Product", "category": "Equipment and Facilities for Manufacturing and Medical Care", "relation": "exact"}],
+    "Accessibility and Inclusive Design": [{"route_id": "implemented-design", "track": "Product or Service", "category": "Personal Care or Medical Care — verify primary artifact", "relation": "adjacent"}],
+    "Consumer Technology": [{"route_id": "implemented-design", "track": "Product", "category": "ICT Equipment", "relation": "exact"}],
+    "Home and Kitchen": [{"route_id": "implemented-design", "track": "Product", "category": "Household Goods or Home Appliances", "relation": "adjacent"}],
+    "Furniture": [{"route_id": "implemented-design", "track": "Product", "category": "Furniture, Lighting, and Building Materials", "relation": "exact"}],
+    "Lighting": [{"route_id": "implemented-design", "track": "Product", "category": "Furniture, Lighting, and Building Materials", "relation": "exact"}],
+    "Mobility and Transportation": [{"route_id": "implemented-design", "track": "Product", "category": "Mobility", "relation": "exact"}],
+    "Digital Interaction": [{"route_id": "implemented-design", "track": "System and Service", "category": "System and Service", "relation": "exact"}],
+    "Service Design": [{"route_id": "implemented-design", "track": "System and Service", "category": "System and Service", "relation": "exact"}],
+    "Communication and Branding": [{"route_id": "implemented-design", "track": "Communication", "category": "Communication and Media", "relation": "exact"}],
+    "Packaging": [{"route_id": "implemented-design", "track": "Communication", "category": "Communication and Media — verify current category", "relation": "broad"}],
+    "Environment and Spatial Design": [{"route_id": "implemented-design", "track": "Architecture or Space", "category": "Interior Space, Housing, Architecture, or Public Facility — verify primary artifact", "relation": "live-lookup"}],
+    "Social Impact": [{"route_id": "implemented-design", "track": "System, Service, or Initiative", "category": "System and Service or current Initiative category", "relation": "adjacent"}],
+    "Concept and Speculative Design": [{"route_id": "implemented-design", "track": "Conditional only", "category": "No default route; entry must meet current availability, publication, and exhibition gates", "relation": "live-lookup"}]
+  },
+  "criteria": [
+    {"official_name": "Human perspective — user consideration", "normalized_dimension": "user_experience"},
+    {"official_name": "Human perspective — safety, security, environment and vulnerable users", "normalized_dimension": "responsibility"},
+    {"official_name": "Industrial perspective — creative problem solving with technology or materials", "normalized_dimension": "innovation"},
+    {"official_name": "Industrial perspective — appropriate technology, method and quality", "normalized_dimension": "feasibility"},
+    {"official_name": "Industrial perspective — creation of industry or business", "normalized_dimension": "business_value"},
+    {"official_name": "Social perspective — new culture and new social value", "normalized_dimension": "social_impact"},
+    {"official_name": "Social perspective — contribution to a sustainable society", "normalized_dimension": "responsibility"},
+    {"official_name": "Temporal perspective — medium/long-term sustainability and continual improvement", "normalized_dimension": "responsibility"}
+  ],
+  "dynamic_fields": ["cycle", "dates", "fees", "availability_cutoff", "public_announcement_date", "category_labels", "category_numbers", "category_specific_criteria", "second_screening_requirements", "exhibition_requirements", "g_mark_usage_terms"],
+  "winner_sources": ["https://www.g-mark.org/gallery/winners?locale=en"],
+  "last_profile_reviewed": "2026-07-13",
+  "notes": ["Pure concepts are not a default route.", "Store category labels, not annual category numbers; exactly one current category must be selected."]
+}

@@ -1,0 +1,130 @@
+{
+  "profile_id": "idea-program-overall",
+  "profile_type": "observed_recognized_program_context",
+  "source_program": "International Design Excellence Awards (IDEA)",
+  "observed_metrics": {
+    "sample_size": 1024,
+    "year_counts": {
+      "2022": 1,
+      "2023": 356,
+      "2024": 373,
+      "2025": 294
+    },
+    "award_level_counts": {
+      "Bronze": 204,
+      "Featured Finalist": 601,
+      "Gold": 72,
+      "Silver": 147
+    },
+    "evidence_field_coverage": {
+      "body_text_sample": 1.0,
+      "structured_json_ld": 1.0,
+      "country_region": 0.0,
+      "at_least_one_image": 1.0
+    },
+    "image_count": {
+      "minimum": 1,
+      "median": 17.0,
+      "p90": 18.0,
+      "maximum": 18,
+      "mean": 17.07
+    },
+    "normalized_category_count": 24,
+    "student_category_count": 74,
+    "student_category_share": 0.0723,
+    "top_categories": [
+      {
+        "category": "Home",
+        "sample_size": 177
+      },
+      {
+        "category": "Consumer Technology",
+        "sample_size": 142
+      },
+      {
+        "category": "Commercial & Industrial Products",
+        "sample_size": 74
+      },
+      {
+        "category": "Student Designs",
+        "sample_size": 74
+      },
+      {
+        "category": "Medical & Health",
+        "sample_size": 71
+      },
+      {
+        "category": "Concepts & Speculative Design",
+        "sample_size": 62
+      },
+      {
+        "category": "Digital Interaction",
+        "sample_size": 42
+      },
+      {
+        "category": "Automotive & Transportation",
+        "sample_size": 36
+      },
+      {
+        "category": "Environments",
+        "sample_size": 33
+      },
+      {
+        "category": "Sports, Leisure & Recreation",
+        "sample_size": 33
+      },
+      {
+        "category": "Branding",
+        "sample_size": 33
+      },
+      {
+        "category": "Outdoor & Garden",
+        "sample_size": 32
+      },
+      {
+        "category": "Lifestyle & Accessories",
+        "sample_size": 29
+      },
+      {
+        "category": "Children's Products",
+        "sample_size": 26
+      },
+      {
+        "category": "Packaging",
+        "sample_size": 24
+      }
+    ]
+  },
+  "guidance": {
+    "attention_dimensions": [
+      "problem_value",
+      "user_function_usability",
+      "innovation_differentiation",
+      "solution_integrity",
+      "implementation_feasibility",
+      "form_interaction_quality",
+      "responsibility_sustainability"
+    ],
+    "evidence_prompts": [
+      "Show the user need, context, and benefit with evidence appropriate to the claim.",
+      "Explain the differentiating design decision and how the complete solution works.",
+      "Show implementation, testing, and responsibility boundaries appropriate to maturity."
+    ],
+    "presentation_expectations": [
+      "clear_problem_and_benefit",
+      "hero_and_context",
+      "use_or_experience_sequence",
+      "design_detail_and_system_logic",
+      "prototype_or_validation_evidence"
+    ]
+  },
+  "confidence": "high",
+  "score_effect": "none",
+  "review_status": "machine_generated_needs_human_review",
+  "limitations": [
+    "Winner and Featured Finalist sample only; no non-selected comparison group.",
+    "Observed IDEA context, not official jury weights or scoring.",
+    "The overall profile mixes professional categories with the Student Designs category.",
+    "Do not infer winning probability or change rubric weights from this profile."
+  ]
+}

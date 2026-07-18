@@ -1,0 +1,2636 @@
+{
+  "schema_version": 1,
+  "source_program": "iF DESIGN AWARD",
+  "normalization_rule": "strip leading numeric hierarchy and normalize whitespace",
+  "category_count": 104,
+  "categories": {
+    "Apps / Software": {
+      "normalized_category": "Apps / Software",
+      "source_categories": {
+        "3.06 Apps / Software": 28,
+        "3.08 Apps / Software": 63
+      },
+      "source_disciplines": {
+        "Branding & Communication Design": 91
+      },
+      "evaluation_disciplines": {
+        "brand_communication": 91
+      },
+      "primary_sector": null,
+      "sector_scope": "unmapped_requires_review",
+      "canonical_category": "Digital Interaction",
+      "focus_tags": [],
+      "sample_size": 91,
+      "year_counts": {
+        "2024": 33,
+        "2025": 30,
+        "2026": 28
+      },
+      "mapping_method": "unmapped_requires_review",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Architecture Concepts": {
+      "normalized_category": "Architecture Concepts",
+      "source_categories": {
+        "5.06 Architecture Concepts": 1,
+        "5.07 Architecture Concepts": 1
+      },
+      "source_disciplines": {
+        "Concepts": 2
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 2
+      },
+      "primary_sector": null,
+      "sector_scope": "unmapped_requires_review",
+      "canonical_category": "Environment and Spatial Design",
+      "focus_tags": [
+        "experimental_speculative"
+      ],
+      "sample_size": 2,
+      "year_counts": {
+        "2024": 1,
+        "2026": 1
+      },
+      "mapping_method": "unmapped_requires_review",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Art & Cultural Exhibitions / Installations": {
+      "normalized_category": "Art & Cultural Exhibitions / Installations",
+      "source_categories": {
+        "4.09 Art & Cultural Exhibitions / Installations": 80
+      },
+      "source_disciplines": {
+        "Interior Architecture": 80
+      },
+      "evaluation_disciplines": {
+        "interior_spatial": 80
+      },
+      "primary_sector": "culture_tourism",
+      "sector_scope": "specific",
+      "canonical_category": "Environment and Spatial Design",
+      "focus_tags": [],
+      "sample_size": 80,
+      "year_counts": {
+        "2026": 80
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Audio": {
+      "normalized_category": "Audio",
+      "source_categories": {
+        "1.08 Audio": 147,
+        "1.10 Audio": 85
+      },
+      "source_disciplines": {
+        "Product Design": 232
+      },
+      "evaluation_disciplines": {
+        "physical_product": 232
+      },
+      "primary_sector": "consumer_electronics",
+      "sector_scope": "specific",
+      "canonical_category": "Consumer Technology",
+      "focus_tags": [],
+      "sample_size": 232,
+      "year_counts": {
+        "2024": 86,
+        "2025": 61,
+        "2026": 85
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Automobiles / Vehicles": {
+      "normalized_category": "Automobiles / Vehicles",
+      "source_categories": {
+        "1.01 Automobiles / Vehicles": 318
+      },
+      "source_disciplines": {
+        "Product Design": 318
+      },
+      "evaluation_disciplines": {
+        "physical_product": 318
+      },
+      "primary_sector": "mobility",
+      "sector_scope": "specific",
+      "canonical_category": "Mobility and Transportation",
+      "focus_tags": [],
+      "sample_size": 318,
+      "year_counts": {
+        "2024": 163,
+        "2025": 61,
+        "2026": 94
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Babies / Kids": {
+      "normalized_category": "Babies / Kids",
+      "source_categories": {
+        "1.06 Babies / Kids": 216
+      },
+      "source_disciplines": {
+        "Product Design": 216
+      },
+      "evaluation_disciplines": {
+        "physical_product": 216
+      },
+      "primary_sector": "education",
+      "sector_scope": "specific",
+      "canonical_category": "Children and Education",
+      "focus_tags": [],
+      "sample_size": 216,
+      "year_counts": {
+        "2024": 65,
+        "2025": 69,
+        "2026": 82
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Bathroom": {
+      "normalized_category": "Bathroom",
+      "source_categories": {
+        "1.18 Bathroom": 351,
+        "1.22 Bathroom": 113
+      },
+      "source_disciplines": {
+        "Product Design": 464
+      },
+      "evaluation_disciplines": {
+        "physical_product": 464
+      },
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "canonical_category": "Home and Kitchen",
+      "focus_tags": [],
+      "sample_size": 464,
+      "year_counts": {
+        "2024": 184,
+        "2025": 167,
+        "2026": 113
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Beauty / Health / Wellness Packaging": {
+      "normalized_category": "Beauty / Health / Wellness Packaging",
+      "source_categories": {
+        "2.03 Beauty / Health / Wellness Packaging": 73
+      },
+      "source_disciplines": {
+        "Packaging Design": 73
+      },
+      "evaluation_disciplines": {
+        "packaging": 73
+      },
+      "primary_sector": "healthcare",
+      "sector_scope": "specific",
+      "canonical_category": "Medical and Health",
+      "focus_tags": [],
+      "sample_size": 73,
+      "year_counts": {
+        "2024": 23,
+        "2025": 20,
+        "2026": 30
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Beauty / Wellness": {
+      "normalized_category": "Beauty / Wellness",
+      "source_categories": {
+        "1.07 Beauty / Wellness": 66,
+        "1.23 Beauty / Wellness": 116
+      },
+      "source_disciplines": {
+        "Product Design": 182
+      },
+      "evaluation_disciplines": {
+        "physical_product": 182
+      },
+      "primary_sector": "beauty_fashion",
+      "sector_scope": "specific",
+      "canonical_category": "Lifestyle and Personal Accessories",
+      "focus_tags": [],
+      "sample_size": 182,
+      "year_counts": {
+        "2024": 53,
+        "2025": 63,
+        "2026": 66
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Beverage Packaging": {
+      "normalized_category": "Beverage Packaging",
+      "source_categories": {
+        "2.01 Beverage Packaging": 225
+      },
+      "source_disciplines": {
+        "Packaging Design": 225
+      },
+      "evaluation_disciplines": {
+        "packaging": 225
+      },
+      "primary_sector": "food_beverage",
+      "sector_scope": "specific",
+      "canonical_category": "Packaging",
+      "focus_tags": [],
+      "sample_size": 225,
+      "year_counts": {
+        "2024": 125,
+        "2025": 61,
+        "2026": 39
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Bicycles": {
+      "normalized_category": "Bicycles",
+      "source_categories": {
+        "1.02 Bicycles": 56,
+        "1.03 Bicycles": 84
+      },
+      "source_disciplines": {
+        "Product Design": 140
+      },
+      "evaluation_disciplines": {
+        "physical_product": 140
+      },
+      "primary_sector": "mobility",
+      "sector_scope": "specific",
+      "canonical_category": "Mobility and Transportation",
+      "focus_tags": [],
+      "sample_size": 140,
+      "year_counts": {
+        "2024": 39,
+        "2025": 45,
+        "2026": 56
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Branding & Communication Concepts": {
+      "normalized_category": "Branding & Communication Concepts",
+      "source_categories": {
+        "5.02 Branding & Communication Concepts": 6,
+        "5.03 Branding & Communication Concepts": 2
+      },
+      "source_disciplines": {
+        "Concepts": 8
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 8
+      },
+      "primary_sector": null,
+      "sector_scope": "unmapped_requires_review",
+      "canonical_category": "Communication and Branding",
+      "focus_tags": [
+        "experimental_speculative"
+      ],
+      "sample_size": 8,
+      "year_counts": {
+        "2024": 2,
+        "2025": 4,
+        "2026": 2
+      },
+      "mapping_method": "unmapped_requires_review",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Building Technology": {
+      "normalized_category": "Building Technology",
+      "source_categories": {
+        "1.20 Building Technology": 244,
+        "1.24 Building Technology": 120
+      },
+      "source_disciplines": {
+        "Product Design": 364
+      },
+      "evaluation_disciplines": {
+        "physical_product": 364
+      },
+      "primary_sector": "industrial",
+      "sector_scope": "specific",
+      "canonical_category": "Commercial and Industrial",
+      "focus_tags": [],
+      "sample_size": 364,
+      "year_counts": {
+        "2024": 123,
+        "2025": 121,
+        "2026": 120
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Campaigns / Advertising": {
+      "normalized_category": "Campaigns / Advertising",
+      "source_categories": {
+        "3.04 Campaigns / Advertising": 29,
+        "3.09 Campaigns / Advertising": 56
+      },
+      "source_disciplines": {
+        "Branding & Communication Design": 85
+      },
+      "evaluation_disciplines": {
+        "brand_communication": 85
+      },
+      "primary_sector": null,
+      "sector_scope": "unmapped_requires_review",
+      "canonical_category": "Communication and Branding",
+      "focus_tags": [],
+      "sample_size": 85,
+      "year_counts": {
+        "2024": 31,
+        "2025": 25,
+        "2026": 29
+      },
+      "mapping_method": "unmapped_requires_review",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Commercial Architecture": {
+      "normalized_category": "Commercial Architecture",
+      "source_categories": {
+        "7.03 Commercial Architecture": 34,
+        "7.05 Commercial Architecture": 10
+      },
+      "source_disciplines": {
+        "Architecture": 44
+      },
+      "evaluation_disciplines": {
+        "architecture_landscape_urban": 44
+      },
+      "primary_sector": null,
+      "sector_scope": "unmapped_requires_review",
+      "canonical_category": "Environment and Spatial Design",
+      "focus_tags": [],
+      "sample_size": 44,
+      "year_counts": {
+        "2024": 14,
+        "2025": 20,
+        "2026": 10
+      },
+      "mapping_method": "unmapped_requires_review",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Communication UX": {
+      "normalized_category": "Communication UX",
+      "source_categories": {
+        "8.02 Communication UX": 76
+      },
+      "source_disciplines": {
+        "User Experience (UX)": 76
+      },
+      "evaluation_disciplines": {
+        "user_experience": 76
+      },
+      "primary_sector": null,
+      "sector_scope": "unmapped_requires_review",
+      "canonical_category": "Communication and Branding",
+      "focus_tags": [],
+      "sample_size": 76,
+      "year_counts": {
+        "2024": 29,
+        "2025": 47
+      },
+      "mapping_method": "unmapped_requires_review",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Company Branding": {
+      "normalized_category": "Company Branding",
+      "source_categories": {
+        "3.01 Company Branding": 49,
+        "3.02 Company Branding": 94
+      },
+      "source_disciplines": {
+        "Branding & Communication Design": 143
+      },
+      "evaluation_disciplines": {
+        "brand_communication": 143
+      },
+      "primary_sector": null,
+      "sector_scope": "cross_sector",
+      "canonical_category": "Communication and Branding",
+      "focus_tags": [],
+      "sample_size": 143,
+      "year_counts": {
+        "2024": 56,
+        "2025": 38,
+        "2026": 49
+      },
+      "mapping_method": "explicit_cross_sector",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Computer": {
+      "normalized_category": "Computer",
+      "source_categories": {
+        "1.11 Computer": 389
+      },
+      "source_disciplines": {
+        "Product Design": 389
+      },
+      "evaluation_disciplines": {
+        "physical_product": 389
+      },
+      "primary_sector": "consumer_electronics",
+      "sector_scope": "specific",
+      "canonical_category": "Consumer Technology",
+      "focus_tags": [],
+      "sample_size": 389,
+      "year_counts": {
+        "2024": 92,
+        "2025": 135,
+        "2026": 162
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Connected Product Ecosystems": {
+      "normalized_category": "Connected Product Ecosystems",
+      "source_categories": {
+        "1.27 Connected Product Ecosystems": 8
+      },
+      "source_disciplines": {
+        "Product Design": 8
+      },
+      "evaluation_disciplines": {
+        "physical_product": 8
+      },
+      "primary_sector": null,
+      "sector_scope": "unmapped_requires_review",
+      "canonical_category": "Sustainability and Circular Design",
+      "focus_tags": [
+        "connected_iot",
+        "sustainability_circularity"
+      ],
+      "sample_size": 8,
+      "year_counts": {
+        "2026": 8
+      },
+      "mapping_method": "unmapped_requires_review",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Consumer Product Packaging": {
+      "normalized_category": "Consumer Product Packaging",
+      "source_categories": {
+        "2.06 Consumer Product Packaging": 67
+      },
+      "source_disciplines": {
+        "Packaging Design": 67
+      },
+      "evaluation_disciplines": {
+        "packaging": 67
+      },
+      "primary_sector": null,
+      "sector_scope": "unmapped_requires_review",
+      "canonical_category": "Packaging",
+      "focus_tags": [],
+      "sample_size": 67,
+      "year_counts": {
+        "2024": 31,
+        "2025": 20,
+        "2026": 16
+      },
+      "mapping_method": "unmapped_requires_review",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Corporate / Office Interiors": {
+      "normalized_category": "Corporate / Office Interiors",
+      "source_categories": {
+        "4.03 Corporate / Office Interiors": 65,
+        "4.06 Corporate / Office Interiors": 119
+      },
+      "source_disciplines": {
+        "Interior Architecture": 184
+      },
+      "evaluation_disciplines": {
+        "interior_spatial": 184
+      },
+      "primary_sector": "office",
+      "sector_scope": "specific",
+      "canonical_category": "Office and Productivity",
+      "focus_tags": [],
+      "sample_size": 184,
+      "year_counts": {
+        "2024": 45,
+        "2025": 74,
+        "2026": 65
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Cultural Exhibitions": {
+      "normalized_category": "Cultural Exhibitions",
+      "source_categories": {
+        "4.02 Cultural Exhibitions": 67
+      },
+      "source_disciplines": {
+        "Interior Architecture": 67
+      },
+      "evaluation_disciplines": {
+        "interior_spatial": 67
+      },
+      "primary_sector": "culture_tourism",
+      "sector_scope": "specific",
+      "canonical_category": "Environment and Spatial Design",
+      "focus_tags": [],
+      "sample_size": 67,
+      "year_counts": {
+        "2024": 35,
+        "2025": 32
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Culture / Tourism": {
+      "normalized_category": "Culture / Tourism",
+      "source_categories": {
+        "6.05 Culture / Tourism": 5,
+        "6.07 Culture / Tourism": 6
+      },
+      "source_disciplines": {
+        "Service, System & Process Design": 11
+      },
+      "evaluation_disciplines": {
+        "service_system_process": 11
+      },
+      "primary_sector": "culture_tourism",
+      "sector_scope": "specific",
+      "canonical_category": "Service Design",
+      "focus_tags": [],
+      "sample_size": 11,
+      "year_counts": {
+        "2024": 4,
+        "2025": 1,
+        "2026": 6
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "discipline_fallback_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Data Visualization": {
+      "normalized_category": "Data Visualization",
+      "source_categories": {
+        "3.11 Data Visualization": 3
+      },
+      "source_disciplines": {
+        "Branding & Communication Design": 3
+      },
+      "evaluation_disciplines": {
+        "brand_communication": 3
+      },
+      "primary_sector": null,
+      "sector_scope": "unmapped_requires_review",
+      "canonical_category": "Communication and Branding",
+      "focus_tags": [
+        "data_visualization"
+      ],
+      "sample_size": 3,
+      "year_counts": {
+        "2026": 3
+      },
+      "mapping_method": "unmapped_requires_review",
+      "canonical_mapping_method": "discipline_fallback_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Digital & Print Publications": {
+      "normalized_category": "Digital & Print Publications",
+      "source_categories": {
+        "3.07 Digital & Print Publications": 65,
+        "3.09 Digital & Print Publications": 21
+      },
+      "source_disciplines": {
+        "Branding & Communication Design": 86
+      },
+      "evaluation_disciplines": {
+        "brand_communication": 86
+      },
+      "primary_sector": "public_service",
+      "sector_scope": "specific",
+      "canonical_category": "Communication and Branding",
+      "focus_tags": [],
+      "sample_size": 86,
+      "year_counts": {
+        "2024": 35,
+        "2025": 30,
+        "2026": 21
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "discipline_fallback_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Digital Media Interfaces": {
+      "normalized_category": "Digital Media Interfaces",
+      "source_categories": {
+        "9.02 Digital Media Interfaces": 153
+      },
+      "source_disciplines": {
+        "User Interface (UI)": 153
+      },
+      "evaluation_disciplines": {
+        "user_interface": 153
+      },
+      "primary_sector": "media_entertainment",
+      "sector_scope": "specific",
+      "canonical_category": "Digital Interaction",
+      "focus_tags": [],
+      "sample_size": 153,
+      "year_counts": {
+        "2024": 51,
+        "2025": 36,
+        "2026": 66
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Education / Creative Tools UX": {
+      "normalized_category": "Education / Creative Tools UX",
+      "source_categories": {
+        "8.07 Education / Creative Tools UX": 14
+      },
+      "source_disciplines": {
+        "User Experience (UX)": 14
+      },
+      "evaluation_disciplines": {
+        "user_experience": 14
+      },
+      "primary_sector": "industrial",
+      "sector_scope": "specific",
+      "canonical_category": "Commercial and Industrial",
+      "focus_tags": [],
+      "sample_size": 14,
+      "year_counts": {
+        "2026": 14
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Education / Learning": {
+      "normalized_category": "Education / Learning",
+      "source_categories": {
+        "6.05 Education / Learning": 10,
+        "6.06 Education / Learning": 16
+      },
+      "source_disciplines": {
+        "Service, System & Process Design": 26
+      },
+      "evaluation_disciplines": {
+        "service_system_process": 26
+      },
+      "primary_sector": "education",
+      "sector_scope": "specific",
+      "canonical_category": "Children and Education",
+      "focus_tags": [],
+      "sample_size": 26,
+      "year_counts": {
+        "2024": 5,
+        "2025": 11,
+        "2026": 10
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Educational / Institutional Architecture": {
+      "normalized_category": "Educational / Institutional Architecture",
+      "source_categories": {
+        "7.09 Educational / Institutional Architecture": 5
+      },
+      "source_disciplines": {
+        "Architecture": 5
+      },
+      "evaluation_disciplines": {
+        "architecture_landscape_urban": 5
+      },
+      "primary_sector": "education",
+      "sector_scope": "specific",
+      "canonical_category": "Children and Education",
+      "focus_tags": [],
+      "sample_size": 5,
+      "year_counts": {
+        "2026": 5
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Educational / Institutional Interiors": {
+      "normalized_category": "Educational / Institutional Interiors",
+      "source_categories": {
+        "4.07 Educational / Institutional Interiors": 3
+      },
+      "source_disciplines": {
+        "Interior Architecture": 3
+      },
+      "evaluation_disciplines": {
+        "interior_spatial": 3
+      },
+      "primary_sector": "education",
+      "sector_scope": "specific",
+      "canonical_category": "Children and Education",
+      "focus_tags": [],
+      "sample_size": 3,
+      "year_counts": {
+        "2026": 3
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Electronics Packaging": {
+      "normalized_category": "Electronics Packaging",
+      "source_categories": {
+        "2.05 Electronics Packaging": 17
+      },
+      "source_disciplines": {
+        "Packaging Design": 17
+      },
+      "evaluation_disciplines": {
+        "packaging": 17
+      },
+      "primary_sector": null,
+      "sector_scope": "unmapped_requires_review",
+      "canonical_category": "Packaging",
+      "focus_tags": [],
+      "sample_size": 17,
+      "year_counts": {
+        "2026": 17
+      },
+      "mapping_method": "unmapped_requires_review",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Employer Branding": {
+      "normalized_category": "Employer Branding",
+      "source_categories": {
+        "3.04 Employer Branding": 8
+      },
+      "source_disciplines": {
+        "Branding & Communication Design": 8
+      },
+      "evaluation_disciplines": {
+        "brand_communication": 8
+      },
+      "primary_sector": null,
+      "sector_scope": "unmapped_requires_review",
+      "canonical_category": "Communication and Branding",
+      "focus_tags": [],
+      "sample_size": 8,
+      "year_counts": {
+        "2024": 7,
+        "2025": 1
+      },
+      "mapping_method": "unmapped_requires_review",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Entertainment / Gaming UX": {
+      "normalized_category": "Entertainment / Gaming UX",
+      "source_categories": {
+        "8.03 Entertainment / Gaming UX": 3
+      },
+      "source_disciplines": {
+        "User Experience (UX)": 3
+      },
+      "evaluation_disciplines": {
+        "user_experience": 3
+      },
+      "primary_sector": "media_entertainment",
+      "sector_scope": "specific",
+      "canonical_category": "Digital Interaction",
+      "focus_tags": [
+        "gaming_ar_vr"
+      ],
+      "sample_size": 3,
+      "year_counts": {
+        "2026": 3
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Film / Video / Animation": {
+      "normalized_category": "Film / Video / Animation",
+      "source_categories": {
+        "3.07 Film / Video / Animation": 10,
+        "3.10 Film / Video / Animation": 19
+      },
+      "source_disciplines": {
+        "Branding & Communication Design": 29
+      },
+      "evaluation_disciplines": {
+        "brand_communication": 29
+      },
+      "primary_sector": "media_entertainment",
+      "sector_scope": "specific",
+      "canonical_category": "Communication and Branding",
+      "focus_tags": [],
+      "sample_size": 29,
+      "year_counts": {
+        "2024": 11,
+        "2025": 8,
+        "2026": 10
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "discipline_fallback_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Financial Services / Insurance": {
+      "normalized_category": "Financial Services / Insurance",
+      "source_categories": {
+        "6.03 Financial Services / Insurance": 10,
+        "6.04 Financial Services / Insurance": 8
+      },
+      "source_disciplines": {
+        "Service, System & Process Design": 18
+      },
+      "evaluation_disciplines": {
+        "service_system_process": 18
+      },
+      "primary_sector": "finance_business",
+      "sector_scope": "specific",
+      "canonical_category": "Service Design",
+      "focus_tags": [],
+      "sample_size": 18,
+      "year_counts": {
+        "2024": 6,
+        "2025": 4,
+        "2026": 8
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "discipline_fallback_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Food Packaging": {
+      "normalized_category": "Food Packaging",
+      "source_categories": {
+        "2.02 Food Packaging": 70
+      },
+      "source_disciplines": {
+        "Packaging Design": 70
+      },
+      "evaluation_disciplines": {
+        "packaging": 70
+      },
+      "primary_sector": "food_beverage",
+      "sector_scope": "specific",
+      "canonical_category": "Packaging",
+      "focus_tags": [],
+      "sample_size": 70,
+      "year_counts": {
+        "2024": 31,
+        "2025": 20,
+        "2026": 19
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Furniture / Home Decoration": {
+      "normalized_category": "Furniture / Home Decoration",
+      "source_categories": {
+        "1.15 Furniture / Home Decoration": 120,
+        "1.16 Furniture / Home Decoration": 90
+      },
+      "source_disciplines": {
+        "Product Design": 210
+      },
+      "evaluation_disciplines": {
+        "physical_product": 210
+      },
+      "primary_sector": "furniture_lighting",
+      "sector_scope": "specific",
+      "canonical_category": "Furniture",
+      "focus_tags": [
+        "sustainability_circularity"
+      ],
+      "sample_size": 210,
+      "year_counts": {
+        "2024": 49,
+        "2025": 71,
+        "2026": 90
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Gaming Hardware / VR / AR": {
+      "normalized_category": "Gaming Hardware / VR / AR",
+      "source_categories": {
+        "1.12 Gaming Hardware / VR / AR": 105,
+        "1.13 Gaming Hardware / VR / AR": 44
+      },
+      "source_disciplines": {
+        "Product Design": 149
+      },
+      "evaluation_disciplines": {
+        "physical_product": 149
+      },
+      "primary_sector": "media_entertainment",
+      "sector_scope": "specific",
+      "canonical_category": "Consumer Technology",
+      "focus_tags": [
+        "gaming_ar_vr"
+      ],
+      "sample_size": 149,
+      "year_counts": {
+        "2024": 72,
+        "2025": 33,
+        "2026": 44
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Garden / Outdoor Living": {
+      "normalized_category": "Garden / Outdoor Living",
+      "source_categories": {
+        "1.19 Garden / Outdoor Living": 99,
+        "1.23 Garden / Outdoor Living": 47
+      },
+      "source_disciplines": {
+        "Product Design": 146
+      },
+      "evaluation_disciplines": {
+        "physical_product": 146
+      },
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "canonical_category": "Home and Kitchen",
+      "focus_tags": [],
+      "sample_size": 146,
+      "year_counts": {
+        "2024": 53,
+        "2025": 46,
+        "2026": 47
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Government / Institutions": {
+      "normalized_category": "Government / Institutions",
+      "source_categories": {
+        "6.07 Government / Institutions": 10,
+        "6.09 Government / Institutions": 6
+      },
+      "source_disciplines": {
+        "Service, System & Process Design": 16
+      },
+      "evaluation_disciplines": {
+        "service_system_process": 16
+      },
+      "primary_sector": "public_service",
+      "sector_scope": "specific",
+      "canonical_category": "Service Design",
+      "focus_tags": [],
+      "sample_size": 16,
+      "year_counts": {
+        "2024": 4,
+        "2025": 6,
+        "2026": 6
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "discipline_fallback_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Health / Medical / Scientific Interiors": {
+      "normalized_category": "Health / Medical / Scientific Interiors",
+      "source_categories": {
+        "4.06 Health / Medical / Scientific Interiors": 9
+      },
+      "source_disciplines": {
+        "Interior Architecture": 9
+      },
+      "evaluation_disciplines": {
+        "interior_spatial": 9
+      },
+      "primary_sector": "healthcare",
+      "sector_scope": "specific",
+      "canonical_category": "Medical and Health",
+      "focus_tags": [],
+      "sample_size": 9,
+      "year_counts": {
+        "2026": 9
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Health / Wellness UX": {
+      "normalized_category": "Health / Wellness UX",
+      "source_categories": {
+        "8.04 Health / Wellness UX": 30
+      },
+      "source_disciplines": {
+        "User Experience (UX)": 30
+      },
+      "evaluation_disciplines": {
+        "user_experience": 30
+      },
+      "primary_sector": "healthcare",
+      "sector_scope": "specific",
+      "canonical_category": "Medical and Health",
+      "focus_tags": [],
+      "sample_size": 30,
+      "year_counts": {
+        "2026": 30
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Healthcare / Wellness": {
+      "normalized_category": "Healthcare / Wellness",
+      "source_categories": {
+        "6.01 Healthcare / Wellness": 21,
+        "6.06 Healthcare / Wellness": 10
+      },
+      "source_disciplines": {
+        "Service, System & Process Design": 31
+      },
+      "evaluation_disciplines": {
+        "service_system_process": 31
+      },
+      "primary_sector": "healthcare",
+      "sector_scope": "specific",
+      "canonical_category": "Medical and Health",
+      "focus_tags": [],
+      "sample_size": 31,
+      "year_counts": {
+        "2024": 15,
+        "2025": 6,
+        "2026": 10
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Hospitality Architecture": {
+      "normalized_category": "Hospitality Architecture",
+      "source_categories": {
+        "7.06 Hospitality Architecture": 6
+      },
+      "source_disciplines": {
+        "Architecture": 6
+      },
+      "evaluation_disciplines": {
+        "architecture_landscape_urban": 6
+      },
+      "primary_sector": "culture_tourism",
+      "sector_scope": "specific",
+      "canonical_category": "Environment and Spatial Design",
+      "focus_tags": [],
+      "sample_size": 6,
+      "year_counts": {
+        "2026": 6
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Hotel / Restaurant / Hospitality Interiors": {
+      "normalized_category": "Hotel / Restaurant / Hospitality Interiors",
+      "source_categories": {
+        "4.04 Hotel / Restaurant / Hospitality Interiors": 72
+      },
+      "source_disciplines": {
+        "Interior Architecture": 72
+      },
+      "evaluation_disciplines": {
+        "interior_spatial": 72
+      },
+      "primary_sector": "culture_tourism",
+      "sector_scope": "specific",
+      "canonical_category": "Environment and Spatial Design",
+      "focus_tags": [],
+      "sample_size": 72,
+      "year_counts": {
+        "2024": 24,
+        "2025": 25,
+        "2026": 23
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Household": {
+      "normalized_category": "Household",
+      "source_categories": {
+        "2.05 Household": 11
+      },
+      "source_disciplines": {
+        "Packaging Design": 11
+      },
+      "evaluation_disciplines": {
+        "packaging": 11
+      },
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "canonical_category": "Home and Kitchen",
+      "focus_tags": [],
+      "sample_size": 11,
+      "year_counts": {
+        "2024": 9,
+        "2025": 2
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Household / Tableware": {
+      "normalized_category": "Household / Tableware",
+      "source_categories": {
+        "1.17 Household / Tableware": 256
+      },
+      "source_disciplines": {
+        "Product Design": 256
+      },
+      "evaluation_disciplines": {
+        "physical_product": 256
+      },
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "canonical_category": "Home and Kitchen",
+      "focus_tags": [],
+      "sample_size": 256,
+      "year_counts": {
+        "2024": 149,
+        "2025": 107
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Household Tools & Appliances": {
+      "normalized_category": "Household Tools & Appliances",
+      "source_categories": {
+        "1.20 Household Tools & Appliances": 135
+      },
+      "source_disciplines": {
+        "Product Design": 135
+      },
+      "evaluation_disciplines": {
+        "physical_product": 135
+      },
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "canonical_category": "Home and Kitchen",
+      "focus_tags": [],
+      "sample_size": 135,
+      "year_counts": {
+        "2026": 135
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Industry / B2B": {
+      "normalized_category": "Industry / B2B",
+      "source_categories": {
+        "2.07 Industry / B2B": 6
+      },
+      "source_disciplines": {
+        "Packaging Design": 6
+      },
+      "evaluation_disciplines": {
+        "packaging": 6
+      },
+      "primary_sector": "industrial",
+      "sector_scope": "specific",
+      "canonical_category": "Commercial and Industrial",
+      "focus_tags": [],
+      "sample_size": 6,
+      "year_counts": {
+        "2024": 3,
+        "2025": 3
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Industry / Tools / Machinery": {
+      "normalized_category": "Industry / Tools / Machinery",
+      "source_categories": {
+        "1.24 Industry / Tools / Machinery": 208,
+        "1.25 Industry / Tools / Machinery": 124
+      },
+      "source_disciplines": {
+        "Product Design": 332
+      },
+      "evaluation_disciplines": {
+        "physical_product": 332
+      },
+      "primary_sector": "industrial",
+      "sector_scope": "specific",
+      "canonical_category": "Commercial and Industrial",
+      "focus_tags": [],
+      "sample_size": 332,
+      "year_counts": {
+        "2024": 101,
+        "2025": 107,
+        "2026": 124
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Industry Productivity / Maintenance Systems": {
+      "normalized_category": "Industry Productivity / Maintenance Systems",
+      "source_categories": {
+        "6.03 Industry Productivity / Maintenance Systems": 13,
+        "6.09 Industry Productivity / Maintenance Systems": 34
+      },
+      "source_disciplines": {
+        "Service, System & Process Design": 47
+      },
+      "evaluation_disciplines": {
+        "service_system_process": 47
+      },
+      "primary_sector": "industrial",
+      "sector_scope": "specific",
+      "canonical_category": "Commercial and Industrial",
+      "focus_tags": [],
+      "sample_size": 47,
+      "year_counts": {
+        "2024": 14,
+        "2025": 20,
+        "2026": 13
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Installations": {
+      "normalized_category": "Installations",
+      "source_categories": {
+        "4.08 Installations": 24
+      },
+      "source_disciplines": {
+        "Interior Architecture": 24
+      },
+      "evaluation_disciplines": {
+        "interior_spatial": 24
+      },
+      "primary_sector": null,
+      "sector_scope": "unmapped_requires_review",
+      "canonical_category": "Environment and Spatial Design",
+      "focus_tags": [],
+      "sample_size": 24,
+      "year_counts": {
+        "2024": 10,
+        "2025": 14
+      },
+      "mapping_method": "unmapped_requires_review",
+      "canonical_mapping_method": "discipline_fallback_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Interior / Architecture UX": {
+      "normalized_category": "Interior / Architecture UX",
+      "source_categories": {
+        "8.04 Interior / Architecture UX": 8
+      },
+      "source_disciplines": {
+        "User Experience (UX)": 8
+      },
+      "evaluation_disciplines": {
+        "user_experience": 8
+      },
+      "primary_sector": null,
+      "sector_scope": "unmapped_requires_review",
+      "canonical_category": "Digital Interaction",
+      "focus_tags": [],
+      "sample_size": 8,
+      "year_counts": {
+        "2024": 4,
+        "2025": 4
+      },
+      "mapping_method": "unmapped_requires_review",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Interior Architecture Concepts": {
+      "normalized_category": "Interior Architecture Concepts",
+      "source_categories": {
+        "5.04 Interior Architecture Concepts": 4,
+        "5.08 Interior Architecture Concepts": 5
+      },
+      "source_disciplines": {
+        "Concepts": 9
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 9
+      },
+      "primary_sector": null,
+      "sector_scope": "unmapped_requires_review",
+      "canonical_category": "Environment and Spatial Design",
+      "focus_tags": [
+        "experimental_speculative"
+      ],
+      "sample_size": 9,
+      "year_counts": {
+        "2024": 2,
+        "2025": 2,
+        "2026": 5
+      },
+      "mapping_method": "unmapped_requires_review",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Kitchen": {
+      "normalized_category": "Kitchen",
+      "source_categories": {
+        "1.16 Kitchen": 371,
+        "1.19 Kitchen": 182
+      },
+      "source_disciplines": {
+        "Product Design": 553
+      },
+      "evaluation_disciplines": {
+        "physical_product": 553
+      },
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "canonical_category": "Home and Kitchen",
+      "focus_tags": [],
+      "sample_size": 553,
+      "year_counts": {
+        "2024": 211,
+        "2025": 160,
+        "2026": 182
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Landscape Architecture": {
+      "normalized_category": "Landscape Architecture",
+      "source_categories": {
+        "7.03 Landscape Architecture": 2,
+        "7.05 Landscape Architecture": 3
+      },
+      "source_disciplines": {
+        "Architecture": 5
+      },
+      "evaluation_disciplines": {
+        "architecture_landscape_urban": 5
+      },
+      "primary_sector": null,
+      "sector_scope": "unmapped_requires_review",
+      "canonical_category": "Environment and Spatial Design",
+      "focus_tags": [],
+      "sample_size": 5,
+      "year_counts": {
+        "2024": 2,
+        "2025": 1,
+        "2026": 2
+      },
+      "mapping_method": "unmapped_requires_review",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Leisure / Lifestyle": {
+      "normalized_category": "Leisure / Lifestyle",
+      "source_categories": {
+        "1.04 Leisure / Lifestyle": 251
+      },
+      "source_disciplines": {
+        "Product Design": 251
+      },
+      "evaluation_disciplines": {
+        "physical_product": 251
+      },
+      "primary_sector": "sports_outdoor",
+      "sector_scope": "specific",
+      "canonical_category": "Sports and Outdoor",
+      "focus_tags": [],
+      "sample_size": 251,
+      "year_counts": {
+        "2024": 86,
+        "2025": 94,
+        "2026": 71
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Lighting": {
+      "normalized_category": "Lighting",
+      "source_categories": {
+        "1.14 Lighting": 223,
+        "1.17 Lighting": 98
+      },
+      "source_disciplines": {
+        "Product Design": 321
+      },
+      "evaluation_disciplines": {
+        "physical_product": 321
+      },
+      "primary_sector": "furniture_lighting",
+      "sector_scope": "specific",
+      "canonical_category": "Lighting",
+      "focus_tags": [],
+      "sample_size": 321,
+      "year_counts": {
+        "2024": 74,
+        "2025": 149,
+        "2026": 98
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Live Event & Exhibition Branding": {
+      "normalized_category": "Live Event & Exhibition Branding",
+      "source_categories": {
+        "3.12 Live Event & Exhibition Branding": 20
+      },
+      "source_disciplines": {
+        "Branding & Communication Design": 20
+      },
+      "evaluation_disciplines": {
+        "brand_communication": 20
+      },
+      "primary_sector": "culture_tourism",
+      "sector_scope": "specific",
+      "canonical_category": "Communication and Branding",
+      "focus_tags": [],
+      "sample_size": 20,
+      "year_counts": {
+        "2026": 20
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Medicine / Health": {
+      "normalized_category": "Medicine / Health",
+      "source_categories": {
+        "1.09 Medicine / Health": 78,
+        "1.22 Medicine / Health": 235
+      },
+      "source_disciplines": {
+        "Product Design": 313
+      },
+      "evaluation_disciplines": {
+        "physical_product": 313
+      },
+      "primary_sector": "healthcare",
+      "sector_scope": "specific",
+      "canonical_category": "Medical and Health",
+      "focus_tags": [],
+      "sample_size": 313,
+      "year_counts": {
+        "2024": 118,
+        "2025": 117,
+        "2026": 78
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Medicine / Pharmaceutical Packaging": {
+      "normalized_category": "Medicine / Pharmaceutical Packaging",
+      "source_categories": {
+        "2.04 Medicine / Pharmaceutical Packaging": 6
+      },
+      "source_disciplines": {
+        "Packaging Design": 6
+      },
+      "evaluation_disciplines": {
+        "packaging": 6
+      },
+      "primary_sector": "healthcare",
+      "sector_scope": "specific",
+      "canonical_category": "Medical and Health",
+      "focus_tags": [],
+      "sample_size": 6,
+      "year_counts": {
+        "2024": 4,
+        "2026": 2
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Mixed Media UX": {
+      "normalized_category": "Mixed Media UX",
+      "source_categories": {
+        "8.05 Mixed Media UX": 23
+      },
+      "source_disciplines": {
+        "User Experience (UX)": 23
+      },
+      "evaluation_disciplines": {
+        "user_experience": 23
+      },
+      "primary_sector": "media_entertainment",
+      "sector_scope": "specific",
+      "canonical_category": "Digital Interaction",
+      "focus_tags": [],
+      "sample_size": 23,
+      "year_counts": {
+        "2024": 12,
+        "2025": 11
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Mixed Use Architecture": {
+      "normalized_category": "Mixed Use Architecture",
+      "source_categories": {
+        "7.02 Mixed Use Architecture": 12,
+        "7.06 Mixed Use Architecture": 7
+      },
+      "source_disciplines": {
+        "Architecture": 19
+      },
+      "evaluation_disciplines": {
+        "architecture_landscape_urban": 19
+      },
+      "primary_sector": null,
+      "sector_scope": "unmapped_requires_review",
+      "canonical_category": "Environment and Spatial Design",
+      "focus_tags": [],
+      "sample_size": 19,
+      "year_counts": {
+        "2024": 4,
+        "2025": 3,
+        "2026": 12
+      },
+      "mapping_method": "unmapped_requires_review",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Musical Instruments": {
+      "normalized_category": "Musical Instruments",
+      "source_categories": {
+        "1.05 Musical Instruments": 12,
+        "1.08 Musical Instruments": 3
+      },
+      "source_disciplines": {
+        "Product Design": 15
+      },
+      "evaluation_disciplines": {
+        "physical_product": 15
+      },
+      "primary_sector": "media_entertainment",
+      "sector_scope": "specific",
+      "canonical_category": "Lifestyle and Personal Accessories",
+      "focus_tags": [],
+      "sample_size": 15,
+      "year_counts": {
+        "2024": 10,
+        "2025": 2,
+        "2026": 3
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "explicit_override_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Non-branded packaging": {
+      "normalized_category": "Non-branded packaging",
+      "source_categories": {
+        "2.08 Non-branded packaging": 6
+      },
+      "source_disciplines": {
+        "Packaging Design": 6
+      },
+      "evaluation_disciplines": {
+        "packaging": 6
+      },
+      "primary_sector": null,
+      "sector_scope": "unmapped_requires_review",
+      "canonical_category": "Packaging",
+      "focus_tags": [],
+      "sample_size": 6,
+      "year_counts": {
+        "2024": 2,
+        "2025": 4
+      },
+      "mapping_method": "unmapped_requires_review",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Office": {
+      "normalized_category": "Office",
+      "source_categories": {
+        "1.13 Office": 101,
+        "1.15 Office": 35
+      },
+      "source_disciplines": {
+        "Product Design": 136
+      },
+      "evaluation_disciplines": {
+        "physical_product": 136
+      },
+      "primary_sector": "office",
+      "sector_scope": "specific",
+      "canonical_category": "Office and Productivity",
+      "focus_tags": [],
+      "sample_size": 136,
+      "year_counts": {
+        "2024": 56,
+        "2025": 45,
+        "2026": 35
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Packaging Concepts": {
+      "normalized_category": "Packaging Concepts",
+      "source_categories": {
+        "5.02 Packaging Concepts": 7,
+        "5.03 Packaging Concepts": 6
+      },
+      "source_disciplines": {
+        "Concepts": 13
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 13
+      },
+      "primary_sector": null,
+      "sector_scope": "unmapped_requires_review",
+      "canonical_category": "Packaging",
+      "focus_tags": [
+        "experimental_speculative"
+      ],
+      "sample_size": 13,
+      "year_counts": {
+        "2024": 2,
+        "2025": 4,
+        "2026": 7
+      },
+      "mapping_method": "unmapped_requires_review",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Packaging UX": {
+      "normalized_category": "Packaging UX",
+      "source_categories": {
+        "8.03 Packaging UX": 2
+      },
+      "source_disciplines": {
+        "User Experience (UX)": 2
+      },
+      "evaluation_disciplines": {
+        "user_experience": 2
+      },
+      "primary_sector": null,
+      "sector_scope": "unmapped_requires_review",
+      "canonical_category": "Packaging",
+      "focus_tags": [],
+      "sample_size": 2,
+      "year_counts": {
+        "2024": 1,
+        "2025": 1
+      },
+      "mapping_method": "unmapped_requires_review",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Product & Service Branding": {
+      "normalized_category": "Product & Service Branding",
+      "source_categories": {
+        "3.01 Product & Service Branding": 109,
+        "3.03 Product & Service Branding": 32
+      },
+      "source_disciplines": {
+        "Branding & Communication Design": 141
+      },
+      "evaluation_disciplines": {
+        "brand_communication": 141
+      },
+      "primary_sector": null,
+      "sector_scope": "cross_sector",
+      "canonical_category": "Communication and Branding",
+      "focus_tags": [],
+      "sample_size": 141,
+      "year_counts": {
+        "2024": 69,
+        "2025": 40,
+        "2026": 32
+      },
+      "mapping_method": "explicit_cross_sector",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Product Concepts": {
+      "normalized_category": "Product Concepts",
+      "source_categories": {
+        "5.01 Product Concepts": 440
+      },
+      "source_disciplines": {
+        "Concepts": 440
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 440
+      },
+      "primary_sector": null,
+      "sector_scope": "cross_sector",
+      "canonical_category": "Concept and Speculative Design",
+      "focus_tags": [
+        "experimental_speculative"
+      ],
+      "sample_size": 440,
+      "year_counts": {
+        "2024": 113,
+        "2025": 237,
+        "2026": 90
+      },
+      "mapping_method": "explicit_cross_sector",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Product Interfaces": {
+      "normalized_category": "Product Interfaces",
+      "source_categories": {
+        "9.01 Product Interfaces": 97
+      },
+      "source_disciplines": {
+        "User Interface (UI)": 97
+      },
+      "evaluation_disciplines": {
+        "user_interface": 97
+      },
+      "primary_sector": null,
+      "sector_scope": "unmapped_requires_review",
+      "canonical_category": "Digital Interaction",
+      "focus_tags": [],
+      "sample_size": 97,
+      "year_counts": {
+        "2024": 40,
+        "2025": 31,
+        "2026": 26
+      },
+      "mapping_method": "unmapped_requires_review",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Product UX": {
+      "normalized_category": "Product UX",
+      "source_categories": {
+        "8.01 Product UX": 270
+      },
+      "source_disciplines": {
+        "User Experience (UX)": 270
+      },
+      "evaluation_disciplines": {
+        "user_experience": 270
+      },
+      "primary_sector": null,
+      "sector_scope": "cross_sector",
+      "canonical_category": "Digital Interaction",
+      "focus_tags": [],
+      "sample_size": 270,
+      "year_counts": {
+        "2024": 98,
+        "2025": 102,
+        "2026": 70
+      },
+      "mapping_method": "explicit_cross_sector",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Public & Cause Branding": {
+      "normalized_category": "Public & Cause Branding",
+      "source_categories": {
+        "3.02 Public & Cause Branding": 27,
+        "3.03 Public & Cause Branding": 36
+      },
+      "source_disciplines": {
+        "Branding & Communication Design": 63
+      },
+      "evaluation_disciplines": {
+        "brand_communication": 63
+      },
+      "primary_sector": "public_service",
+      "sector_scope": "specific",
+      "canonical_category": "Communication and Branding",
+      "focus_tags": [],
+      "sample_size": 63,
+      "year_counts": {
+        "2024": 12,
+        "2025": 24,
+        "2026": 27
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Public Architecture / Master Planning": {
+      "normalized_category": "Public Architecture / Master Planning",
+      "source_categories": {
+        "7.01 Public Architecture / Master Planning": 58
+      },
+      "source_disciplines": {
+        "Architecture": 58
+      },
+      "evaluation_disciplines": {
+        "architecture_landscape_urban": 58
+      },
+      "primary_sector": "public_service",
+      "sector_scope": "specific",
+      "canonical_category": "Environment and Spatial Design",
+      "focus_tags": [],
+      "sample_size": 58,
+      "year_counts": {
+        "2024": 26,
+        "2025": 18,
+        "2026": 14
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Public Space / Mixed Use Interiors": {
+      "normalized_category": "Public Space / Mixed Use Interiors",
+      "source_categories": {
+        "4.02 Public Space / Mixed Use Interiors": 13,
+        "4.07 Public Space / Mixed Use Interiors": 51
+      },
+      "source_disciplines": {
+        "Interior Architecture": 64
+      },
+      "evaluation_disciplines": {
+        "interior_spatial": 64
+      },
+      "primary_sector": "public_service",
+      "sector_scope": "specific",
+      "canonical_category": "Environment and Spatial Design",
+      "focus_tags": [],
+      "sample_size": 64,
+      "year_counts": {
+        "2024": 19,
+        "2025": 32,
+        "2026": 13
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Public Use / Retail": {
+      "normalized_category": "Public Use / Retail",
+      "source_categories": {
+        "1.21 Public Use / Retail": 134,
+        "1.26 Public Use / Retail": 45
+      },
+      "source_disciplines": {
+        "Product Design": 179
+      },
+      "evaluation_disciplines": {
+        "physical_product": 179
+      },
+      "primary_sector": "retail",
+      "sector_scope": "specific",
+      "canonical_category": "Commercial and Industrial",
+      "focus_tags": [],
+      "sample_size": 179,
+      "year_counts": {
+        "2024": 106,
+        "2025": 28,
+        "2026": 45
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Residential Architecture": {
+      "normalized_category": "Residential Architecture",
+      "source_categories": {
+        "7.02 Residential Architecture": 53,
+        "7.04 Residential Architecture": 27
+      },
+      "source_disciplines": {
+        "Architecture": 80
+      },
+      "evaluation_disciplines": {
+        "architecture_landscape_urban": 80
+      },
+      "primary_sector": null,
+      "sector_scope": "unmapped_requires_review",
+      "canonical_category": "Environment and Spatial Design",
+      "focus_tags": [],
+      "sample_size": 80,
+      "year_counts": {
+        "2024": 35,
+        "2025": 18,
+        "2026": 27
+      },
+      "mapping_method": "unmapped_requires_review",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Residential Interiors": {
+      "normalized_category": "Residential Interiors",
+      "source_categories": {
+        "4.01 Residential Interiors": 188,
+        "4.05 Residential Interiors": 483
+      },
+      "source_disciplines": {
+        "Interior Architecture": 671
+      },
+      "evaluation_disciplines": {
+        "interior_spatial": 671
+      },
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "canonical_category": "Environment and Spatial Design",
+      "focus_tags": [],
+      "sample_size": 671,
+      "year_counts": {
+        "2024": 295,
+        "2025": 188,
+        "2026": 188
+      },
+      "mapping_method": "explicit_override_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Retail / Banking UX": {
+      "normalized_category": "Retail / Banking UX",
+      "source_categories": {
+        "8.05 Retail / Banking UX": 15
+      },
+      "source_disciplines": {
+        "User Experience (UX)": 15
+      },
+      "evaluation_disciplines": {
+        "user_experience": 15
+      },
+      "primary_sector": "retail",
+      "sector_scope": "specific",
+      "canonical_category": "Commercial and Industrial",
+      "focus_tags": [],
+      "sample_size": 15,
+      "year_counts": {
+        "2026": 15
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Retail / Hospitality Architecture": {
+      "normalized_category": "Retail / Hospitality Architecture",
+      "source_categories": {
+        "7.04 Retail / Hospitality Architecture": 21
+      },
+      "source_disciplines": {
+        "Architecture": 21
+      },
+      "evaluation_disciplines": {
+        "architecture_landscape_urban": 21
+      },
+      "primary_sector": "retail",
+      "sector_scope": "specific",
+      "canonical_category": "Commercial and Industrial",
+      "focus_tags": [],
+      "sample_size": 21,
+      "year_counts": {
+        "2024": 14,
+        "2025": 7
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Retail / Sales": {
+      "normalized_category": "Retail / Sales",
+      "source_categories": {
+        "6.01 Retail / Sales": 7,
+        "6.04 Retail / Sales": 10
+      },
+      "source_disciplines": {
+        "Service, System & Process Design": 17
+      },
+      "evaluation_disciplines": {
+        "service_system_process": 17
+      },
+      "primary_sector": "retail",
+      "sector_scope": "specific",
+      "canonical_category": "Commercial and Industrial",
+      "focus_tags": [],
+      "sample_size": 17,
+      "year_counts": {
+        "2024": 6,
+        "2025": 4,
+        "2026": 7
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Retail / Service Interiors": {
+      "normalized_category": "Retail / Service Interiors",
+      "source_categories": {
+        "4.03 Retail / Service Interiors": 48,
+        "4.05 Retail / Service Interiors": 28
+      },
+      "source_disciplines": {
+        "Interior Architecture": 76
+      },
+      "evaluation_disciplines": {
+        "interior_spatial": 76
+      },
+      "primary_sector": "retail",
+      "sector_scope": "specific",
+      "canonical_category": "Commercial and Industrial",
+      "focus_tags": [],
+      "sample_size": 76,
+      "year_counts": {
+        "2024": 23,
+        "2025": 25,
+        "2026": 28
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Retail Architecture": {
+      "normalized_category": "Retail Architecture",
+      "source_categories": {
+        "7.07 Retail Architecture": 2
+      },
+      "source_disciplines": {
+        "Architecture": 2
+      },
+      "evaluation_disciplines": {
+        "architecture_landscape_urban": 2
+      },
+      "primary_sector": "retail",
+      "sector_scope": "specific",
+      "canonical_category": "Commercial and Industrial",
+      "focus_tags": [],
+      "sample_size": 2,
+      "year_counts": {
+        "2026": 2
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Service, System & Process Concepts": {
+      "normalized_category": "Service, System & Process Concepts",
+      "source_categories": {
+        "5.05 Service, System & Process Concepts": 19,
+        "5.06 Service, System & Process Concepts": 13
+      },
+      "source_disciplines": {
+        "Concepts": 32
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 32
+      },
+      "primary_sector": null,
+      "sector_scope": "unmapped_requires_review",
+      "canonical_category": "Concept and Speculative Design",
+      "focus_tags": [
+        "experimental_speculative"
+      ],
+      "sample_size": 32,
+      "year_counts": {
+        "2024": 10,
+        "2025": 9,
+        "2026": 13
+      },
+      "mapping_method": "unmapped_requires_review",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Social Behavior / Responsibility": {
+      "normalized_category": "Social Behavior / Responsibility",
+      "source_categories": {
+        "6.08 Social Behavior / Responsibility": 25
+      },
+      "source_disciplines": {
+        "Service, System & Process Design": 25
+      },
+      "evaluation_disciplines": {
+        "service_system_process": 25
+      },
+      "primary_sector": null,
+      "sector_scope": "unmapped_requires_review",
+      "canonical_category": "Social Impact",
+      "focus_tags": [
+        "social_impact_inclusion"
+      ],
+      "sample_size": 25,
+      "year_counts": {
+        "2024": 8,
+        "2025": 6,
+        "2026": 11
+      },
+      "mapping_method": "unmapped_requires_review",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Sound / Music Use": {
+      "normalized_category": "Sound / Music Use",
+      "source_categories": {
+        "3.05 Sound / Music Use": 8,
+        "3.08 Sound / Music Use": 3
+      },
+      "source_disciplines": {
+        "Branding & Communication Design": 11
+      },
+      "evaluation_disciplines": {
+        "brand_communication": 11
+      },
+      "primary_sector": "media_entertainment",
+      "sector_scope": "specific",
+      "canonical_category": "Communication and Branding",
+      "focus_tags": [],
+      "sample_size": 11,
+      "year_counts": {
+        "2024": 4,
+        "2025": 4,
+        "2026": 3
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "discipline_fallback_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Sports / Outdoor": {
+      "normalized_category": "Sports / Outdoor",
+      "source_categories": {
+        "1.02 Sports / Outdoor": 102,
+        "1.03 Sports / Outdoor": 99
+      },
+      "source_disciplines": {
+        "Product Design": 201
+      },
+      "evaluation_disciplines": {
+        "physical_product": 201
+      },
+      "primary_sector": "sports_outdoor",
+      "sector_scope": "specific",
+      "canonical_category": "Sports and Outdoor",
+      "focus_tags": [],
+      "sample_size": 201,
+      "year_counts": {
+        "2024": 53,
+        "2025": 49,
+        "2026": 99
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Sports / Special Use Interiors": {
+      "normalized_category": "Sports / Special Use Interiors",
+      "source_categories": {
+        "4.08 Sports / Special Use Interiors": 3
+      },
+      "source_disciplines": {
+        "Interior Architecture": 3
+      },
+      "evaluation_disciplines": {
+        "interior_spatial": 3
+      },
+      "primary_sector": "sports_outdoor",
+      "sector_scope": "specific",
+      "canonical_category": "Sports and Outdoor",
+      "focus_tags": [],
+      "sample_size": 3,
+      "year_counts": {
+        "2026": 3
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Sports Facilities / Arena Architecture": {
+      "normalized_category": "Sports Facilities / Arena Architecture",
+      "source_categories": {
+        "7.10 Sports Facilities / Arena Architecture": 1
+      },
+      "source_disciplines": {
+        "Architecture": 1
+      },
+      "evaluation_disciplines": {
+        "architecture_landscape_urban": 1
+      },
+      "primary_sector": "sports_outdoor",
+      "sector_scope": "specific",
+      "canonical_category": "Sports and Outdoor",
+      "focus_tags": [],
+      "sample_size": 1,
+      "year_counts": {
+        "2026": 1
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "TV / Cameras": {
+      "normalized_category": "TV / Cameras",
+      "source_categories": {
+        "1.09 TV / Cameras": 212,
+        "1.12 TV / Cameras": 80
+      },
+      "source_disciplines": {
+        "Product Design": 292
+      },
+      "evaluation_disciplines": {
+        "physical_product": 292
+      },
+      "primary_sector": "consumer_electronics",
+      "sector_scope": "specific",
+      "canonical_category": "Consumer Technology",
+      "focus_tags": [],
+      "sample_size": 292,
+      "year_counts": {
+        "2024": 118,
+        "2025": 94,
+        "2026": 80
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Tableware": {
+      "normalized_category": "Tableware",
+      "source_categories": {
+        "1.21 Tableware": 20
+      },
+      "source_disciplines": {
+        "Product Design": 20
+      },
+      "evaluation_disciplines": {
+        "physical_product": 20
+      },
+      "primary_sector": "food_beverage",
+      "sector_scope": "specific",
+      "canonical_category": "Home and Kitchen",
+      "focus_tags": [],
+      "sample_size": 20,
+      "year_counts": {
+        "2026": 20
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "explicit_override_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Telecommunication": {
+      "normalized_category": "Telecommunication",
+      "source_categories": {
+        "1.10 Telecommunication": 171,
+        "1.14 Telecommunication": 93
+      },
+      "source_disciplines": {
+        "Product Design": 264
+      },
+      "evaluation_disciplines": {
+        "physical_product": 264
+      },
+      "primary_sector": "consumer_electronics",
+      "sector_scope": "specific",
+      "canonical_category": "Consumer Technology",
+      "focus_tags": [
+        "sustainability_circularity"
+      ],
+      "sample_size": 264,
+      "year_counts": {
+        "2024": 77,
+        "2025": 94,
+        "2026": 93
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Trade Fairs / Temporary Exhibitions": {
+      "normalized_category": "Trade Fairs / Temporary Exhibitions",
+      "source_categories": {
+        "4.01 Trade Fairs / Temporary Exhibitions": 63,
+        "4.10 Trade Fairs / Temporary Exhibitions": 23
+      },
+      "source_disciplines": {
+        "Interior Architecture": 86
+      },
+      "evaluation_disciplines": {
+        "interior_spatial": 86
+      },
+      "primary_sector": "retail",
+      "sector_scope": "specific",
+      "canonical_category": "Environment and Spatial Design",
+      "focus_tags": [],
+      "sample_size": 86,
+      "year_counts": {
+        "2024": 30,
+        "2025": 33,
+        "2026": 23
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Transportation / Logistics": {
+      "normalized_category": "Transportation / Logistics",
+      "source_categories": {
+        "6.02 Transportation / Logistics": 9
+      },
+      "source_disciplines": {
+        "Service, System & Process Design": 9
+      },
+      "evaluation_disciplines": {
+        "service_system_process": 9
+      },
+      "primary_sector": "mobility",
+      "sector_scope": "specific",
+      "canonical_category": "Mobility and Transportation",
+      "focus_tags": [],
+      "sample_size": 9,
+      "year_counts": {
+        "2024": 2,
+        "2025": 2,
+        "2026": 5
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Typography / Signage / Illustration": {
+      "normalized_category": "Typography / Signage / Illustration",
+      "source_categories": {
+        "3.10 Typography / Signage / Illustration": 13,
+        "3.11 Typography / Signage / Illustration": 44
+      },
+      "source_disciplines": {
+        "Branding & Communication Design": 57
+      },
+      "evaluation_disciplines": {
+        "brand_communication": 57
+      },
+      "primary_sector": null,
+      "sector_scope": "unmapped_requires_review",
+      "canonical_category": "Communication and Branding",
+      "focus_tags": [
+        "typography_wayfinding"
+      ],
+      "sample_size": 57,
+      "year_counts": {
+        "2024": 24,
+        "2025": 20,
+        "2026": 13
+      },
+      "mapping_method": "unmapped_requires_review",
+      "canonical_mapping_method": "discipline_fallback_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Unbranded / B2B Packaging": {
+      "normalized_category": "Unbranded / B2B Packaging",
+      "source_categories": {
+        "2.07 Unbranded / B2B Packaging": 4
+      },
+      "source_disciplines": {
+        "Packaging Design": 4
+      },
+      "evaluation_disciplines": {
+        "packaging": 4
+      },
+      "primary_sector": null,
+      "sector_scope": "unmapped_requires_review",
+      "canonical_category": "Packaging",
+      "focus_tags": [],
+      "sample_size": 4,
+      "year_counts": {
+        "2026": 4
+      },
+      "mapping_method": "unmapped_requires_review",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "User Experience Concepts": {
+      "normalized_category": "User Experience Concepts",
+      "source_categories": {
+        "5.04 User Experience Concepts": 14,
+        "5.07 User Experience Concepts": 35
+      },
+      "source_disciplines": {
+        "Concepts": 49
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 49
+      },
+      "primary_sector": null,
+      "sector_scope": "unmapped_requires_review",
+      "canonical_category": "Concept and Speculative Design",
+      "focus_tags": [
+        "experimental_speculative"
+      ],
+      "sample_size": 49,
+      "year_counts": {
+        "2024": 17,
+        "2025": 18,
+        "2026": 14
+      },
+      "mapping_method": "unmapped_requires_review",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "User Interface Concepts": {
+      "normalized_category": "User Interface Concepts",
+      "source_categories": {
+        "5.05 User Interface Concepts": 3,
+        "5.08 User Interface Concepts": 7
+      },
+      "source_disciplines": {
+        "Concepts": 10
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 10
+      },
+      "primary_sector": null,
+      "sector_scope": "unmapped_requires_review",
+      "canonical_category": "Digital Interaction",
+      "focus_tags": [
+        "experimental_speculative"
+      ],
+      "sample_size": 10,
+      "year_counts": {
+        "2024": 2,
+        "2025": 5,
+        "2026": 3
+      },
+      "mapping_method": "unmapped_requires_review",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Vehicle / Mobility UX": {
+      "normalized_category": "Vehicle / Mobility UX",
+      "source_categories": {
+        "8.02 Vehicle / Mobility UX": 16
+      },
+      "source_disciplines": {
+        "User Experience (UX)": 16
+      },
+      "evaluation_disciplines": {
+        "user_experience": 16
+      },
+      "primary_sector": "mobility",
+      "sector_scope": "specific",
+      "canonical_category": "Mobility and Transportation",
+      "focus_tags": [],
+      "sample_size": 16,
+      "year_counts": {
+        "2026": 16
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Wall / Floor / Textiles": {
+      "normalized_category": "Wall / Floor / Textiles",
+      "source_categories": {
+        "1.18 Wall / Floor / Textiles": 24,
+        "1.25 Wall / Floor / Textiles": 60
+      },
+      "source_disciplines": {
+        "Product Design": 84
+      },
+      "evaluation_disciplines": {
+        "physical_product": 84
+      },
+      "primary_sector": null,
+      "sector_scope": "unmapped_requires_review",
+      "canonical_category": "Home and Kitchen",
+      "focus_tags": [],
+      "sample_size": 84,
+      "year_counts": {
+        "2024": 32,
+        "2025": 28,
+        "2026": 24
+      },
+      "mapping_method": "unmapped_requires_review",
+      "canonical_mapping_method": "explicit_override_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Watches / Jewelry": {
+      "normalized_category": "Watches / Jewelry",
+      "source_categories": {
+        "1.05 Watches / Jewelry": 27,
+        "1.07 Watches / Jewelry": 78
+      },
+      "source_disciplines": {
+        "Product Design": 105
+      },
+      "evaluation_disciplines": {
+        "physical_product": 105
+      },
+      "primary_sector": "beauty_fashion",
+      "sector_scope": "specific",
+      "canonical_category": "Lifestyle and Personal Accessories",
+      "focus_tags": [],
+      "sample_size": 105,
+      "year_counts": {
+        "2024": 48,
+        "2025": 30,
+        "2026": 27
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Websites": {
+      "normalized_category": "Websites",
+      "source_categories": {
+        "3.05 Websites": 19,
+        "3.06 Websites": 48
+      },
+      "source_disciplines": {
+        "Branding & Communication Design": 67
+      },
+      "evaluation_disciplines": {
+        "brand_communication": 67
+      },
+      "primary_sector": null,
+      "sector_scope": "unmapped_requires_review",
+      "canonical_category": "Digital Interaction",
+      "focus_tags": [],
+      "sample_size": 67,
+      "year_counts": {
+        "2024": 26,
+        "2025": 22,
+        "2026": 19
+      },
+      "mapping_method": "unmapped_requires_review",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Workplace / Production UX": {
+      "normalized_category": "Workplace / Production UX",
+      "source_categories": {
+        "8.06 Workplace / Production UX": 29
+      },
+      "source_disciplines": {
+        "User Experience (UX)": 29
+      },
+      "evaluation_disciplines": {
+        "user_experience": 29
+      },
+      "primary_sector": "industrial",
+      "sector_scope": "specific",
+      "canonical_category": "Commercial and Industrial",
+      "focus_tags": [],
+      "sample_size": 29,
+      "year_counts": {
+        "2026": 29
+      },
+      "mapping_method": "keyword_rule_provisional",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Writing for Design": {
+      "normalized_category": "Writing for Design",
+      "source_categories": {
+        "3.13 Writing for Design": 1
+      },
+      "source_disciplines": {
+        "Branding & Communication Design": 1
+      },
+      "evaluation_disciplines": {
+        "brand_communication": 1
+      },
+      "primary_sector": null,
+      "sector_scope": "unmapped_requires_review",
+      "canonical_category": "Communication and Branding",
+      "focus_tags": [],
+      "sample_size": 1,
+      "year_counts": {
+        "2026": 1
+      },
+      "mapping_method": "unmapped_requires_review",
+      "canonical_mapping_method": "discipline_fallback_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    }
+  }
+}

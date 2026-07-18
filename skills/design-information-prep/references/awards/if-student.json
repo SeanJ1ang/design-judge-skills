@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "award_id": "if-student",
+  "program": "iF DESIGN STUDENT AWARD",
+  "cycle": "2026",
+  "checked_on": "2026-07-15",
+  "official_sources": ["https://ifdesign.com/en/if-design-student-award-faqs"],
+  "notes": ["The presentation poster is mandatory but its internal narrative is not exposed as separate portal text fields."],
+  "routes": [{
+    "route_id": "student",
+    "label": "Student concept",
+    "applies_when": "A current student or eligible recent graduate submits a qualifying concept.",
+    "fields": [
+      {"field_id":"project-name","label":"Entry name","required":true,"value_type":"string","language":"English","source_facts":["project_name"],"essential_facts":["project_name"],"drafting_instructions":"Use the official concept name consistently.","publicity":"public_if_awarded"},
+      {"field_id":"category","label":"Category","required":true,"value_type":"string","language":"English","source_facts":["category"],"essential_facts":["category"],"drafting_instructions":"Use the current official category label after live verification.","publicity":"administrative"},
+      {"field_id":"entry-type","label":"Entry type","required":true,"value_type":"string","language":"English","source_facts":["project_type"],"essential_facts":["project_type"],"drafting_instructions":"State the verified entry type.","publicity":"administrative"},
+      {"field_id":"design-statement","label":"Design statement","required":true,"value_type":"string","language":"English","max_length":650,"length_unit":"characters","source_facts":["problem","pain_points","solution","target_user","innovation_points","user_benefit","social_impact"],"essential_facts":["problem","solution"],"drafting_instructions":"Explain the problem, concept, primary user benefit, and why the proposal matters in concise English.","publicity":"public_if_awarded"},
+      {"field_id":"applicant","label":"Student or team member name","required":true,"value_type":"string","language":"English","source_facts":["applicant"],"essential_facts":["applicant"],"drafting_instructions":"Use the applicant name exactly as it should appear in credits.","publicity":"public_if_awarded"},
+      {"field_id":"team-members","label":"Additional team members","required":false,"value_type":"list","language":"English","max_items":3,"source_facts":["team_members"],"essential_facts":[],"drafting_instructions":"List additional eligible team members in the intended credit order.","publicity":"public_if_awarded"},
+      {"field_id":"university","label":"University","required":true,"value_type":"string","language":"English","source_facts":["university"],"essential_facts":["university"],"drafting_instructions":"Use the university's official English name.","publicity":"public_if_awarded"}
+    ]
+  }]
+}
+

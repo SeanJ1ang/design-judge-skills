@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "profile_id": "if-student-competition-context",
+  "profile_type": "observed_student_winner_context",
+  "allowed_maturity": "student_concept",
+  "observed_metrics": {
+    "sample_size": 427,
+    "year_counts": {
+      "2022": 85,
+      "2023": 76,
+      "2024": 76,
+      "2025": 100,
+      "2026": 90
+    },
+    "award_level_counts": {
+      "Gold": 43,
+      "Winner": 384
+    },
+    "country_region_count": 39,
+    "structured_field_coverage": {
+      "statement": 1.0,
+      "winner_statement": 0.9157,
+      "hashtags": 0.9696,
+      "professor": 0.0,
+      "target_groups": 0.0,
+      "date_of_launch": 0.0,
+      "development_time": 0.0
+    },
+    "image_count": {
+      "minimum": 2,
+      "median": 4,
+      "p90": 4.0,
+      "maximum": 4,
+      "mean": 3.77
+    }
+  },
+  "guidance": {
+    "attention_dimensions": [
+      "problem_value",
+      "innovation_differentiation",
+      "solution_integrity",
+      "responsibility_sustainability"
+    ],
+    "evidence_prompts": [
+      "Show credible evidence that the problem exists and identify who is affected.",
+      "Explain the mechanism connecting the concept to the claimed outcome.",
+      "Identify stakeholders, dependencies, exclusion risks, and unintended harm.",
+      "Show a prototype, scenario test, or realistic validation plan appropriate to student-concept maturity.",
+      "Bound social and environmental impact claims to evidence that is actually supplied."
+    ],
+    "presentation_expectations": [
+      "problem_evidence",
+      "beneficiary_or_user_scenario",
+      "concept_principle",
+      "stakeholder_or_system_logic",
+      "prototype_or_scenario_test",
+      "validation_and_impact_plan"
+    ]
+  },
+  "confidence": "high",
+  "score_effect": "none",
+  "review_status": "machine_generated_needs_human_review",
+  "limitations": [
+    "Student-concept use only; reject Mature Work.",
+    "Winner-only sample; no non-winning comparison group.",
+    "Observed iF Student context, not an official jury standard.",
+    "winnerStatement is a creator statement in this source, not a jury comment."
+  ]
+}

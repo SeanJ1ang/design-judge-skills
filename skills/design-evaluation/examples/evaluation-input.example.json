@@ -1,0 +1,111 @@
+{
+  "project_name": "Example Home Rehabilitation Trainer",
+  "maturity": "student_concept",
+  "maturity_source": "user",
+  "maturity_evidence_mismatch": false,
+  "classification": {
+    "primary_discipline": "physical_product",
+    "secondary_disciplines": ["user_experience"],
+    "primary_sector": "healthcare",
+    "secondary_sectors": ["home"],
+    "focus_tags": ["connected_iot", "social_impact_inclusion"],
+    "canonical_category": "Medical and Health",
+    "adjacent_categories": ["Accessibility and Inclusive Design"]
+  },
+  "ratings": {
+    "design": {
+      "problem_value": {
+        "score": 4,
+        "evidence_status": "supported",
+        "evidence": ["The brief identifies stroke survivors who lack frequent home guidance."],
+        "rationale": "The user and context are specific, but prevalence evidence is not supplied."
+      },
+      "user_function_usability": {
+        "score": 3.5,
+        "evidence_status": "supported",
+        "evidence": ["Storyboard and interface states show guided exercises and progress feedback."],
+        "rationale": "The intended benefit is clear, but no user test is supplied."
+      },
+      "innovation_differentiation": {
+        "score": 3,
+        "evidence_status": "claimed",
+        "evidence": [],
+        "rationale": "The adaptive guidance is described, but comparison with alternatives is incomplete."
+      },
+      "solution_integrity": {
+        "score": 4,
+        "evidence_status": "supported",
+        "evidence": ["The system diagram connects sensing, exercise guidance, feedback, and clinician review."],
+        "rationale": "The workflow is coherent with one unresolved calibration step."
+      },
+      "implementation_feasibility": {
+        "score": 3,
+        "evidence_status": "supported",
+        "evidence": ["A form prototype and component diagram are supplied."],
+        "rationale": "Construction is plausible, while sensing accuracy and durability remain untested."
+      },
+      "form_interaction_quality": {
+        "score": 3.5,
+        "evidence_status": "verified",
+        "evidence": ["Supplied renders and prototype photos show grip geometry and interface placement."],
+        "rationale": "The form and interface are consistent, but ergonomic fit across users is unverified."
+      },
+      "responsibility_sustainability": {
+        "score": 2.5,
+        "evidence_status": "claimed",
+        "evidence": [],
+        "rationale": "Inclusion is an explicit goal, but privacy, repair, and material impact lack evidence."
+      }
+    },
+    "presentation": {
+      "first_glance_message": {
+        "score": 4,
+        "evidence_status": "verified",
+        "evidence": ["The title board immediately shows the product, user, and training purpose."],
+        "rationale": "The core proposition is quickly understandable."
+      },
+      "information_hierarchy": {
+        "score": 3.5,
+        "evidence_status": "verified",
+        "evidence": ["Boards follow problem, concept, use, system, and value sections."],
+        "rationale": "The sequence is clear with some dense secondary text."
+      },
+      "function_flow_visualization": {
+        "score": 4,
+        "evidence_status": "verified",
+        "evidence": ["Numbered diagrams show setup, training, feedback, and review."],
+        "rationale": "The main workflow and system response are visible."
+      },
+      "scenario_narrative": {
+        "score": 3,
+        "evidence_status": "supported",
+        "evidence": ["A home-use storyboard identifies the user and caregiver touchpoints."],
+        "rationale": "The setting is credible, though edge cases are absent."
+      },
+      "detail_evidence_presentation": {
+        "score": 3,
+        "evidence_status": "supported",
+        "evidence": ["Exploded view and prototype images show major components."],
+        "rationale": "Useful detail is present, but test evidence is missing."
+      },
+      "visual_consistency": {
+        "score": 4,
+        "evidence_status": "verified",
+        "evidence": ["Typography, colour, rendering, and icon styles are consistent across boards."],
+        "rationale": "The presentation is coherent and professionally finished."
+      }
+    }
+  },
+  "findings": [
+    {
+      "severity": "major",
+      "finding": "The sensing-performance claim is not supported by a functional test.",
+      "evidence": "Only a component diagram and intended accuracy statement are supplied."
+    }
+  ],
+  "benchmark_context": {
+    "source": "if_student_observed_winners",
+    "category": "03 Goodhealth + Well-Being"
+  },
+  "award_lens": "if_student_aligned"
+}

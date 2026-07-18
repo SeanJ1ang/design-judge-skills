@@ -1,0 +1,64 @@
+{
+  "award_id": "james-dyson",
+  "brand": "James Dyson Foundation",
+  "program": "James Dyson Award",
+  "status": "supported",
+  "official_domains": ["jamesdysonaward.org"],
+  "official_sources": {
+    "overview": "https://www.jamesdysonaward.org/en-US/",
+    "eligibility": "https://www.jamesdysonaward.org/en-US/how-to-enter/",
+    "categories": "https://www.jamesdysonaward.org/en-US/how-to-enter/",
+    "criteria": "https://www.jamesdysonaward.org/en-US/how-to-enter/",
+    "submission": "https://www.jamesdysonaward.org/en-us/terms-and-conditions/",
+    "winners": "https://www.jamesdysonaward.org/en-US/past-winners/"
+  },
+  "routes": [
+    {
+      "route_id": "individual",
+      "label": "Eligible Student or Recent Graduate — Individual",
+      "entrant_types": ["student", "recent_graduate"],
+      "project_states": ["student_concept", "working_prototype", "ready_for_market", "launched_product", "digital_product"],
+      "required_project_fields": ["age_18_or_over", "study_country_or_region", "course_subject", "enrollment_start_date", "graduation_date", "eligibility_document_available", "original_work_and_ip_rights_confirmed", "dyson_conflict_absent"],
+      "stable_constraints": [
+        {"field": "age_18_or_over", "operator": "truthy", "message": "The entrant must be at least 18 at submission."},
+        {"field": "original_work_and_ip_rights_confirmed", "operator": "truthy", "message": "The entrant must own or license all intellectual-property rights required for the entry."},
+        {"field": "dyson_conflict_absent", "operator": "truthy", "message": "Current Dyson group and James Dyson Foundation employee or family conflicts are ineligible."}
+      ],
+      "dynamic_gates": ["current_cycle_open", "current_eligible_country_or_region", "current_qualifying_course_subject", "current_student_or_rolling_graduation_window", "current_entry_requirements"]
+    },
+    {
+      "route_id": "team",
+      "label": "Team Led by an Eligible Student or Recent Graduate",
+      "entrant_types": ["student", "recent_graduate", "individual"],
+      "project_states": ["student_concept", "working_prototype", "ready_for_market", "launched_product", "digital_product"],
+      "required_project_fields": ["team_size", "all_members_age_18_or_over", "team_leader_study_country_or_region", "team_leader_course_subject", "team_leader_enrollment_start_date", "team_leader_graduation_date", "other_members_student_or_recent_graduate_status", "eligibility_documents_available", "original_work_and_ip_rights_confirmed", "dyson_conflict_absent"],
+      "stable_constraints": [
+        {"field": "all_members_age_18_or_over", "operator": "truthy", "message": "Every team member must be at least 18 at submission."},
+        {"field": "original_work_and_ip_rights_confirmed", "operator": "truthy", "message": "The team must own or license all intellectual-property rights required for the entry."},
+        {"field": "dyson_conflict_absent", "operator": "truthy", "message": "Current Dyson group and James Dyson Foundation employee or family conflicts are ineligible."}
+      ],
+      "dynamic_gates": ["current_cycle_open", "current_team_size_limit", "current_eligible_country_or_region", "current_qualifying_team_leader_course", "current_team_enrollment_or_graduation_window", "current_entry_requirements"]
+    }
+  ],
+  "category_hints": {
+    "Medical and Health": [{"route_id": "individual", "track": "Open brief", "category": "No formal category — invention that solves a problem", "relation": "broad"}],
+    "Accessibility and Inclusive Design": [{"route_id": "individual", "track": "Open brief", "category": "No formal category — invention that solves a problem", "relation": "broad"}],
+    "Consumer Technology": [{"route_id": "individual", "track": "Open brief", "category": "No formal category — invention that solves a problem", "relation": "broad"}],
+    "Commercial and Industrial": [{"route_id": "individual", "track": "Open brief", "category": "No formal category — invention that solves a problem", "relation": "broad"}],
+    "Social Impact": [{"route_id": "individual", "track": "Open brief", "category": "No formal category — invention that solves a problem", "relation": "broad"}],
+    "Sustainability and Circular Design": [{"route_id": "individual", "track": "Open brief", "category": "No formal category — Sustainability Winner is supplementary", "relation": "broad"}],
+    "Concept and Speculative Design": [{"route_id": "individual", "track": "Open brief", "category": "No formal category — invention that solves a problem", "relation": "broad"}]
+  },
+  "criteria": [
+    {"official_name": "Significance of the invention and how well it solves a problem", "normalized_dimension": "problem_relevance"},
+    {"official_name": "Development process and iterative trial-and-error", "normalized_dimension": "technical_quality"},
+    {"official_name": "What sets the invention apart", "normalized_dimension": "innovation"},
+    {"official_name": "Commercial viability and whether people will want it", "normalized_dimension": "business_value"},
+    {"official_name": "Ability to manufacture at a reasonable price", "normalized_dimension": "feasibility"},
+    {"official_name": "Sustainability issue addressed or incorporated into process, materials, or manufacturing", "normalized_dimension": "responsibility"}
+  ],
+  "dynamic_fields": ["cycle", "dates", "eligible_countries_and_regions", "qualifying_subject_interpretation", "rolling_graduation_window", "team_eligibility", "submission_materials_and_limits", "judging_stages", "prize_amounts"],
+  "winner_sources": ["https://www.jamesdysonaward.org/en-US/past-winners/"],
+  "last_profile_reviewed": "2026-07-13",
+  "notes": ["The award has no conventional category taxonomy; never award exact-category credit.", "Prototype status is not a stable eligibility gate.", "Warn entrants that entry publication may affect IP strategy; do not provide legal advice.", "Use only public official sources; do not reintroduce any removed private James Dyson records."]
+}

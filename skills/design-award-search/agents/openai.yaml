@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Award Search"
+  short_description: "Find verified winners across eight relevance dimensions"
+  default_prompt: "Use $design-award-search to find verified same-category award winners across all eight relevance dimensions."

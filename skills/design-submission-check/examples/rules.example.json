@@ -1,0 +1,44 @@
+{
+  "target": {
+    "award": "Example Design Award",
+    "cycle": "2026",
+    "track": "Product Design",
+    "category": "Healthcare",
+    "stage": "Final entry"
+  },
+  "official_source_url": "https://example.org/official-rules",
+  "checked_on": "2026-07-13",
+  "requirements": [
+    {
+      "id": "R-001",
+      "label": "Presentation board",
+      "required": true,
+      "min_count": 1,
+      "max_count": 2,
+      "allowed_extensions": [".pdf"],
+      "max_size_bytes": 10485760,
+      "filename_pattern": "^[A-Za-z0-9_-]+\\.pdf$"
+    },
+    {
+      "id": "R-002",
+      "label": "Project images",
+      "required": true,
+      "min_count": 3,
+      "max_count": 5,
+      "allowed_extensions": [".jpg", ".jpeg"],
+      "max_size_bytes": 5242880,
+      "min_width_px": 2000,
+      "min_height_px": 1500
+    },
+    {
+      "id": "R-003",
+      "label": "Project video",
+      "required": false,
+      "max_count": 1,
+      "allowed_extensions": [".mp4"],
+      "max_size_bytes": 104857600,
+      "max_duration_seconds": 120
+    }
+  ]
+}
+

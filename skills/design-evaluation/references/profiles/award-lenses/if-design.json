@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "profile_id": "if_design_aligned",
+  "display_name": "iF DESIGN AWARD-aligned",
+  "not_official_notice": "Public-criteria alignment only; not an official jury simulation or score.",
+  "checked_on": "2026-07-13",
+  "official_source": "https://ifdesign.com/en/if-design-award-and-jury",
+  "criteria": ["idea", "form", "function", "differentiation", "sustainability"],
+  "mapping": {
+    "idea": ["problem_value", "solution_integrity"],
+    "form": ["form_interaction_quality", "visual_consistency"],
+    "function": ["user_function_usability", "implementation_feasibility"],
+    "differentiation": ["innovation_differentiation"],
+    "sustainability": ["responsibility_sustainability"]
+  },
+  "runtime_rule": "Verify the current official criteria before use. Keep this result separate from the general score."
+}
+

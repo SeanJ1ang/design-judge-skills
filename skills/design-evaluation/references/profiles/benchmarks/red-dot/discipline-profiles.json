@@ -1,0 +1,819 @@
+{
+  "schema_version": 1,
+  "source_program": "Red Dot Award",
+  "profile_count": 9,
+  "profiles": {
+    "architecture_landscape_urban": {
+      "profile_id": "red-dot-discipline-architecture_landscape_urban",
+      "profile_type": "observed_winner_discipline_context",
+      "source_program": "Red Dot Award",
+      "evaluation_discipline": "architecture_landscape_urban",
+      "observed_metrics": {
+        "sample_size": 128,
+        "year_counts": {
+          "2024": 56,
+          "2025": 42,
+          "2026": 30
+        },
+        "award_level_counts": {
+          "Best of the Best": 12,
+          "Winner": 116
+        },
+        "competition_counts": {
+          "Design Concept": 42,
+          "Product Design": 86
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 6,
+          "median": 12.0,
+          "p90": 22.0,
+          "maximum": 30,
+          "mean": 13.8
+        },
+        "normalized_category_count": 3,
+        "top_categories": [
+          {
+            "category": "Urban Design",
+            "sample_size": 86
+          },
+          {
+            "category": "Architecture",
+            "sample_size": 25
+          },
+          {
+            "category": "Public Space and Urban Design",
+            "sample_size": 17
+          }
+        ]
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "solution_integrity",
+          "implementation_feasibility",
+          "responsibility_sustainability"
+        ],
+        "evidence_prompts": [
+          "Show site, program, users, circulation, structure, and environmental response.",
+          "Show accessibility, public impact, and long-term operation.",
+          "Show sections or systems that support the central spatial claim."
+        ],
+        "presentation_expectations": [
+          "site_context",
+          "plan_section_diagram",
+          "program_and_circulation",
+          "environmental_strategy",
+          "human_scale_experience"
+        ]
+      },
+      "confidence": "medium",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Internal discipline mapping is provisional and is not an official Red Dot taxonomy.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "brand_communication": {
+      "profile_id": "red-dot-discipline-brand_communication",
+      "profile_type": "observed_winner_discipline_context",
+      "source_program": "Red Dot Award",
+      "evaluation_discipline": "brand_communication",
+      "observed_metrics": {
+        "sample_size": 691,
+        "year_counts": {
+          "2024": 297,
+          "2025": 394
+        },
+        "award_level_counts": {
+          "Best of the Best": 56,
+          "Grand Prix": 7,
+          "Junior Prize": 2,
+          "Winner": 626
+        },
+        "competition_counts": {
+          "Brands & Communication Design": 691
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 8,
+          "median": 17,
+          "p90": 24.0,
+          "maximum": 30,
+          "mean": 18.19
+        },
+        "normalized_category_count": 14,
+        "top_categories": [
+          {
+            "category": "Brand Design and Identity",
+            "sample_size": 245
+          },
+          {
+            "category": "Publishing & Print Media",
+            "sample_size": 113
+          },
+          {
+            "category": "Corporate Design & Identity",
+            "sample_size": 91
+          },
+          {
+            "category": "Advertising",
+            "sample_size": 59
+          },
+          {
+            "category": "Illustrations",
+            "sample_size": 48
+          },
+          {
+            "category": "Film & Animation",
+            "sample_size": 46
+          },
+          {
+            "category": "Typography",
+            "sample_size": 35
+          },
+          {
+            "category": "Annual Reports",
+            "sample_size": 21
+          },
+          {
+            "category": "Posters",
+            "sample_size": 13
+          },
+          {
+            "category": "Sound Design",
+            "sample_size": 9
+          },
+          {
+            "category": "Brands",
+            "sample_size": 8
+          },
+          {
+            "category": "Special Publication",
+            "sample_size": 1
+          }
+        ]
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "innovation_differentiation",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the communication objective, audience, and response sought.",
+          "Show hierarchy, legibility, and consistency across relevant touchpoints.",
+          "Separate visual novelty from communication effectiveness."
+        ],
+        "presentation_expectations": [
+          "core_message",
+          "identity_system",
+          "touchpoint_range",
+          "real_context_application",
+          "legibility_detail"
+        ]
+      },
+      "confidence": "high",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Internal discipline mapping is provisional and is not an official Red Dot taxonomy.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "design_strategy_research": {
+      "profile_id": "red-dot-discipline-design_strategy_research",
+      "profile_type": "observed_winner_discipline_context",
+      "source_program": "Red Dot Award",
+      "evaluation_discipline": "design_strategy_research",
+      "observed_metrics": {
+        "sample_size": 1148,
+        "year_counts": {
+          "2024": 578,
+          "2025": 570
+        },
+        "award_level_counts": {
+          "Best of the Best": 144,
+          "Luminary": 2,
+          "Peter Zec Prize": 2,
+          "Winner": 1000
+        },
+        "competition_counts": {
+          "Design Concept": 1148
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 1,
+          "median": 9.0,
+          "p90": 12.0,
+          "maximum": 16,
+          "mean": 9.27
+        },
+        "normalized_category_count": 54,
+        "top_categories": [
+          {
+            "category": "Medical Devices and Technology",
+            "sample_size": 102
+          },
+          {
+            "category": "Kitchen Appliances and Kitchen Accessories",
+            "sample_size": 57
+          },
+          {
+            "category": "Healthcare",
+            "sample_size": 53
+          },
+          {
+            "category": "Cars and Motorcycles",
+            "sample_size": 44
+          },
+          {
+            "category": "Personal Care, Wellness and Beauty",
+            "sample_size": 41
+          },
+          {
+            "category": "Babies and Children",
+            "sample_size": 36
+          },
+          {
+            "category": "Industrial Equipment, Machinery and Automation",
+            "sample_size": 35
+          },
+          {
+            "category": "Robotics",
+            "sample_size": 33
+          },
+          {
+            "category": "Household Appliances and Household Accessories",
+            "sample_size": 33
+          },
+          {
+            "category": "Bicycles and Personal Mobility Devices",
+            "sample_size": 31
+          },
+          {
+            "category": "Lamps and Luminaires",
+            "sample_size": 29
+          },
+          {
+            "category": "Sustainability",
+            "sample_size": 29
+          }
+        ]
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "innovation_differentiation",
+          "solution_integrity"
+        ],
+        "evidence_prompts": [
+          "State assumptions, future conditions, and the mechanism connecting concept to outcome.",
+          "Show why the proposal is more than a styling exercise.",
+          "Show a validation plan, prototype, or scenario test appropriate to concept maturity."
+        ],
+        "presentation_expectations": [
+          "problem_and_future_context",
+          "concept_principle",
+          "scenario_sequence",
+          "system_logic",
+          "validation_plan_or_prototype"
+        ]
+      },
+      "confidence": "high",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Internal discipline mapping is provisional and is not an official Red Dot taxonomy.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "interior_spatial": {
+      "profile_id": "red-dot-discipline-interior_spatial",
+      "profile_type": "observed_winner_discipline_context",
+      "source_program": "Red Dot Award",
+      "evaluation_discipline": "interior_spatial",
+      "observed_metrics": {
+        "sample_size": 487,
+        "year_counts": {
+          "2024": 207,
+          "2025": 212,
+          "2026": 68
+        },
+        "award_level_counts": {
+          "Best of the Best": 34,
+          "Grand Prix": 3,
+          "Winner": 450
+        },
+        "competition_counts": {
+          "Brands & Communication Design": 212,
+          "Design Concept": 55,
+          "Product Design": 220
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 6,
+          "median": 16,
+          "p90": 23.4,
+          "maximum": 30,
+          "mean": 15.59
+        },
+        "normalized_category_count": 7,
+        "top_categories": [
+          {
+            "category": "Interior Design Elements",
+            "sample_size": 213
+          },
+          {
+            "category": "Spatial Communication",
+            "sample_size": 141
+          },
+          {
+            "category": "Interior Architecture and Interior Design",
+            "sample_size": 43
+          },
+          {
+            "category": "Fair Stands",
+            "sample_size": 43
+          },
+          {
+            "category": "Retail Design",
+            "sample_size": 28
+          },
+          {
+            "category": "Exhibitions and Installations",
+            "sample_size": 13
+          },
+          {
+            "category": "Interior Architecture",
+            "sample_size": 6
+          }
+        ]
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show plan, circulation, zoning, scale, accessibility, and occupancy behavior.",
+          "Show material, lighting, construction, and maintenance decisions.",
+          "Show the relationship between atmosphere and functional performance."
+        ],
+        "presentation_expectations": [
+          "spatial_overview",
+          "plan_and_circulation",
+          "human_scale_scenario",
+          "material_lighting_detail",
+          "construction_or_section"
+        ]
+      },
+      "confidence": "high",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Internal discipline mapping is provisional and is not an official Red Dot taxonomy.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "packaging": {
+      "profile_id": "red-dot-discipline-packaging",
+      "profile_type": "observed_winner_discipline_context",
+      "source_program": "Red Dot Award",
+      "evaluation_discipline": "packaging",
+      "observed_metrics": {
+        "sample_size": 425,
+        "year_counts": {
+          "2024": 196,
+          "2025": 188,
+          "2026": 41
+        },
+        "award_level_counts": {
+          "Best of the Best": 15,
+          "Winner": 410
+        },
+        "competition_counts": {
+          "Brands & Communication Design": 298,
+          "Design Concept": 13,
+          "Product Design": 114
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 6,
+          "median": 16,
+          "p90": 21.6,
+          "maximum": 30,
+          "mean": 15.51
+        },
+        "normalized_category_count": 2,
+        "top_categories": [
+          {
+            "category": "Packaging Design",
+            "sample_size": 298
+          },
+          {
+            "category": "Packaging",
+            "sample_size": 127
+          }
+        ]
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "user_function_usability",
+          "form_interaction_quality",
+          "responsibility_sustainability"
+        ],
+        "evidence_prompts": [
+          "Show opening, dispensing, resealing, protection, and disposal behavior.",
+          "State material, logistics, and end-of-life boundaries.",
+          "Show hierarchy and legibility at the real viewing scale."
+        ],
+        "presentation_expectations": [
+          "pack_family",
+          "opening_sequence",
+          "material_detail",
+          "shelf_or_logistics_context",
+          "end_of_life_explanation"
+        ]
+      },
+      "confidence": "high",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Internal discipline mapping is provisional and is not an official Red Dot taxonomy.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "physical_product": {
+      "profile_id": "red-dot-discipline-physical_product",
+      "profile_type": "observed_winner_discipline_context",
+      "source_program": "Red Dot Award",
+      "evaluation_discipline": "physical_product",
+      "observed_metrics": {
+        "sample_size": 6611,
+        "year_counts": {
+          "2024": 2119,
+          "2025": 2133,
+          "2026": 2359
+        },
+        "award_level_counts": {
+          "Best of the Best": 255,
+          "Winner": 6356
+        },
+        "competition_counts": {
+          "Product Design": 6611
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 4,
+          "median": 12,
+          "p90": 22.0,
+          "maximum": 30,
+          "mean": 14.2
+        },
+        "normalized_category_count": 52,
+        "top_categories": [
+          {
+            "category": "Computer and Information Technology",
+            "sample_size": 522
+          },
+          {
+            "category": "Industrial Equipment, Machinery and Automation",
+            "sample_size": 427
+          },
+          {
+            "category": "Kitchen Appliances and Kitchen Accessories",
+            "sample_size": 423
+          },
+          {
+            "category": "Mobile Phones, Tablets and Wearables",
+            "sample_size": 338
+          },
+          {
+            "category": "Heating and Air Conditioning Technology",
+            "sample_size": 285
+          },
+          {
+            "category": "Audio",
+            "sample_size": 279
+          },
+          {
+            "category": "Medical Devices and Technology",
+            "sample_size": 239
+          },
+          {
+            "category": "Bathroom and Sanitary Equipment",
+            "sample_size": 215
+          },
+          {
+            "category": "Personal Care, Wellness and Beauty",
+            "sample_size": 205
+          },
+          {
+            "category": "Babies and Children",
+            "sample_size": 199
+          },
+          {
+            "category": "Household Appliances and Household Accessories",
+            "sample_size": 199
+          },
+          {
+            "category": "Cameras and Camera Equipment",
+            "sample_size": 188
+          }
+        ]
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "high",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Internal discipline mapping is provisional and is not an official Red Dot taxonomy.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "service_system_process": {
+      "profile_id": "red-dot-discipline-service_system_process",
+      "profile_type": "observed_winner_discipline_context",
+      "source_program": "Red Dot Award",
+      "evaluation_discipline": "service_system_process",
+      "observed_metrics": {
+        "sample_size": 40,
+        "year_counts": {
+          "2024": 24,
+          "2025": 16
+        },
+        "award_level_counts": {
+          "Best of the Best": 5,
+          "Winner": 35
+        },
+        "competition_counts": {
+          "Design Concept": 40
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 5,
+          "median": 8.0,
+          "p90": 10.0,
+          "maximum": 15,
+          "mean": 8.78
+        },
+        "normalized_category_count": 1,
+        "top_categories": [
+          {
+            "category": "Service Design",
+            "sample_size": 40
+          }
+        ]
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "user_function_usability",
+          "solution_integrity",
+          "responsibility_sustainability"
+        ],
+        "evidence_prompts": [
+          "Show stakeholders, frontstage, backstage, handoffs, and governance.",
+          "Show implementation ownership and operational failure recovery.",
+          "Show evidence that the service changes outcomes, not only touchpoints."
+        ],
+        "presentation_expectations": [
+          "stakeholder_map",
+          "service_blueprint",
+          "journey_and_handoffs",
+          "implementation_model",
+          "outcome_evidence"
+        ]
+      },
+      "confidence": "medium",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Internal discipline mapping is provisional and is not an official Red Dot taxonomy.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "user_experience": {
+      "profile_id": "red-dot-discipline-user_experience",
+      "profile_type": "observed_winner_discipline_context",
+      "source_program": "Red Dot Award",
+      "evaluation_discipline": "user_experience",
+      "observed_metrics": {
+        "sample_size": 63,
+        "year_counts": {
+          "2024": 36,
+          "2025": 27
+        },
+        "award_level_counts": {
+          "Best of the Best": 4,
+          "Winner": 59
+        },
+        "competition_counts": {
+          "Design Concept": 63
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 6,
+          "median": 8,
+          "p90": 11.8,
+          "maximum": 12,
+          "mean": 8.81
+        },
+        "normalized_category_count": 2,
+        "top_categories": [
+          {
+            "category": "Interaction, UI and User Experience",
+            "sample_size": 56
+          },
+          {
+            "category": "Digital Worlds",
+            "sample_size": 7
+          }
+        ]
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "user_function_usability",
+          "solution_integrity",
+          "responsibility_sustainability"
+        ],
+        "evidence_prompts": [
+          "Show the end-to-end journey, actors, transitions, and dependencies.",
+          "Show research or testing evidence for the claimed experience improvement.",
+          "Show failure, recovery, privacy, and exclusion risks where applicable."
+        ],
+        "presentation_expectations": [
+          "user_journey",
+          "scenario_sequence",
+          "touchpoint_ecosystem",
+          "research_or_test_evidence",
+          "failure_recovery_state"
+        ]
+      },
+      "confidence": "medium",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Internal discipline mapping is provisional and is not an official Red Dot taxonomy.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "user_interface": {
+      "profile_id": "red-dot-discipline-user_interface",
+      "profile_type": "observed_winner_discipline_context",
+      "source_program": "Red Dot Award",
+      "evaluation_discipline": "user_interface",
+      "observed_metrics": {
+        "sample_size": 437,
+        "year_counts": {
+          "2024": 183,
+          "2025": 254
+        },
+        "award_level_counts": {
+          "Best of the Best": 17,
+          "Grand Prix": 1,
+          "Winner": 419
+        },
+        "competition_counts": {
+          "Brands & Communication Design": 437
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 8,
+          "median": 17,
+          "p90": 24.0,
+          "maximum": 30,
+          "mean": 17.84
+        },
+        "normalized_category_count": 5,
+        "top_categories": [
+          {
+            "category": "Interface & User Experience Design",
+            "sample_size": 239
+          },
+          {
+            "category": "Apps",
+            "sample_size": 105
+          },
+          {
+            "category": "Websites",
+            "sample_size": 51
+          },
+          {
+            "category": "Digital Solutions",
+            "sample_size": 41
+          },
+          {
+            "category": "Website Relaunch",
+            "sample_size": 1
+          }
+        ]
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show key states, navigation hierarchy, feedback, and error recovery.",
+          "Show accessibility and legibility at the intended device scale.",
+          "Show a complete task flow instead of isolated polished screens."
+        ],
+        "presentation_expectations": [
+          "information_architecture",
+          "task_flow",
+          "key_interface_states",
+          "error_or_empty_state",
+          "device_context"
+        ]
+      },
+      "confidence": "high",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Internal discipline mapping is provisional and is not an official Red Dot taxonomy.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    }
+  }
+}

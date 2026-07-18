@@ -1,0 +1,83 @@
+{
+  "award_id": "dia",
+  "brand": "Design Intelligence Award",
+  "program": "Design Intelligence Award (DIA)",
+  "status": "supported",
+  "official_domains": ["di-award.org"],
+  "official_sources": {
+    "overview": "https://www.di-award.org/en/about.html?hash=8",
+    "eligibility": "https://www.di-award.org/en/rules.html?hash=1",
+    "categories": "https://www.di-award.org/en/rules.html?hash=1",
+    "criteria": "https://www.di-award.org/en/about.html?hash=8",
+    "submission": "https://www.di-award.org/en/rules.html?hash=1",
+    "winners": "https://www.di-award.org/en/collections.html"
+  },
+  "routes": [
+    {
+      "route_id": "product",
+      "label": "Product Group",
+      "entrant_types": ["individual", "professional", "studio", "company", "university", "research_institution"],
+      "project_states": ["ready_for_market", "launched_product", "service_or_system", "digital_product"],
+      "required_project_fields": ["project_completion_or_launch_date", "physical_or_deployable_entry_available_if_shortlisted"],
+      "stable_constraints": [{"field": "physical_or_deployable_entry_available_if_shortlisted", "operator": "truthy", "message": "The Product Group requires an entry that can satisfy the current physical/deployable judging requirement if shortlisted."}],
+      "dynamic_gates": ["current_cycle_open", "current_product_group_launch_window", "current_shortlist_delivery_and_exhibition_rules", "current_category_label"]
+    },
+    {
+      "route_id": "concept",
+      "label": "Concept Group",
+      "entrant_types": ["student", "recent_graduate", "individual", "professional", "studio", "company", "university", "research_institution"],
+      "project_states": ["student_concept", "professional_concept", "working_prototype"],
+      "required_project_fields": ["functional_prototype_available_if_shortlisted"],
+      "stable_constraints": [{"field": "functional_prototype_available_if_shortlisted", "operator": "truthy", "message": "A render-only concept cannot pass the DIA Concept Group finalist requirement; a fully functional prototype must be available if shortlisted."}],
+      "dynamic_gates": ["current_cycle_open", "current_concept_group_definition", "current_shortlist_prototype_and_exhibition_rules", "current_category_label"]
+    }
+  ],
+  "category_hints": {
+    "Medical and Health": [
+      {"route_id": "product", "track": "Product Group", "category": "Industrial Equipment or Digital Economy — verify primary function", "relation": "adjacent"},
+      {"route_id": "concept", "track": "Concept Group", "category": "Industrial Equipment or Digital Economy — verify primary function", "relation": "adjacent"}
+    ],
+    "Accessibility and Inclusive Design": [
+      {"route_id": "product", "track": "Product Group", "category": "Life Wisdom", "relation": "broad"},
+      {"route_id": "concept", "track": "Concept Group", "category": "Life Wisdom", "relation": "broad"}
+    ],
+    "Consumer Technology": [
+      {"route_id": "product", "track": "Product Group", "category": "Life Wisdom", "relation": "broad"},
+      {"route_id": "concept", "track": "Concept Group", "category": "Life Wisdom", "relation": "broad"}
+    ],
+    "Digital Interaction": [
+      {"route_id": "product", "track": "Product Group", "category": "Digital Economy", "relation": "exact"},
+      {"route_id": "concept", "track": "Concept Group", "category": "Digital Economy", "relation": "exact"}
+    ],
+    "Commercial and Industrial": [
+      {"route_id": "product", "track": "Product Group", "category": "Industrial Equipment", "relation": "exact"},
+      {"route_id": "concept", "track": "Concept Group", "category": "Industrial Equipment", "relation": "exact"}
+    ],
+    "Communication and Branding": [
+      {"route_id": "product", "track": "Product Group", "category": "Cultural Innovation", "relation": "broad"},
+      {"route_id": "concept", "track": "Concept Group", "category": "Cultural Innovation", "relation": "broad"}
+    ],
+    "Packaging": [
+      {"route_id": "product", "track": "Product Group", "category": "Cultural Innovation", "relation": "broad"},
+      {"route_id": "concept", "track": "Concept Group", "category": "Cultural Innovation", "relation": "broad"}
+    ],
+    "Social Impact": [
+      {"route_id": "product", "track": "Product Group", "category": "Cultural Innovation or Life Wisdom — verify primary scope", "relation": "live-lookup"},
+      {"route_id": "concept", "track": "Concept Group", "category": "Cultural Innovation or Life Wisdom — verify primary scope", "relation": "live-lookup"}
+    ]
+  },
+  "criteria": [
+    {"official_name": "Functionality", "normalized_dimension": "function"},
+    {"official_name": "Aesthetics", "normalized_dimension": "form"},
+    {"official_name": "Technicality", "normalized_dimension": "feasibility"},
+    {"official_name": "User experience", "normalized_dimension": "user_experience"},
+    {"official_name": "Sustainability", "normalized_dimension": "responsibility"},
+    {"official_name": "Contribution to humanity", "normalized_dimension": "social_impact"},
+    {"official_name": "Contribution to industry", "normalized_dimension": "business_value"},
+    {"official_name": "Future orientation", "normalized_dimension": "innovation"}
+  ],
+  "dynamic_fields": ["cycle", "dates", "fees", "launch_window", "category_labels", "delivery_rules", "prototype_requirements", "exhibition_requirements", "award_obligations"],
+  "winner_sources": ["https://www.di-award.org/en/collections.html"],
+  "last_profile_reviewed": "2026-07-13",
+  "notes": ["Keep Product and Concept Group eligibility separate.", "Treat finalist prototype, delivery, and exhibition conditions as live gates."]
+}

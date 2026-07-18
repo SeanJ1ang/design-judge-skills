@@ -1,0 +1,54 @@
+{
+  "award_id": "red-dot-product",
+  "brand": "Red Dot",
+  "program": "Red Dot Award: Product Design",
+  "status": "supported",
+  "official_domains": ["red-dot.org"],
+  "official_sources": {
+    "overview": "https://www.red-dot.org/pd/about",
+    "eligibility": "https://www.red-dot.org/pd/participate",
+    "categories": "https://www.red-dot.org/pd/categories/",
+    "criteria": "https://www.red-dot.org/pd/jury",
+    "submission": "https://www.red-dot.org/pd/participate",
+    "winners": "https://www.red-dot.org/search"
+  },
+  "routes": [
+    {
+      "route_id": "product",
+      "label": "Industrially Manufactured Product",
+      "entrant_types": ["individual", "professional", "studio", "company"],
+      "project_states": ["ready_for_market", "launched_product"],
+      "required_project_fields": ["industrially_manufactured", "market_launch_date", "physical_product_available_for_judging", "previously_evaluated_same_product"],
+      "stable_constraints": [
+        {"field": "industrially_manufactured", "operator": "truthy", "message": "Red Dot Product Design requires an industrially manufactured product."},
+        {"field": "physical_product_available_for_judging", "operator": "truthy", "message": "The current product judging process requires the product to be deliverable unless an official exception applies."},
+        {"field": "previously_evaluated_same_product", "operator": "falsy", "message": "A previously evaluated identical product cannot be resubmitted; a redesign must be assessed under the current rule."}
+      ],
+      "dynamic_gates": ["current_cycle_open", "current_market_launch_window", "current_prior_entry_or_redesign_rule", "current_category", "current_delivery_exception", "current_winner_package_obligations"]
+    }
+  ],
+  "category_hints": {
+    "Medical and Health": [{"route_id": "product", "track": "Product Design", "category": "Medical Devices and Technology", "relation": "exact"}],
+    "Consumer Technology": [{"route_id": "product", "track": "Product Design", "category": "Consumer Electronics or Communication Technology", "relation": "adjacent"}],
+    "Home and Kitchen": [{"route_id": "product", "track": "Product Design", "category": "Kitchen Appliances and Accessories or Household", "relation": "adjacent"}],
+    "Furniture": [{"route_id": "product", "track": "Product Design", "category": "Home and Seating Furniture", "relation": "exact"}],
+    "Lighting": [{"route_id": "product", "track": "Product Design", "category": "Lighting and Lamps", "relation": "exact"}],
+    "Mobility and Transportation": [{"route_id": "product", "track": "Product Design", "category": "Vehicles or Vehicle Accessories", "relation": "adjacent"}],
+    "Commercial and Industrial": [{"route_id": "product", "track": "Product Design", "category": "Industrial Equipment, Machinery and Automation", "relation": "exact"}],
+    "Office and Productivity": [{"route_id": "product", "track": "Product Design", "category": "Office Furniture and Office Chairs or Stationery", "relation": "adjacent"}],
+    "Packaging": [{"route_id": "product", "track": "Product Design", "category": "Current packaging-related category if present", "relation": "live-lookup"}],
+    "Sports and Outdoor": [{"route_id": "product", "track": "Product Design", "category": "Sports Equipment or Outdoor and Camping Equipment", "relation": "adjacent"}],
+    "Lifestyle and Personal Accessories": [{"route_id": "product", "track": "Product Design", "category": "Watches or Personal Accessories", "relation": "adjacent"}],
+    "Sustainability and Circular Design": [{"route_id": "product", "track": "Product Design", "category": "Primary product category plus optional Sustainable Design metacategory", "relation": "adjacent"}]
+  },
+  "criteria": [
+    {"official_name": "Quality of function", "normalized_dimension": "function"},
+    {"official_name": "Quality of use", "normalized_dimension": "user_experience"},
+    {"official_name": "Quality of seduction", "normalized_dimension": "form"},
+    {"official_name": "Quality of responsibility", "normalized_dimension": "responsibility"}
+  ],
+  "dynamic_fields": ["cycle", "dates", "fees", "market_launch_window", "categories", "metacategories", "delivery_rules", "winner_package_obligations"],
+  "winner_sources": ["https://www.red-dot.org/search"],
+  "last_profile_reviewed": "2026-07-13",
+  "notes": ["Do not route concepts to Product Design.", "Category labels and product delivery exceptions must be checked for the current cycle."]
+}

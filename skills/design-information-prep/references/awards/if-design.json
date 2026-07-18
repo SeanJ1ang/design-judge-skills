@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "award_id": "if-design",
+  "program": "iF DESIGN AWARD",
+  "cycle": "2027",
+  "checked_on": "2026-07-15",
+  "official_sources": ["https://ifdesign.com/en/faqs", "https://ifdesign.com/en/if-design-award-and-jury"],
+  "notes": ["The five criterion descriptions and design statement are each limited to 650 characters.", "Verify the current portal before final submission."],
+  "routes": [{
+    "route_id": "general",
+    "label": "Professional entry",
+    "applies_when": "Professional realized work or a professional concept entered in the current eligible discipline.",
+    "fields": [
+      {"field_id":"project-name","label":"Entry name","required":true,"value_type":"string","language":"English","source_facts":["project_name"],"essential_facts":["project_name"],"drafting_instructions":"Use the official project or product name consistently.","publicity":"public_if_awarded"},
+      {"field_id":"design-statement","label":"Design statement","required":true,"value_type":"string","language":"English","max_length":650,"length_unit":"characters","source_facts":["positioning","problem","solution","innovation_points","key_features"],"essential_facts":["solution"],"drafting_instructions":"Summarize what the entry is, for whom, what it does, and its main relevant distinction.","publicity":"public_if_awarded"},
+      {"field_id":"idea","label":"Idea","required":true,"value_type":"string","language":"English","max_length":650,"length_unit":"characters","source_facts":["problem","positioning","target_user","solution"],"essential_facts":["problem","solution"],"drafting_instructions":"Explain the task, relevance, and fit for purpose.","publicity":"jury_only"},
+      {"field_id":"form","label":"Form","required":true,"value_type":"string","language":"English","max_length":650,"length_unit":"characters","source_facts":["aesthetics_form","cmf","materials","manufacturing_process","target_user"],"essential_facts":["aesthetics_form"],"drafting_instructions":"Explain emotional appeal, execution, and why the form, materials, and finish are appropriate.","publicity":"jury_only"},
+      {"field_id":"function","label":"Function","required":true,"value_type":"string","language":"English","max_length":650,"length_unit":"characters","source_facts":["core_functions","working_principle","ergonomics","user_benefit","testing_validation"],"essential_facts":["core_functions","user_benefit"],"drafting_instructions":"Explain usability, efficiency, and concrete user benefit.","publicity":"jury_only"},
+      {"field_id":"differentiation","label":"Differentiation","required":true,"value_type":"string","language":"English","max_length":650,"length_unit":"characters","source_facts":["innovation_points","competitive_difference","client_brand_benefit","core_technology"],"essential_facts":["innovation_points"],"drafting_instructions":"State what is new and how the design differs from alternatives or supports the brand.","publicity":"jury_only"},
+      {"field_id":"sustainability","label":"Sustainability","required":true,"value_type":"string","language":"English","max_length":650,"length_unit":"characters","source_facts":["sustainability","environmental_impact","social_impact","materials","manufacturing_process","measured_outcomes"],"essential_facts":["sustainability"],"drafting_instructions":"Describe evidenced environmental or social benefit without unsupported impact claims.","publicity":"jury_only"},
+      {"field_id":"target-group","label":"Target group","required":true,"value_type":"string","language":"English","source_facts":["target_user"],"essential_facts":["target_user"],"drafting_instructions":"Name the intended users or customers precisely.","publicity":"administrative"},
+      {"field_id":"market-region","label":"Market region","required":true,"value_type":"string","language":"English","source_facts":["market_region"],"essential_facts":["market_region"],"drafting_instructions":"State the actual or intended market region.","publicity":"administrative"},
+      {"field_id":"development-time","label":"Development time","required":true,"value_type":"string","language":"English","source_facts":["development_time"],"essential_facts":["development_time"],"drafting_instructions":"State the documented development period.","publicity":"administrative"},
+      {"field_id":"launch-date","label":"Project or product launch","required":true,"value_type":"string","language":"English","source_facts":["launch_date","launch_status"],"essential_facts":["launch_date"],"drafting_instructions":"State the verified launch or planned launch date and status.","publicity":"administrative"}
+    ]
+  }]
+}
+

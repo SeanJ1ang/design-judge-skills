@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "overlays": {
+    "healthcare": {
+      "required_checks": [
+        "patient_or_user_safety",
+        "misuse_and_error_risk",
+        "cleaning_and_maintenance",
+        "information_legibility",
+        "privacy_and_ethics_when_applicable"
+      ],
+      "critical_rules": [
+        "An unvalidated safety-critical mechanism or unsupported clinical-performance claim is Critical."
+      ]
+    },
+    "public_service": {
+      "required_checks": [
+        "accessibility",
+        "fairness_and_exclusion_risk",
+        "service_failure_recovery",
+        "public_comprehension"
+      ],
+      "critical_rules": [
+        "A design that creates a credible severe access, discrimination, or public-safety risk is Critical."
+      ]
+    },
+    "mobility": {
+      "required_checks": [
+        "operational_safety",
+        "error_prevention",
+        "ergonomics",
+        "maintenance_and_durability"
+      ],
+      "critical_rules": [
+        "An unsupported safety-critical control or collision-avoidance claim is Critical."
+      ]
+    },
+    "education": {
+      "required_checks": [
+        "age_appropriateness",
+        "learning_value",
+        "safeguarding",
+        "accessibility"
+      ],
+      "critical_rules": [
+        "A credible safeguarding or child-safety risk is Critical."
+      ]
+    },
+    "finance_business": {
+      "required_checks": [
+        "decision_transparency",
+        "privacy_and_security",
+        "error_recovery",
+        "exclusion_and_bias"
+      ],
+      "critical_rules": [
+        "A design that hides consequential decisions or creates a credible severe financial-harm risk is Critical."
+      ]
+    }
+  },
+  "focus_tag_overlays": {
+    "safety_emergency": {
+      "required_checks": ["failure_modes", "stress_use", "error_tolerance", "emergency_comprehension"]
+    },
+    "sustainability_circularity": {
+      "required_checks": ["claim_boundary", "material_impact", "durability_repair", "end_of_life"]
+    },
+    "social_impact_inclusion": {
+      "required_checks": ["beneficiary_evidence", "accessibility", "power_and_fairness", "unintended_harm"]
+    },
+    "connected_iot": {
+      "required_checks": ["system_dependency", "offline_or_failure_state", "privacy_security", "update_maintenance"]
+    }
+  }
+}
+

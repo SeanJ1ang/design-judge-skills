@@ -1,0 +1,75 @@
+{
+  "award_id": "idea",
+  "brand": "Industrial Designers Society of America",
+  "program": "International Design Excellence Awards (IDEA)",
+  "status": "supported",
+  "official_domains": ["idsa.org"],
+  "official_sources": {
+    "overview": "https://www.idsa.org/awards-recognitions/idea/",
+    "eligibility": "https://www.idsa.org/awards-recognitions/idea/idea-rules-regulations/",
+    "categories": "https://www.idsa.org/awards-recognitions/idea/",
+    "criteria": "https://www.idsa.org/awards-recognitions/idea/",
+    "submission": "https://www.idsa.org/awards-recognitions/idea/idea-rules-regulations/",
+    "winners": "https://www.idsa.org/awards-recognitions/idea/idea-gallery/"
+  },
+  "routes": [
+    {
+      "route_id": "professional-realized",
+      "label": "Professional — Distributed Product, Service, or Experience",
+      "entrant_types": ["individual", "professional", "studio", "company"],
+      "project_states": ["ready_for_market", "launched_product", "service_or_system", "digital_product"],
+      "required_project_fields": ["distribution_date", "available_to_intended_users"],
+      "stable_constraints": [{"field": "available_to_intended_users", "operator": "truthy", "message": "Professional entries normally must be real and available to intended users unless a current official exception applies."}],
+      "dynamic_gates": ["current_cycle_open", "current_distribution_window", "current_category", "current_round_two_requirements"]
+    },
+    {
+      "route_id": "professional-concept",
+      "label": "Professional — Concept & Speculative Design",
+      "entrant_types": ["individual", "professional", "studio", "company"],
+      "project_states": ["professional_concept", "working_prototype"],
+      "required_project_fields": ["project_completion_date"],
+      "dynamic_gates": ["current_cycle_open", "current_concept_completion_window", "current_concept_definition", "current_round_two_requirements"]
+    },
+    {
+      "route_id": "student",
+      "label": "Collegiate Student",
+      "entrant_types": ["student"],
+      "project_states": ["student_concept", "working_prototype", "ready_for_market", "service_or_system", "digital_product"],
+      "required_project_fields": ["collegiate_enrollment_status", "school_submission_date"],
+      "stable_constraints": [{"field": "collegiate_enrollment_status", "operator": "truthy", "message": "The Student route is limited to eligible undergraduate or graduate collegiate work."}],
+      "dynamic_gates": ["current_cycle_open", "current_collegiate_student_definition", "current_school_submission_window", "current_category", "current_round_two_requirements"]
+    }
+  ],
+  "category_hints": {
+    "Medical and Health": [
+      {"route_id": "professional-realized", "track": "Professional", "category": "Medical & Health", "relation": "exact"},
+      {"route_id": "student", "track": "Student", "category": "Medical & Health", "relation": "exact"}
+    ],
+    "Accessibility and Inclusive Design": [{"route_id": "professional-realized", "track": "Professional", "category": "Medical & Health or Social Impact Design", "relation": "adjacent"}],
+    "Consumer Technology": [{"route_id": "professional-realized", "track": "Professional", "category": "Consumer Technology", "relation": "exact"}],
+    "Home and Kitchen": [{"route_id": "professional-realized", "track": "Professional", "category": "Home", "relation": "exact"}],
+    "Furniture": [{"route_id": "professional-realized", "track": "Professional", "category": "Home", "relation": "broad"}],
+    "Mobility and Transportation": [{"route_id": "professional-realized", "track": "Professional", "category": "Automotive & Transportation", "relation": "exact"}],
+    "Commercial and Industrial": [{"route_id": "professional-realized", "track": "Professional", "category": "Commercial & Industrial Products", "relation": "exact"}],
+    "Office and Productivity": [{"route_id": "professional-realized", "track": "Professional", "category": "Office & Productivity", "relation": "exact"}],
+    "Digital Interaction": [{"route_id": "professional-realized", "track": "Professional", "category": "Digital Interaction", "relation": "exact"}],
+    "Service Design": [{"route_id": "professional-realized", "track": "Professional", "category": "Service Design", "relation": "exact"}],
+    "Communication and Branding": [{"route_id": "professional-realized", "track": "Professional", "category": "Branding", "relation": "exact"}],
+    "Packaging": [{"route_id": "professional-realized", "track": "Professional", "category": "Packaging", "relation": "exact"}],
+    "Children and Education": [{"route_id": "professional-realized", "track": "Professional", "category": "Children's Products", "relation": "adjacent"}],
+    "Sports and Outdoor": [{"route_id": "professional-realized", "track": "Professional", "category": "Sports, Leisure & Recreation", "relation": "exact"}],
+    "Social Impact": [{"route_id": "professional-realized", "track": "Professional", "category": "Social Impact Design", "relation": "exact"}],
+    "Concept and Speculative Design": [{"route_id": "professional-concept", "track": "Professional", "category": "Concept & Speculative Design", "relation": "exact"}]
+  },
+  "criteria": [
+    {"official_name": "Design Innovation", "normalized_dimension": "innovation"},
+    {"official_name": "Benefit to User", "normalized_dimension": "user_experience"},
+    {"official_name": "Benefit to Client/Brand", "normalized_dimension": "business_value"},
+    {"official_name": "Benefit to Society", "normalized_dimension": "social_impact"},
+    {"official_name": "Appropriate Aesthetics", "normalized_dimension": "form"}
+  ],
+  "dynamic_fields": ["cycle", "dates", "fees", "distribution_window", "student_submission_window", "categories", "resubmission_rules", "round_two_requirements", "impact_award_rules"],
+  "winner_sources": ["https://www.idsa.org/awards-recognitions/idea/idea-gallery/"],
+  "last_profile_reviewed": "2026-07-13",
+  "notes": ["Professional concepts must enter Concept & Speculative Design.", "Apply the current Social Impact and collegiate exceptions only from official rules."]
+}

@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Design Judge Award Profile",
+  "type": "object",
+  "required": [
+    "award_id",
+    "brand",
+    "program",
+    "status",
+    "official_domains",
+    "official_sources",
+    "routes",
+    "category_hints",
+    "criteria",
+    "dynamic_fields",
+    "last_profile_reviewed"
+  ],
+  "properties": {
+    "award_id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+    "brand": {"type": "string", "minLength": 1},
+    "program": {"type": "string", "minLength": 1},
+    "status": {"enum": ["supported", "beta", "disabled"]},
+    "official_domains": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"type": "string", "minLength": 3},
+      "uniqueItems": true
+    },
+    "official_sources": {
+      "type": "object",
+      "required": ["overview", "eligibility", "categories", "criteria", "submission", "winners"],
+      "additionalProperties": {"type": "string", "format": "uri"}
+    },
+    "routes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "route_id",
+          "label",
+          "entrant_types",
+          "project_states",
+          "required_project_fields",
+          "dynamic_gates"
+        ],
+        "properties": {
+          "route_id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+          "label": {"type": "string", "minLength": 1},
+          "entrant_types": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+          "project_states": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+          "required_project_fields": {"type": "array", "items": {"type": "string"}},
+          "stable_constraints": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["field", "operator", "message"],
+              "properties": {
+                "field": {"type": "string"},
+                "operator": {"enum": ["equals", "in", "truthy", "falsy"]},
+                "value": {},
+                "values": {"type": "array"},
+                "message": {"type": "string"}
+              }
+            }
+          },
+          "dynamic_gates": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    },
+    "category_hints": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["route_id", "track", "category", "relation"],
+          "properties": {
+            "route_id": {"type": "string"},
+            "track": {"type": "string"},
+            "category": {"type": "string"},
+            "relation": {"enum": ["exact", "adjacent", "broad", "live-lookup"]}
+          }
+        }
+      }
+    },
+    "criteria": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["official_name", "normalized_dimension"],
+        "properties": {
+          "official_name": {"type": "string"},
+          "normalized_dimension": {"type": "string"}
+        }
+      }
+    },
+    "dynamic_fields": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "winner_sources": {"type": "array", "items": {"type": "string", "format": "uri"}},
+    "last_profile_reviewed": {"type": "string", "format": "date"},
+    "notes": {"type": "array", "items": {"type": "string"}}
+  }
+}
+

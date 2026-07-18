@@ -1,0 +1,56 @@
+{
+  "canonical_facts": {
+    "project_title": "Example Project",
+    "applicant": "Example Studio",
+    "primary_function": "Support home rehabilitation"
+  },
+  "items": [
+    {
+      "requirement_id": "R-001",
+      "path": "Example_Project_Board.pdf",
+      "exists": true,
+      "size_bytes": 7340032,
+      "readable": true,
+      "facts": {
+        "project_title": "Example Project",
+        "applicant": "Example Studio"
+      }
+    },
+    {
+      "requirement_id": "R-002",
+      "path": "Example_Project_01.jpg",
+      "exists": true,
+      "size_bytes": 3145728,
+      "width_px": 2400,
+      "height_px": 1800,
+      "readable": true
+    },
+    {
+      "requirement_id": "R-002",
+      "path": "Example_Project_02.jpg",
+      "exists": true,
+      "size_bytes": 3250585,
+      "width_px": 2400,
+      "height_px": 1800,
+      "readable": true
+    },
+    {
+      "requirement_id": "R-002",
+      "path": "Example_Project_03.jpg",
+      "exists": true,
+      "size_bytes": 3355443,
+      "width_px": 2400,
+      "height_px": 1800,
+      "readable": true
+    }
+  ],
+  "third_party_assets": [
+    {
+      "name": "Example font",
+      "type": "font",
+      "rights_status": "cleared",
+      "basis": "Commercial license recorded in project archive"
+    }
+  ]
+}
+

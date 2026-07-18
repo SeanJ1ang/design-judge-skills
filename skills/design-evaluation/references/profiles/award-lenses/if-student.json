@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "profile_id": "if_student_aligned",
+  "display_name": "iF DESIGN STUDENT AWARD-aligned",
+  "not_official_notice": "Public-criteria alignment only; not an official jury simulation or score.",
+  "checked_on": "2026-07-13",
+  "official_source": "https://ifdesign.com/en/if-design-student-award",
+  "criteria": ["problem_solving", "moral_ethical_standards", "solidarity", "economic_calculation", "beneficial_experiences"],
+  "mapping": {
+    "problem_solving": ["problem_value", "innovation_differentiation", "user_function_usability"],
+    "moral_ethical_standards": ["responsibility_sustainability"],
+    "solidarity": ["responsibility_sustainability", "problem_value"],
+    "economic_calculation": ["implementation_feasibility", "solution_integrity"],
+    "beneficial_experiences": ["user_function_usability", "form_interaction_quality", "scenario_narrative"]
+  },
+  "runtime_rule": "Verify the current official criteria before use. Keep this result separate from the general score."
+}
+

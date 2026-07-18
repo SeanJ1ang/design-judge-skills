@@ -1,0 +1,2736 @@
+{
+  "schema_version": 1,
+  "source_program": "Red Dot Award",
+  "minimum_sample_size": 100,
+  "profile_count": 35,
+  "profiles": {
+    "Apps": {
+      "profile_id": "red-dot-category-apps",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "Red Dot Award",
+      "normalized_category": "Apps",
+      "competition_counts": {
+        "Brands & Communication Design": 105
+      },
+      "evaluation_disciplines": {
+        "user_interface": 105
+      },
+      "primary_evaluation_discipline": "user_interface",
+      "discipline_purity": 1.0,
+      "canonical_category": "Digital Interaction",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 105,
+        "year_counts": {
+          "2024": 50,
+          "2025": 55
+        },
+        "award_level_counts": {
+          "Best of the Best": 1,
+          "Winner": 104
+        },
+        "competition_counts": {
+          "Brands & Communication Design": 105
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 8,
+          "median": 18,
+          "p90": 26.0,
+          "maximum": 30,
+          "mean": 18.26
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show key states, navigation hierarchy, feedback, and error recovery.",
+          "Show accessibility and legibility at the intended device scale.",
+          "Show a complete task flow instead of isolated polished screens."
+        ],
+        "presentation_expectations": [
+          "information_architecture",
+          "task_flow",
+          "key_interface_states",
+          "error_or_empty_state",
+          "device_context"
+        ]
+      },
+      "confidence": "medium",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Audio": {
+      "profile_id": "red-dot-category-audio",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "Red Dot Award",
+      "normalized_category": "Audio",
+      "competition_counts": {
+        "Product Design": 279
+      },
+      "evaluation_disciplines": {
+        "physical_product": 279
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "canonical_category": "Consumer Technology",
+      "primary_sector": "consumer_electronics",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 279,
+        "year_counts": {
+          "2024": 96,
+          "2025": 83,
+          "2026": 100
+        },
+        "award_level_counts": {
+          "Best of the Best": 9,
+          "Winner": 270
+        },
+        "competition_counts": {
+          "Product Design": 279
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 6,
+          "median": 14,
+          "p90": 22.0,
+          "maximum": 30,
+          "mean": 14.32
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "high",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Babies and Children": {
+      "profile_id": "red-dot-category-babies-and-children",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "Red Dot Award",
+      "normalized_category": "Babies and Children",
+      "competition_counts": {
+        "Design Concept": 36,
+        "Product Design": 199
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 36,
+        "physical_product": 199
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.8468,
+      "canonical_category": "Children and Education",
+      "primary_sector": "education",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 235,
+        "year_counts": {
+          "2024": 70,
+          "2025": 66,
+          "2026": 99
+        },
+        "award_level_counts": {
+          "Best of the Best": 15,
+          "Winner": 220
+        },
+        "competition_counts": {
+          "Design Concept": 36,
+          "Product Design": 199
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 6,
+          "median": 12,
+          "p90": 24.0,
+          "maximum": 28,
+          "mean": 14.19
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "high",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Bathroom Taps and Shower Heads": {
+      "profile_id": "red-dot-category-bathroom-taps-and-shower-heads",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "Red Dot Award",
+      "normalized_category": "Bathroom Taps and Shower Heads",
+      "competition_counts": {
+        "Design Concept": 15,
+        "Product Design": 139
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 15,
+        "physical_product": 139
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.9026,
+      "canonical_category": "Home and Kitchen",
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 154,
+        "year_counts": {
+          "2024": 58,
+          "2025": 51,
+          "2026": 45
+        },
+        "award_level_counts": {
+          "Best of the Best": 7,
+          "Winner": 147
+        },
+        "competition_counts": {
+          "Design Concept": 15,
+          "Product Design": 139
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 6,
+          "median": 12.0,
+          "p90": 20.7,
+          "maximum": 28,
+          "mean": 13.81
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "medium",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Bathroom and Sanitary Equipment": {
+      "profile_id": "red-dot-category-bathroom-and-sanitary-equipment",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "Red Dot Award",
+      "normalized_category": "Bathroom and Sanitary Equipment",
+      "competition_counts": {
+        "Product Design": 215
+      },
+      "evaluation_disciplines": {
+        "physical_product": 215
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "canonical_category": "Home and Kitchen",
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 215,
+        "year_counts": {
+          "2024": 89,
+          "2025": 57,
+          "2026": 69
+        },
+        "award_level_counts": {
+          "Best of the Best": 6,
+          "Winner": 209
+        },
+        "competition_counts": {
+          "Product Design": 215
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 5,
+          "median": 12,
+          "p90": 20.0,
+          "maximum": 30,
+          "mean": 12.69
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "high",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Brand Design and Identity": {
+      "profile_id": "red-dot-category-brand-design-and-identity",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "Red Dot Award",
+      "normalized_category": "Brand Design and Identity",
+      "competition_counts": {
+        "Brands & Communication Design": 245,
+        "Design Concept": 10
+      },
+      "evaluation_disciplines": {
+        "brand_communication": 245,
+        "design_strategy_research": 10
+      },
+      "primary_evaluation_discipline": "brand_communication",
+      "discipline_purity": 0.9608,
+      "canonical_category": "Communication and Branding",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 255,
+        "year_counts": {
+          "2024": 65,
+          "2025": 190
+        },
+        "award_level_counts": {
+          "Best of the Best": 16,
+          "Winner": 239
+        },
+        "competition_counts": {
+          "Brands & Communication Design": 245,
+          "Design Concept": 10
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 8,
+          "median": 16,
+          "p90": 23.0,
+          "maximum": 30,
+          "mean": 17.69
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "innovation_differentiation",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the communication objective, audience, and response sought.",
+          "Show hierarchy, legibility, and consistency across relevant touchpoints.",
+          "Separate visual novelty from communication effectiveness."
+        ],
+        "presentation_expectations": [
+          "core_message",
+          "identity_system",
+          "touchpoint_range",
+          "real_context_application",
+          "legibility_detail"
+        ]
+      },
+      "confidence": "high",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Cameras and Camera Equipment": {
+      "profile_id": "red-dot-category-cameras-and-camera-equipment",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "Red Dot Award",
+      "normalized_category": "Cameras and Camera Equipment",
+      "competition_counts": {
+        "Design Concept": 17,
+        "Product Design": 188
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 17,
+        "physical_product": 188
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.9171,
+      "canonical_category": "Consumer Technology",
+      "primary_sector": "consumer_electronics",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 205,
+        "year_counts": {
+          "2024": 67,
+          "2025": 65,
+          "2026": 73
+        },
+        "award_level_counts": {
+          "Best of the Best": 12,
+          "Winner": 193
+        },
+        "competition_counts": {
+          "Design Concept": 17,
+          "Product Design": 188
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 6,
+          "median": 12,
+          "p90": 20.0,
+          "maximum": 30,
+          "mean": 12.82
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "high",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Cars and Motorcycles": {
+      "profile_id": "red-dot-category-cars-and-motorcycles",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "Red Dot Award",
+      "normalized_category": "Cars and Motorcycles",
+      "competition_counts": {
+        "Design Concept": 44,
+        "Product Design": 110
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 44,
+        "physical_product": 110
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.7143,
+      "canonical_category": "Mobility and Transportation",
+      "primary_sector": "mobility",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 154,
+        "year_counts": {
+          "2024": 56,
+          "2025": 61,
+          "2026": 37
+        },
+        "award_level_counts": {
+          "Best of the Best": 18,
+          "Winner": 136
+        },
+        "competition_counts": {
+          "Design Concept": 44,
+          "Product Design": 110
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 6,
+          "median": 13.5,
+          "p90": 24.0,
+          "maximum": 30,
+          "mean": 15.42
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "medium",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Communication Technology": {
+      "profile_id": "red-dot-category-communication-technology",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "Red Dot Award",
+      "normalized_category": "Communication Technology",
+      "competition_counts": {
+        "Design Concept": 8,
+        "Product Design": 172
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 8,
+        "physical_product": 172
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.9556,
+      "canonical_category": "Consumer Technology",
+      "primary_sector": "consumer_electronics",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 180,
+        "year_counts": {
+          "2024": 62,
+          "2025": 53,
+          "2026": 65
+        },
+        "award_level_counts": {
+          "Best of the Best": 4,
+          "Winner": 176
+        },
+        "competition_counts": {
+          "Design Concept": 8,
+          "Product Design": 172
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 6,
+          "median": 12.0,
+          "p90": 20.0,
+          "maximum": 28,
+          "mean": 12.86
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "medium",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Computer and Information Technology": {
+      "profile_id": "red-dot-category-computer-and-information-technology",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "Red Dot Award",
+      "normalized_category": "Computer and Information Technology",
+      "competition_counts": {
+        "Design Concept": 19,
+        "Product Design": 522
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 19,
+        "physical_product": 522
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.9649,
+      "canonical_category": "Consumer Technology",
+      "primary_sector": "consumer_electronics",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 541,
+        "year_counts": {
+          "2024": 223,
+          "2025": 176,
+          "2026": 142
+        },
+        "award_level_counts": {
+          "Best of the Best": 11,
+          "Winner": 530
+        },
+        "competition_counts": {
+          "Design Concept": 19,
+          "Product Design": 522
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 6,
+          "median": 12,
+          "p90": 20.0,
+          "maximum": 30,
+          "mean": 12.8
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "high",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Cookware and Cooking Utensils": {
+      "profile_id": "red-dot-category-cookware-and-cooking-utensils",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "Red Dot Award",
+      "normalized_category": "Cookware and Cooking Utensils",
+      "competition_counts": {
+        "Design Concept": 6,
+        "Product Design": 94
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 6,
+        "physical_product": 94
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.94,
+      "canonical_category": "Home and Kitchen",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 100,
+        "year_counts": {
+          "2024": 28,
+          "2025": 34,
+          "2026": 38
+        },
+        "award_level_counts": {
+          "Best of the Best": 6,
+          "Winner": 94
+        },
+        "competition_counts": {
+          "Design Concept": 6,
+          "Product Design": 94
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 6,
+          "median": 14.0,
+          "p90": 26.0,
+          "maximum": 30,
+          "mean": 15.38
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "medium",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Healthcare": {
+      "profile_id": "red-dot-category-healthcare",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "Red Dot Award",
+      "normalized_category": "Healthcare",
+      "competition_counts": {
+        "Design Concept": 53,
+        "Product Design": 135
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 53,
+        "physical_product": 135
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.7181,
+      "canonical_category": "Medical and Health",
+      "primary_sector": "healthcare",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 188,
+        "year_counts": {
+          "2024": 74,
+          "2025": 58,
+          "2026": 56
+        },
+        "award_level_counts": {
+          "Best of the Best": 9,
+          "Winner": 179
+        },
+        "competition_counts": {
+          "Design Concept": 53,
+          "Product Design": 135
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 5,
+          "median": 10.0,
+          "p90": 20.0,
+          "maximum": 30,
+          "mean": 12.44
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "medium",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Heating and Air Conditioning Technology": {
+      "profile_id": "red-dot-category-heating-and-air-conditioning-technology",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "Red Dot Award",
+      "normalized_category": "Heating and Air Conditioning Technology",
+      "competition_counts": {
+        "Design Concept": 28,
+        "Product Design": 285
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 28,
+        "physical_product": 285
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.9105,
+      "canonical_category": "Commercial and Industrial",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 313,
+        "year_counts": {
+          "2024": 92,
+          "2025": 124,
+          "2026": 97
+        },
+        "award_level_counts": {
+          "Best of the Best": 9,
+          "Winner": 304
+        },
+        "competition_counts": {
+          "Design Concept": 28,
+          "Product Design": 285
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 6,
+          "median": 12,
+          "p90": 20.0,
+          "maximum": 30,
+          "mean": 12.48
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "high",
+      "canonical_mapping_method": "discipline_fallback_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Home and Seating Furniture": {
+      "profile_id": "red-dot-category-home-and-seating-furniture",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "Red Dot Award",
+      "normalized_category": "Home and Seating Furniture",
+      "competition_counts": {
+        "Design Concept": 25,
+        "Product Design": 86
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 25,
+        "physical_product": 86
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.7748,
+      "canonical_category": "Furniture",
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 111,
+        "year_counts": {
+          "2024": 44,
+          "2025": 45,
+          "2026": 22
+        },
+        "award_level_counts": {
+          "Best of the Best": 7,
+          "Winner": 104
+        },
+        "competition_counts": {
+          "Design Concept": 25,
+          "Product Design": 86
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 6,
+          "median": 12,
+          "p90": 24.0,
+          "maximum": 30,
+          "mean": 14.86
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "medium",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Household Appliances and Household Accessories": {
+      "profile_id": "red-dot-category-household-appliances-and-household-accessories",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "Red Dot Award",
+      "normalized_category": "Household Appliances and Household Accessories",
+      "competition_counts": {
+        "Design Concept": 33,
+        "Product Design": 199
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 33,
+        "physical_product": 199
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.8578,
+      "canonical_category": "Home and Kitchen",
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 232,
+        "year_counts": {
+          "2024": 75,
+          "2025": 69,
+          "2026": 88
+        },
+        "award_level_counts": {
+          "Best of the Best": 11,
+          "Winner": 221
+        },
+        "competition_counts": {
+          "Design Concept": 33,
+          "Product Design": 199
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 6,
+          "median": 12.0,
+          "p90": 20.0,
+          "maximum": 30,
+          "mean": 13.42
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "high",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Industrial Equipment, Machinery and Automation": {
+      "profile_id": "red-dot-category-industrial-equipment-machinery-and-automation",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "Red Dot Award",
+      "normalized_category": "Industrial Equipment, Machinery and Automation",
+      "competition_counts": {
+        "Design Concept": 35,
+        "Product Design": 427
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 35,
+        "physical_product": 427
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.9242,
+      "canonical_category": "Commercial and Industrial",
+      "primary_sector": "industrial",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 462,
+        "year_counts": {
+          "2024": 174,
+          "2025": 147,
+          "2026": 141
+        },
+        "award_level_counts": {
+          "Best of the Best": 8,
+          "Winner": 454
+        },
+        "competition_counts": {
+          "Design Concept": 35,
+          "Product Design": 427
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 6,
+          "median": 10.0,
+          "p90": 20.0,
+          "maximum": 30,
+          "mean": 12.51
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "high",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Interface & User Experience Design": {
+      "profile_id": "red-dot-category-interface-user-experience-design",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "Red Dot Award",
+      "normalized_category": "Interface & User Experience Design",
+      "competition_counts": {
+        "Brands & Communication Design": 239
+      },
+      "evaluation_disciplines": {
+        "user_interface": 239
+      },
+      "primary_evaluation_discipline": "user_interface",
+      "discipline_purity": 1.0,
+      "canonical_category": "Digital Interaction",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 239,
+        "year_counts": {
+          "2024": 104,
+          "2025": 135
+        },
+        "award_level_counts": {
+          "Best of the Best": 4,
+          "Winner": 235
+        },
+        "competition_counts": {
+          "Brands & Communication Design": 239
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 8,
+          "median": 16,
+          "p90": 23.0,
+          "maximum": 30,
+          "mean": 17.27
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show key states, navigation hierarchy, feedback, and error recovery.",
+          "Show accessibility and legibility at the intended device scale.",
+          "Show a complete task flow instead of isolated polished screens."
+        ],
+        "presentation_expectations": [
+          "information_architecture",
+          "task_flow",
+          "key_interface_states",
+          "error_or_empty_state",
+          "device_context"
+        ]
+      },
+      "confidence": "high",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Interior Design Elements": {
+      "profile_id": "red-dot-category-interior-design-elements",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "Red Dot Award",
+      "normalized_category": "Interior Design Elements",
+      "competition_counts": {
+        "Design Concept": 24,
+        "Product Design": 189
+      },
+      "evaluation_disciplines": {
+        "interior_spatial": 213
+      },
+      "primary_evaluation_discipline": "interior_spatial",
+      "discipline_purity": 1.0,
+      "canonical_category": "Environment and Spatial Design",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 213,
+        "year_counts": {
+          "2024": 74,
+          "2025": 77,
+          "2026": 62
+        },
+        "award_level_counts": {
+          "Best of the Best": 9,
+          "Winner": 204
+        },
+        "competition_counts": {
+          "Design Concept": 24,
+          "Product Design": 189
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 6,
+          "median": 12,
+          "p90": 22.0,
+          "maximum": 30,
+          "mean": 13.87
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show plan, circulation, zoning, scale, accessibility, and occupancy behavior.",
+          "Show material, lighting, construction, and maintenance decisions.",
+          "Show the relationship between atmosphere and functional performance."
+        ],
+        "presentation_expectations": [
+          "spatial_overview",
+          "plan_and_circulation",
+          "human_scale_scenario",
+          "material_lighting_detail",
+          "construction_or_section"
+        ]
+      },
+      "confidence": "high",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Kitchen Appliances and Kitchen Accessories": {
+      "profile_id": "red-dot-category-kitchen-appliances-and-kitchen-accessories",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "Red Dot Award",
+      "normalized_category": "Kitchen Appliances and Kitchen Accessories",
+      "competition_counts": {
+        "Design Concept": 57,
+        "Product Design": 423
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 57,
+        "physical_product": 423
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.8812,
+      "canonical_category": "Home and Kitchen",
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 480,
+        "year_counts": {
+          "2024": 151,
+          "2025": 170,
+          "2026": 159
+        },
+        "award_level_counts": {
+          "Best of the Best": 18,
+          "Winner": 462
+        },
+        "competition_counts": {
+          "Design Concept": 57,
+          "Product Design": 423
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 6,
+          "median": 12.0,
+          "p90": 22.0,
+          "maximum": 30,
+          "mean": 13.91
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "high",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Lamps and Luminaires": {
+      "profile_id": "red-dot-category-lamps-and-luminaires",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "Red Dot Award",
+      "normalized_category": "Lamps and Luminaires",
+      "competition_counts": {
+        "Design Concept": 29,
+        "Product Design": 105
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 29,
+        "physical_product": 105
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.7836,
+      "canonical_category": "Lighting",
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 134,
+        "year_counts": {
+          "2024": 34,
+          "2025": 63,
+          "2026": 37
+        },
+        "award_level_counts": {
+          "Best of the Best": 11,
+          "Winner": 123
+        },
+        "competition_counts": {
+          "Design Concept": 29,
+          "Product Design": 105
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 6,
+          "median": 14.0,
+          "p90": 22.0,
+          "maximum": 28,
+          "mean": 14.1
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "medium",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Lighting Systems": {
+      "profile_id": "red-dot-category-lighting-systems",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "Red Dot Award",
+      "normalized_category": "Lighting Systems",
+      "competition_counts": {
+        "Design Concept": 9,
+        "Product Design": 96
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 9,
+        "physical_product": 96
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.9143,
+      "canonical_category": "Lighting",
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 105,
+        "year_counts": {
+          "2024": 36,
+          "2025": 41,
+          "2026": 28
+        },
+        "award_level_counts": {
+          "Best of the Best": 9,
+          "Winner": 96
+        },
+        "competition_counts": {
+          "Design Concept": 9,
+          "Product Design": 96
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 5,
+          "median": 12,
+          "p90": 20.0,
+          "maximum": 30,
+          "mean": 13.4
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "medium",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Medical Devices and Technology": {
+      "profile_id": "red-dot-category-medical-devices-and-technology",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "Red Dot Award",
+      "normalized_category": "Medical Devices and Technology",
+      "competition_counts": {
+        "Design Concept": 102,
+        "Product Design": 239
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 102,
+        "physical_product": 239
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.7009,
+      "canonical_category": "Medical and Health",
+      "primary_sector": "healthcare",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 341,
+        "year_counts": {
+          "2024": 153,
+          "2025": 116,
+          "2026": 72
+        },
+        "award_level_counts": {
+          "Best of the Best": 21,
+          "Winner": 320
+        },
+        "competition_counts": {
+          "Design Concept": 102,
+          "Product Design": 239
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 5,
+          "median": 10,
+          "p90": 20.0,
+          "maximum": 30,
+          "mean": 11.99
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "high",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Mobile Phones, Tablets and Wearables": {
+      "profile_id": "red-dot-category-mobile-phones-tablets-and-wearables",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "Red Dot Award",
+      "normalized_category": "Mobile Phones, Tablets and Wearables",
+      "competition_counts": {
+        "Design Concept": 28,
+        "Product Design": 338
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 28,
+        "physical_product": 338
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.9235,
+      "canonical_category": "Consumer Technology",
+      "primary_sector": "consumer_electronics",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 366,
+        "year_counts": {
+          "2024": 85,
+          "2025": 128,
+          "2026": 153
+        },
+        "award_level_counts": {
+          "Best of the Best": 9,
+          "Winner": 357
+        },
+        "competition_counts": {
+          "Design Concept": 28,
+          "Product Design": 338
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 6,
+          "median": 14.0,
+          "p90": 22.0,
+          "maximum": 30,
+          "mean": 14.3
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "high",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Office Furniture and Office Chairs": {
+      "profile_id": "red-dot-category-office-furniture-and-office-chairs",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "Red Dot Award",
+      "normalized_category": "Office Furniture and Office Chairs",
+      "competition_counts": {
+        "Design Concept": 5,
+        "Product Design": 99
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 5,
+        "physical_product": 99
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.9519,
+      "canonical_category": "Furniture",
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 104,
+        "year_counts": {
+          "2024": 20,
+          "2025": 42,
+          "2026": 42
+        },
+        "award_level_counts": {
+          "Best of the Best": 6,
+          "Winner": 98
+        },
+        "competition_counts": {
+          "Design Concept": 5,
+          "Product Design": 99
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 4,
+          "median": 16.0,
+          "p90": 26.0,
+          "maximum": 30,
+          "mean": 15.88
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "medium",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Outdoor and Camping Equipment": {
+      "profile_id": "red-dot-category-outdoor-and-camping-equipment",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "Red Dot Award",
+      "normalized_category": "Outdoor and Camping Equipment",
+      "competition_counts": {
+        "Design Concept": 27,
+        "Product Design": 134
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 27,
+        "physical_product": 134
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.8323,
+      "canonical_category": "Sports and Outdoor",
+      "primary_sector": "sports_outdoor",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 161,
+        "year_counts": {
+          "2024": 63,
+          "2025": 53,
+          "2026": 45
+        },
+        "award_level_counts": {
+          "Best of the Best": 9,
+          "Winner": 152
+        },
+        "competition_counts": {
+          "Design Concept": 27,
+          "Product Design": 134
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 6,
+          "median": 12,
+          "p90": 24.0,
+          "maximum": 30,
+          "mean": 13.98
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "medium",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Packaging": {
+      "profile_id": "red-dot-category-packaging",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "Red Dot Award",
+      "normalized_category": "Packaging",
+      "competition_counts": {
+        "Design Concept": 13,
+        "Product Design": 114
+      },
+      "evaluation_disciplines": {
+        "packaging": 127
+      },
+      "primary_evaluation_discipline": "packaging",
+      "discipline_purity": 1.0,
+      "canonical_category": "Packaging",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 127,
+        "year_counts": {
+          "2024": 28,
+          "2025": 58,
+          "2026": 41
+        },
+        "award_level_counts": {
+          "Best of the Best": 7,
+          "Winner": 120
+        },
+        "competition_counts": {
+          "Design Concept": 13,
+          "Product Design": 114
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 6,
+          "median": 12,
+          "p90": 22.0,
+          "maximum": 30,
+          "mean": 13.99
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "user_function_usability",
+          "form_interaction_quality",
+          "responsibility_sustainability"
+        ],
+        "evidence_prompts": [
+          "Show opening, dispensing, resealing, protection, and disposal behavior.",
+          "State material, logistics, and end-of-life boundaries.",
+          "Show hierarchy and legibility at the real viewing scale."
+        ],
+        "presentation_expectations": [
+          "pack_family",
+          "opening_sequence",
+          "material_detail",
+          "shelf_or_logistics_context",
+          "end_of_life_explanation"
+        ]
+      },
+      "confidence": "medium",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Packaging Design": {
+      "profile_id": "red-dot-category-packaging-design",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "Red Dot Award",
+      "normalized_category": "Packaging Design",
+      "competition_counts": {
+        "Brands & Communication Design": 298
+      },
+      "evaluation_disciplines": {
+        "packaging": 298
+      },
+      "primary_evaluation_discipline": "packaging",
+      "discipline_purity": 1.0,
+      "canonical_category": "Packaging",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 298,
+        "year_counts": {
+          "2024": 168,
+          "2025": 130
+        },
+        "award_level_counts": {
+          "Best of the Best": 8,
+          "Winner": 290
+        },
+        "competition_counts": {
+          "Brands & Communication Design": 298
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 6,
+          "median": 16.0,
+          "p90": 21.0,
+          "maximum": 30,
+          "mean": 16.15
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "user_function_usability",
+          "form_interaction_quality",
+          "responsibility_sustainability"
+        ],
+        "evidence_prompts": [
+          "Show opening, dispensing, resealing, protection, and disposal behavior.",
+          "State material, logistics, and end-of-life boundaries.",
+          "Show hierarchy and legibility at the real viewing scale."
+        ],
+        "presentation_expectations": [
+          "pack_family",
+          "opening_sequence",
+          "material_detail",
+          "shelf_or_logistics_context",
+          "end_of_life_explanation"
+        ]
+      },
+      "confidence": "high",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Personal Care, Wellness and Beauty": {
+      "profile_id": "red-dot-category-personal-care-wellness-and-beauty",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "Red Dot Award",
+      "normalized_category": "Personal Care, Wellness and Beauty",
+      "competition_counts": {
+        "Design Concept": 41,
+        "Product Design": 205
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 41,
+        "physical_product": 205
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.8333,
+      "canonical_category": "Lifestyle and Personal Accessories",
+      "primary_sector": "beauty_fashion",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 246,
+        "year_counts": {
+          "2024": 87,
+          "2025": 102,
+          "2026": 57
+        },
+        "award_level_counts": {
+          "Best of the Best": 7,
+          "Winner": 239
+        },
+        "competition_counts": {
+          "Design Concept": 41,
+          "Product Design": 205
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 1,
+          "median": 12.0,
+          "p90": 20.0,
+          "maximum": 30,
+          "mean": 12.91
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "high",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Publishing & Print Media": {
+      "profile_id": "red-dot-category-publishing-print-media",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "Red Dot Award",
+      "normalized_category": "Publishing & Print Media",
+      "competition_counts": {
+        "Brands & Communication Design": 113
+      },
+      "evaluation_disciplines": {
+        "brand_communication": 113
+      },
+      "primary_evaluation_discipline": "brand_communication",
+      "discipline_purity": 1.0,
+      "canonical_category": "Communication and Branding",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 113,
+        "year_counts": {
+          "2024": 61,
+          "2025": 52
+        },
+        "award_level_counts": {
+          "Best of the Best": 8,
+          "Junior Prize": 1,
+          "Winner": 104
+        },
+        "competition_counts": {
+          "Brands & Communication Design": 113
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 10,
+          "median": 17,
+          "p90": 23.8,
+          "maximum": 30,
+          "mean": 18.37
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "innovation_differentiation",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the communication objective, audience, and response sought.",
+          "Show hierarchy, legibility, and consistency across relevant touchpoints.",
+          "Separate visual novelty from communication effectiveness."
+        ],
+        "presentation_expectations": [
+          "core_message",
+          "identity_system",
+          "touchpoint_range",
+          "real_context_application",
+          "legibility_detail"
+        ]
+      },
+      "confidence": "medium",
+      "canonical_mapping_method": "discipline_fallback_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Robotics": {
+      "profile_id": "red-dot-category-robotics",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "Red Dot Award",
+      "normalized_category": "Robotics",
+      "competition_counts": {
+        "Design Concept": 33,
+        "Product Design": 155
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 33,
+        "physical_product": 155
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.8245,
+      "canonical_category": "Commercial and Industrial",
+      "primary_sector": "industrial",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 188,
+        "year_counts": {
+          "2024": 65,
+          "2025": 60,
+          "2026": 63
+        },
+        "award_level_counts": {
+          "Best of the Best": 14,
+          "Winner": 174
+        },
+        "competition_counts": {
+          "Design Concept": 33,
+          "Product Design": 155
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 6,
+          "median": 12.0,
+          "p90": 22.0,
+          "maximum": 30,
+          "mean": 13.84
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "medium",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Spatial Communication": {
+      "profile_id": "red-dot-category-spatial-communication",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "Red Dot Award",
+      "normalized_category": "Spatial Communication",
+      "competition_counts": {
+        "Brands & Communication Design": 141
+      },
+      "evaluation_disciplines": {
+        "interior_spatial": 141
+      },
+      "primary_evaluation_discipline": "interior_spatial",
+      "discipline_purity": 1.0,
+      "canonical_category": "Environment and Spatial Design",
+      "primary_sector": null,
+      "sector_scope": "cross_sector_or_unmapped",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 141,
+        "year_counts": {
+          "2024": 74,
+          "2025": 67
+        },
+        "award_level_counts": {
+          "Best of the Best": 9,
+          "Grand Prix": 1,
+          "Winner": 131
+        },
+        "competition_counts": {
+          "Brands & Communication Design": 141
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 8,
+          "median": 16,
+          "p90": 21.0,
+          "maximum": 30,
+          "mean": 17.09
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show plan, circulation, zoning, scale, accessibility, and occupancy behavior.",
+          "Show material, lighting, construction, and maintenance decisions.",
+          "Show the relationship between atmosphere and functional performance."
+        ],
+        "presentation_expectations": [
+          "spatial_overview",
+          "plan_and_circulation",
+          "human_scale_scenario",
+          "material_lighting_detail",
+          "construction_or_section"
+        ]
+      },
+      "confidence": "medium",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "cross_sector_or_unmapped",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "TV and Home Entertainment": {
+      "profile_id": "red-dot-category-tv-and-home-entertainment",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "Red Dot Award",
+      "normalized_category": "TV and Home Entertainment",
+      "competition_counts": {
+        "Design Concept": 26,
+        "Product Design": 130
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 26,
+        "physical_product": 130
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.8333,
+      "canonical_category": "Consumer Technology",
+      "primary_sector": "consumer_electronics",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 156,
+        "year_counts": {
+          "2024": 59,
+          "2025": 62,
+          "2026": 35
+        },
+        "award_level_counts": {
+          "Best of the Best": 8,
+          "Winner": 148
+        },
+        "competition_counts": {
+          "Design Concept": 26,
+          "Product Design": 130
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 6,
+          "median": 12.0,
+          "p90": 20.0,
+          "maximum": 26,
+          "mean": 13.08
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "medium",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Tableware": {
+      "profile_id": "red-dot-category-tableware",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "Red Dot Award",
+      "normalized_category": "Tableware",
+      "competition_counts": {
+        "Product Design": 142
+      },
+      "evaluation_disciplines": {
+        "physical_product": 142
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "canonical_category": "Home and Kitchen",
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 142,
+        "year_counts": {
+          "2024": 44,
+          "2025": 62,
+          "2026": 36
+        },
+        "award_level_counts": {
+          "Best of the Best": 7,
+          "Winner": 135
+        },
+        "competition_counts": {
+          "Product Design": 142
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 6,
+          "median": 12.0,
+          "p90": 24.0,
+          "maximum": 30,
+          "mean": 15.3
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "medium",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Tools": {
+      "profile_id": "red-dot-category-tools",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "Red Dot Award",
+      "normalized_category": "Tools",
+      "competition_counts": {
+        "Product Design": 167
+      },
+      "evaluation_disciplines": {
+        "physical_product": 167
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 1.0,
+      "canonical_category": "Commercial and Industrial",
+      "primary_sector": "industrial",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 167,
+        "year_counts": {
+          "2024": 48,
+          "2025": 69,
+          "2026": 50
+        },
+        "award_level_counts": {
+          "Best of the Best": 9,
+          "Winner": 158
+        },
+        "competition_counts": {
+          "Product Design": 167
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 6,
+          "median": 12,
+          "p90": 22.0,
+          "maximum": 30,
+          "mean": 13.84
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "medium",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    },
+    "Vehicle Accessories": {
+      "profile_id": "red-dot-category-vehicle-accessories",
+      "profile_type": "observed_winner_category_context",
+      "source_program": "Red Dot Award",
+      "normalized_category": "Vehicle Accessories",
+      "competition_counts": {
+        "Design Concept": 8,
+        "Product Design": 150
+      },
+      "evaluation_disciplines": {
+        "design_strategy_research": 8,
+        "physical_product": 150
+      },
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_purity": 0.9494,
+      "canonical_category": "Mobility and Transportation",
+      "primary_sector": "mobility",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "observed_metrics": {
+        "sample_size": 158,
+        "year_counts": {
+          "2024": 61,
+          "2025": 51,
+          "2026": 46
+        },
+        "award_level_counts": {
+          "Best of the Best": 4,
+          "Winner": 154
+        },
+        "competition_counts": {
+          "Design Concept": 8,
+          "Product Design": 150
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 6,
+          "median": 12.0,
+          "p90": 20.0,
+          "maximum": 30,
+          "mean": 13.3
+        }
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the use sequence and ergonomic relationship.",
+          "Show construction, material, maintenance, and manufacturing logic.",
+          "Show prototype or test evidence for the central function."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "medium",
+      "canonical_mapping_method": "keyword_rule_provisional",
+      "sector_mapping_method": "keyword_rule_provisional",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Do not infer winning probability or change rubric weights from this profile."
+      ]
+    }
+  }
+}

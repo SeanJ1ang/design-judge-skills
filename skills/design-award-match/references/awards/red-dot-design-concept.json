@@ -1,0 +1,74 @@
+{
+  "award_id": "red-dot-design-concept",
+  "brand": "Red Dot",
+  "program": "Red Dot Award: Design Concept",
+  "status": "supported",
+  "official_domains": ["red-dot.org"],
+  "official_sources": {
+    "overview": "https://www.red-dot.org/design-concept",
+    "eligibility": "https://www.red-dot.org/design-concept/participate/",
+    "categories": "https://www.red-dot.org/design-concept/categories/",
+    "criteria": "https://www.red-dot.org/design-concept/jury/",
+    "submission": "https://www.red-dot.org/design-concept/faqs/prepare-for-judging-faqs",
+    "winners": "https://www.red-dot.org/design-concept"
+  },
+  "routes": [
+    {
+      "route_id": "professional-concept",
+      "label": "Professional — Concept",
+      "entrant_types": ["individual", "professional", "studio", "company", "university", "research_institution"],
+      "project_states": ["professional_concept", "working_prototype"],
+      "required_project_fields": [],
+      "dynamic_gates": ["current_cycle_open", "current_professional_definition", "current_concept_definition", "current_category", "current_submission_requirements"]
+    },
+    {
+      "route_id": "professional-ready",
+      "label": "Professional — Ready for Market",
+      "entrant_types": ["individual", "professional", "studio", "company", "university", "research_institution"],
+      "project_states": ["working_prototype", "ready_for_market", "service_or_system", "digital_product"],
+      "required_project_fields": ["expected_market_delivery_date"],
+      "dynamic_gates": ["current_cycle_open", "current_professional_definition", "current_ready_for_market_delivery_window", "current_category", "current_submission_requirements"]
+    },
+    {
+      "route_id": "next-gen",
+      "label": "Next Gen — Concept",
+      "entrant_types": ["student", "recent_graduate", "university"],
+      "project_states": ["student_concept", "working_prototype"],
+      "required_project_fields": ["designer_age_or_institutional_team_status"],
+      "dynamic_gates": ["current_cycle_open", "current_next_gen_age_or_team_definition", "current_concept_definition", "current_category", "current_submission_requirements"]
+    }
+  ],
+  "category_hints": {
+    "Medical and Health": [
+      {"route_id": "professional-concept", "track": "Professional / Concept", "category": "Healthcare", "relation": "exact"},
+      {"route_id": "professional-ready", "track": "Professional / Ready for Market", "category": "Healthcare", "relation": "exact"},
+      {"route_id": "next-gen", "track": "Next Gen / Concept", "category": "Healthcare", "relation": "exact"}
+    ],
+    "Consumer Technology": [{"route_id": "professional-concept", "track": "Professional / Concept", "category": "Consumer Electronics", "relation": "exact"}],
+    "Home and Kitchen": [{"route_id": "professional-concept", "track": "Professional / Concept", "category": "Domestic Aid or Kitchen", "relation": "adjacent"}],
+    "Furniture": [{"route_id": "professional-concept", "track": "Professional / Concept", "category": "Furniture", "relation": "exact"}],
+    "Lighting": [{"route_id": "professional-concept", "track": "Professional / Concept", "category": "Illumination", "relation": "exact"}],
+    "Mobility and Transportation": [{"route_id": "professional-concept", "track": "Professional / Concept", "category": "Mobility and Transportation", "relation": "exact"}],
+    "Commercial and Industrial": [{"route_id": "professional-concept", "track": "Professional / Concept", "category": "Industrial Equipment", "relation": "exact"}],
+    "Digital Interaction": [{"route_id": "professional-concept", "track": "Professional / Concept", "category": "Interaction and Interface", "relation": "exact"}],
+    "Service Design": [{"route_id": "professional-concept", "track": "Professional / Concept", "category": "Service Design", "relation": "exact"}],
+    "Communication and Branding": [{"route_id": "professional-concept", "track": "Professional / Concept", "category": "Communication", "relation": "exact"}],
+    "Packaging": [{"route_id": "professional-concept", "track": "Professional / Concept", "category": "Packaging", "relation": "exact"}],
+    "Concept and Speculative Design": [
+      {"route_id": "professional-concept", "track": "Professional / Concept", "category": "Current functional category", "relation": "broad"},
+      {"route_id": "next-gen", "track": "Next Gen / Concept", "category": "Current functional category", "relation": "broad"}
+    ]
+  },
+  "criteria": [
+    {"official_name": "Degree of innovation or differentiation", "normalized_dimension": "innovation"},
+    {"official_name": "Aesthetic quality", "normalized_dimension": "form"},
+    {"official_name": "Realisation possibility", "normalized_dimension": "feasibility"},
+    {"official_name": "Functionality", "normalized_dimension": "function"},
+    {"official_name": "Emotional content", "normalized_dimension": "user_experience"},
+    {"official_name": "Impact (Concept projects)", "normalized_dimension": "social_impact"}
+  ],
+  "dynamic_fields": ["cycle", "dates", "fees", "next_gen_age_rule", "project_type_definitions", "ready_for_market_delivery_window", "categories", "submission_requirements", "winner_package"],
+  "winner_sources": ["https://www.red-dot.org/design-concept"],
+  "last_profile_reviewed": "2026-07-13",
+  "notes": ["Keep Next Gen and Professional separate.", "Use the criterion set corresponding to Concept or Ready for Market."]
+}

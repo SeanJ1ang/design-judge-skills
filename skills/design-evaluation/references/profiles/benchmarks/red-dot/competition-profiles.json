@@ -1,0 +1,385 @@
+{
+  "schema_version": 1,
+  "source_program": "Red Dot Award",
+  "profile_count": 3,
+  "profiles": {
+    "Product Design": {
+      "profile_id": "red-dot-competition-product-design",
+      "profile_type": "observed_winner_competition_context",
+      "source_program": "Red Dot Award",
+      "source_competition": "Product Design",
+      "observed_metrics": {
+        "sample_size": 7031,
+        "year_counts": {
+          "2024": 2256,
+          "2025": 2277,
+          "2026": 2498
+        },
+        "award_level_counts": {
+          "Best of the Best": 275,
+          "Winner": 6756
+        },
+        "competition_counts": {
+          "Product Design": 7031
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 4,
+          "median": 12,
+          "p90": 22.0,
+          "maximum": 30,
+          "mean": 14.25
+        },
+        "normalized_category_count": 57,
+        "top_categories": [
+          {
+            "category": "Computer and Information Technology",
+            "sample_size": 522
+          },
+          {
+            "category": "Industrial Equipment, Machinery and Automation",
+            "sample_size": 427
+          },
+          {
+            "category": "Kitchen Appliances and Kitchen Accessories",
+            "sample_size": 423
+          },
+          {
+            "category": "Mobile Phones, Tablets and Wearables",
+            "sample_size": 338
+          },
+          {
+            "category": "Heating and Air Conditioning Technology",
+            "sample_size": 285
+          },
+          {
+            "category": "Audio",
+            "sample_size": 279
+          },
+          {
+            "category": "Medical Devices and Technology",
+            "sample_size": 239
+          },
+          {
+            "category": "Bathroom and Sanitary Equipment",
+            "sample_size": 215
+          },
+          {
+            "category": "Personal Care, Wellness and Beauty",
+            "sample_size": 205
+          },
+          {
+            "category": "Babies and Children",
+            "sample_size": 199
+          },
+          {
+            "category": "Household Appliances and Household Accessories",
+            "sample_size": 199
+          },
+          {
+            "category": "Interior Design Elements",
+            "sample_size": 189
+          },
+          {
+            "category": "Cameras and Camera Equipment",
+            "sample_size": 188
+          },
+          {
+            "category": "Communication Technology",
+            "sample_size": 172
+          },
+          {
+            "category": "Tools",
+            "sample_size": 167
+          }
+        ]
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "user_function_usability",
+          "solution_integrity",
+          "implementation_feasibility",
+          "form_interaction_quality"
+        ],
+        "evidence_prompts": [
+          "Show the complete use sequence, ergonomics, safety, and failure recovery.",
+          "Show construction, materials, manufacturing, maintenance, and durability logic.",
+          "Support the central functional claim with a prototype or appropriate test."
+        ],
+        "presentation_expectations": [
+          "hero_view",
+          "use_scenario",
+          "operation_sequence",
+          "construction_detail",
+          "prototype_or_test"
+        ]
+      },
+      "confidence": "high",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Guidance is an expert seed and does not predict winning probability."
+      ]
+    },
+    "Brands & Communication Design": {
+      "profile_id": "red-dot-competition-brands-communication-design",
+      "profile_type": "observed_winner_competition_context",
+      "source_program": "Red Dot Award",
+      "source_competition": "Brands & Communication Design",
+      "observed_metrics": {
+        "sample_size": 1638,
+        "year_counts": {
+          "2024": 755,
+          "2025": 883
+        },
+        "award_level_counts": {
+          "Best of the Best": 99,
+          "Grand Prix": 11,
+          "Junior Prize": 2,
+          "Winner": 1526
+        },
+        "competition_counts": {
+          "Brands & Communication Design": 1638
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 6,
+          "median": 16.0,
+          "p90": 23.0,
+          "maximum": 30,
+          "mean": 17.63
+        },
+        "normalized_category_count": 23,
+        "top_categories": [
+          {
+            "category": "Packaging Design",
+            "sample_size": 298
+          },
+          {
+            "category": "Brand Design and Identity",
+            "sample_size": 245
+          },
+          {
+            "category": "Interface & User Experience Design",
+            "sample_size": 239
+          },
+          {
+            "category": "Spatial Communication",
+            "sample_size": 141
+          },
+          {
+            "category": "Publishing & Print Media",
+            "sample_size": 113
+          },
+          {
+            "category": "Apps",
+            "sample_size": 105
+          },
+          {
+            "category": "Corporate Design & Identity",
+            "sample_size": 91
+          },
+          {
+            "category": "Advertising",
+            "sample_size": 59
+          },
+          {
+            "category": "Websites",
+            "sample_size": 51
+          },
+          {
+            "category": "Illustrations",
+            "sample_size": 48
+          },
+          {
+            "category": "Film & Animation",
+            "sample_size": 46
+          },
+          {
+            "category": "Fair Stands",
+            "sample_size": 43
+          },
+          {
+            "category": "Digital Solutions",
+            "sample_size": 41
+          },
+          {
+            "category": "Typography",
+            "sample_size": 35
+          },
+          {
+            "category": "Retail Design",
+            "sample_size": 28
+          }
+        ]
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "innovation_differentiation",
+          "form_interaction_quality",
+          "solution_integrity"
+        ],
+        "evidence_prompts": [
+          "State the audience, communication objective, and intended response.",
+          "Show hierarchy, legibility, system coherence, and adaptation across touchpoints.",
+          "Demonstrate communication effectiveness in real contexts, not only visual novelty."
+        ],
+        "presentation_expectations": [
+          "core_message",
+          "identity_or_communication_system",
+          "touchpoint_range",
+          "real_context_application",
+          "legibility_and_detail"
+        ]
+      },
+      "confidence": "high",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Guidance is an expert seed and does not predict winning probability."
+      ]
+    },
+    "Design Concept": {
+      "profile_id": "red-dot-competition-design-concept",
+      "profile_type": "observed_winner_competition_context",
+      "source_program": "Red Dot Award",
+      "source_competition": "Design Concept",
+      "observed_metrics": {
+        "sample_size": 1361,
+        "year_counts": {
+          "2024": 685,
+          "2025": 676
+        },
+        "award_level_counts": {
+          "Best of the Best": 168,
+          "Luminary": 2,
+          "Peter Zec Prize": 2,
+          "Winner": 1189
+        },
+        "competition_counts": {
+          "Design Concept": 1361
+        },
+        "evidence_field_coverage": {
+          "body_text_sample": 1.0,
+          "structured_json_ld": 1.0,
+          "country_region": 0.0,
+          "at_least_one_image": 1.0
+        },
+        "image_count": {
+          "minimum": 1,
+          "median": 9,
+          "p90": 12.0,
+          "maximum": 16,
+          "mean": 9.28
+        },
+        "normalized_category_count": 63,
+        "top_categories": [
+          {
+            "category": "Medical Devices and Technology",
+            "sample_size": 102
+          },
+          {
+            "category": "Kitchen Appliances and Kitchen Accessories",
+            "sample_size": 57
+          },
+          {
+            "category": "Interaction, UI and User Experience",
+            "sample_size": 56
+          },
+          {
+            "category": "Healthcare",
+            "sample_size": 53
+          },
+          {
+            "category": "Cars and Motorcycles",
+            "sample_size": 44
+          },
+          {
+            "category": "Personal Care, Wellness and Beauty",
+            "sample_size": 41
+          },
+          {
+            "category": "Service Design",
+            "sample_size": 40
+          },
+          {
+            "category": "Babies and Children",
+            "sample_size": 36
+          },
+          {
+            "category": "Industrial Equipment, Machinery and Automation",
+            "sample_size": 35
+          },
+          {
+            "category": "Robotics",
+            "sample_size": 33
+          },
+          {
+            "category": "Household Appliances and Household Accessories",
+            "sample_size": 33
+          },
+          {
+            "category": "Bicycles and Personal Mobility Devices",
+            "sample_size": 31
+          },
+          {
+            "category": "Lamps and Luminaires",
+            "sample_size": 29
+          },
+          {
+            "category": "Sustainability",
+            "sample_size": 29
+          },
+          {
+            "category": "Safety, Protection and Security",
+            "sample_size": 28
+          }
+        ]
+      },
+      "guidance": {
+        "attention_dimensions": [
+          "problem_value",
+          "innovation_differentiation",
+          "solution_integrity",
+          "implementation_feasibility",
+          "responsibility_sustainability"
+        ],
+        "evidence_prompts": [
+          "State the future condition or unmet need and the mechanism connecting concept to outcome.",
+          "Show system logic, key assumptions, feasibility path, and responsibility boundaries.",
+          "Provide scenarios, prototypes, or validation plans appropriate to concept maturity."
+        ],
+        "presentation_expectations": [
+          "problem_and_future_context",
+          "concept_principle",
+          "scenario_sequence",
+          "system_and_feasibility_logic",
+          "validation_plan_or_prototype"
+        ]
+      },
+      "confidence": "high",
+      "score_effect": "none",
+      "review_status": "machine_generated_needs_human_review",
+      "limitations": [
+        "Winner-only sample; no non-winning comparison group.",
+        "Observed Red Dot context, not official jury weights or scoring.",
+        "Guidance is an expert seed and does not predict winning probability."
+      ]
+    }
+  }
+}

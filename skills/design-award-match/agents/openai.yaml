@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Award Match"
+  short_description: "Match projects across 11 configured award programs"
+  default_prompt: "Use $design-award-match to rank the supported award routes for this design, check eligibility, and report fit and evidence confidence."

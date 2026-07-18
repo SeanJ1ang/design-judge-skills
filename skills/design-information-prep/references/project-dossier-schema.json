@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Design Information Prep Project Dossier",
+  "type": "object",
+  "required": ["schema_version", "project_id", "facts", "attachments"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "project_id": {"type": "string", "minLength": 1},
+    "confidentiality": {"enum": ["public", "restricted", "confidential"]},
+    "attachments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source", "authorized"],
+        "properties": {
+          "source": {"type": "string", "minLength": 1},
+          "media_type": {"type": "string"},
+          "authorized": {"type": "boolean"},
+          "notes": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "facts": {
+      "type": "object",
+      "propertyNames": {
+        "enum": [
+          "project_name", "project_type", "product_type", "positioning", "target_user",
+          "use_context", "problem", "pain_points", "existing_alternatives", "solution",
+          "working_principle", "core_functions", "key_features", "innovation_points",
+          "competitive_difference", "user_benefit", "client_brand_benefit", "business_value",
+          "social_impact", "cultural_impact", "environmental_impact", "sustainability",
+          "aesthetics_form", "cmf", "ergonomics", "accessibility", "safety",
+          "materials", "core_technology", "manufacturing_process", "development_process",
+          "research_methods", "prototype_iterations", "testing_validation", "measured_outcomes",
+          "market_demand", "market_size", "launch_status", "launch_date", "development_time",
+          "market_region", "retail_price", "sales_channels", "future_plans", "growth_potential",
+          "specifications", "physical_dimensions", "intellectual_property", "previous_awards",
+          "applicant", "client_manufacturer", "design_company", "lead_designer", "team_members",
+          "university", "student_status", "category", "urls"
+        ]
+      },
+      "additionalProperties": {"$ref": "#/$defs/fact"}
+    }
+  },
+  "$defs": {
+    "evidence": {
+      "type": "object",
+      "required": ["source", "evidence_type"],
+      "properties": {
+        "source": {"type": "string", "minLength": 1},
+        "locator": {"type": "string"},
+        "evidence_type": {"enum": ["direct", "derived", "user_confirmation"]},
+        "note": {"type": "string"}
+      },
+      "additionalProperties": false
+    },
+    "fact": {
+      "type": "object",
+      "required": ["value", "status", "confidence", "evidence", "user_confirmation_required"],
+      "properties": {
+        "value": {
+          "oneOf": [
+            {"type": "string"}, {"type": "number"}, {"type": "boolean"},
+            {"type": "array", "items": {"type": "string"}}, {"type": "null"}
+          ]
+        },
+        "status": {"enum": ["supported", "inferred", "confirmed_by_user", "missing"]},
+        "confidence": {"enum": ["high", "medium", "low", "unknown"]},
+        "evidence": {"type": "array", "items": {"$ref": "#/$defs/evidence"}},
+        "user_confirmation_required": {"type": "boolean"},
+        "notes": {"type": "string"}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
+

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "award_id": "james-dyson",
+  "program": "James Dyson Award",
+  "cycle": "2026",
+  "checked_on": "2026-07-15",
+  "official_sources": ["https://www.jamesdysonaward.org/en-us/terms-and-conditions/", "https://www.jamesdysonaward.org/en-ca/how-to-enter/"],
+  "notes": ["Only the succinct description has a published word limit in the public guidance reviewed. Confirm any portal-specific limits for the remaining prompts."],
+  "routes": [
+    {
+      "route_id": "general",
+      "label": "General entry",
+      "applies_when": "Eligible current or recent design/engineering student or graduate entry.",
+      "fields": [
+        {"field_id":"invention-name","label":"Invention name","required":true,"value_type":"string","language":"English","source_facts":["project_name"],"essential_facts":["project_name"],"drafting_instructions":"Use the official invention name.","publicity":"public_if_awarded"},
+        {"field_id":"succinct-description","label":"Succinct description","required":true,"value_type":"string","language":"English","max_length":200,"length_unit":"words","source_facts":["positioning","problem","solution","working_principle","core_functions","user_benefit"],"essential_facts":["problem","solution","working_principle"],"drafting_instructions":"Explain the invention's purpose, the problem, the solution, and how it functions in one concise account.","publicity":"public_if_awarded"},
+        {"field_id":"inspiration-motivation","label":"Inspiration and motivation","required":true,"value_type":"string","language":"English","source_facts":["problem","pain_points","use_context","research_methods","market_demand","social_impact"],"essential_facts":["problem"],"drafting_instructions":"Explain the observed need and why the team chose to address it.","publicity":"public_if_awarded"},
+        {"field_id":"how-it-works","label":"How it works","required":true,"value_type":"string","language":"English","source_facts":["working_principle","core_functions","core_technology","materials","specifications","safety"],"essential_facts":["working_principle"],"drafting_instructions":"Describe the operating principle clearly enough to distinguish the invention from an aspiration.","publicity":"public_if_awarded"},
+        {"field_id":"development-process","label":"Development process","required":true,"value_type":"string","language":"English","source_facts":["development_process","research_methods","prototype_iterations","testing_validation","measured_outcomes"],"essential_facts":["development_process"],"drafting_instructions":"Show how research, prototypes, tests, and iterations changed the design.","publicity":"public_if_awarded"},
+        {"field_id":"novelty-market-difference","label":"What makes it different","required":true,"value_type":"string","language":"English","source_facts":["existing_alternatives","innovation_points","competitive_difference","intellectual_property","user_benefit"],"essential_facts":["innovation_points","competitive_difference"],"drafting_instructions":"Compare against evidenced alternatives and state the defensible novelty.","publicity":"public_if_awarded"},
+        {"field_id":"future-plans","label":"Future plans","required":true,"value_type":"string","language":"English","source_facts":["future_plans","growth_potential","manufacturing_process","testing_validation","launch_status","market_demand"],"essential_facts":["future_plans"],"drafting_instructions":"Separate completed work from planned validation, manufacture, launch, or scale-up.","publicity":"public_if_awarded"}
+      ]
+    }
+  ]
+}

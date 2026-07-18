@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "award_id": "red-dot-product",
+  "program": "Red Dot Award: Product Design",
+  "cycle": "2026",
+  "checked_on": "2026-07-15",
+  "official_sources": ["https://www.red-dot.org/fileadmin/downloads/Downloadmaterial_PD/Checklist_2026_EN.pdf", "https://www.red-dot.org/pd/faq/"],
+  "notes": ["The public checklist confirms one integrated description field of 500 to 1,200 characters; judging criteria are not separate text boxes."],
+  "routes": [{
+    "route_id": "product",
+    "label": "Product Design entry",
+    "applies_when": "An eligible industrially manufactured product or qualifying prototype is entered.",
+    "fields": [
+      {"field_id":"product-name","label":"Product name","required":true,"value_type":"string","language":"English","source_facts":["project_name"],"essential_facts":["project_name"],"drafting_instructions":"Use the official English product name.","publicity":"public_if_awarded"},
+      {"field_id":"product-type","label":"Product type","required":true,"value_type":"string","language":"English","source_facts":["product_type"],"essential_facts":["product_type"],"drafting_instructions":"Use a concise generic product designation, not a marketing slogan.","publicity":"public_if_awarded"},
+      {"field_id":"launch-year","label":"Year of market launch","required":true,"value_type":"string","language":"English","source_facts":["launch_date","launch_status"],"essential_facts":["launch_date"],"drafting_instructions":"State the verified market launch year.","publicity":"administrative"},
+      {"field_id":"description","label":"Description text","required":true,"value_type":"string","language":"English","min_length":500,"max_length":1200,"length_unit":"characters","source_facts":["positioning","core_functions","working_principle","innovation_points","competitive_difference","user_benefit","materials"],"essential_facts":["core_functions","competitive_difference"],"drafting_instructions":"Describe the product briefly and objectively, explaining what it does and what makes it unique. Avoid figurative or promotional language.","publicity":"public_if_awarded"},
+      {"field_id":"manufacturer","label":"Manufacturer","required":true,"value_type":"string","language":"English","source_facts":["client_manufacturer"],"essential_facts":["client_manufacturer"],"drafting_instructions":"Use the official manufacturer name.","publicity":"public_if_awarded"},
+      {"field_id":"design-company","label":"In-house or external design studio","required":true,"value_type":"string","language":"English","source_facts":["design_company"],"essential_facts":["design_company"],"drafting_instructions":"Use the exact official design entity name.","publicity":"public_if_awarded"}
+    ]
+  }]
+}
+

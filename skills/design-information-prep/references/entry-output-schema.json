@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Prepared Design Award Entry Text",
+  "type": "object",
+  "required": ["award_id", "route_id", "cycle", "fields"],
+  "properties": {
+    "award_id": {"type": "string"},
+    "route_id": {"type": "string"},
+    "cycle": {"type": "string"},
+    "fields": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["text", "used_fact_ids"],
+        "properties": {
+          "text": {"oneOf": [{"type": "string"}, {"type": "array", "items": {"type": "string"}}]},
+          "used_fact_ids": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+          "notes": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

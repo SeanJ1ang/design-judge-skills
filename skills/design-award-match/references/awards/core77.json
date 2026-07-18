@@ -1,0 +1,93 @@
+{
+  "award_id": "core77",
+  "brand": "Core77",
+  "program": "Core77 Design Awards",
+  "status": "supported",
+  "official_domains": ["designawards.core77.com"],
+  "official_sources": {
+    "overview": "https://designawards.core77.com/",
+    "eligibility": "https://designawards.core77.com/rules",
+    "categories": "https://designawards.core77.com/all-categories",
+    "criteria": "https://designawards.core77.com/how-to-enter",
+    "submission": "https://designawards.core77.com/how-to-enter",
+    "winners": "https://designawards.core77.com/"
+  },
+  "routes": [
+    {
+      "route_id": "professional-realized",
+      "label": "Professional — Realized Work",
+      "entrant_types": ["individual", "professional", "studio", "company", "university", "research_institution"],
+      "project_states": ["ready_for_market", "launched_product", "service_or_system", "digital_product"],
+      "required_project_fields": ["public_release_or_client_delivery_date", "original_work_and_publication_rights_confirmed", "submission_language"],
+      "stable_constraints": [
+        {"field": "original_work_and_publication_rights_confirmed", "operator": "truthy", "message": "The entrant must own or be authorized to enter and publish the work."},
+        {"field": "submission_language", "operator": "equals", "value": "English", "message": "Core77 entries must be submitted in English."}
+      ],
+      "dynamic_gates": ["current_cycle_open", "current_professional_work_eligibility_window", "current_category_availability", "current_submission_requirements"]
+    },
+    {
+      "route_id": "professional-speculative",
+      "label": "Professional — Speculative Design",
+      "entrant_types": ["individual", "professional", "studio", "company", "university", "research_institution"],
+      "project_states": ["professional_concept", "working_prototype"],
+      "required_project_fields": ["speculative_purpose_confirmed", "project_completion_or_presentation_date", "original_work_and_publication_rights_confirmed", "submission_language"],
+      "stable_constraints": [
+        {"field": "speculative_purpose_confirmed", "operator": "truthy", "message": "Professional conceptual work must genuinely fit the current official Speculative Design scope."},
+        {"field": "original_work_and_publication_rights_confirmed", "operator": "truthy", "message": "The entrant must own or be authorized to enter and publish the work."},
+        {"field": "submission_language", "operator": "equals", "value": "English", "message": "Core77 entries must be submitted in English."}
+      ],
+      "dynamic_gates": ["current_cycle_open", "current_speculative_work_eligibility_window", "current_speculative_category_definition", "current_submission_requirements"]
+    },
+    {
+      "route_id": "student",
+      "label": "Student",
+      "entrant_types": ["student"],
+      "project_states": ["student_concept", "working_prototype", "ready_for_market", "launched_product", "service_or_system", "digital_product"],
+      "required_project_fields": ["active_enrollment_dates", "project_completion_or_presentation_date", "original_work_and_publication_rights_confirmed", "submission_language"],
+      "stable_constraints": [
+        {"field": "original_work_and_publication_rights_confirmed", "operator": "truthy", "message": "The entrant must own or be authorized to enter and publish the work."},
+        {"field": "submission_language", "operator": "equals", "value": "English", "message": "Core77 entries must be submitted in English."}
+      ],
+      "dynamic_gates": ["current_cycle_open", "current_student_enrollment_window", "current_student_work_eligibility_window", "current_category_student_track_availability", "current_submission_requirements"]
+    }
+  ],
+  "category_hints": {
+    "Medical and Health": [
+      {"route_id": "professional-realized", "track": "Professional", "category": "Medical & Healthcare", "relation": "exact"},
+      {"route_id": "student", "track": "Student", "category": "Medical & Healthcare", "relation": "exact"}
+    ],
+    "Accessibility and Inclusive Design": [
+      {"route_id": "professional-realized", "track": "Professional", "category": "Design for Social Impact", "relation": "adjacent"},
+      {"route_id": "student", "track": "Student", "category": "Design for Social Impact", "relation": "adjacent"}
+    ],
+    "Consumer Technology": [
+      {"route_id": "professional-realized", "track": "Professional", "category": "Consumer Technology", "relation": "exact"},
+      {"route_id": "student", "track": "Student", "category": "Consumer Technology", "relation": "exact"}
+    ],
+    "Home and Kitchen": [{"route_id": "professional-realized", "track": "Professional", "category": "Home & Living", "relation": "exact"}],
+    "Furniture": [{"route_id": "professional-realized", "track": "Professional", "category": "Furniture & Lighting", "relation": "exact"}],
+    "Lighting": [{"route_id": "professional-realized", "track": "Professional", "category": "Furniture & Lighting", "relation": "exact"}],
+    "Mobility and Transportation": [{"route_id": "professional-realized", "track": "Professional", "category": "Transportation & Mobility", "relation": "exact"}],
+    "Commercial and Industrial": [{"route_id": "professional-realized", "track": "Professional", "category": "Commercial & Industrial Equipment", "relation": "exact"}],
+    "Digital Interaction": [{"route_id": "professional-realized", "track": "Professional", "category": "Interaction or Apps & Platforms — verify primary output", "relation": "adjacent"}],
+    "Communication and Branding": [{"route_id": "professional-realized", "track": "Professional", "category": "Visual Communication or Branding & Identity", "relation": "adjacent"}],
+    "Packaging": [{"route_id": "professional-realized", "track": "Professional", "category": "Packaging", "relation": "exact"}],
+    "Sports and Outdoor": [{"route_id": "professional-realized", "track": "Professional", "category": "Sports & Outdoors", "relation": "exact"}],
+    "Lifestyle and Personal Accessories": [{"route_id": "professional-realized", "track": "Professional", "category": "Lifestyle Accessories", "relation": "exact"}],
+    "Environment and Spatial Design": [{"route_id": "professional-realized", "track": "Professional", "category": "Built Environment", "relation": "exact"}],
+    "Social Impact": [
+      {"route_id": "professional-realized", "track": "Professional", "category": "Design for Social Impact", "relation": "exact"},
+      {"route_id": "student", "track": "Student", "category": "Design for Social Impact", "relation": "exact"}
+    ],
+    "Sustainability and Circular Design": [
+      {"route_id": "professional-realized", "track": "Professional", "category": "Sustainability", "relation": "exact"},
+      {"route_id": "student", "track": "Student", "category": "Sustainability", "relation": "exact"}
+    ],
+    "Concept and Speculative Design": [{"route_id": "professional-speculative", "track": "Professional", "category": "Speculative Design", "relation": "exact"}]
+  },
+  "criteria": [{"official_name": "Merits and quality", "normalized_dimension": "technical_quality"}],
+  "dynamic_fields": ["cycle", "dates", "fees", "work_eligibility_window", "student_enrollment_window", "category_list", "track_availability", "submission_assets_and_limits"],
+  "winner_sources": ["https://designawards.core77.com/"],
+  "last_profile_reviewed": "2026-07-13",
+  "notes": ["Core77 does not publish one universal weighted judging rubric; do not invent one or treat entry-writing guidance as scoring criteria.", "Professional concepts should route only through the current Speculative Design definition."]
+}

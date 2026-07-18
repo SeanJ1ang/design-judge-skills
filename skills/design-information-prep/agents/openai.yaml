@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Information Prep"
+  short_description: "Prepare evidence-grounded design award entry text"
+  default_prompt: "Use $design-information-prep to extract project facts from my attachments and prepare the required text fields for my selected design award."

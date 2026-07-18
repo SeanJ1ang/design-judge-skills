@@ -1,0 +1,5 @@
+interface:
+  display_name: "Design Submission Check"
+  short_description: "Audit award submission packages for readiness and compliance"
+  default_prompt: "Use $design-submission-check to audit this design-award submission package against the current official rules and return a final readiness decision."
+

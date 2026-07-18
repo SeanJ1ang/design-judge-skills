@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "profile_id": "red_dot_product_aligned",
+  "display_name": "Red Dot Award: Product Design-aligned",
+  "not_official_notice": "Public-criteria alignment only; not an official jury simulation or score.",
+  "checked_on": "2026-07-13",
+  "official_source": "https://www.red-dot.org/pd/red-dot-jury/",
+  "criteria": ["quality_of_function", "quality_of_seduction", "quality_of_use", "quality_of_responsibility"],
+  "mapping": {
+    "quality_of_function": ["user_function_usability", "solution_integrity", "implementation_feasibility"],
+    "quality_of_seduction": ["form_interaction_quality", "first_glance_message"],
+    "quality_of_use": ["user_function_usability", "form_interaction_quality"],
+    "quality_of_responsibility": ["responsibility_sustainability", "implementation_feasibility"]
+  },
+  "aggregation_rule": "Treat all four qualities as necessary; do not let an average hide an absent quality.",
+  "runtime_rule": "Verify the current official criteria before use. Keep this result separate from the general score."
+}
+

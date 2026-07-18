@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Evaluation"
+  short_description: "Evidence-based single and batch design scoring"
+  default_prompt: "Use $design-evaluation to score one design or a user-approved maturity-mapped batch, report evidence confidence and Critical risks, and keep batch rankings within separate maturity tracks."

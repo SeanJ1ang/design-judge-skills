@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "profile_id": "student_concept",
+  "display_name": "Student Concept",
+  "display_name_zh": "学生概念",
+  "selection_rule": "Must be explicitly selected by the user.",
+  "design_weights": {
+    "problem_value": 9,
+    "user_function_usability": 9,
+    "innovation_differentiation": 10,
+    "solution_integrity": 6,
+    "implementation_feasibility": 5,
+    "form_interaction_quality": 5,
+    "responsibility_sustainability": 6
+  },
+  "evidence_expectation": "Research, process, prototype, model, rendering, workflow, and reasoned technical or economic feasibility may support the score. Production is not required.",
+  "caps": {
+    "implementation_feasibility": {
+      "claimed": 2,
+      "missing": 2
+    }
+  }
+}

@@ -1,0 +1,565 @@
+{
+  "schema_version": 1,
+  "source_program": "International Design Excellence Awards (IDEA)",
+  "normalization_rule": "normalize whitespace and merge the historical Kitchen & Accessories alias into Kitchens",
+  "discipline_membership": "multi_label_non_additive",
+  "category_count": 24,
+  "categories": {
+    "Automotive & Transportation": {
+      "normalized_category": "Automotive & Transportation",
+      "source_category_variants": {
+        "Automotive & Transportation": 36
+      },
+      "evaluation_disciplines": [
+        "physical_product"
+      ],
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_inference": "provisional_multilabel_mapping",
+      "canonical_category": "Mobility and Transportation",
+      "primary_sector": "mobility",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "allowed_maturity": "student_concept_or_mature_work",
+      "sample_size": 36,
+      "year_counts": {
+        "2023": 12,
+        "2024": 12,
+        "2025": 12
+      },
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Bath, Air Filtration and Humidifiers": {
+      "normalized_category": "Bath, Air Filtration and Humidifiers",
+      "source_category_variants": {
+        "Bath, Air Filtration and Humidifiers": 19
+      },
+      "evaluation_disciplines": [
+        "physical_product"
+      ],
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_inference": "provisional_multilabel_mapping",
+      "canonical_category": "Home and Kitchen",
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "allowed_maturity": "student_concept_or_mature_work",
+      "sample_size": 19,
+      "year_counts": {
+        "2024": 13,
+        "2025": 6
+      },
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Branding": {
+      "normalized_category": "Branding",
+      "source_category_variants": {
+        "Branding": 33
+      },
+      "evaluation_disciplines": [
+        "brand_communication"
+      ],
+      "primary_evaluation_discipline": "brand_communication",
+      "discipline_inference": "provisional_multilabel_mapping",
+      "canonical_category": "Communication and Branding",
+      "primary_sector": null,
+      "sector_scope": "cross_sector",
+      "focus_tags": [],
+      "allowed_maturity": "student_concept_or_mature_work",
+      "sample_size": 33,
+      "year_counts": {
+        "2023": 12,
+        "2024": 11,
+        "2025": 10
+      },
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Children's Products": {
+      "normalized_category": "Children's Products",
+      "source_category_variants": {
+        "Children's Products": 26
+      },
+      "evaluation_disciplines": [
+        "physical_product"
+      ],
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_inference": "provisional_multilabel_mapping",
+      "canonical_category": "Children and Education",
+      "primary_sector": "education",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "allowed_maturity": "student_concept_or_mature_work",
+      "sample_size": 26,
+      "year_counts": {
+        "2023": 10,
+        "2024": 10,
+        "2025": 6
+      },
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Commercial & Industrial Products": {
+      "normalized_category": "Commercial & Industrial Products",
+      "source_category_variants": {
+        "Commercial & Industrial Products": 74
+      },
+      "evaluation_disciplines": [
+        "physical_product"
+      ],
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_inference": "provisional_multilabel_mapping",
+      "canonical_category": "Commercial and Industrial",
+      "primary_sector": "industrial",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "allowed_maturity": "student_concept_or_mature_work",
+      "sample_size": 74,
+      "year_counts": {
+        "2023": 30,
+        "2024": 24,
+        "2025": 20
+      },
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Communication Tools": {
+      "normalized_category": "Communication Tools",
+      "source_category_variants": {
+        "Communication Tools": 16
+      },
+      "evaluation_disciplines": [
+        "physical_product"
+      ],
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_inference": "provisional_multilabel_mapping",
+      "canonical_category": "Consumer Technology",
+      "primary_sector": "consumer_electronics",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "allowed_maturity": "student_concept_or_mature_work",
+      "sample_size": 16,
+      "year_counts": {
+        "2024": 16
+      },
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Computer Equipment": {
+      "normalized_category": "Computer Equipment",
+      "source_category_variants": {
+        "Computer Equipment": 17
+      },
+      "evaluation_disciplines": [
+        "physical_product"
+      ],
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_inference": "provisional_multilabel_mapping",
+      "canonical_category": "Consumer Technology",
+      "primary_sector": "consumer_electronics",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "allowed_maturity": "student_concept_or_mature_work",
+      "sample_size": 17,
+      "year_counts": {
+        "2024": 17
+      },
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Concepts & Speculative Design": {
+      "normalized_category": "Concepts & Speculative Design",
+      "source_category_variants": {
+        "Concepts & Speculative Design": 62
+      },
+      "evaluation_disciplines": [
+        "design_strategy_research"
+      ],
+      "primary_evaluation_discipline": "design_strategy_research",
+      "discipline_inference": "provisional_multilabel_mapping",
+      "canonical_category": "Concept and Speculative Design",
+      "primary_sector": null,
+      "sector_scope": "cross_sector",
+      "focus_tags": [
+        "experimental_speculative"
+      ],
+      "allowed_maturity": "student_concept_or_mature_work",
+      "sample_size": 62,
+      "year_counts": {
+        "2023": 19,
+        "2024": 23,
+        "2025": 20
+      },
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Consumer Technology": {
+      "normalized_category": "Consumer Technology",
+      "source_category_variants": {
+        "Consumer Technology": 142
+      },
+      "evaluation_disciplines": [
+        "physical_product"
+      ],
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_inference": "provisional_multilabel_mapping",
+      "canonical_category": "Consumer Technology",
+      "primary_sector": "consumer_electronics",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "allowed_maturity": "student_concept_or_mature_work",
+      "sample_size": 142,
+      "year_counts": {
+        "2023": 57,
+        "2024": 28,
+        "2025": 57
+      },
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Design Strategy": {
+      "normalized_category": "Design Strategy",
+      "source_category_variants": {
+        "Design Strategy": 8
+      },
+      "evaluation_disciplines": [
+        "design_strategy_research"
+      ],
+      "primary_evaluation_discipline": "design_strategy_research",
+      "discipline_inference": "provisional_multilabel_mapping",
+      "canonical_category": "Concept and Speculative Design",
+      "primary_sector": null,
+      "sector_scope": "cross_sector",
+      "focus_tags": [
+        "experimental_speculative"
+      ],
+      "allowed_maturity": "student_concept_or_mature_work",
+      "sample_size": 8,
+      "year_counts": {
+        "2023": 5,
+        "2024": 1,
+        "2025": 2
+      },
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Digital Interaction": {
+      "normalized_category": "Digital Interaction",
+      "source_category_variants": {
+        "Digital Interaction": 42
+      },
+      "evaluation_disciplines": [
+        "user_interface",
+        "user_experience"
+      ],
+      "primary_evaluation_discipline": "user_interface",
+      "discipline_inference": "provisional_multilabel_mapping",
+      "canonical_category": "Digital Interaction",
+      "primary_sector": null,
+      "sector_scope": "cross_sector",
+      "focus_tags": [],
+      "allowed_maturity": "student_concept_or_mature_work",
+      "sample_size": 42,
+      "year_counts": {
+        "2023": 12,
+        "2024": 18,
+        "2025": 12
+      },
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Environments": {
+      "normalized_category": "Environments",
+      "source_category_variants": {
+        "Environments": 33
+      },
+      "evaluation_disciplines": [
+        "interior_spatial",
+        "architecture_landscape_urban"
+      ],
+      "primary_evaluation_discipline": "interior_spatial",
+      "discipline_inference": "provisional_multilabel_mapping",
+      "canonical_category": "Environment and Spatial Design",
+      "primary_sector": null,
+      "sector_scope": "cross_sector",
+      "focus_tags": [],
+      "allowed_maturity": "student_concept_or_mature_work",
+      "sample_size": 33,
+      "year_counts": {
+        "2023": 6,
+        "2024": 16,
+        "2025": 11
+      },
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Furniture & Lighting": {
+      "normalized_category": "Furniture & Lighting",
+      "source_category_variants": {
+        "Furniture & Lighting": 23
+      },
+      "evaluation_disciplines": [
+        "physical_product",
+        "interior_spatial"
+      ],
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_inference": "provisional_multilabel_mapping",
+      "canonical_category": "Furniture",
+      "primary_sector": "furniture_lighting",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "allowed_maturity": "student_concept_or_mature_work",
+      "sample_size": 23,
+      "year_counts": {
+        "2023": 8,
+        "2024": 9,
+        "2025": 6
+      },
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Home": {
+      "normalized_category": "Home",
+      "source_category_variants": {
+        "Home": 177
+      },
+      "evaluation_disciplines": [
+        "physical_product"
+      ],
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_inference": "provisional_multilabel_mapping",
+      "canonical_category": "Home and Kitchen",
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "allowed_maturity": "student_concept_or_mature_work",
+      "sample_size": 177,
+      "year_counts": {
+        "2023": 77,
+        "2024": 49,
+        "2025": 51
+      },
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Kitchens": {
+      "normalized_category": "Kitchens",
+      "source_category_variants": {
+        "Kitchen & Accessories": 1,
+        "Kitchens": 13
+      },
+      "evaluation_disciplines": [
+        "physical_product"
+      ],
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_inference": "provisional_multilabel_mapping",
+      "canonical_category": "Home and Kitchen",
+      "primary_sector": "home",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "allowed_maturity": "student_concept_or_mature_work",
+      "sample_size": 14,
+      "year_counts": {
+        "2024": 14
+      },
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Lifestyle & Accessories": {
+      "normalized_category": "Lifestyle & Accessories",
+      "source_category_variants": {
+        "Lifestyle & Accessories": 29
+      },
+      "evaluation_disciplines": [
+        "physical_product"
+      ],
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_inference": "provisional_multilabel_mapping",
+      "canonical_category": "Lifestyle and Personal Accessories",
+      "primary_sector": "beauty_fashion",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "allowed_maturity": "student_concept_or_mature_work",
+      "sample_size": 29,
+      "year_counts": {
+        "2023": 12,
+        "2024": 10,
+        "2025": 7
+      },
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Medical & Health": {
+      "normalized_category": "Medical & Health",
+      "source_category_variants": {
+        "Medical & Health": 71
+      },
+      "evaluation_disciplines": [
+        "physical_product"
+      ],
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_inference": "provisional_multilabel_mapping",
+      "canonical_category": "Medical and Health",
+      "primary_sector": "healthcare",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "allowed_maturity": "student_concept_or_mature_work",
+      "sample_size": 71,
+      "year_counts": {
+        "2023": 23,
+        "2024": 28,
+        "2025": 20
+      },
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Office & Accessories": {
+      "normalized_category": "Office & Accessories",
+      "source_category_variants": {
+        "Office & Accessories": 16
+      },
+      "evaluation_disciplines": [
+        "physical_product"
+      ],
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_inference": "provisional_multilabel_mapping",
+      "canonical_category": "Office and Productivity",
+      "primary_sector": "office",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "allowed_maturity": "student_concept_or_mature_work",
+      "sample_size": 16,
+      "year_counts": {
+        "2023": 5,
+        "2024": 8,
+        "2025": 3
+      },
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Outdoor & Garden": {
+      "normalized_category": "Outdoor & Garden",
+      "source_category_variants": {
+        "Outdoor & Garden": 32
+      },
+      "evaluation_disciplines": [
+        "physical_product"
+      ],
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_inference": "provisional_multilabel_mapping",
+      "canonical_category": "Sports and Outdoor",
+      "primary_sector": "sports_outdoor",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "allowed_maturity": "student_concept_or_mature_work",
+      "sample_size": 32,
+      "year_counts": {
+        "2023": 11,
+        "2024": 8,
+        "2025": 13
+      },
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Packaging": {
+      "normalized_category": "Packaging",
+      "source_category_variants": {
+        "Packaging": 24
+      },
+      "evaluation_disciplines": [
+        "packaging"
+      ],
+      "primary_evaluation_discipline": "packaging",
+      "discipline_inference": "provisional_multilabel_mapping",
+      "canonical_category": "Packaging",
+      "primary_sector": null,
+      "sector_scope": "cross_sector",
+      "focus_tags": [],
+      "allowed_maturity": "student_concept_or_mature_work",
+      "sample_size": 24,
+      "year_counts": {
+        "2023": 9,
+        "2024": 11,
+        "2025": 4
+      },
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Service Design": {
+      "normalized_category": "Service Design",
+      "source_category_variants": {
+        "Service Design": 8
+      },
+      "evaluation_disciplines": [
+        "service_system_process"
+      ],
+      "primary_evaluation_discipline": "service_system_process",
+      "discipline_inference": "provisional_multilabel_mapping",
+      "canonical_category": "Service Design",
+      "primary_sector": null,
+      "sector_scope": "cross_sector",
+      "focus_tags": [],
+      "allowed_maturity": "student_concept_or_mature_work",
+      "sample_size": 8,
+      "year_counts": {
+        "2023": 4,
+        "2024": 2,
+        "2025": 2
+      },
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Social Impact Design": {
+      "normalized_category": "Social Impact Design",
+      "source_category_variants": {
+        "Social Impact Design": 15
+      },
+      "evaluation_disciplines": [
+        "service_system_process",
+        "design_strategy_research"
+      ],
+      "primary_evaluation_discipline": "service_system_process",
+      "discipline_inference": "provisional_multilabel_mapping",
+      "canonical_category": "Social Impact",
+      "primary_sector": null,
+      "sector_scope": "cross_sector",
+      "focus_tags": [
+        "social_impact_inclusion",
+        "sustainability_circularity"
+      ],
+      "allowed_maturity": "student_concept_or_mature_work",
+      "sample_size": 15,
+      "year_counts": {
+        "2023": 4,
+        "2024": 7,
+        "2025": 4
+      },
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Sports, Leisure & Recreation": {
+      "normalized_category": "Sports, Leisure & Recreation",
+      "source_category_variants": {
+        "Sports, Leisure & Recreation": 33
+      },
+      "evaluation_disciplines": [
+        "physical_product"
+      ],
+      "primary_evaluation_discipline": "physical_product",
+      "discipline_inference": "provisional_multilabel_mapping",
+      "canonical_category": "Sports and Outdoor",
+      "primary_sector": "sports_outdoor",
+      "sector_scope": "specific",
+      "focus_tags": [],
+      "allowed_maturity": "student_concept_or_mature_work",
+      "sample_size": 33,
+      "year_counts": {
+        "2023": 12,
+        "2024": 13,
+        "2025": 8
+      },
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Student Designs": {
+      "normalized_category": "Student Designs",
+      "source_category_variants": {
+        "Student Designs": 74
+      },
+      "evaluation_disciplines": [],
+      "primary_evaluation_discipline": null,
+      "discipline_inference": "not_allowed_from_student_category",
+      "canonical_category": "Concept and Speculative Design",
+      "primary_sector": null,
+      "sector_scope": "cross_sector",
+      "focus_tags": [],
+      "allowed_maturity": "student_concept",
+      "sample_size": 74,
+      "year_counts": {
+        "2022": 1,
+        "2023": 28,
+        "2024": 25,
+        "2025": 20
+      },
+      "review_status": "machine_generated_needs_human_review"
+    }
+  }
+}

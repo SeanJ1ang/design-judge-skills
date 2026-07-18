@@ -1,0 +1,353 @@
+{
+  "schema_version": 1,
+  "profile_scope": "if_student_sdg_theme",
+  "category_count": 15,
+  "categories": {
+    "No Poverty": {
+      "normalized_category": "No Poverty",
+      "sdg_number": 1,
+      "source_categories": {
+        "01 No Poverty": 6
+      },
+      "canonical_category": "Social Impact",
+      "primary_sector": "public_service",
+      "focus_tags": [
+        "social_impact_inclusion"
+      ],
+      "sample_size": 6,
+      "year_counts": {
+        "2022": 2,
+        "2023": 1,
+        "2024": 2,
+        "2026": 1
+      },
+      "discipline_inference": "not_allowed_from_sdg_category",
+      "mapping_method": "explicit_sdg_crosswalk_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Zero Hunger": {
+      "normalized_category": "Zero Hunger",
+      "sdg_number": 2,
+      "source_categories": {
+        "02 Zero Hunger": 8
+      },
+      "canonical_category": "Social Impact",
+      "primary_sector": "agriculture_rural",
+      "focus_tags": [
+        "social_impact_inclusion",
+        "sustainability_circularity"
+      ],
+      "sample_size": 8,
+      "year_counts": {
+        "2022": 1,
+        "2023": 2,
+        "2024": 3,
+        "2026": 2
+      },
+      "discipline_inference": "not_allowed_from_sdg_category",
+      "mapping_method": "explicit_sdg_crosswalk_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Goodhealth + Well-Being": {
+      "normalized_category": "Goodhealth + Well-Being",
+      "sdg_number": 3,
+      "source_categories": {
+        "03 Goodhealth + Well-Being": 123
+      },
+      "canonical_category": "Medical and Health",
+      "primary_sector": "healthcare",
+      "focus_tags": [
+        "social_impact_inclusion",
+        "safety_emergency"
+      ],
+      "sample_size": 123,
+      "year_counts": {
+        "2022": 21,
+        "2023": 26,
+        "2024": 18,
+        "2025": 32,
+        "2026": 26
+      },
+      "discipline_inference": "not_allowed_from_sdg_category",
+      "mapping_method": "explicit_sdg_crosswalk_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Quality Education": {
+      "normalized_category": "Quality Education",
+      "sdg_number": 4,
+      "source_categories": {
+        "04 Quality Education": 40
+      },
+      "canonical_category": "Children and Education",
+      "primary_sector": "education",
+      "focus_tags": [
+        "social_impact_inclusion"
+      ],
+      "sample_size": 40,
+      "year_counts": {
+        "2022": 7,
+        "2023": 4,
+        "2024": 6,
+        "2025": 11,
+        "2026": 12
+      },
+      "discipline_inference": "not_allowed_from_sdg_category",
+      "mapping_method": "explicit_sdg_crosswalk_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Gender Equality": {
+      "normalized_category": "Gender Equality",
+      "sdg_number": 5,
+      "source_categories": {
+        "05 Gender Equality": 8
+      },
+      "canonical_category": "Social Impact",
+      "primary_sector": "public_service",
+      "focus_tags": [
+        "social_impact_inclusion"
+      ],
+      "sample_size": 8,
+      "year_counts": {
+        "2022": 1,
+        "2023": 2,
+        "2025": 3,
+        "2026": 2
+      },
+      "discipline_inference": "not_allowed_from_sdg_category",
+      "mapping_method": "explicit_sdg_crosswalk_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Clean Water + Sanitation": {
+      "normalized_category": "Clean Water + Sanitation",
+      "sdg_number": 6,
+      "source_categories": {
+        "06 Clean Water + Sanitation": 13
+      },
+      "canonical_category": "Sustainability and Circular Design",
+      "primary_sector": "energy_environment",
+      "focus_tags": [
+        "sustainability_circularity",
+        "social_impact_inclusion"
+      ],
+      "sample_size": 13,
+      "year_counts": {
+        "2022": 4,
+        "2023": 3,
+        "2024": 3,
+        "2025": 2,
+        "2026": 1
+      },
+      "discipline_inference": "not_allowed_from_sdg_category",
+      "mapping_method": "explicit_sdg_crosswalk_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Affordable + Clean Energy": {
+      "normalized_category": "Affordable + Clean Energy",
+      "sdg_number": 7,
+      "source_categories": {
+        "07 Affordable + Clean Energy": 10
+      },
+      "canonical_category": "Sustainability and Circular Design",
+      "primary_sector": "energy_environment",
+      "focus_tags": [
+        "sustainability_circularity"
+      ],
+      "sample_size": 10,
+      "year_counts": {
+        "2022": 1,
+        "2023": 2,
+        "2024": 4,
+        "2025": 2,
+        "2026": 1
+      },
+      "discipline_inference": "not_allowed_from_sdg_category",
+      "mapping_method": "explicit_sdg_crosswalk_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Decent Work + Economic Growth": {
+      "normalized_category": "Decent Work + Economic Growth",
+      "sdg_number": 8,
+      "source_categories": {
+        "08 Decent Work + Economic Growth": 9
+      },
+      "canonical_category": "Social Impact",
+      "primary_sector": "office",
+      "focus_tags": [
+        "social_impact_inclusion"
+      ],
+      "sample_size": 9,
+      "year_counts": {
+        "2022": 1,
+        "2023": 1,
+        "2024": 3,
+        "2025": 2,
+        "2026": 2
+      },
+      "discipline_inference": "not_allowed_from_sdg_category",
+      "mapping_method": "explicit_sdg_crosswalk_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Industry, Innovation + Infrastructure": {
+      "normalized_category": "Industry, Innovation + Infrastructure",
+      "sdg_number": 9,
+      "source_categories": {
+        "09 Industry, Innovation + Infrastructure": 46
+      },
+      "canonical_category": "Commercial and Industrial",
+      "primary_sector": "industrial",
+      "focus_tags": [
+        "sustainability_circularity"
+      ],
+      "sample_size": 46,
+      "year_counts": {
+        "2022": 15,
+        "2023": 10,
+        "2024": 4,
+        "2025": 13,
+        "2026": 4
+      },
+      "discipline_inference": "not_allowed_from_sdg_category",
+      "mapping_method": "explicit_sdg_crosswalk_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Reduced Inequalities": {
+      "normalized_category": "Reduced Inequalities",
+      "sdg_number": 10,
+      "source_categories": {
+        "10 Reduced Inequalities": 33
+      },
+      "canonical_category": "Accessibility and Inclusive Design",
+      "primary_sector": "public_service",
+      "focus_tags": [
+        "social_impact_inclusion"
+      ],
+      "sample_size": 33,
+      "year_counts": {
+        "2022": 9,
+        "2023": 6,
+        "2024": 7,
+        "2025": 4,
+        "2026": 7
+      },
+      "discipline_inference": "not_allowed_from_sdg_category",
+      "mapping_method": "explicit_sdg_crosswalk_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Sustainable Cities + Communities": {
+      "normalized_category": "Sustainable Cities + Communities",
+      "sdg_number": 11,
+      "source_categories": {
+        "11 Sustainable Cities + Communities": 32
+      },
+      "canonical_category": "Environment and Spatial Design",
+      "primary_sector": "public_service",
+      "focus_tags": [
+        "social_impact_inclusion",
+        "sustainability_circularity"
+      ],
+      "sample_size": 32,
+      "year_counts": {
+        "2022": 3,
+        "2023": 5,
+        "2024": 8,
+        "2025": 9,
+        "2026": 7
+      },
+      "discipline_inference": "not_allowed_from_sdg_category",
+      "mapping_method": "explicit_sdg_crosswalk_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Responsible Consumption + Production": {
+      "normalized_category": "Responsible Consumption + Production",
+      "sdg_number": 12,
+      "source_categories": {
+        "12 Responsible Consumption + Production": 53
+      },
+      "canonical_category": "Sustainability and Circular Design",
+      "primary_sector": "energy_environment",
+      "focus_tags": [
+        "sustainability_circularity"
+      ],
+      "sample_size": 53,
+      "year_counts": {
+        "2022": 10,
+        "2023": 9,
+        "2024": 9,
+        "2025": 13,
+        "2026": 12
+      },
+      "discipline_inference": "not_allowed_from_sdg_category",
+      "mapping_method": "explicit_sdg_crosswalk_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Climate Action": {
+      "normalized_category": "Climate Action",
+      "sdg_number": 13,
+      "source_categories": {
+        "13 Climate Action": 12
+      },
+      "canonical_category": "Sustainability and Circular Design",
+      "primary_sector": "energy_environment",
+      "focus_tags": [
+        "sustainability_circularity"
+      ],
+      "sample_size": 12,
+      "year_counts": {
+        "2022": 2,
+        "2023": 3,
+        "2024": 2,
+        "2025": 2,
+        "2026": 3
+      },
+      "discipline_inference": "not_allowed_from_sdg_category",
+      "mapping_method": "explicit_sdg_crosswalk_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Life below Water": {
+      "normalized_category": "Life below Water",
+      "sdg_number": 14,
+      "source_categories": {
+        "14 Life below Water": 15
+      },
+      "canonical_category": "Sustainability and Circular Design",
+      "primary_sector": "energy_environment",
+      "focus_tags": [
+        "sustainability_circularity"
+      ],
+      "sample_size": 15,
+      "year_counts": {
+        "2022": 3,
+        "2023": 1,
+        "2024": 3,
+        "2025": 4,
+        "2026": 4
+      },
+      "discipline_inference": "not_allowed_from_sdg_category",
+      "mapping_method": "explicit_sdg_crosswalk_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    },
+    "Life on Land": {
+      "normalized_category": "Life on Land",
+      "sdg_number": 15,
+      "source_categories": {
+        "15 Life on Land": 19
+      },
+      "canonical_category": "Sustainability and Circular Design",
+      "primary_sector": "agriculture_rural",
+      "focus_tags": [
+        "sustainability_circularity"
+      ],
+      "sample_size": 19,
+      "year_counts": {
+        "2022": 5,
+        "2023": 1,
+        "2024": 4,
+        "2025": 3,
+        "2026": 6
+      },
+      "discipline_inference": "not_allowed_from_sdg_category",
+      "mapping_method": "explicit_sdg_crosswalk_provisional",
+      "review_status": "machine_generated_needs_human_review"
+    }
+  }
+}

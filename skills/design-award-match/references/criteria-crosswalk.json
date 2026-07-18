@@ -1,0 +1,36 @@
+{
+  "normalized_dimensions": {
+    "problem_relevance": {
+      "description": "Importance and clarity of the problem, task, or opportunity."
+    },
+    "innovation": {
+      "description": "Novelty, differentiation, and advancement of the category."
+    },
+    "function": {
+      "description": "Fitness for purpose, usability, efficiency, and safety."
+    },
+    "form": {
+      "description": "Aesthetics, execution, materials, finish, and formal coherence."
+    },
+    "user_experience": {
+      "description": "Emotional appeal, accessibility, comfort, and user benefit."
+    },
+    "feasibility": {
+      "description": "Technical, economic, production, and implementation realism."
+    },
+    "responsibility": {
+      "description": "Environmental responsibility, durability, ethics, and safety."
+    },
+    "social_impact": {
+      "description": "Benefit to society, culture, communities, and underserved groups."
+    },
+    "business_value": {
+      "description": "Market relevance, brand value, economic benefit, and scalability."
+    },
+    "technical_quality": {
+      "description": "Engineering quality, technology integration, and evidence of performance."
+    }
+  },
+  "rule": "Always present the award's official criteria. Normalized dimensions are for comparison only."
+}
+

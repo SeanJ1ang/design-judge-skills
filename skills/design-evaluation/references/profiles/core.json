@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "profile_id": "design-evaluation-core",
+  "score_scale": {"minimum": 0, "maximum": 5},
+  "design_total": 50,
+  "presentation_total": 50,
+  "presentation_weights": {
+    "first_glance_message": 7.5,
+    "information_hierarchy": 10,
+    "function_flow_visualization": 10,
+    "scenario_narrative": 7.5,
+    "detail_evidence_presentation": 10,
+    "visual_consistency": 5
+  },
+  "evidence_states": ["verified", "supported", "claimed", "missing"],
+  "confidence_points": {
+    "verified": 3,
+    "supported": 2,
+    "claimed": 1,
+    "missing": 0
+  },
+  "global_evidence_caps": {
+    "supported": 4,
+    "claimed": 2,
+    "missing": 1
+  },
+  "confidence_thresholds": {
+    "high": 2.4,
+    "medium": 1.25
+  },
+  "competitiveness_thresholds": {
+    "strong_competitiveness": 85,
+    "competitive_with_gaps": 70,
+    "developing": 55
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "profile_set_id": "red-dot-observed-winner-benchmarks-v1",
+  "profile_type": "observed_winner_context",
+  "source_program": "Red Dot Award",
+  "generated_at": "2026-07-14T08:13:09.288797+00:00",
+  "source_snapshot_sha256": "3e8976d79ac073a2a3d8846f7e27133c9ddfc1655d31a77b434dab17f5463e54",
+  "dataset": {
+    "row_count": 10030,
+    "year_counts": {
+      "2024": 3696,
+      "2025": 3836,
+      "2026": 2498
+    },
+    "award_level_counts": {
+      "Best of the Best": 542,
+      "Grand Prix": 11,
+      "Junior Prize": 2,
+      "Luminary": 2,
+      "Peter Zec Prize": 2,
+      "Winner": 9471
+    },
+    "competition_profile_count": 3,
+    "normalized_category_count": 106,
+    "discipline_profile_count": 9,
+    "category_profile_count": 35,
+    "minimum_category_sample_size": 100,
+    "canonical_category_mapped_count": 106,
+    "sector_mapped_count": 57
+  },
+  "quality_gate": {
+    "row_count": 10030,
+    "excluded_failed_rows": 3,
+    "duplicate_entry_keys": 0,
+    "missing_categories": 0,
+    "missing_competitions": 0,
+    "competition_counts": {
+      "Brands & Communication Design": 1638,
+      "Design Concept": 1361,
+      "Product Design": 7031
+    },
+    "evaluation_discipline_counts": {
+      "architecture_landscape_urban": 128,
+      "brand_communication": 691,
+      "design_strategy_research": 1148,
+      "interior_spatial": 487,
+      "packaging": 425,
+      "physical_product": 6611,
+      "service_system_process": 40,
+      "user_experience": 63,
+      "user_interface": 437
+    }
+  },
+  "load_order": [
+    "category_profile",
+    "competition_profile",
+    "discipline_profile",
+    "core"
+  ],
+  "score_effect": "none",
+  "privacy": {
+    "aggregate_only": true,
+    "raw_records_published": false,
+    "excluded_fields": [
+      "canonical_url",
+      "client",
+      "clients",
+      "company",
+      "description",
+      "designer",
+      "designers",
+      "entry_key",
+      "image_hash",
+      "name",
+      "raw_payload",
+      "sha256",
+      "source_url",
+      "title"
+    ]
+  },
+  "review_status": "machine_generated_needs_human_review",
+  "limitations": [
+    "Contains awarded works only.",
+    "Does not represent official Red Dot weights or jury scoring.",
+    "Cannot estimate winning probability.",
+    "Competition, discipline, category, sector, and focus contexts are descriptive; provisional mappings require human review.",
+    "The 2024-2026 source taxonomy includes historical and competition-specific category variants."
+  ],
+  "files": {
+    "category_crosswalk": "category-crosswalk.json",
+    "competition_profiles": "competition-profiles.json",
+    "discipline_profiles": "discipline-profiles.json",
+    "category_profiles": "category-profiles.json"
+  }
+}

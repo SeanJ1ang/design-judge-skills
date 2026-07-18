@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "profile_id": "mature_work",
+  "display_name": "Mature Work",
+  "display_name_zh": "成熟作品",
+  "selection_rule": "Must be explicitly selected by the user.",
+  "design_weights": {
+    "problem_value": 6,
+    "user_function_usability": 9,
+    "innovation_differentiation": 6,
+    "solution_integrity": 6,
+    "implementation_feasibility": 10,
+    "form_interaction_quality": 6,
+    "responsibility_sustainability": 7
+  },
+  "evidence_expectation": "Real product, implementation, functional tests, user tests, material and manufacturing evidence, operational data, or actual-use feedback should support maturity claims.",
+  "caps": {
+    "implementation_feasibility": {
+      "supported": 4,
+      "claimed": 2,
+      "missing": 2
+    }
+  }
+}

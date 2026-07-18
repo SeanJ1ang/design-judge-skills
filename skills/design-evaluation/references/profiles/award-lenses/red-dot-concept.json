@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "profile_id": "red_dot_concept_aligned",
+  "display_name": "Red Dot Award: Design Concept-aligned",
+  "not_official_notice": "Public-criteria alignment only; not an official jury simulation or score.",
+  "checked_on": "2026-07-13",
+  "official_source": "https://www.red-dot.org/design-concept/jury",
+  "criteria": ["degree_of_innovation", "aesthetic_quality", "realisation_possibility", "functionality", "emotional_content", "impact"],
+  "mapping": {
+    "degree_of_innovation": ["innovation_differentiation"],
+    "aesthetic_quality": ["form_interaction_quality", "visual_consistency"],
+    "realisation_possibility": ["implementation_feasibility", "solution_integrity"],
+    "functionality": ["user_function_usability", "solution_integrity"],
+    "emotional_content": ["form_interaction_quality", "scenario_narrative"],
+    "impact": ["problem_value", "responsibility_sustainability"]
+  },
+  "runtime_rule": "Verify the current Concepts versus Ready For Market criteria before use. Keep this result separate from the general score."
+}
+
