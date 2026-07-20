@@ -255,4 +255,6 @@ npx skills add . --list
 
 ## 8. Star 历史
 
-[![Star History Chart](https://api.star-history.com/image?repos=SeanJ1ang/design-judge-skills&type=Date)](https://www.star-history.com/SeanJ1ang/design-judge-skills)
+[![Star History Chart](assets/star-history.svg)](https://github.com/SeanJ1ang/design-judge-skills/stargazers)
+
+图表由 GitHub Actions 每日检查，并在 Star 数据变化时自动更新。

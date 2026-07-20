@@ -255,4 +255,6 @@ Issues that report rule changes, failing cases, or compatibility problems are we
 
 ## 8. Star History
 
-[![Star History Chart](https://api.star-history.com/image?repos=SeanJ1ang/design-judge-skills&type=Date)](https://www.star-history.com/SeanJ1ang/design-judge-skills)
+[![Star History Chart](assets/star-history.svg)](https://github.com/SeanJ1ang/design-judge-skills/stargazers)
+
+GitHub Actions checks the chart daily and updates it only when the star data changes.
