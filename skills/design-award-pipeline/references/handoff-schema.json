@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/SeanJ1ang/design-judge-skills/schemas/design-award-handoff-v1.json",
+  "title": "Design Award Pipeline Handoff",
+  "type": "object",
+  "required": ["schema_version", "project_id", "completed_stages", "next_stage", "facts", "open_items"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "project_id": {"type": "string", "minLength": 1},
+    "target_award": {"type": ["string", "null"]},
+    "target_cycle": {"type": ["string", "null"]},
+    "maturity_track": {"enum": ["student_concept", "mature_work", null]},
+    "completed_stages": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"enum": ["search", "evaluation", "match", "information_prep", "submission_check"]}
+    },
+    "next_stage": {
+      "enum": ["search", "evaluation", "match", "information_prep", "submission_check", "complete"]
+    },
+    "facts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "value", "provenance"],
+        "properties": {
+          "id": {"type": "string"},
+          "value": {},
+          "provenance": {"enum": ["user_material", "official_source", "user_confirmed"]}
+        },
+        "additionalProperties": false
+      }
+    },
+    "decisions": {"type": "array", "items": {"type": "string"}},
+    "artifacts": {"type": "array", "items": {"type": "string"}},
+    "open_items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["item", "severity"],
+        "properties": {
+          "item": {"type": "string"},
+          "severity": {"enum": ["blocker", "important", "optional"]}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Award Pipeline"
+  short_description: "Route and coordinate the complete design-award workflow"
+  default_prompt: "Use $design-award-pipeline to plan and coordinate the complete award journey for this design."

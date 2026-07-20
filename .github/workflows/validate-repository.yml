@@ -1,0 +1,57 @@
+name: Validate repository
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "assets/star-history.json"
+      - "assets/star-history.svg"
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+
+      - name: Validate metadata, docs, JSON, evals, and Python syntax
+        run: python tools/validate_repository.py
+
+      - name: Check generated benchmark coverage
+        run: python tools/generate_benchmark_coverage.py --check
+
+      - name: Verify skill discovery
+        run: npx --yes skills@1.5.19 add . --list
+
+      - name: Run unit tests
+        shell: bash
+        run: |
+          set -euo pipefail
+          while IFS= read -r test_dir; do
+            skill_dir="$(dirname "$test_dir")"
+            echo "Testing $skill_dir"
+            (
+              cd "$skill_dir"
+              python -B -m unittest discover -s tests -p 'test_*.py' -v
+            )
+          done < <(find skills -mindepth 2 -maxdepth 2 -type d -name tests | sort)
+
+      - name: Check whitespace
+        run: git diff --check

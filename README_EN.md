@@ -8,10 +8,11 @@ Evidence-driven Agent Skills for the design-award workflow: winner research, des
 
 [![License](https://img.shields.io/badge/license-Apache--2.0-2ea44f)](LICENSE)
 [![Install](https://img.shields.io/badge/install-Claude%20Code%20%7C%20Codex%20%7C%20OpenClaw%20%7C%20OpenCode%20%7C%20Hermes-111827)](#5-installation)
-[![Skills](https://img.shields.io/badge/skills-5-0ea5e9)](#6-skill-index)
+[![Skills](https://img.shields.io/badge/skills-6-0ea5e9)](#6-skill-index)
+[![Observed Works](https://img.shields.io/badge/observed%20works-22%2C125-7c3aed)](docs/benchmark-coverage_EN.md)
 [![Language](https://img.shields.io/badge/language-%E4%B8%AD%E6%96%87%20%7C%20English-1f6feb)](README.md)
 
-[Quick Start](#4-quick-start) · [Installation](#5-installation) · [Skill Index](#6-skill-index) · [Contributing](#7-contributing-and-development) · [Star History](#8-star-history) · [中文](README.md)
+[Quick Start](#4-quick-start) · [Benchmark Coverage](docs/benchmark-coverage_EN.md) · [Installation](#5-installation) · [Skill Index](#6-skill-index) · [Contributing](#7-contributing-and-development) · [Star History](#8-star-history) · [中文](README.md)
 
 </div>
 
@@ -44,10 +45,13 @@ Design Judge Skills covers five core tasks in a design-award submission workflow
 
 The current configuration supports iF DESIGN AWARD, iF DESIGN STUDENT AWARD, Red Dot Product Design, Red Dot Design Concept, IDEA, DIA, K-Design, GOOD DESIGN AWARD Japan, Core77, James Dyson, and EPDA. Deadlines, fees, eligibility windows, categories, and submission specifications must be reverified on official pages at run time.
 
+The evaluation module includes **22,125 aggregate observations** from iF, iF Student, Red Dot, and IDEA awarded or recognized works. They provide descriptive context only, do not alter the core score, and cannot estimate winning probability. See the [coverage, privacy, and limitations](docs/benchmark-coverage_EN.md).
+
 ## 2. Workflow
 
 ```text
-Design materials
+Design materials ── uncertain route or complete journey ──> design-award-pipeline
+  │
   ├─ Find comparable award winners ───────> design-award-search
   ├─ Evaluate design and presentation ────> design-evaluation
   └─ Select award / program / category ───> design-award-match
@@ -75,13 +79,14 @@ After installation, give the Agent your design images, boards, manuals, project 
 
 | Goal | Example prompt |
 |---|---|
+| Plan the complete journey | `Use $design-award-pipeline to plan the complete award route from these materials and maintain a handoff across stages.` |
 | Find comparable winners | `Use $design-award-search to find officially verified award winners in the same category as this rehabilitation product.` |
 | Evaluate a student concept | `Use $design-evaluation to evaluate the attached design. I define its maturity as Student Concept. Report design quality, presentation quality, evidence confidence, and Critical issues separately.` |
 | Compare target awards | `Use $design-award-match to compare iF Student, Red Dot Design Concept, DIA, Core77, and James Dyson for this project.` |
 | Prepare entry text | `Use $design-information-prep to prepare an IDEA entry from the attached material. List missing facts first, then draft each English field and check its word count.` |
 | Run a final audit | `Use $design-submission-check to audit this package against the current official rules and return a go, conditional go, or no-go decision.` |
 
-If you do not know which skill to use, describe your objective and the material you have. The Agent can route the request from the skill descriptions.
+If you do not know which skill to use, invoke `design-award-pipeline`; it selects only the necessary modules rather than forcing a full pipeline.
 
 ## 5. Installation
 
@@ -187,14 +192,15 @@ For another Agent that supports `SKILL.md`:
 
 | Skill | Status | Purpose | Typical triggers |
 |---|---|---|---|
-| [`design-award-search`](skills/design-award-search/SKILL.md) | Stable | Find and verify same-category award winners from official sources | “same-category winners”, “award winners”, “design benchmarks” |
-| [`design-evaluation`](skills/design-evaluation/SKILL.md) | Beta | Evaluate design and presentation under a user-selected maturity track, with evidence confidence and Critical risks | “evaluate design”, “score”, “critique”, “batch evaluate” |
-| [`design-award-match`](skills/design-award-match/SKILL.md) | Beta | Match awards, programs, tracks, and categories; check structural eligibility and submission priority | “which award should I enter?”, “award matching”, “award fit” |
-| [`design-information-prep`](skills/design-information-prep/SKILL.md) | Beta | Extract project facts from user material and prepare the required entry fields | “prepare entry text”, “entry writing”, “project dossier” |
-| [`design-submission-check`](skills/design-submission-check/SKILL.md) | Beta | Audit completeness, consistency, rights risks, and readiness under the current official rules | “pre-submission check”, “compliance review”, “go/no-go” |
+| [`design-award-pipeline`](skills/design-award-pipeline/README_EN.md) | Beta | Select the smallest sufficient route and maintain a handoff for uncertain or multi-stage requests | “complete award journey”, “what should I do next?”, “award pipeline” |
+| [`design-award-search`](skills/design-award-search/README_EN.md) | Stable | Find and verify same-category award winners from official sources | “same-category winners”, “award winners”, “design benchmarks” |
+| [`design-evaluation`](skills/design-evaluation/README_EN.md) | Beta | Evaluate design and presentation under a user-selected maturity track, with evidence confidence and Critical risks | “evaluate design”, “score”, “critique”, “batch evaluate” |
+| [`design-award-match`](skills/design-award-match/README_EN.md) | Beta | Match awards, programs, tracks, and categories; check structural eligibility and submission priority | “which award should I enter?”, “award matching”, “award fit” |
+| [`design-information-prep`](skills/design-information-prep/README_EN.md) | Beta | Extract project facts from user material and prepare the required entry fields | “prepare entry text”, “entry writing”, “project dossier” |
+| [`design-submission-check`](skills/design-submission-check/README_EN.md) | Beta | Audit completeness, consistency, rights risks, and readiness under the current official rules | “pre-submission check”, “compliance review”, “go/no-go” |
 | [`design-judge-shared`](skills/design-judge-shared/SKILL.md) | Support | Provide the shared taxonomy and official-source rules used by search and matching; not a standalone workflow | installation dependency |
 
-`Beta` means the skill has example coverage and automated tests but may still have edge cases. `Stable` means its workflow and rules are relatively mature. `Support` marks a package used only by other skills. The badge counts the five user-facing workflows and excludes the shared support package.
+`Beta` means the skill has example coverage and automated tests but may still have edge cases. `Stable` means its workflow and rules are relatively mature. `Support` marks a package used only by other skills. The badge counts the six user-facing workflows and excludes the shared support package.
 
 ## 7. Contributing and Development
 
@@ -208,6 +214,8 @@ skills/
 │   └── source-registry.md
 └── design-<topic>/
     ├── SKILL.md
+    ├── README.md
+    ├── README_EN.md
     ├── agents/openai.yaml
     ├── references/
     ├── scripts/
@@ -221,6 +229,7 @@ skills/
 - Make `description` state what the skill does, when to trigger it, and when not to use it.
 - Keep the core workflow in `SKILL.md`; move long rules, specifications, and schemas to `references/`.
 - Put repeatable deterministic operations in `scripts/` and cover them with tests.
+- Give every user-facing skill mirrored Chinese and English detail pages covering inputs, outputs, boundaries, and related skills.
 - Do not hard-code current deadlines, fees, eligibility windows, or submission specifications as stable facts; verify them at run time from official sources.
 - Do not commit API keys, cookies, login sessions, user project material, private winner databases, or copyrighted full case content.
 

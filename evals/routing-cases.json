@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "description": "Metadata-routing cases for the six user-facing Design Judge skills.",
+  "cases": [
+    {"id": "pipeline-complete-journey", "prompt": "Plan the complete award journey for this student concept from evaluation through final submission.", "expected_skill": "design-award-pipeline", "must_not_route_to": "design-judge-shared"},
+    {"id": "pipeline-unknown-next-step", "prompt": "I have a board and a product manual but do not know what to do next for design awards.", "expected_skill": "design-award-pipeline", "must_not_route_to": "design-submission-check"},
+    {"id": "search-functional-winners", "prompt": "Find officially verified award winners in the same functional category as this rehabilitation device.", "expected_skill": "design-award-search", "must_not_route_to": "design-evaluation"},
+    {"id": "search-visual-precedents", "prompt": "Find Red Dot winners with a similar visible form language and compare observable attributes.", "expected_skill": "design-award-search", "must_not_route_to": "design-award-match"},
+    {"id": "evaluation-student-concept", "prompt": "Evaluate this student concept board and report design, presentation, confidence, and Critical risks separately.", "expected_skill": "design-evaluation", "must_not_route_to": "design-award-match"},
+    {"id": "evaluation-batch", "prompt": "Batch-score these designs and shortlist them within separate maturity tracks.", "expected_skill": "design-evaluation", "must_not_route_to": "design-award-search"},
+    {"id": "match-compare-awards", "prompt": "Compare iF Student, Red Dot Concept, DIA, and James Dyson for this project.", "expected_skill": "design-award-match", "must_not_route_to": "design-evaluation"},
+    {"id": "match-category", "prompt": "Which award route and entry category best fits this mature medical product?", "expected_skill": "design-award-match", "must_not_route_to": "design-information-prep"},
+    {"id": "prep-entry-fields", "prompt": "Use these attachments to prepare every IDEA entry field and check the word limits.", "expected_skill": "design-information-prep", "must_not_route_to": "design-submission-check"},
+    {"id": "prep-dossier", "prompt": "Extract a reusable evidence-linked project dossier from this brief, report, and patent.", "expected_skill": "design-information-prep", "must_not_route_to": "design-evaluation"},
+    {"id": "check-current-rules", "prompt": "Audit this package against the current iF Student technical and required-material rules.", "expected_skill": "design-submission-check", "must_not_route_to": "design-award-match"},
+    {"id": "check-consistency", "prompt": "Find factual conflicts across the board, manual, video script, and entry copy, then return go or no-go.", "expected_skill": "design-submission-check", "must_not_route_to": "design-information-prep"}
+  ]
+}

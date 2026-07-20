@@ -8,10 +8,11 @@
 
 [![License](https://img.shields.io/badge/license-Apache--2.0-2ea44f)](LICENSE)
 [![Install](https://img.shields.io/badge/install-Claude%20Code%20%7C%20Codex%20%7C%20OpenClaw%20%7C%20OpenCode%20%7C%20Hermes-111827)](#5-安装)
-[![Skills](https://img.shields.io/badge/skills-5-0ea5e9)](#6-技能索引)
+[![Skills](https://img.shields.io/badge/skills-6-0ea5e9)](#6-技能索引)
+[![Observed Works](https://img.shields.io/badge/observed%20works-22%2C125-7c3aed)](docs/benchmark-coverage.md)
 [![Language](https://img.shields.io/badge/language-中文%20%7C%20English-1f6feb)](README_EN.md)
 
-[快速开始](#4-快速开始) · [安装](#5-安装) · [技能索引](#6-技能索引) · [贡献与开发](#7-贡献与开发) · [Star 历史](#8-star-历史) · [English](README_EN.md)
+[快速开始](#4-快速开始) · [获奖样本体量](docs/benchmark-coverage.md) · [安装](#5-安装) · [技能索引](#6-技能索引) · [贡献与开发](#7-贡献与开发) · [Star 历史](#8-star-历史) · [English](README_EN.md)
 
 </div>
 
@@ -44,10 +45,13 @@ Design Judge Skills 覆盖设计奖申报中的五类核心任务：
 
 当前配置覆盖 iF DESIGN AWARD、iF DESIGN STUDENT AWARD、Red Dot Product Design、Red Dot Design Concept、IDEA、DIA、K-Design、GOOD DESIGN AWARD Japan、Core77、James Dyson 和 EPDA。涉及截止日期、费用、资格、类别与提交规格时，技能要求在运行时重新核验官方页面。
 
+评价模块内置来自 iF、iF Student、Red Dot 与 IDEA 的 **22,125 条获奖或入围作品聚合观察记录**。这些数据只提供描述性背景，不改变核心评分，也不能用于估计获奖概率。参见[覆盖范围、隐私与限制](docs/benchmark-coverage.md)。
+
 ## 2. 工作流
 
 ```text
-设计材料
+设计材料 ── 不确定路线或需要完整流程 ──> design-award-pipeline
+  │
   ├─ 寻找同类获奖案例 ──────────────> design-award-search
   ├─ 评价设计与展示表达 ────────────> design-evaluation
   └─ 选择奖项 / 赛道 / 类别 ───────> design-award-match
@@ -75,13 +79,14 @@ Design Judge Skills 覆盖设计奖申报中的五类核心任务：
 
 | 想做什么 | 直接这样说 |
 |---|---|
+| 规划完整参奖流程 | `使用 $design-award-pipeline，根据现有材料规划完整参奖路线，并维护各阶段的交接记录。` |
 | 查找同类获奖案例 | `使用 $design-award-search，为这个康复训练产品寻找经过官方页面核验的同类别获奖案例。` |
 | 评价学生概念 | `使用 $design-evaluation 评价附件中的设计。成熟度由我确定为“学生概念”，请分别输出设计本体、展示表达、证据置信度和 Critical 问题。` |
 | 比较目标奖项 | `使用 $design-award-match，比较 iF Student、Red Dot Design Concept、DIA、Core77 和 James Dyson 对这个项目的适配度。` |
 | 准备申报文字 | `使用 $design-information-prep，基于附件准备 IDEA 申报文字。先列出缺失事实，再按字段输出英文草稿与字数校验。` |
 | 提交前终检 | `使用 $design-submission-check，按照目标奖项当届官方规则检查这个提交包，并给出 go / conditional go / no-go 结论。` |
 
-如果不确定该用哪个技能，直接描述你的目标和现有材料即可；Agent 可根据各技能的触发说明选择合适模块。
+如果不确定该用哪个技能，使用 `design-award-pipeline`；它只选择必要模块，不会强制执行完整流水线。
 
 ## 5. 安装
 
@@ -187,14 +192,15 @@ npx skills add SeanJ1ang/design-judge-skills --all
 
 | 技能 | 状态 | 用途 | 典型触发词 |
 |---|---|---|---|
-| [`design-award-search`](skills/design-award-search/SKILL.md) | Stable | 从官方来源检索并核验同类别获奖作品 | “同类获奖案例”“award winners”“design benchmarks” |
-| [`design-evaluation`](skills/design-evaluation/SKILL.md) | Beta | 按使用者指定的成熟度评价设计与展示表达，报告证据置信度和 Critical 风险 | “评价设计”“打分”“critique”“batch evaluate” |
-| [`design-award-match`](skills/design-award-match/SKILL.md) | Beta | 匹配奖项、项目路径和类别，检查结构性资格并输出申报优先级 | “适合投什么奖”“奖项匹配”“award fit” |
-| [`design-information-prep`](skills/design-information-prep/SKILL.md) | Beta | 从用户附件提取事实，准备目标奖项的申报字段与文字 | “准备申报文字”“entry text”“project dossier” |
-| [`design-submission-check`](skills/design-submission-check/SKILL.md) | Beta | 按当届官方规则检查提交包完整性、一致性、权利风险和就绪度 | “提交前检查”“compliance review”“go/no-go” |
+| [`design-award-pipeline`](skills/design-award-pipeline/README.md) | Beta | 为不确定或跨阶段请求选择最小充分路线并维护交接记录 | “完整参奖流程”“下一步做什么”“award pipeline” |
+| [`design-award-search`](skills/design-award-search/README.md) | Stable | 从官方来源检索并核验同类别获奖作品 | “同类获奖案例”“award winners”“design benchmarks” |
+| [`design-evaluation`](skills/design-evaluation/README.md) | Beta | 按使用者指定的成熟度评价设计与展示表达，报告证据置信度和 Critical 风险 | “评价设计”“打分”“critique”“batch evaluate” |
+| [`design-award-match`](skills/design-award-match/README.md) | Beta | 匹配奖项、项目路径和类别，检查结构性资格并输出申报优先级 | “适合投什么奖”“奖项匹配”“award fit” |
+| [`design-information-prep`](skills/design-information-prep/README.md) | Beta | 从用户附件提取事实，准备目标奖项的申报字段与文字 | “准备申报文字”“entry text”“project dossier” |
+| [`design-submission-check`](skills/design-submission-check/README.md) | Beta | 按当届官方规则检查提交包完整性、一致性、权利风险和就绪度 | “提交前检查”“compliance review”“go/no-go” |
 | [`design-judge-shared`](skills/design-judge-shared/SKILL.md) | Support | 为检索与匹配技能提供共享分类体系和官方来源规则，不单独触发 | 安装依赖 |
 
-状态含义：`Beta` 表示已通过示例与自动化测试但仍可能存在边界问题；`Stable` 表示工作流和规则相对稳定；`Support` 表示仅作为其他技能的安装依赖。
+状态含义：`Beta` 表示已通过示例与自动化测试但仍可能存在边界问题；`Stable` 表示工作流和规则相对稳定；`Support` 表示仅作为其他技能的安装依赖。徽章统计六个面向用户的工作流，不包含共享支持包。
 
 ## 7. 贡献与开发
 
@@ -208,6 +214,8 @@ skills/
 │   └── source-registry.md
 └── design-<topic>/
     ├── SKILL.md
+    ├── README.md
+    ├── README_EN.md
     ├── agents/openai.yaml
     ├── references/
     ├── scripts/
@@ -221,6 +229,7 @@ skills/
 - `description` 同时说明技能做什么、何时触发和不适用范围。
 - 核心工作流保留在 `SKILL.md`，长规则、规范和数据结构放入 `references/`。
 - 可重复且需要确定性的操作写成 `scripts/`，并提供对应测试。
+- 每个面向用户的技能提供章节镜像的中英文详情页，说明输入、产出、边界和相关技能。
 - 当前年份、截止日期、费用、资格和提交规格不得作为长期稳定事实写死；运行时从官方来源核验。
 - 不提交 API key、cookie、登录态、用户项目材料、私有获奖数据库或受版权保护的完整案例内容。
 
