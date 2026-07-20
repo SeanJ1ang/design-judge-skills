@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-labelledby="title description">
   <title id="title">GitHub Star History for SeanJ1ang/design-judge-skills</title>
-  <desc id="description">Recorded GitHub star count from 2026-07-20 to 2026-07-21: 105 stars.</desc>
+  <desc id="description">Recorded GitHub star count from 2026-07-18 to 2026-07-20: 105 stars.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#f8fbff" />
@@ -33,9 +33,9 @@
   <text x="1130" y="108" text-anchor="end" fill="#155eef" font-size="28" font-weight="700">★ 105</text>
   <text x="105" y="136" fill="#60708d" font-size="17">SeanJ1ang/design-judge-skills</text>
   <line x1="105" y1="545.00" x2="1130" y2="545.00" class="grid" /><text x="87" y="550.00" text-anchor="end" class="axis-label">0</text><line x1="105" y1="465.00" x2="1130" y2="465.00" class="grid" /><text x="87" y="470.00" text-anchor="end" class="axis-label">25</text><line x1="105" y1="385.00" x2="1130" y2="385.00" class="grid" /><text x="87" y="390.00" text-anchor="end" class="axis-label">50</text><line x1="105" y1="305.00" x2="1130" y2="305.00" class="grid" /><text x="87" y="310.00" text-anchor="end" class="axis-label">75</text><line x1="105" y1="225.00" x2="1130" y2="225.00" class="grid" /><text x="87" y="230.00" text-anchor="end" class="axis-label">100</text><line x1="105" y1="145.00" x2="1130" y2="145.00" class="grid" /><text x="87" y="150.00" text-anchor="end" class="axis-label">125</text>
-  <line x1="105.00" y1="145" x2="105.00" y2="545" class="grid vertical" /><text x="105.00" y="583" text-anchor="middle" class="axis-label">2026-07-20</text><line x1="1130.00" y1="145" x2="1130.00" y2="545" class="grid vertical" /><text x="1130.00" y="583" text-anchor="middle" class="axis-label">2026-07-21</text>
-  <path d="M 105.00 209.00 L 1130.00 209.00 L 1130.00 545.00 L 105.00 545.00 Z" fill="url(#area)" />
-  <path d="M 105.00 209.00 L 1130.00 209.00" fill="none" stroke="url(#line)" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" />
+  <line x1="105.00" y1="145" x2="105.00" y2="545" class="grid vertical" /><text x="105.00" y="583" text-anchor="middle" class="axis-label">2026-07-18</text><line x1="617.50" y1="145" x2="617.50" y2="545" class="grid vertical" /><text x="617.50" y="583" text-anchor="middle" class="axis-label">2026-07-19</text><line x1="1130.00" y1="145" x2="1130.00" y2="545" class="grid vertical" /><text x="1130.00" y="583" text-anchor="middle" class="axis-label">2026-07-20</text>
+  <path d="M 105.00 545.00 L 617.50 545.00 L 617.50 439.40 L 1130.00 439.40 L 1130.00 209.00 L 1130.00 209.00 L 1130.00 545.00 L 105.00 545.00 Z" fill="url(#area)" />
+  <path d="M 105.00 545.00 L 617.50 545.00 L 617.50 439.40 L 1130.00 439.40 L 1130.00 209.00 L 1130.00 209.00" fill="none" stroke="url(#line)" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" />
   <circle cx="1130.00" cy="209.00" r="8" fill="#ffffff" stroke="#155eef" stroke-width="5" />
-  <text x="105" y="595" fill="#7b8aa5" font-size="14">Local daily snapshots since 2026-07-20 · Updated only when the star count changes</text>
+  <text x="105" y="595" fill="#7b8aa5" font-size="14">Local daily snapshots since 2026-07-18 · Updated only when the star count changes</text>
 </svg>
