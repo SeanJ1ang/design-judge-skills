@@ -39,17 +39,18 @@ jobs:
         run: >-
           python tools/generate_star_history.py
           --repository "$GITHUB_REPOSITORY"
+          --data assets/star-history.json
           --output assets/star-history.svg
 
       - name: Commit an updated chart
         shell: bash
         run: |
-          if [[ -z "$(git status --porcelain -- assets/star-history.svg)" ]]; then
+          if [[ -z "$(git status --porcelain -- assets/star-history.json assets/star-history.svg)" ]]; then
             echo "Star history is unchanged."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- assets/star-history.svg
+          git add -- assets/star-history.json assets/star-history.svg
           git commit -m "chore: update star history [skip ci]"
           git push

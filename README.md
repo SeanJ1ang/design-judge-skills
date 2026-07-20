@@ -257,4 +257,4 @@ npx skills add . --list
 
 [![Star History Chart](assets/star-history.svg)](https://github.com/SeanJ1ang/design-judge-skills/stargazers)
 
-图表由 GitHub Actions 每日检查，并在 Star 数据变化时自动更新。
+GitHub Actions 每天记录一次公开 Star 总数，仅在数量发生变化时更新本地图表。历史从本地跟踪启用之日开始累积，不依赖第三方图片服务或 Stargazers 用户列表接口。

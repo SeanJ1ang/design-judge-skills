@@ -257,4 +257,4 @@ Issues that report rule changes, failing cases, or compatibility problems are we
 
 [![Star History Chart](assets/star-history.svg)](https://github.com/SeanJ1ang/design-judge-skills/stargazers)
 
-GitHub Actions checks the chart daily and updates it only when the star data changes.
+GitHub Actions records the public star count daily and updates the local chart only when the count changes. History accumulates from the day local tracking is enabled, without relying on a third-party image service or the Stargazers user-list endpoint.

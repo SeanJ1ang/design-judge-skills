@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate a deterministic SVG chart from GitHub's Stargazers API."""
+"""Generate a deterministic SVG chart from local daily star-count snapshots."""
 
 from __future__ import annotations
 
@@ -11,7 +11,6 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
-from collections import Counter
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from xml.sax.saxutils import escape
@@ -35,6 +34,12 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         default=Path("assets/star-history.svg"),
         help="Output SVG path.",
+    )
+    parser.add_argument(
+        "--data",
+        type=Path,
+        default=Path("assets/star-history.json"),
+        help="Local star-count history (default: assets/star-history.json).",
     )
     args = parser.parse_args()
     if not args.repository or args.repository.count("/") != 1:
@@ -85,34 +90,68 @@ def parse_github_time(value: str) -> datetime:
     return datetime.fromisoformat(value.replace("Z", "+00:00")).astimezone(timezone.utc)
 
 
-def fetch_star_history(repository: str, token: str | None) -> tuple[date, list[date]]:
+def fetch_repository_summary(repository: str, token: str | None) -> tuple[date, int]:
     encoded_repository = urllib.parse.quote(repository, safe="/")
     metadata = request_json(f"{API_ROOT}/repos/{encoded_repository}", token)
-    if not isinstance(metadata, dict) or not isinstance(metadata.get("created_at"), str):
-        raise RuntimeError("GitHub repository metadata did not contain created_at")
-    created_on = parse_github_time(metadata["created_at"]).date()
-
-    starred_dates: list[date] = []
-    page = 1
-    while True:
-        url = (
-            f"{API_ROOT}/repos/{encoded_repository}/stargazers"
-            f"?per_page=100&page={page}"
+    if (
+        not isinstance(metadata, dict)
+        or not isinstance(metadata.get("created_at"), str)
+        or not isinstance(metadata.get("stargazers_count"), int)
+    ):
+        raise RuntimeError(
+            "GitHub repository metadata did not contain created_at and stargazers_count"
         )
-        payload = request_json(url, token)
-        if not isinstance(payload, list):
-            raise RuntimeError("GitHub stargazers response was not a list")
-        for entry in payload:
-            if not isinstance(entry, dict) or not isinstance(entry.get("starred_at"), str):
-                raise RuntimeError(
-                    "GitHub did not return starred_at; check the API media type"
-                )
-            starred_dates.append(parse_github_time(entry["starred_at"]).date())
-        if len(payload) < 100:
-            break
-        page += 1
+    created_on = parse_github_time(metadata["created_at"]).date()
+    return created_on, metadata["stargazers_count"]
 
-    return created_on, sorted(starred_dates)
+
+def load_observations(path: Path, repository: str) -> list[tuple[date, int]]:
+    if not path.exists():
+        return []
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(payload, dict) or payload.get("repository") != repository:
+        raise RuntimeError(f"{path} belongs to a different repository")
+    raw_observations = payload.get("observations")
+    if not isinstance(raw_observations, list):
+        raise RuntimeError(f"{path} does not contain an observations list")
+    observations: list[tuple[date, int]] = []
+    for item in raw_observations:
+        if (
+            not isinstance(item, dict)
+            or not isinstance(item.get("date"), str)
+            or not isinstance(item.get("stars"), int)
+        ):
+            raise RuntimeError(f"{path} contains an invalid observation")
+        observations.append((date.fromisoformat(item["date"]), item["stars"]))
+    return sorted(observations)
+
+
+def update_observations(
+    observations: list[tuple[date, int]], observed_on: date, stars: int
+) -> list[tuple[date, int]]:
+    if not observations:
+        return [(observed_on, stars)]
+    updated = list(observations)
+    if updated[-1][0] == observed_on:
+        updated[-1] = (observed_on, stars)
+    elif updated[-1][1] != stars:
+        updated.append((observed_on, stars))
+    return updated
+
+
+def serialize_observations(
+    repository: str, created_on: date, observations: list[tuple[date, int]]
+) -> str:
+    payload = {
+        "repository": repository,
+        "repository_created": created_on.isoformat(),
+        "tracking_started": observations[0][0].isoformat(),
+        "observations": [
+            {"date": observed_on.isoformat(), "stars": stars}
+            for observed_on, stars in observations
+        ],
+    }
+    return json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
 
 
 def nice_y_axis(total: int, target_ticks: int = 5) -> tuple[int, int]:
@@ -131,32 +170,33 @@ def nice_y_axis(total: int, target_ticks: int = 5) -> tuple[int, int]:
     return step, maximum
 
 
-def render_svg(repository: str, created_on: date, starred_dates: list[date]) -> str:
+def render_svg(repository: str, observations: list[tuple[date, int]]) -> str:
     width, height = 1200, 640
     left, right, top, bottom = 105, 70, 145, 95
     plot_width = width - left - right
     plot_height = height - top - bottom
 
-    daily_counts = Counter(starred_dates)
-    last_observation = max(starred_dates, default=created_on)
-    end_on = max(last_observation, created_on + timedelta(days=1))
-    span_days = max((end_on - created_on).days, 1)
-    total_stars = len(starred_dates)
-    y_step, y_max = nice_y_axis(total_stars)
+    tracking_started = observations[0][0]
+    last_observation = observations[-1][0]
+    end_on = max(last_observation, tracking_started + timedelta(days=1))
+    span_days = max((end_on - tracking_started).days, 1)
+    total_stars = observations[-1][1]
+    peak_stars = max(stars for _, stars in observations)
+    y_step, y_max = nice_y_axis(peak_stars)
 
     def x_position(day: date) -> float:
-        return left + ((day - created_on).days / span_days) * plot_width
+        return left + ((day - tracking_started).days / span_days) * plot_width
 
     def y_position(value: int) -> float:
         return top + plot_height - (value / y_max) * plot_height
 
-    step_points: list[tuple[date, int]] = [(created_on, 0)]
-    cumulative = 0
-    for day in sorted(daily_counts):
-        step_points.append((day, cumulative))
-        cumulative += daily_counts[day]
-        step_points.append((day, cumulative))
-    step_points.append((end_on, cumulative))
+    step_points: list[tuple[date, int]] = [observations[0]]
+    previous_stars = observations[0][1]
+    for observed_on, stars in observations[1:]:
+        step_points.append((observed_on, previous_stars))
+        step_points.append((observed_on, stars))
+        previous_stars = stars
+    step_points.append((end_on, previous_stars))
 
     line_commands = [
         f"{'M' if index == 0 else 'L'} {x_position(day):.2f} {y_position(value):.2f}"
@@ -165,7 +205,7 @@ def render_svg(repository: str, created_on: date, starred_dates: list[date]) -> 
     line_path = " ".join(line_commands)
     area_path = (
         f"{line_path} L {x_position(end_on):.2f} {top + plot_height:.2f} "
-        f"L {x_position(created_on):.2f} {top + plot_height:.2f} Z"
+        f"L {x_position(tracking_started):.2f} {top + plot_height:.2f} Z"
     )
 
     y_grid: list[str] = []
@@ -183,7 +223,7 @@ def render_svg(repository: str, created_on: date, starred_dates: list[date]) -> 
     x_grid: list[str] = []
     seen_dates: set[date] = set()
     for index in range(5):
-        tick_day = created_on + timedelta(days=round(span_days * index / 4))
+        tick_day = tracking_started + timedelta(days=round(span_days * index / 4))
         if tick_day in seen_dates:
             continue
         seen_dates.add(tick_day)
@@ -200,7 +240,7 @@ def render_svg(repository: str, created_on: date, starred_dates: list[date]) -> 
     safe_repository = escape(repository)
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title description">
   <title id="title">GitHub Star History for {safe_repository}</title>
-  <desc id="description">Cumulative GitHub stars from {created_on.isoformat()} to {end_on.isoformat()}: {total_stars} stars.</desc>
+  <desc id="description">Recorded GitHub star count from {tracking_started.isoformat()} to {end_on.isoformat()}: {total_stars} stars.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#f8fbff" />
@@ -237,7 +277,7 @@ def render_svg(repository: str, created_on: date, starred_dates: list[date]) -> 
   <path d="{area_path}" fill="url(#area)" />
   <path d="{line_path}" fill="none" stroke="url(#line)" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" />
   <circle cx="{x_position(end_on):.2f}" cy="{y_position(total_stars):.2f}" r="8" fill="#ffffff" stroke="#155eef" stroke-width="5" />
-  <text x="{left}" y="{height - 45}" fill="#7b8aa5" font-size="14">Generated from the GitHub Stargazers API · Updated only when star data changes</text>
+  <text x="{left}" y="{height - 45}" fill="#7b8aa5" font-size="14">Local daily snapshots since {tracking_started.isoformat()} · Updated only when the star count changes</text>
 </svg>
 '''
 
@@ -245,13 +285,26 @@ def render_svg(repository: str, created_on: date, starred_dates: list[date]) -> 
 def main() -> int:
     args = parse_args()
     token = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
-    created_on, starred_dates = fetch_star_history(args.repository, token)
-    svg = render_svg(args.repository, created_on, starred_dates)
+    created_on, stars = fetch_repository_summary(args.repository, token)
+    observations = load_observations(args.data, args.repository)
+    observations = update_observations(
+        observations, datetime.now(timezone.utc).date(), stars
+    )
+    svg = render_svg(args.repository, observations)
+
+    args.data.parent.mkdir(parents=True, exist_ok=True)
+    temporary_data = args.data.with_suffix(args.data.suffix + ".tmp")
+    temporary_data.write_text(
+        serialize_observations(args.repository, created_on, observations),
+        encoding="utf-8",
+        newline="\n",
+    )
+    temporary_data.replace(args.data)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     temporary_output = args.output.with_suffix(args.output.suffix + ".tmp")
     temporary_output.write_text(svg, encoding="utf-8", newline="\n")
     temporary_output.replace(args.output)
-    print(f"Wrote {args.output} with {len(starred_dates)} stars")
+    print(f"Wrote {args.output} and {args.data} with {stars} stars")
     return 0
 
 
