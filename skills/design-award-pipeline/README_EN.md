@@ -30,6 +30,7 @@ The skill selects the smallest sufficient route, delegates to a specialist Skill
 - Recommended route and rationale.
 - Completed-stage and decision summary.
 - Blockers, live-rule checks, and next action.
+- A resumable JSON handoff validated with `scripts/validate_handoff.py`.
 
 ## Boundaries
 

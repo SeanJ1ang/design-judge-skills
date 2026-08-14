@@ -1,5 +1,15 @@
 # Retrieval and Ranking Policy
 
+## Contents
+
+- [Candidate gate](#candidate-gate)
+- [Dimension-first retrieval](#dimension-first-retrieval)
+- [Visual verification states](#visual-verification-states)
+- [Balanced mode](#balanced-mode)
+- [Deduplication and diversification](#deduplication-and-diversification)
+- [Output evidence](#output-evidence)
+- [Search stopping rule](#search-stopping-rule)
+
 ## Candidate gate
 
 Include a candidate only when:

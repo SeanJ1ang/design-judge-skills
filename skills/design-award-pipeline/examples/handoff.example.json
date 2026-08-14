@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "project_id": "rehab-device-concept",
+  "target_award": null,
+  "target_cycle": null,
+  "maturity_track": "student_concept",
+  "completed_stages": [
+    "evaluation"
+  ],
+  "next_stage": "match",
+  "facts": [
+    {
+      "id": "intended-user",
+      "value": "Adults completing supervised upper-limb rehabilitation",
+      "provenance": "user_material"
+    }
+  ],
+  "inferences": [
+    {
+      "id": "likely-route",
+      "value": "Student or concept-design programs should be evaluated first",
+      "basis": "The supplied material describes a student concept without production evidence",
+      "confidence": "medium"
+    }
+  ],
+  "decisions": [
+    "Keep student and professional award routes separate"
+  ],
+  "artifacts": [
+    "outputs/evaluation.json"
+  ],
+  "open_items": [
+    {
+      "item": "Confirm prototype completion date",
+      "severity": "important"
+    }
+  ]
+}
