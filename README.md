@@ -12,7 +12,7 @@
 [![Observed Works](https://img.shields.io/badge/observed%20works-22%2C125-7c3aed)](docs/benchmark-coverage.md)
 [![Language](https://img.shields.io/badge/language-中文%20%7C%20English-1f6feb)](README_EN.md)
 
-[快速开始](#4-快速开始) · [获奖样本体量](docs/benchmark-coverage.md) · [安装](#5-安装) · [技能索引](#6-技能索引) · [贡献与开发](#7-贡献与开发) · [Star 历史](#8-star-历史) · [English](README_EN.md)
+[快速开始](#4-快速开始) · [获奖样本体量](docs/benchmark-coverage.md) · [安装](#5-安装) · [技能索引](#6-技能索引) · [贡献与开发](#7-贡献与开发) · [English](README_EN.md)
 
 </div>
 
@@ -31,7 +31,6 @@
   - [5.4 其他 Agent 场景](#54-其他-agent-场景)
 - [6. 技能索引](#6-技能索引)
 - [7. 贡献与开发](#7-贡献与开发)
-- [8. Star 历史](#8-star-历史)
 
 ## 1. 项目介绍
 
@@ -261,9 +260,3 @@ npx skills add . --list
 ```
 
 欢迎通过 Issue 报告规则变更、错误案例或兼容性问题，也欢迎通过 Pull Request 提交新的奖项配置、测试和工作流改进。请在 PR 中说明证据来源、验证方法和可能影响的技能。
-
-## 8. Star 历史
-
-[![Star History Chart](assets/star-history.svg)](https://github.com/SeanJ1ang/design-judge-skills/stargazers)
-
-GitHub Actions 每天记录一次公开 Star 总数，仅在数量发生变化时更新本地图表。历史从本地跟踪启用之日开始累积，不依赖第三方图片服务或 Stargazers 用户列表接口。

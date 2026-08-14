@@ -12,7 +12,7 @@ Evidence-driven Agent Skills for the design-award workflow: winner research, des
 [![Observed Works](https://img.shields.io/badge/observed%20works-22%2C125-7c3aed)](docs/benchmark-coverage_EN.md)
 [![Language](https://img.shields.io/badge/language-%E4%B8%AD%E6%96%87%20%7C%20English-1f6feb)](README.md)
 
-[Quick Start](#4-quick-start) · [Benchmark Coverage](docs/benchmark-coverage_EN.md) · [Installation](#5-installation) · [Skill Index](#6-skill-index) · [Contributing](#7-contributing-and-development) · [Star History](#8-star-history) · [中文](README.md)
+[Quick Start](#4-quick-start) · [Benchmark Coverage](docs/benchmark-coverage_EN.md) · [Installation](#5-installation) · [Skill Index](#6-skill-index) · [Contributing](#7-contributing-and-development) · [中文](README.md)
 
 </div>
 
@@ -31,7 +31,6 @@ Evidence-driven Agent Skills for the design-award workflow: winner research, des
   - [5.4 Other Agents](#54-other-agents)
 - [6. Skill Index](#6-skill-index)
 - [7. Contributing and Development](#7-contributing-and-development)
-- [8. Star History](#8-star-history)
 
 ## 1. Project Overview
 
@@ -261,9 +260,3 @@ npx skills add . --list
 ```
 
 Issues that report rule changes, failing cases, or compatibility problems are welcome. Pull requests should state the evidence source, validation method, and affected skills.
-
-## 8. Star History
-
-[![Star History Chart](assets/star-history.svg)](https://github.com/SeanJ1ang/design-judge-skills/stargazers)
-
-GitHub Actions records the public star count daily and updates the local chart only when the count changes. History accumulates from the day local tracking is enabled, without relying on a third-party image service or the Stargazers user-list endpoint.
