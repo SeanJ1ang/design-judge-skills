@@ -11,9 +11,9 @@ Evidence-driven Agent Skills for the design-award workflow: winner research, des
 [![Skills](https://img.shields.io/badge/skills-6-0ea5e9)](#6-skill-index)
 [![Observed Works](https://img.shields.io/badge/observed%20works-22%2C125-7c3aed)](docs/benchmark-coverage_EN.md)
 [![Validate repository](https://github.com/SeanJ1ang/design-judge-skills/actions/workflows/validate-repository.yml/badge.svg)](https://github.com/SeanJ1ang/design-judge-skills/actions/workflows/validate-repository.yml)
-[![Language](https://img.shields.io/badge/language-%E4%B8%AD%E6%96%87%20%7C%20English-1f6feb)](README.md)
+[![Language](https://img.shields.io/badge/language-%E4%B8%AD%E6%96%87%20%7C%20English%20%7C%20%E6%97%A5%E6%9C%AC%E8%AA%9E-1f6feb)](README.md)
 
-[Quick Start](#4-quick-start) · [Benchmark Coverage](docs/benchmark-coverage_EN.md) · [Installation](#5-installation) · [Skill Index](#6-skill-index) · [Contributing](#7-contributing-and-development) · [中文](README.md)
+[Quick Start](#4-quick-start) · [Benchmark Coverage](docs/benchmark-coverage_EN.md) · [Installation](#5-installation) · [Skill Index](#6-skill-index) · [Contributing](#7-contributing-and-development) · [中文](README.md) · [日本語](README_JA.md)
 
 </div>
 

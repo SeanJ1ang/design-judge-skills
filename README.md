@@ -11,9 +11,9 @@
 [![Skills](https://img.shields.io/badge/skills-6-0ea5e9)](#6-技能索引)
 [![Observed Works](https://img.shields.io/badge/observed%20works-22%2C125-7c3aed)](docs/benchmark-coverage.md)
 [![Validate repository](https://github.com/SeanJ1ang/design-judge-skills/actions/workflows/validate-repository.yml/badge.svg)](https://github.com/SeanJ1ang/design-judge-skills/actions/workflows/validate-repository.yml)
-[![Language](https://img.shields.io/badge/language-中文%20%7C%20English-1f6feb)](README_EN.md)
+[![Language](https://img.shields.io/badge/language-%E4%B8%AD%E6%96%87%20%7C%20English%20%7C%20%E6%97%A5%E6%9C%AC%E8%AA%9E-1f6feb)](README_EN.md)
 
-[快速开始](#4-快速开始) · [获奖样本体量](docs/benchmark-coverage.md) · [安装](#5-安装) · [技能索引](#6-技能索引) · [贡献与开发](#7-贡献与开发) · [English](README_EN.md)
+[快速开始](#4-快速开始) · [获奖样本体量](docs/benchmark-coverage.md) · [安装](#5-安装) · [技能索引](#6-技能索引) · [贡献与开发](#7-贡献与开发) · [English](README_EN.md) · [日本語](README_JA.md)
 
 </div>
 
