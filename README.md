@@ -10,9 +10,10 @@
 [![Install](https://img.shields.io/badge/install-Claude%20Code%20%7C%20Codex%20%7C%20OpenClaw%20%7C%20OpenCode%20%7C%20Hermes-111827)](#5-安装)
 [![Skills](https://img.shields.io/badge/skills-6-0ea5e9)](#6-技能索引)
 [![Observed Works](https://img.shields.io/badge/observed%20works-22%2C125-7c3aed)](docs/benchmark-coverage.md)
+[![Validate repository](https://github.com/SeanJ1ang/design-judge-skills/actions/workflows/validate-repository.yml/badge.svg)](https://github.com/SeanJ1ang/design-judge-skills/actions/workflows/validate-repository.yml)
 [![Language](https://img.shields.io/badge/language-%E4%B8%AD%E6%96%87%20%7C%20English%20%7C%20%E6%97%A5%E6%9C%AC%E8%AA%9E-1f6feb)](README_EN.md)
 
-[快速开始](#4-快速开始) · [获奖样本体量](docs/benchmark-coverage.md) · [安装](#5-安装) · [技能索引](#6-技能索引) · [贡献与开发](#7-贡献与开发) · [Star 历史](#8-star-历史) · [English](README_EN.md) · [日本語](README_JA.md)
+[快速开始](#4-快速开始) · [获奖样本体量](docs/benchmark-coverage.md) · [安装](#5-安装) · [技能索引](#6-技能索引) · [贡献与开发](#7-贡献与开发) · [English](README_EN.md) · [日本語](README_JA.md)
 
 </div>
 
@@ -31,7 +32,6 @@
   - [5.4 其他 Agent 场景](#54-其他-agent-场景)
 - [6. 技能索引](#6-技能索引)
 - [7. 贡献与开发](#7-贡献与开发)
-- [8. Star 历史](#8-star-历史)
 
 ## 1. 项目介绍
 
@@ -228,9 +228,12 @@ skills/
 - 技能目录名与 frontmatter 中的 `name` 保持一致，只使用小写字母、数字和连字符。
 - `description` 同时说明技能做什么、何时触发和不适用范围。
 - 核心工作流保留在 `SKILL.md`，长规则、规范和数据结构放入 `references/`。
+- 超过 100 行的 Markdown 参考资料需在文件顶部提供目录，便于按需加载。
 - 可重复且需要确定性的操作写成 `scripts/`，并提供对应测试。
 - 每个面向用户的技能提供章节镜像的中英文详情页，说明输入、产出、边界和相关技能。
+- 每个技能都要维护 `agents/openai.yaml`；共享支持包必须关闭隐式调用。
 - 当前年份、截止日期、费用、资格和提交规格不得作为长期稳定事实写死；运行时从官方来源核验。
+- GitHub Actions 的第三方步骤使用完整提交 SHA 固定版本，降低供应链漂移风险。
 - 不提交 API key、cookie、登录态、用户项目材料、私有获奖数据库或受版权保护的完整案例内容。
 
 ### 7.3 新增或修改技能
@@ -241,9 +244,10 @@ skills/
 4. 更新本 README 的技能索引、状态和依赖说明。
 5. 在提交前运行对应技能的单元测试与基础校验。
 
-运行全部单元测试：
+运行仓库工具回归测试和全部技能单元测试：
 
 ```powershell
+python -B -m unittest discover -s tools/tests -p 'test_*.py' -v
 Get-ChildItem skills -Directory | ForEach-Object {
   if (Test-Path (Join-Path $_.FullName 'tests')) {
     Push-Location $_.FullName
@@ -256,14 +260,10 @@ Get-ChildItem skills -Directory | ForEach-Object {
 提交前还应运行：
 
 ```bash
+python tools/validate_repository.py
+python tools/generate_benchmark_coverage.py --check
 git diff --check
 npx skills add . --list
 ```
 
 欢迎通过 Issue 报告规则变更、错误案例或兼容性问题，也欢迎通过 Pull Request 提交新的奖项配置、测试和工作流改进。请在 PR 中说明证据来源、验证方法和可能影响的技能。
-
-## 8. Star 历史
-
-[![Star History Chart](assets/star-history.svg)](https://github.com/SeanJ1ang/design-judge-skills/stargazers)
-
-GitHub Actions 每天记录一次公开 Star 总数，仅在数量发生变化时更新本地图表。历史从本地跟踪启用之日开始累积，不依赖第三方图片服务或 Stargazers 用户列表接口。

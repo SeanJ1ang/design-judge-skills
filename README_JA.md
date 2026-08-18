@@ -10,9 +10,10 @@
 [![Install](https://img.shields.io/badge/install-Claude%20Code%20%7C%20Codex%20%7C%20OpenClaw%20%7C%20OpenCode%20%7C%20Hermes-111827)](#5-インストール)
 [![Skills](https://img.shields.io/badge/skills-6-0ea5e9)](#6-スキル一覧)
 [![Observed Works](https://img.shields.io/badge/observed%20works-22%2C125-7c3aed)](docs/benchmark-coverage_EN.md)
+[![Validate repository](https://github.com/SeanJ1ang/design-judge-skills/actions/workflows/validate-repository.yml/badge.svg)](https://github.com/SeanJ1ang/design-judge-skills/actions/workflows/validate-repository.yml)
 [![Language](https://img.shields.io/badge/language-%E4%B8%AD%E6%96%87%20%7C%20English%20%7C%20%E6%97%A5%E6%9C%AC%E8%AA%9E-1f6feb)](README.md)
 
-[クイックスタート](#4-クイックスタート) · [ベンチマークの範囲](docs/benchmark-coverage_EN.md) · [インストール](#5-インストール) · [スキル一覧](#6-スキル一覧) · [コントリビューション](#7-コントリビューションと開発) · [Star 履歴](#8-star-履歴) · [中文](README.md) · [English](README_EN.md)
+[クイックスタート](#4-クイックスタート) · [ベンチマークの範囲](docs/benchmark-coverage_EN.md) · [インストール](#5-インストール) · [スキル一覧](#6-スキル一覧) · [コントリビューション](#7-コントリビューションと開発) · [中文](README.md) · [English](README_EN.md)
 
 </div>
 
@@ -31,7 +32,6 @@
   - [5.4 その他の Agent](#54-その他の-agent)
 - [6. スキル一覧](#6-スキル一覧)
 - [7. コントリビューションと開発](#7-コントリビューションと開発)
-- [8. Star 履歴](#8-star-履歴)
 
 ## 1. プロジェクト概要
 
@@ -228,9 +228,12 @@ skills/
 - スキルディレクトリ名を frontmatter の `name` と一致させ、小文字、数字、ハイフンのみを使用します。
 - `description` には、スキルの機能、呼び出すべき状況、使用すべきでない状況を記述します。
 - 中核ワークフローは `SKILL.md` に置き、長い規則、仕様、スキーマは `references/` に移します。
+- 100 行を超える Markdown 参考資料には、必要な箇所を読み込みやすいよう、冒頭付近に目次を設けます。
 - 反復可能で決定論的な処理は `scripts/` に置き、テストで検証します。
 - ユーザー向けの各スキルに、入力、出力、境界、関連スキルを説明する、章構成を揃えた中国語と英語の詳細ページを用意します。
+- 各スキルで `agents/openai.yaml` を管理し、共有サポートパッケージの暗黙の呼び出しを無効にします。
 - 現在の締切、料金、応募資格の対象期間、提出仕様を、長期的に不変の事実としてハードコードしないでください。実行時に公式情報源で検証します。
+- GitHub Actions の外部ステップは完全なコミット SHA で固定し、サプライチェーンの変更リスクを抑えます。
 - API キー、Cookie、ログインセッション、ユーザーのプロジェクト資料、非公開の受賞作データベース、著作権で保護された事例全文をコミットしないでください。
 
 ### 7.3 スキルの追加または更新
@@ -241,9 +244,10 @@ skills/
 4. 両方の README にあるスキル一覧、状態ラベル、依存関係の説明を更新します。
 5. コミット前に、関連する単体テストと基本的な検証を実行します。
 
-PowerShell ですべての単体テストスイートを実行します。
+PowerShell でリポジトリツールの回帰テストと、すべてのスキルの単体テストを実行します。
 
 ```powershell
+python -B -m unittest discover -s tools/tests -p 'test_*.py' -v
 Get-ChildItem skills -Directory | ForEach-Object {
   if (Test-Path (Join-Path $_.FullName 'tests')) {
     Push-Location $_.FullName
@@ -256,14 +260,10 @@ Get-ChildItem skills -Directory | ForEach-Object {
 さらに、次を実行します。
 
 ```bash
+python tools/validate_repository.py
+python tools/generate_benchmark_coverage.py --check
 git diff --check
 npx skills add . --list
 ```
 
 規則の変更、失敗事例、互換性の問題を報告する Issue を歓迎します。Pull Request には、エビデンスの情報源、検証方法、影響を受けるスキルを記載してください。
-
-## 8. Star 履歴
-
-[![Star History Chart](assets/star-history.svg)](https://github.com/SeanJ1ang/design-judge-skills/stargazers)
-
-GitHub Actions は公開 Star 数を毎日記録し、数が変化した場合にのみローカルのグラフを更新します。履歴はローカル追跡を有効にした日から蓄積され、第三者の画像サービスや Stargazers ユーザー一覧 API には依存しません。

@@ -1,5 +1,16 @@
 # Batch Evaluation Contract
 
+## Contents
+
+- [Required manifest](#required-manifest)
+- [Adapter boundary](#adapter-boundary)
+- [Confirmed K-Design maturity mapping](#confirmed-k-design-maturity-mapping)
+- [Completeness gate](#completeness-gate)
+- [Per-record lifecycle](#per-record-lifecycle)
+- [Confidence and Critical findings](#confidence-and-critical-findings)
+- [Separate-track top 10%](#separate-track-top-10)
+- [Resume, idempotency, and versioning](#resume-idempotency-and-versioning)
+
 Use this contract when a fixed corpus is evaluated with `design-evaluation`. The
 batch runner orchestrates records; `score_evaluation.py` remains the only numeric
 scoring authority. A project adapter may read a private database or object store,

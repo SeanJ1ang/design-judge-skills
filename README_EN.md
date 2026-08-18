@@ -10,9 +10,10 @@ Evidence-driven Agent Skills for the design-award workflow: winner research, des
 [![Install](https://img.shields.io/badge/install-Claude%20Code%20%7C%20Codex%20%7C%20OpenClaw%20%7C%20OpenCode%20%7C%20Hermes-111827)](#5-installation)
 [![Skills](https://img.shields.io/badge/skills-6-0ea5e9)](#6-skill-index)
 [![Observed Works](https://img.shields.io/badge/observed%20works-22%2C125-7c3aed)](docs/benchmark-coverage_EN.md)
+[![Validate repository](https://github.com/SeanJ1ang/design-judge-skills/actions/workflows/validate-repository.yml/badge.svg)](https://github.com/SeanJ1ang/design-judge-skills/actions/workflows/validate-repository.yml)
 [![Language](https://img.shields.io/badge/language-%E4%B8%AD%E6%96%87%20%7C%20English%20%7C%20%E6%97%A5%E6%9C%AC%E8%AA%9E-1f6feb)](README.md)
 
-[Quick Start](#4-quick-start) · [Benchmark Coverage](docs/benchmark-coverage_EN.md) · [Installation](#5-installation) · [Skill Index](#6-skill-index) · [Contributing](#7-contributing-and-development) · [Star History](#8-star-history) · [中文](README.md) · [日本語](README_JA.md)
+[Quick Start](#4-quick-start) · [Benchmark Coverage](docs/benchmark-coverage_EN.md) · [Installation](#5-installation) · [Skill Index](#6-skill-index) · [Contributing](#7-contributing-and-development) · [中文](README.md) · [日本語](README_JA.md)
 
 </div>
 
@@ -31,7 +32,6 @@ Evidence-driven Agent Skills for the design-award workflow: winner research, des
   - [5.4 Other Agents](#54-other-agents)
 - [6. Skill Index](#6-skill-index)
 - [7. Contributing and Development](#7-contributing-and-development)
-- [8. Star History](#8-star-history)
 
 ## 1. Project Overview
 
@@ -228,9 +228,12 @@ skills/
 - Keep the skill-directory name identical to the frontmatter `name`; use lowercase letters, digits, and hyphens only.
 - Make `description` state what the skill does, when to trigger it, and when not to use it.
 - Keep the core workflow in `SKILL.md`; move long rules, specifications, and schemas to `references/`.
+- Give Markdown reference files longer than 100 lines a contents section near the top for efficient selective loading.
 - Put repeatable deterministic operations in `scripts/` and cover them with tests.
 - Give every user-facing skill mirrored Chinese and English detail pages covering inputs, outputs, boundaries, and related skills.
+- Maintain `agents/openai.yaml` for every skill and disable implicit invocation for shared support packages.
 - Do not hard-code current deadlines, fees, eligibility windows, or submission specifications as stable facts; verify them at run time from official sources.
+- Pin third-party GitHub Actions to full commit SHAs to reduce supply-chain drift.
 - Do not commit API keys, cookies, login sessions, user project material, private winner databases, or copyrighted full case content.
 
 ### 7.3 Adding or Updating a Skill
@@ -241,9 +244,10 @@ skills/
 4. Update both README skill indexes, status labels, and dependency notes.
 5. Run the relevant unit tests and basic validation before committing.
 
-Run every unit-test suite in PowerShell:
+Run the repository-tool regression tests and every skill unit-test suite in PowerShell:
 
 ```powershell
+python -B -m unittest discover -s tools/tests -p 'test_*.py' -v
 Get-ChildItem skills -Directory | ForEach-Object {
   if (Test-Path (Join-Path $_.FullName 'tests')) {
     Push-Location $_.FullName
@@ -256,14 +260,10 @@ Get-ChildItem skills -Directory | ForEach-Object {
 Also run:
 
 ```bash
+python tools/validate_repository.py
+python tools/generate_benchmark_coverage.py --check
 git diff --check
 npx skills add . --list
 ```
 
 Issues that report rule changes, failing cases, or compatibility problems are welcome. Pull requests should state the evidence source, validation method, and affected skills.
-
-## 8. Star History
-
-[![Star History Chart](assets/star-history.svg)](https://github.com/SeanJ1ang/design-judge-skills/stargazers)
-
-GitHub Actions records the public star count daily and updates the local chart only when the count changes. History accumulates from the day local tracking is enabled, without relying on a third-party image service or the Stargazers user-list endpoint.

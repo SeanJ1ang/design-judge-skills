@@ -31,6 +31,20 @@
         "additionalProperties": false
       }
     },
+    "inferences": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "value", "basis", "confidence"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "value": {},
+          "basis": {"type": "string", "minLength": 1},
+          "confidence": {"enum": ["low", "medium", "high"]}
+        },
+        "additionalProperties": false
+      }
+    },
     "decisions": {"type": "array", "items": {"type": "string"}},
     "artifacts": {"type": "array", "items": {"type": "string"}},
     "open_items": {

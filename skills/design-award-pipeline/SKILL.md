@@ -35,6 +35,8 @@ Create or update a compact handoff record using [references/handoff-schema.json]
 
 Do not copy long specialist outputs into the handoff. Store identifiers, decisions, blockers, source links, and artifact paths.
 
+When a handoff is written to JSON, run `python scripts/validate_handoff.py <handoff.json>` before treating it as resumable. Use [examples/handoff.example.json](examples/handoff.example.json) as a minimal valid shape, not as project evidence.
+
 ## Coordinate stages
 
 1. State the selected route and why it is sufficient.

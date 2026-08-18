@@ -115,22 +115,35 @@ def load_observations(path: Path, repository: str) -> list[tuple[date, int]]:
     if not isinstance(raw_observations, list):
         raise RuntimeError(f"{path} does not contain an observations list")
     observations: list[tuple[date, int]] = []
+    seen_dates: set[date] = set()
     for item in raw_observations:
         if (
             not isinstance(item, dict)
             or not isinstance(item.get("date"), str)
             or not isinstance(item.get("stars"), int)
+            or item["stars"] < 0
         ):
             raise RuntimeError(f"{path} contains an invalid observation")
-        observations.append((date.fromisoformat(item["date"]), item["stars"]))
+        try:
+            observed_on = date.fromisoformat(item["date"])
+        except ValueError as exc:
+            raise RuntimeError(f"{path} contains an invalid observation date") from exc
+        if observed_on in seen_dates:
+            raise RuntimeError(f"{path} contains duplicate observation dates")
+        seen_dates.add(observed_on)
+        observations.append((observed_on, item["stars"]))
     return sorted(observations)
 
 
 def update_observations(
     observations: list[tuple[date, int]], observed_on: date, stars: int
 ) -> list[tuple[date, int]]:
+    if stars < 0:
+        raise ValueError("stars must be non-negative")
     if not observations:
         return [(observed_on, stars)]
+    if observed_on < observations[-1][0]:
+        raise ValueError("observed_on cannot precede the latest observation")
     updated = list(observations)
     if updated[-1][0] == observed_on:
         updated[-1] = (observed_on, stars)
