@@ -21,6 +21,7 @@ Evidence-driven Agent Skills for the design-award workflow: winner research, des
 
 ## Contents
 
+- [Skill Effectiveness](#skill-effectiveness)
 - [1. Project Overview](#1-project-overview)
 - [2. Workflow](#2-workflow)
 - [3. Design Principles and Boundaries](#3-design-principles-and-boundaries)
@@ -32,6 +33,15 @@ Evidence-driven Agent Skills for the design-award workflow: winner research, des
   - [5.4 Other Agents](#54-other-agents)
 - [6. Skill Index](#6-skill-index)
 - [7. Contributing and Development](#7-contributing-and-development)
+
+## Skill Effectiveness
+
+This test collected all 1,612 K-Design 2026 entries in full. Every entry was scored and saved on July 3, 2026, before the award results were announced. The winner list was not available when scoring took place, so the scores could not have been inferred from or changed to match the final results.
+
+| Method | Award winners in the top 115 |
+|---|---:|
+| Design Judge Skill | 45 |
+| Direct GPT-5.4 scoring | 33 |
 
 ## 1. Project Overview
 
