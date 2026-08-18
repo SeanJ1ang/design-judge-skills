@@ -38,10 +38,14 @@ Evidence-driven Agent Skills for the design-award workflow: winner research, des
 
 This test collected all 1,612 K-Design 2026 entries in full. Every entry was scored and saved on July 3, 2026, before the award results were announced. The winner list was not available when scoring took place, so the scores could not have been inferred from or changed to match the final results.
 
-| Method | Award winners in the top 115 |
-|---|---:|
-| Design Judge Skill | 45 |
-| Direct GPT-5.4 scoring | 33 |
+| Model | Top-115 Hits | Top-115 Hit Rate |
+|---|---:|---:|
+| GPT-5.5 | 32 | 27.83% |
+| GPT-5.4 | 33 | 28.70% |
+| Claude Sonnet 4.6 | 19 | 16.52% |
+| **Design Judge-GPT-5.5** | **41** | **35.65%** |
+| **Design Judge-GPT-5.4** | **47** | **40.87%** |
+| **Design Judge-Claude Sonnet 4.6** | **44** | **38.26%** |
 
 ## 1. Project Overview
 
